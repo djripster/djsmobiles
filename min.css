@@ -1,0 +1,18 @@
+body{
+    background:#FFFFFF;
+    color:#fff;
+    font-family:sans-serif;
+}
+
+header, nav, article{
+	display:none;
+}
+
+img
+{
+content:icon;
+icon:url(http://googledrive.com/host/0B75bMVT5D3G2OVVlUG9qaWUzYkU/opera.png);
+}
+
+.minimized{display:block; font-size: 48pt;}
+.minimized h1{color:#fff; margin:0; line-height:1.1}
