@@ -1,6 +1,6 @@
 
 .MagicSlideshow > * {
-    
+    display: inline-block;
 }
 
 .MagicSlideshow > *:first-child {
