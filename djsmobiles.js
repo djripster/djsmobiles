@@ -9,7 +9,7 @@ Google Ad Manager
 
 <script>
   googletag.cmd.push(function() {
-    googletag.defineSlot('/61636059/djsmobiles-01', [300, 250], 'div-gpt-ad-1539469536211-0').addService(googletag.pubads());
+    googletag.defineSlot('/61636059/djsmobiles-01', [[300, 1050], [300, 100], [300, 250], [300, 600]], 'div-gpt-ad-1539470311184-0').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
   });
@@ -29,14 +29,14 @@ apstag.init({
 });
 apstag.fetchBids({
      slots: [{
-         slotID: 'div-gpt-ad-1539468198737-0', //example: 'div-gpt-ad-1475102693815-0'
+         slotID: 'div-gpt-ad-1539470311184-0', //example: 'div-gpt-ad-1475102693815-0'
          slotName: '/61636059/djsmobiles-01', //example: '12345/box-1'
-         sizes: [[300,250], [300,250]] //example: [[300,250], [300,600]]
+         sizes: [[300,250], [300, 600]] //example: [[300,250], [300,600]]
      },
      {
-         slotID: 'div-gpt-ad-1539468198737-0', //example: 'div-gpt-ad-1475185990716-0'
+         slotID: 'div-gpt-ad-1539470311184-0', //example: 'div-gpt-ad-1475185990716-0'
          slotName: '/61636059/djsmobiles-01', //example: '12345/leaderboard-1'
-         sizes: [[300,250]] //example: [[728,90]]
+         sizes: [[300, 1050]] //example: [[728,90]]
      }],
      timeout: 2e3
 }, function(bids) {
