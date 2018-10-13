@@ -1,3 +1,35 @@
+<script>
+//load the apstag.js library
+!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+//initialize the apstag.js library on the page to allow bidding
+apstag.init({
+     pubID: 'e2971513-1dc9-40ca-9659-d188b27aba0c', //enter your pub ID here as shown above, it must within quotes
+     adServer: 'googletag'
+});
+apstag.fetchBids({
+     slots: [{
+         slotID: 'enter your slotID here', //example: 'div-gpt-ad-1475102693815-0'
+         slotName: 'enter your DFP ad unit path here', //example: '12345/box-1'
+         sizes: [[width,height], [width,height]] //example: [[300,250], [300,600]]
+     },
+     {
+         slotID: 'enter your slotID here', //example: 'div-gpt-ad-1475185990716-0'
+         slotName: 'enter your DFP ad unit path here', //example: '12345/leaderboard-1'
+         sizes: [[width,height]] //example: [[728,90]]
+     }],
+     timeout: 2e3
+}, function(bids) {
+     // set apstag targeting on googletag, then trigger the first DFP request in googletag's disableInitialLoad integration
+     googletag.cmd.push(function(){
+         apstag.setDisplayBids();
+         googletag.pubads().refresh();
+     });
+}); 
+</script>
+
+
+
 /*
 
 
