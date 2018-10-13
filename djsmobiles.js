@@ -1,3 +1,25 @@
+/*
+Google Ad Manager
+*/
+
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/61636059/djsmobiles-01', [[300, 250], [728, 90], [120, 600]], 'div-gpt-ad-1539468198737-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+
+/*
+Amazon Publisher Services
+*/
 <script>
 //load the apstag.js library
 !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
@@ -9,14 +31,14 @@ apstag.init({
 });
 apstag.fetchBids({
      slots: [{
-         slotID: 'enter your slotID here', //example: 'div-gpt-ad-1475102693815-0'
-         slotName: 'enter your DFP ad unit path here', //example: '12345/box-1'
-         sizes: [[width,height], [width,height]] //example: [[300,250], [300,600]]
+         slotID: 'div-gpt-ad-1539468198737-0', //example: 'div-gpt-ad-1475102693815-0'
+         slotName: '61636059/djsmobiles-01', //example: '12345/box-1'
+         sizes: [[300,250], [728, 90]] //example: [[300,250], [300,600]]
      },
      {
-         slotID: 'enter your slotID here', //example: 'div-gpt-ad-1475185990716-0'
-         slotName: 'enter your DFP ad unit path here', //example: '12345/leaderboard-1'
-         sizes: [[width,height]] //example: [[728,90]]
+         slotID: 'div-gpt-ad-1539468198737-0', //example: 'div-gpt-ad-1475185990716-0'
+         slotName: '61636059/djsmobiles-01', //example: '12345/leaderboard-1'
+         sizes: [[120, 600]] //example: [[728,90]]
      }],
      timeout: 2e3
 }, function(bids) {
