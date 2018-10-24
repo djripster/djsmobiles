@@ -72,10 +72,11 @@ qacct:"p-gDf1-KQpvbd8z"
 </div>
 </noscript>
 <!-- End Quantcast tag -->
-
-<!-- Subscribers -->  
-<script type="text/javascript">
-  var subscribersSiteId = '86e121e1-4bb5-4690-81df-f3e07879b140';
-</script>
-<script type="text/javascript" src="https://cdn.subscribers.com/assets/subscribers.js"></script>
-<!-- Subscribers -->  
+  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5CCCX2L');</script>
+<!-- End Google Tag Manager -->
