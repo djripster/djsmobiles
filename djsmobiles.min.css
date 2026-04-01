@@ -1,48 +1,50 @@
 /* ============================================================
-   DJS MOBILES — CORE ENGINE v1.0 (GitHub Hosted)
-   - Retains legacy support for 16-year archives
-   - Cleaned of 2010-era transparent PNG dependencies
+   DJS MOBILES — CONSOLIDATED THEME ENGINE v1.0
+   - Merged: Modern v12.4 Layout + Archival Legacy Support
+   - Source: GitHub Hosted (djripster.github.io)
    ============================================================ */
 
-/* 1. Archive Support (Keeps old spec sheets looking right) */
-fieldset {
-  background: #dee5e7;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px auto;
-  border: 1px solid #ccc;
-}
-legend {
-  font: 700 19px 'Inter', sans-serif;
-  color: #004080;
-  background: #e0e0e0;
-  border-radius: 26px 10px;
-  box-shadow: -1px 4px 7px rgba(0,0,0,0.2);
-  padding: 8px 29px;
+:root {
+  --primary: #004080;
+  --primary-dark: #002d5a;
+  --bg: #f4f7f9;
+  --text: #1a202c;
+  --card: #ffffff;
+  --border: #e2e8f0;
+  --muted: #a0aec0;
 }
 
-/* 2. Legacy Post Wrapper (Ensures old posts don't break layout) */
-.post-outer {
-  background-color: #fff;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 15px 20px;
-  margin-bottom: 20px;
-}
-
-/* 3. Global Reset Overrides */
+/* 1. GLOBAL & LAYOUT ENGINE */
+html, body { overflow-x: hidden; width: 100%; position: relative; margin: 0; padding: 0; }
+body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; font-size: 16px; }
 #navbar-iframe { display: none !important; }
-body { margin: 0; padding: 0; }
-iframe { max-width: 100%; }
 
-/* 4. Link DNA */
-a:link { text-decoration: none; color: #004080; }
-a:visited { color: #002d5a; }
-a:hover { text-decoration: underline; color: #0056b3; }
+/* 2. HEADER & NAVIGATION */
+.site-header { background: var(--card); border-bottom: 1px solid var(--border); padding: 25px 0; text-align: center; }
+.logo-main img { width: 400px; height: auto; margin: 0 auto; display: block; }
 
-/* 5. Mobile Link Buttons (Legacy One-Click support) */
-.mobile-link-button {
-  background-color: #004080;
-  border-radius: 5px;
+#nav-wrapper { background: var(--card); border-bottom: 1px solid var(--border); width: 100%; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+#nav { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
+#nav ul { list-style: none; margin: 0; padding: 0; display: flex; }
+#nav li a { display: block; padding: 15px 18px; color: var(--text); text-decoration: none; font-weight: 800; font-size: 12px; text-transform: uppercase; }
+
+/* 3. MAIN CONTENT AREA */
+.main-wrapper { max-width: 1200px; margin: 40px auto; display: grid; grid-template-columns: 1fr 350px; gap: 40px; padding: 0 20px; }
+.post { background: var(--card); border-radius: 12px; padding: 30px; margin-bottom: 30px; border: 1px solid #edf2f7; }
+.post-title a { font-size: 26px; color: var(--text); text-decoration: none; font-weight: 800; }
+
+/* 4. LEGACY ARCHIVE SUPPORT (Keeps 2010-2015 posts intact) */
+.post-outer { background-color: #fff; border: 1px solid #ddd; border-radius: 5px; padding: 15px 20px; margin-bottom: 20px; }
+fieldset { background: #dee5e7; border-radius: 10px; padding: 20px; margin: 20px auto; border: 1px solid #ccc; }
+legend { font-weight: 700; color: var(--primary); background: #e0e0e0; border-radius: 10px; padding: 8px 20px; }
+
+/* 5. COMPONENTS */
+.buy-now-button { display: inline-flex; background-color: var(--primary); color: #fff !important; padding: 14px 30px; border-radius: 8px; font-weight: 800; text-decoration: none !important; }
+.site-footer { background: #1a202c; color: var(--muted); padding: 60px 0 30px; margin-top: 60px; border-top: 4px solid var(--primary); }
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  .main-wrapper { grid-template-columns: 1fr; }
+  .nav-hamburger { display: flex; }
+  #nav > ul { display: none; }
 }
-.mobile-link-button a { color: #fff !important; }
