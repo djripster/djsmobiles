@@ -367,14 +367,14 @@
   }
 
 
-  function djsEscapeHtml(value) {
-    return String(value || '')
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '<')
-      .replace(/>/g, '>')
-      .replace(/"/g, '"')
-      .replace(new RegExp(String.fromCharCode(39), "g"), "&#39;");
-  }
+function djsEscapeHtml(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
 
   function djsCleanFeaturedText(raw, limit) {
     var value = String(raw || '')
@@ -514,7 +514,7 @@
         for (var j = 1; j < entries.length; j++) {
           cards.push(
             '<article class="featured-card">' +
-              '<div class="featured-card-thumb" style="background-image:url("' + djsEscapeHtml(djsFeedGetImage(entries[j], '/s1600/')) + '")"></div>' +
+              '<div class="featured-card-thumb" style="background-image:url(\'' + djsEscapeHtml(djsFeedGetImage(entries[j], '/s1600/')) + '\')"></div>' +
               '<div class="featured-card-body">' +
                 '<div class="featured-meta">' +
                   '<time>' + djsEscapeHtml(getDate(entries[j])) + '</time>' +
@@ -571,7 +571,7 @@
       for (var j = 0; j < entries.length; j++) {
         items.push(
           '<a class="sidebar-review-item" href="' + djsEscapeHtml(djsFeedGetLink(entries[j])) + '">' +
-            '<span class="sidebar-review-thumb" style="background-image:url("' + djsEscapeHtml(djsFeedGetImage(entries[j], '/s1600/')) + '")"></span>' +
+            '<span class="sidebar-review-thumb" style="background-image:url(\'' + djsEscapeHtml(djsFeedGetImage(entries[j], '/s1600/')) + '\')"></span>' +
             '<span class="sidebar-review-title">' + djsEscapeHtml(djsFeedGetTitle(entries[j])) + '</span>' +
           '</a>'
         );
@@ -1551,7 +1551,7 @@
       var thumb = card.querySelector('.post-list-thumb');
       var src = extractThumbSrc(card);
       if (thumb && src) {
-        thumb.style.backgroundImage = 'url("' + src + '")';
+        thumb.style.backgroundImage = "url('" + src + "')";
         thumb.classList.add('has-image');
       }
 
