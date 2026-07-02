@@ -9,7 +9,7 @@
 (function (window, document) {
   'use strict';
 
-  const PULSE_ASSET_PATH = 'https://djripster.github.io/pulse/web/';
+  const PULSE_ASSET_PATH = 'https://djripster.github.io/djsmobiles/pulse/web/';
 
   const PulseConfig = {
     publicVisible: false,
