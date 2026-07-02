@@ -1,13 +1,2555 @@
 /* DJs Mobiles Theme Core v17
-   Step 2: qs helper migrated.
+   Generated from extracted-javascript.txt.
+   External JS version: original function names preserved.
 */
 
-(function () {
-  window.DJS = window.DJS || {};
-  window.DJS.version = '17.0.0';
-  window.DJS.coreLoaded = true;
-
-  window.DJS.qs = function (selector, scope) {
+/* script-core v1 | Centralized UI controller */
+(function() {
+  function qs(selector, scope) {
     return (scope || document).querySelector(selector);
+  }
+
+  function closeMenu(menu, button) {
+    if (!menu || !button) return;
+    menu.classList.remove('open');
+    button.classList.remove('open');
+    button.setAttribute('aria-expanded', 'false');
+  }
+
+  function openMenu(menu, button) {
+    if (!menu || !button) return;
+    menu.classList.add('open');
+    button.classList.add('open');
+    button.setAttribute('aria-expanded', 'true');
+  }
+
+  function toggleMenu(menu, button) {
+    if (!menu || !button) return false;
+    var isOpen = menu.classList.contains('open');
+    if (isOpen) {
+      closeMenu(menu, button);
+      return false;
+    }
+    openMenu(menu, button);
+    return true;
+  }
+
+  function initMobileAccordion(menu) {
+    if (!menu) return;
+
+    function closePanel(toggle) {
+      if (!toggle) return;
+      var panel = qs('#' + toggle.getAttribute('aria-controls'));
+      if (!panel) return;
+      toggle.setAttribute('aria-expanded', 'false');
+      panel.classList.remove('open');
+    }
+
+    function openPanel(toggle) {
+      if (!toggle) return;
+      var panel = qs('#' + toggle.getAttribute('aria-controls'));
+      if (!panel) return;
+      toggle.setAttribute('aria-expanded', 'true');
+      panel.classList.add('open');
+    }
+
+    function closeSiblingTopLevelToggles(current) {
+      var groups = menu.children;
+      for (var i = 0; i < groups.length; i++) {
+        var group = groups[i];
+        if (!group.classList || !group.classList.contains('mobile-nav-group')) continue;
+        var toggle = qs(':scope > .mobile-nav-toggle', group);
+        if (toggle && toggle !== current) closePanel(toggle);
+      }
+    }
+
+    var toggles = menu.querySelectorAll('.mobile-nav-toggle');
+    for (var i = 0; i < toggles.length; i++) {
+      toggles[i].addEventListener('click', function() {
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        var isTopLevel = this.parentNode && this.parentNode.parentNode === menu;
+        if (expanded) {
+          closePanel(this);
+          return;
+        }
+        if (isTopLevel) closeSiblingTopLevelToggles(this);
+        openPanel(this);
+      });
+    }
+  }
+
+  function initHamburger() {
+    var button = qs('#hamburger-btn');
+    var menu = qs('#nav-mobile');
+    if (!button || !menu) return;
+
+    initMobileAccordion(menu);
+
+    button.addEventListener('click', function() {
+      var opened = toggleMenu(menu, button);
+      if (opened) {
+        closeMenu(qs('#search-dropdown'), qs('#search-icon-btn'));
+      }
+    });
+
+    menu.addEventListener('click', function(event) {
+      var link = event.target.closest('a');
+      if (link) closeMenu(menu, button);
+    });
+  }
+
+  function initSearch() {
+    var button = qs('#search-icon-btn');
+    var dropdown = qs('#search-dropdown');
+    var input = qs('#search-dropdown-input');
+    var submit = qs('#search-dropdown-btn');
+    var suggestions = qs('#search-suggestions');
+    if (!button || !dropdown || !input || !submit || !suggestions) return;
+
+    var debounceTimer = null;
+
+    /* search-hub v4 | Curated discovery shortcuts + device/editorial search, zero feed requests */
+    var DJS_LABELS = [
+      { label: 'Samsung',      type: 'Brand',    url: '/search/label/Samsung' },
+      { label: 'Apple',        type: 'Brand',    url: '/search/label/Apple' },
+      { label: 'Google',       type: 'Brand',    url: '/search/label/Google' },
+      { label: 'Nokia',        type: 'Brand',    url: '/search/label/Nokia' },
+      { label: 'BlackBerry',   type: 'Brand',    url: '/search/label/BlackBerry' },
+      { label: 'Microsoft',    type: 'Brand',    url: '/search/label/Microsoft' },
+      { label: 'Motorola',     type: 'Brand',    url: '/search/label/Motorola' },
+      { label: 'Sony',         type: 'Brand',    url: '/search/label/Sony' },
+      { label: 'HTC',          type: 'Brand',    url: '/search/label/HTC' },
+      { label: 'LG',           type: 'Brand',    url: '/search/label/LG' },
+      { label: 'Nothing',      type: 'Brand',    url: '/search/label/Nothing' },
+      { label: 'OnePlus',      type: 'Brand',    url: '/search/label/OnePlus' },
+      { label: 'Xiaomi',       type: 'Brand',    url: '/search/label/Xiaomi' },
+      { label: 'Android',      type: 'Platform', url: '/search/label/Android' },
+      { label: 'iOS',          type: 'Platform', url: '/search/label/iOS' },
+      { label: 'Windows',      type: 'Platform', url: '/search/label/Windows' },
+      { label: 'Windows Phone',type: 'Platform', url: '/search/label/Windows%20Phone' },
+      { label: 'Chrome OS',    type: 'Platform', url: '/search/label/Chrome%20OS' },
+      { label: 'Review',       type: 'Content',  url: '/search/label/Review' },
+      { label: 'Specs',        type: 'Content',  url: '/search/label/Specs' },
+      { label: 'Guides',       type: 'Content',  url: '/search/label/Guides' },
+      { label: 'Editorial',   type: 'Content',  url: '/search/label/Editorial' },
+      { label: 'Deals',        type: 'Content',  url: '/search/label/Deals' },
+      { label: 'Featured',     type: 'Content',  url: '/search/label/Featured' },
+      { label: 'Galaxy S',     type: 'Family',   url: '/search?q=Galaxy%20S' },
+      { label: 'Galaxy Z Fold',type: 'Family',   url: '/search?q=Galaxy%20Z%20Fold' },
+      { label: 'Galaxy Z Flip',type: 'Family',   url: '/search?q=Galaxy%20Z%20Flip' },
+      { label: 'Pixel',        type: 'Family',   url: '/search?q=Pixel' },
+      { label: 'Pixel Pro',    type: 'Family',   url: '/search?q=Pixel%20Pro' },
+      { label: 'iPhone Pro',   type: 'Family',   url: '/search?q=iPhone%20Pro' },
+      { label: 'iPhone SE',    type: 'Family',   url: '/search?q=iPhone%20SE' },
+      { label: 'Razr',         type: 'Family',   url: '/search?q=Razr' },
+      { label: 'Surface',      type: 'Family',   url: '/search?q=Surface' },
+      { label: 'Foldables',    type: 'Hub',      url: '/search?q=foldable%20phones' },
+      { label: 'AI Phones',    type: 'Hub',      url: '/search?q=AI%20phones' },
+      { label: 'Android Beta', type: 'Hub',      url: '/search?q=Android%20Beta' },
+      { label: 'Camera Phones',type: 'Hub',      url: '/search?q=camera%20phones' },
+      { label: 'Compare Phones',type: 'Hub',     url: '/search?q=phone%20comparison' },
+      { label: 'Galaxy AI',    type: 'Hub',      url: '/search?q=Galaxy%20AI' },
+      { label: 'Qualcomm',     type: 'Topic',    url: '/search/label/Qualcomm' },
+      { label: 'Snapdragon',   type: 'Topic',    url: '/search?q=Snapdragon' },
+      { label: 'One UI',       type: 'Topic',    url: '/search?q=One%20UI' },
+      { label: 'Wear OS',      type: 'Topic',    url: '/search/label/Wear%20OS' },
+      { label: 'MVNO',         type: 'Topic',    url: '/search/label/MVNO' },
+      { label: 'Apps',         type: 'Topic',    url: '/search/label/Apps' },
+      { label: 'Brave',        type: 'Topic',    url: '/search/label/Brave' },
+      { label: '5G',           type: 'Topic',    url: '/search/label/5G' },
+      { label: 'Foldable',     type: 'Topic',    url: '/search/label/Foldable' }
+    ];
+
+    /* Popular topics shown when search opens with no input */
+    var DJS_POPULAR = ['Galaxy S', 'Pixel', 'iPhone Pro', 'Foldables', 'Galaxy AI', 'Snapdragon', 'Editorial', 'Android Beta', 'Camera Phones'];
+
+    function doSearch() {
+      var q = input.value.trim();
+      if (q) {
+        window.location.href = 'https://www.djsmobiles.com/search?q=' + encodeURIComponent(q);
+      }
+    }
+
+    function closeSuggestions() {
+      suggestions.classList.remove('is-open');
+      suggestions.innerHTML = '';
+    }
+
+    function openSuggestions() {
+      if (suggestions.innerHTML) suggestions.classList.add('is-open');
+    }
+
+    function djsSearchSuggestionType(type) {
+      var raw = String(type || '').toLowerCase();
+      if (raw === 'family') return { label: 'Devices', cls: 'is-devices' };
+      if (raw === 'hub') return { label: 'Explore', cls: 'is-explore' };
+      if (raw === 'topic') return { label: 'Topics', cls: 'is-topics' };
+      if (raw === 'content') return { label: 'Sections', cls: 'is-sections' };
+      if (raw === 'brand') return { label: 'Brand', cls: 'is-brand' };
+      if (raw === 'platform') return { label: 'Platform', cls: 'is-platform' };
+      return { label: type || 'Explore', cls: 'is-explore' };
+    }
+
+    function buildItem(label, type, url, query) {
+      var displayType = djsSearchSuggestionType(type);
+      var title = djsEscapeHtml(label);
+      if (query) {
+        var idx = label.toLowerCase().indexOf(query.toLowerCase());
+        if (idx !== -1) {
+          title = djsEscapeHtml(label.slice(0, idx)) +
+                  '<mark>' + djsEscapeHtml(label.slice(idx, idx + query.length)) + '</mark>' +
+                  djsEscapeHtml(label.slice(idx + query.length));
+        }
+      }
+      return '<a class="search-suggestion-item" href="' + djsEscapeHtml(url) + '">' +
+        '<span class="search-suggestion-type ' + djsEscapeHtml(displayType.cls) + '">' + djsEscapeHtml(displayType.label) + '</span>' +
+        '<span class="search-suggestion-content">' +
+          '<span class="search-suggestion-title">' + title + '</span>' +
+          '<span class="search-suggestion-meta">DJs Mobiles discovery</span>' +
+        '</span>' +
+      '</a>';
+    }
+
+    function renderPopularSuggestions() {
+      var items = [];
+      for (var i = 0; i < DJS_LABELS.length; i++) {
+        if (DJS_POPULAR.indexOf(DJS_LABELS[i].label) !== -1) {
+          items.push(buildItem(DJS_LABELS[i].label, DJS_LABELS[i].type, DJS_LABELS[i].url, ''));
+        }
+      }
+      suggestions.innerHTML = items.join('');
+      openSuggestions();
+    }
+
+    function renderContextSuggestions() {
+      var intel = window.djsDeviceIntel || {};
+      var base = '';
+      if (intel.family) base = djsFamilyLabel(intel.family);
+      else if (intel.brand) base = djsCapitalizeWords(intel.brand);
+      else if (intel.labels && intel.labels.length) base = djsCapitalizeWords(intel.labels[0]);
+      if (!base) { renderPopularSuggestions(); return; }
+
+      var isEditorial = intel.postType === 'editorial';
+      var presets = isEditorial ? [
+        { type: 'Explore',   title: base, url: '/search?q=' + encodeURIComponent(base) },
+        { type: 'Editorial', title: base + ' editorial', url: '/search?q=' + encodeURIComponent(base + ' editorial') },
+        { type: 'News',      title: base + ' news', url: '/search?q=' + encodeURIComponent(base + ' news') },
+        { type: 'Review',    title: base + ' review', url: '/search?q=' + encodeURIComponent(base + ' review') }
+      ] : [
+        { type: 'Explore', title: base, url: '/search?q=' + encodeURIComponent(base) },
+        { type: 'Specs',   title: base + ' specs',   url: '/search?q=' + encodeURIComponent(base + ' specs') },
+        { type: 'Review',  title: base + ' review',  url: '/search?q=' + encodeURIComponent(base + ' review') },
+        { type: 'Compare', title: base + ' vs',      url: '/search?q=' + encodeURIComponent(base + ' vs') }
+      ];
+      var items = [];
+      for (var i = 0; i < presets.length; i++) {
+        items.push(
+          '<a class="search-suggestion-item" href="' + djsEscapeHtml(presets[i].url) + '">' +
+            '<span class="search-suggestion-type">' + djsEscapeHtml(presets[i].type) + '</span>' +
+            '<span class="search-suggestion-content">' +
+              '<span class="search-suggestion-title">' + djsEscapeHtml(presets[i].title) + '</span>' +
+              '<span class="search-suggestion-meta">Suggested from this post</span>' +
+            '</span>' +
+          '</a>'
+        );
+      }
+      suggestions.innerHTML = items.join('');
+      openSuggestions();
+    }
+
+    function renderQuerySuggestions(q) {
+      var lower = q.toLowerCase();
+      var matches = [];
+      var deferred = [];
+      for (var i = 0; i < DJS_LABELS.length; i++) {
+        var labelLower = DJS_LABELS[i].label.toLowerCase();
+        if (labelLower.indexOf(lower) === 0) matches.push(DJS_LABELS[i]);
+        else if (labelLower.indexOf(lower) !== -1) deferred.push(DJS_LABELS[i]);
+      }
+      matches = matches.concat(deferred).slice(0, 6);
+
+      if (!matches.length) {
+        /* No label match — offer a general search */
+        suggestions.innerHTML =
+          '<a class="search-suggestion-item" href="/search?q=' + encodeURIComponent(q) + '">' +
+            '<span class="search-suggestion-type">Search</span>' +
+            '<span class="search-suggestion-content">' +
+              '<span class="search-suggestion-title">Search for &quot;' + djsEscapeHtml(q) + '&quot;</span>' +
+            '</span>' +
+          '</a>';
+        openSuggestions();
+        return;
+      }
+
+      var items = [];
+      for (var j = 0; j < matches.length; j++) {
+        items.push(buildItem(matches[j].label, matches[j].type, matches[j].url, q));
+      }
+      suggestions.innerHTML = items.join('');
+      openSuggestions();
+    }
+
+    function onInputChange() {
+      var q = input.value.trim();
+      if (!q) {
+        if (window.djsDeviceIntel) renderContextSuggestions();
+        else renderPopularSuggestions();
+        return;
+      }
+      if (q.length < 2) { closeSuggestions(); return; }
+      if (debounceTimer) window.clearTimeout(debounceTimer);
+      debounceTimer = window.setTimeout(function() {
+        renderQuerySuggestions(q);
+      }, 120);
+    }
+
+    button.addEventListener('click', function(event) {
+      event.stopPropagation();
+      var opened = toggleMenu(dropdown, button);
+      if (opened) {
+        closeMenu(qs('#nav-mobile'), qs('#hamburger-btn'));
+        if (!input.value.trim()) {
+          if (window.djsDeviceIntel) renderContextSuggestions();
+          else renderPopularSuggestions();
+        }
+        window.setTimeout(function() { input.focus(); }, 50);
+      } else {
+        closeSuggestions();
+      }
+    });
+
+    submit.addEventListener('click', function(event) {
+      event.stopPropagation();
+      doSearch();
+    });
+
+    input.addEventListener('input', onInputChange);
+
+    input.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') { doSearch(); return; }
+      if (event.key === 'Escape') { closeSuggestions(); }
+    });
+
+    input.addEventListener('focus', function() {
+      if (!input.value.trim()) {
+        if (window.djsDeviceIntel) renderContextSuggestions();
+        else renderPopularSuggestions();
+        return;
+      }
+      if (input.value.trim().length >= 2 && suggestions.innerHTML) openSuggestions();
+    });
+
+    suggestions.addEventListener('click', function(event) {
+      event.stopPropagation();
+    });
+
+    dropdown.addEventListener('click', function(event) {
+      event.stopPropagation();
+    });
+
+    document.addEventListener('click', function(event) {
+      if (!dropdown.contains(event.target) && !button.contains(event.target)) {
+        closeMenu(dropdown, button);
+        closeSuggestions();
+      }
+    });
+  }
+
+  function initHttpsUpgrade() {
+    var imgs = document.getElementsByTagName('img');
+    for (var i = 0; i < imgs.length; i++) {
+      if (imgs[i].src.indexOf('http://') === 0) {
+        imgs[i].src = imgs[i].src.replace('http://', 'https://');
+      }
+    }
+  }
+
+  function initPerformanceCleanup() {
+    var lazyImages = document.querySelectorAll('.post-body img, .home-snippet img, .sidebar-area img, .video-card img');
+    for (var i = 0; i < lazyImages.length; i++) {
+      var img = lazyImages[i];
+      if (img.id === 'djs-lightbox-img') continue;
+      if (!img.getAttribute('loading')) img.setAttribute('loading', 'lazy');
+      if (!img.getAttribute('decoding')) img.setAttribute('decoding', 'async');
+    }
+
+    var iframes = document.querySelectorAll('.post-body iframe, .video-card iframe');
+    for (var j = 0; j < iframes.length; j++) {
+      if (!iframes[j].getAttribute('loading')) iframes[j].setAttribute('loading', 'lazy');
+      if (!iframes[j].getAttribute('referrerpolicy')) iframes[j].setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+    }
+  }
+
+  /* stability-optimization v16.19 | rAF-throttled header shrink */
+  function initShrinkHeader() {
+    var nav = qs('#nav-wrapper');
+    if (!nav) return;
+    var threshold = 60;
+    var ticking = false;
+
+    function applyNavState() {
+      ticking = false;
+      if (window.pageYOffset > threshold) {
+        nav.classList.add('shrunk');
+      } else {
+        nav.classList.remove('shrunk');
+      }
+    }
+
+    function requestNavUpdate() {
+      if (ticking) return;
+      ticking = true;
+      (window.requestAnimationFrame || function(fn) { return window.setTimeout(fn, 16); })(applyNavState);
+    }
+
+    applyNavState();
+    window.addEventListener('scroll', requestNavUpdate, { passive: true });
+  }
+
+
+  function djsEscapeHtml(value) {
+    return String(value || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(new RegExp(String.fromCharCode(39), "g"), "&#39;");
+  }
+
+  function djsCleanFeaturedText(raw, limit) {
+    var value = String(raw || '')
+      .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+      .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+      .replace(/<noscript[\s\S]*?<\/noscript>/gi, ' ')
+      .replace(/<iframe[\s\S]*?<\/iframe>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/\.review-wrap\s*\{[^}]*\}/gi, ' ')
+      .replace(/#[0-9a-f]{3,6}(?=\s|;|,|\.|$)/gi, ' ')
+      .replace(/font-family:[^;]+;?/gi, ' ')
+      .replace(/font-size:[^;]+;?/gi, ' ')
+      .replace(/line-height:[^;]+;?/gi, ' ')
+      .replace(/color:[^;]+;?/gi, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    if (value.length <= limit) return value;
+    return value.slice(0, limit).replace(/\s+\S*$/, '') + '...';
+  }
+
+  function djsFeedGetLink(entry) {
+    if (!entry || !entry.link) return '';
+    for (var i = 0; i < entry.link.length; i++) {
+      if (entry.link[i].rel === 'alternate') return entry.link[i].href;
+    }
+    return '';
+  }
+
+  function djsFeedGetTitle(entry) {
+    return entry && entry.title && entry.title.$t ? entry.title.$t : '';
+  }
+
+  function djsFeedGetImage(entry, size) {
+    size = size || '/s1600/';
+    if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
+      return entry.media$thumbnail.url.replace(/\/s72-c\//, size);
+    }
+
+    var html = '';
+    if (entry && entry.content && entry.content.$t) html = entry.content.$t;
+    else if (entry && entry.summary && entry.summary.$t) html = entry.summary.$t;
+
+    var match = html.match(/<img[^>]+src=["']([^"']+)["']/i);
+    if (match && match[1]) return match[1];
+
+    return 'https://djripster.github.io/djsmobiles/assets/brand/logo-cropped-wide.png';
+  }
+
+  function djsFeedGetCategories(entry) {
+    if (!entry || !entry.category || !entry.category.length) return [];
+    var out = [];
+    for (var i = 0; i < entry.category.length; i++) {
+      if (entry.category[i] && entry.category[i].term) out.push(String(entry.category[i].term));
+    }
+    return out;
+  }
+
+  function djsGetFeaturedBadge(entry) {
+    var categories = djsFeedGetCategories(entry);
+    var map = [
+      { terms: ['Review', 'Reviews'], label: 'Review', cls: 'is-review' },
+      { terms: ['Specs'], label: 'Specs', cls: 'is-specs' },
+      { terms: ['Deals', 'Deal'], label: 'Deal', cls: 'is-deals' },
+      { terms: ['Editorial'], label: 'Editorial', cls: 'is-editorial' },
+      { terms: ['Guide', 'Guides'], label: 'Guide', cls: 'is-guide' }
+    ];
+
+    for (var i = 0; i < map.length; i++) {
+      for (var j = 0; j < map[i].terms.length; j++) {
+        if (categories.indexOf(map[i].terms[j]) !== -1) return map[i];
+      }
+    }
+
+    return { label: 'News', cls: 'is-news' };
+  }
+
+  function djsFeaturedBadgeHtml(entry) {
+    var badge = djsGetFeaturedBadge(entry);
+    return '<span class="featured-badge ' + djsEscapeHtml(badge.cls) + '">' + djsEscapeHtml(badge.label) + '</span>';
+  }
+
+  /* feed-loader-hardening v1 | JSONP timeout, cleanup, and post-render polish */
+  function djsAfterFeedRender() {
+    try { initPerformanceCleanup(); } catch (e) {}
+    try {
+      if (window.djsApplyGlobalContentIdentity) window.djsApplyGlobalContentIdentity();
+    } catch (err) {}
+  }
+
+  function djsCleanupScript(script) {
+    if (script && script.parentNode) script.parentNode.removeChild(script);
+  }
+
+  function djsJsonpRequest(options) {
+    if (!options || !options.url || !options.callbackName) return null;
+    var scriptId = options.scriptId || '';
+    var timeoutMs = options.timeoutMs || 9000;
+    var callbackName = options.callbackName;
+    var done = false;
+    var timer = null;
+
+    if (scriptId) {
+      var existing = qs('#' + scriptId);
+      if (existing) djsCleanupScript(existing);
+    }
+
+    function cleanup() {
+      if (done) return;
+      done = true;
+      if (timer) window.clearTimeout(timer);
+      djsCleanupScript(script);
+      try { delete window[callbackName]; } catch (err) { window[callbackName] = null; }
+    }
+
+    var script = document.createElement('script');
+    if (scriptId) script.id = scriptId;
+    script.async = true;
+    script.onerror = function() {
+      cleanup();
+      if (options.onError) options.onError();
+      djsAfterFeedRender();
+    };
+
+    window[callbackName] = function(feed) {
+      cleanup();
+      if (options.onSuccess) options.onSuccess(feed);
+      djsAfterFeedRender();
+    };
+
+    timer = window.setTimeout(function() {
+      cleanup();
+      if (options.onTimeout) options.onTimeout();
+      else if (options.onError) options.onError();
+      djsAfterFeedRender();
+    }, timeoutMs);
+
+    script.src = options.url + (options.url.indexOf('?') === -1 ? '?' : '&') + 'callback=' + encodeURIComponent(callbackName);
+    document.body.appendChild(script);
+    return script;
+  }
+
+  function djsUniqueCallbackName(prefix) {
+    return String(prefix || 'djsFeedCallback') + '_' + String(Date.now()) + '_' + String(Math.floor(Math.random() * 100000));
+  }
+
+  /* featured-homepage v5 | Skeleton swap + clean hide on empty/failed feed */
+  window.djsFeaturedFeed = function(feed) {
+    var section = qs('#homepage-featured');
+    if (!section) return;
+
+    if (!feed || !feed.feed || !feed.feed.entry || !feed.feed.entry.length) {
+      section.classList.remove('is-loading');
+      section.classList.add('is-hidden');
+      return;
+    }
+
+    try {
+      var entries = feed.feed.entry.slice(0, 3);
+
+      function getDate(entry) {
+        if (!entry.published || !entry.published.$t) return '';
+        var d = new Date(entry.published.$t);
+        return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      }
+
+      function getSummary(entry) {
+        var raw = '';
+        if (entry.summary && entry.summary.$t) raw = entry.summary.$t;
+        else if (entry.content && entry.content.$t) raw = entry.content.$t;
+        return djsCleanFeaturedText(raw, window.innerWidth <= 768 ? 100 : 155);
+      }
+
+      var hero = entries[0];
+      var heroSkel = qs('#featured-hero-skel');
+      var heroReal = qs('#featured-hero-real');
+      var heroKicker = qs('#featured-hero-kicker');
+      var heroTitle = qs('#featured-hero-title');
+      var heroMeta = qs('#featured-hero-meta');
+      var heroSummary = qs('#featured-hero-summary');
+      var heroLink = qs('#featured-hero-link');
+      var heroMedia = qs('#featured-hero-media');
+      var side = qs('#featured-side');
+
+      /* Update kicker to reflect actual post type */
+      if (heroKicker) {
+        var badge = djsGetFeaturedBadge(hero);
+        var kickerMap = {
+          'is-review': 'Featured Story',
+          'is-specs':  'Featured Story',
+          'is-deals':  'Featured Story',
+          'is-guide':  'Featured Story',
+          'is-editorial': 'Featured Story',
+          'is-news':   'Featured Story'
+        };
+        heroKicker.textContent = kickerMap[badge.cls] || 'Featured Story';
+      }
+
+      if (heroTitle) {
+        heroTitle.innerHTML = '<a href="' + djsEscapeHtml(djsFeedGetLink(hero)) + '">' + djsEscapeHtml(djsFeedGetTitle(hero)) + '</a>';
+      }
+      if (heroMeta) {
+        heroMeta.innerHTML =
+          '<time>' + djsEscapeHtml(getDate(hero)) + '</time>' +
+          '<span class="post-meta-sep">•</span>' +
+          djsFeaturedBadgeHtml(hero);
+      }
+      if (heroSummary) heroSummary.textContent = getSummary(hero);
+      if (heroLink) heroLink.href = djsFeedGetLink(hero);
+      if (heroMedia) {
+        var heroImageUrl = djsFeedGetImage(hero, '/s1600/');
+        heroMedia.style.backgroundImage = 'url("' + heroImageUrl + '")';
+        heroMedia.innerHTML = '<img alt="" decoding="async" fetchpriority="high" src="' + djsEscapeHtml(heroImageUrl) + '"/>';
+      }
+
+      if (heroSkel) heroSkel.style.display = 'none';
+      if (heroReal) heroReal.style.display = '';
+
+      if (side) {
+        var cards = [];
+        for (var j = 1; j < entries.length; j++) {
+          cards.push(
+            '<article class="featured-card">' +
+              '<div class="featured-card-thumb" style="background-image:url(&quot;' + djsEscapeHtml(djsFeedGetImage(entries[j], '/s1600/')) + '&quot;)"></div>' +
+              '<div class="featured-card-body">' +
+                '<div class="featured-meta">' +
+                  '<time>' + djsEscapeHtml(getDate(entries[j])) + '</time>' +
+                  '<span class="post-meta-sep">•</span>' +
+                  djsFeaturedBadgeHtml(entries[j]) +
+                '</div>' +
+                '<h3 class="featured-card-title"><a href="' + djsEscapeHtml(djsFeedGetLink(entries[j])) + '">' + djsEscapeHtml(djsFeedGetTitle(entries[j])) + '</a></h3>' +
+                '<p class="featured-card-summary">' + djsEscapeHtml(getSummary(entries[j])) + '</p>' +
+              '</div>' +
+            '</article>'
+          );
+        }
+        side.innerHTML = cards.join('');
+      }
+
+      section.classList.remove('is-loading');
+      section.classList.add('is-ready');
+    } catch (e) {
+      section.classList.remove('is-loading');
+      section.classList.add('is-hidden');
+    }
   };
+
+  function loadFeaturedHomepage() {
+    var section = qs('#homepage-featured');
+    if (!section) return;
+
+    djsJsonpRequest({
+      scriptId: 'djs-featured-feed',
+      callbackName: djsUniqueCallbackName('djsFeaturedFeed'),
+      url: '/feeds/posts/default/-/Featured?alt=json-in-script&max-results=3',
+      timeoutMs: 9000,
+      onSuccess: function(feed) { window.djsFeaturedFeed(feed); },
+      onError: function() {
+        section.classList.remove('is-loading');
+        section.classList.add('is-hidden');
+      }
+    });
+  }
+
+
+  /* sidebar-reviews v3 | Skeleton swap + clean hide on empty/failed feed */
+  window.djsSidebarReviews = function(feed) {
+    var rail = qs('#sidebar-reviews-rail');
+    var container = qs('#sidebar-reviews');
+    if (!rail || !container) return;
+
+    if (!feed || !feed.feed || !feed.feed.entry || !feed.feed.entry.length) {
+      rail.classList.remove('is-loading');
+      rail.classList.add('is-hidden');
+      return;
+    }
+
+    try {
+      var entries = feed.feed.entry.slice(0, 4);
+      var items = [];
+
+      for (var j = 0; j < entries.length; j++) {
+        items.push(
+          '<a class="sidebar-review-item" href="' + djsEscapeHtml(djsFeedGetLink(entries[j])) + '">' +
+            '<span class="sidebar-review-thumb" style="background-image:url(&quot;' + djsEscapeHtml(djsFeedGetImage(entries[j], '/s1600/')) + '&quot;)"></span>' +
+            '<span class="sidebar-review-title">' + djsEscapeHtml(djsFeedGetTitle(entries[j])) + '</span>' +
+          '</a>'
+        );
+      }
+
+      container.innerHTML = items.join('');
+      rail.classList.remove('is-loading');
+      rail.classList.add('is-ready');
+    } catch (e) {
+      rail.classList.remove('is-loading');
+      rail.classList.add('is-hidden');
+    }
+  };
+
+  function loadSidebarReviews() {
+    var rail = qs('#sidebar-reviews-rail');
+    if (!rail) return;
+
+    djsJsonpRequest({
+      scriptId: 'djs-sidebar-reviews-feed',
+      callbackName: djsUniqueCallbackName('djsSidebarReviews'),
+      url: '/feeds/posts/default/-/Review?alt=json-in-script&max-results=4',
+      timeoutMs: 9000,
+      onSuccess: function(feed) { window.djsSidebarReviews(feed); },
+      onError: function() {
+        rail.classList.remove('is-loading');
+        rail.classList.add('is-hidden');
+      }
+    });
+  }
+
+  function isSinglePostView() {
+    return !!document.querySelector('.post-body') && !document.querySelector('.home-snippet');
+  }
+
+  function initUpdatedStoryChip() {
+    if (!isSinglePostView()) return;
+
+    var postBodies = document.querySelectorAll('.post-body');
+    var i = 0;
+    while (i !== postBodies.length) {
+      var postBody = postBodies[i];
+      if (postBody.querySelector('.update-box')) {
+        var post = postBody.closest('.post');
+        if (post) {
+          var meta = post.querySelector('.post-meta-row');
+          if (meta && !meta.querySelector('.updated-story-chip')) {
+            var chip = document.createElement('span');
+            chip.className = 'updated-story-chip';
+            chip.textContent = 'Updated';
+            meta.appendChild(chip);
+          }
+        }
+      }
+      i++;
+    }
+  }
+
+  function djsGetTextLabels(nodes) {
+    var labels = [];
+    var i = 0;
+    while (i !== nodes.length) {
+      var value = (nodes[i].textContent || '').replace(/^\s+|\s+$/g, '');
+      if (value) labels.push(value);
+      i++;
+    }
+    return labels;
+  }
+
+  function djsGetEntryLabels(entry) {
+    var labels = [];
+    if (!entry || !entry.category) return labels;
+    var i = 0;
+    while (i !== entry.category.length) {
+      if (entry.category[i] && entry.category[i].term) labels.push(entry.category[i].term);
+      i++;
+    }
+    return labels;
+  }
+
+  function djsHasLabel(labels, value) {
+    var i = 0;
+    while (i !== labels.length) {
+      if ((labels[i] || '').toLowerCase() === (value || '').toLowerCase()) return true;
+      i++;
+    }
+    return false;
+  }
+
+  function djsFirstMatchingLabel(labels, options) {
+    var i = 0;
+    while (i !== options.length) {
+      if (djsHasLabel(labels, options[i])) return options[i];
+      i++;
+    }
+    return '';
+  }
+
+  function djsInferPostType(labels) {
+    if (djsHasLabel(labels, 'Specs')) return 'Specs';
+    if (djsHasLabel(labels, 'Review')) return 'Review';
+    if (djsHasLabel(labels, 'Editorial')) return 'Editorial';
+    if (djsHasLabel(labels, 'Guide')) return 'Guide';
+    if (djsHasLabel(labels, 'Guides')) return 'Guide';
+    if (djsHasLabel(labels, 'Deals')) return 'Deals';
+    return 'News';
+  }
+
+  function djsRelatedFetch(label, callbackName) {
+    var safeCallback = callbackName || djsUniqueCallbackName('djsRelatedFeedCallback');
+    var scriptId = 'djs-related-feed-' + safeCallback.replace(/[^a-zA-Z0-9_-]+/g, '-');
+    var originalCallback = window[safeCallback];
+
+    return djsJsonpRequest({
+      scriptId: scriptId,
+      callbackName: safeCallback,
+      url: '/feeds/posts/default/-/' + encodeURIComponent(label) + '?alt=json-in-script&max-results=12',
+      timeoutMs: 9000,
+      onSuccess: function(feed) {
+        if (typeof originalCallback === 'function') originalCallback(feed);
+      },
+      onError: function() {
+        if (typeof originalCallback === 'function') originalCallback(null);
+      }
+    });
+  }
+
+  function djsRelatedEntryIntel(entry) {
+    var entryLabels = djsGetEntryLabels(entry);
+    var entryTitle = djsNormalizeIntelText(djsFeedGetTitle(entry));
+    var entryPlatform = djsFirstMatchingLabel(entryLabels, ['Android', 'iOS', 'Windows', 'Windows Phone', 'Chrome OS', 'Mac']);
+    return {
+      labels: entryLabels,
+      title: entryTitle,
+      postType: djsInferPostType(entryLabels),
+      brand: djsDetectBrand(entryLabels, entryTitle),
+      family: djsDetectFamily(entryTitle, djsDetectBrand(entryLabels, entryTitle)),
+      platform: entryPlatform,
+      topics: djsSeoTopicTokens(entryLabels, entryTitle),
+      year: djsSeoEntryYear(entry)
+    };
+  }
+
+  /* seo-topic-refinement v1 | Topic-intent and freshness helpers for related ranking */
+  function djsSeoTopicTokens(labels, title) {
+    var text = djsNormalizeIntelText((labels || []).join(' ') + ' ' + (title || ''));
+    var topics = [
+      ['battery', ['battery', 'charging', 'charger', 'fast charging']],
+      ['camera', ['camera', 'photo', 'photos', 'video', 'imaging', 'camera phone']],
+      ['ai', ['ai', 'artificial intelligence', 'galaxy ai', 'apple intelligence', 'gemini']],
+      ['foldable', ['foldable', 'foldables', 'z fold', 'z flip', 'pixel fold']],
+      ['snapdragon', ['snapdragon', 'qualcomm']],
+      ['android-update', ['android update', 'android beta', 'security patch', 'pixel update', 'software update']],
+      ['one-ui', ['one ui', 'samsung update']],
+      ['wearable', ['wear os', 'watch', 'wearable']],
+      ['carrier', ['carrier', 'mvno', 'network', '5g']],
+      ['deal', ['deal', 'deals', 'discount', 'sale']]
+    ];
+    var out = [];
+    for (var i = 0; i < topics.length; i++) {
+      for (var j = 0; j < topics[i][1].length; j++) {
+        if (djsIntelHas(text, topics[i][1][j])) {
+          out.push(topics[i][0]);
+          break;
+        }
+      }
+    }
+    return out;
+  }
+
+  function djsSeoTopicOverlapScore(currentTopics, candidateTopics) {
+    if (!currentTopics || !candidateTopics) return 0;
+    var score = 0;
+    for (var i = 0; i < currentTopics.length; i++) {
+      if (candidateTopics.indexOf(currentTopics[i]) !== -1) score += 6;
+    }
+    return Math.min(score, 18);
+  }
+
+  function djsSeoEntryYear(entry) {
+    var raw = '';
+    if (entry && entry.updated && entry.updated.$t) raw = entry.updated.$t;
+    else if (entry && entry.published && entry.published.$t) raw = entry.published.$t;
+    if (!raw) return 0;
+    var date = new Date(raw);
+    if (isNaN(date.getTime())) return 0;
+    return date.getFullYear();
+  }
+
+  function djsSeoFreshnessScore(entry) {
+    var year = djsSeoEntryYear(entry);
+    if (!year) return 0;
+    var currentYear = new Date().getFullYear();
+    var age = currentYear - year;
+    if (age <= 0) return 7;
+    if (age === 1) return 5;
+    if (age === 2) return 3;
+    if (age === 3) return 1;
+    if (age >= 6) return -4;
+    return 0;
+  }
+
+  /* evergreen-optimization v1 | Refinement-only authority and temporary-content decay */
+  function djsEvergreenAuthorityScore(entry, info) {
+    var title = djsNormalizeIntelText(djsFeedGetTitle(entry));
+    var score = 0;
+    if (djsIntelHas(title, 'guide') || djsIntelHas(title, 'explained') || djsIntelHas(title, 'how to')) score += 5;
+    if (djsIntelHas(title, 'review') || djsIntelHas(title, 'specs') || djsIntelHas(title, 'comparison')) score += 4;
+    if (djsIntelHas(title, 'best') || djsIntelHas(title, 'vs') || djsIntelHas(title, 'versus')) score += 4;
+    if (info && info.postType === 'Guide') score += 4;
+    if (info && info.postType === 'Review') score += 3;
+    if (info && info.postType === 'Specs') score += 3;
+    return Math.min(score, 14);
+  }
+
+  function djsTemporaryContentDecay(entry, info) {
+    var title = djsNormalizeIntelText(djsFeedGetTitle(entry));
+    var year = djsSeoEntryYear(entry);
+    if (!year) return 0;
+    var age = new Date().getFullYear() - year;
+    if (age < 2) return 0;
+    var temporary = false;
+    if (djsIntelHas(title, 'rumor') || djsIntelHas(title, 'leak') || djsIntelHas(title, 'report')) temporary = true;
+    if (djsIntelHas(title, 'deal') || djsIntelHas(title, 'sale') || djsIntelHas(title, 'discount')) temporary = true;
+    if (djsIntelHas(title, 'launch date') || djsIntelHas(title, 'coming soon')) temporary = true;
+    if (info && info.postType === 'Deals') temporary = true;
+    if (!temporary) return 0;
+    if (age >= 5) return -8;
+    if (age >= 3) return -6;
+    return -3;
+  }
+
+  /* topic-ecosystem v1 | Lightweight affinity mapping for related discovery */
+  function djsTopicAffinityLabels(topics, family, brand, platform) {
+    var labels = [];
+    function add(value) {
+      if (!value) return;
+      if (labels.indexOf(value) === -1) labels.push(value);
+    }
+    for (var i = 0; i < (topics || []).length; i++) {
+      var topic = topics[i];
+      if (topic === 'foldable') { add('Foldable'); add('Samsung'); add('Google'); add('Motorola'); }
+      if (topic === 'ai') { add('Editorial'); add('Android'); add('Samsung'); add('Google'); add('Pixel'); }
+      if (topic === 'snapdragon') { add('Qualcomm'); add('Android'); add('Specs'); }
+      if (topic === 'android-update') { add('Android'); add('Google'); add('Pixel'); }
+      if (topic === 'one-ui') { add('Samsung'); add('Android'); }
+      if (topic === 'carrier') { add('MVNO'); add('5G'); add('Guides'); }
+      if (topic === 'wearable') { add('Wear OS'); add('Android'); }
+      if (topic === 'camera') { add('Review'); add('Specs'); add('Pixel'); add('Galaxy S'); }
+      if (topic === 'battery') { add('Review'); add('Guides'); add('Specs'); }
+    }
+    if (family === 'galaxy-z-fold' || family === 'galaxy-z-flip') { add('Foldable'); add('Samsung'); }
+    if (family === 'pixel-fold') { add('Foldable'); add('Google'); }
+    if (family === 'razr') { add('Foldable'); add('Motorola'); }
+    if (family === 'pixel-mainline' || family === 'pixel-pro' || family === 'pixel-a') { add('Pixel'); add('Android'); add('Google'); }
+    if (family === 'galaxy-s') { add('Galaxy S'); add('Samsung'); add('Android'); }
+    if (family === 'iphone-pro' || family === 'iphone-mainline') { add('iPhone'); add('iOS'); add('Apple'); }
+    add(brand);
+    add(platform);
+    return labels.slice(0, 6);
+  }
+
+  function djsTopicAffinityScore(currentTopics, candidateTopics, currentFamily, candidateFamily, currentBrand, candidateBrand, currentPlatform, candidatePlatform) {
+    var score = 0;
+    var currentLabels = djsTopicAffinityLabels(currentTopics, currentFamily, currentBrand, currentPlatform);
+    var candidateLabels = djsTopicAffinityLabels(candidateTopics, candidateFamily, candidateBrand, candidatePlatform);
+    for (var i = 0; i < currentLabels.length; i++) {
+      if (candidateLabels.indexOf(currentLabels[i]) !== -1) score += 3;
+    }
+    if (currentFamily && candidateFamily && currentFamily !== candidateFamily) {
+      if ((currentFamily === 'galaxy-z-fold' || currentFamily === 'galaxy-z-flip' || currentFamily === 'pixel-fold' || currentFamily === 'razr') &&
+          (candidateFamily === 'galaxy-z-fold' || candidateFamily === 'galaxy-z-flip' || candidateFamily === 'pixel-fold' || candidateFamily === 'razr')) score += 8;
+    }
+    if (currentBrand && candidateBrand && currentBrand.toLowerCase() !== candidateBrand.toLowerCase()) {
+      if ((currentPlatform || '').toLowerCase() === (candidatePlatform || '').toLowerCase()) score += 2;
+    }
+    return Math.min(score, 16);
+  }
+
+  function djsTopicAuthorityScore(entry, info) {
+    var title = djsNormalizeIntelText(djsFeedGetTitle(entry));
+    var score = 0;
+    if (djsIntelHas(title, 'guide') || djsIntelHas(title, 'review') || djsIntelHas(title, 'specs')) score += 4;
+    if (djsIntelHas(title, 'best') || djsIntelHas(title, 'compare') || djsIntelHas(title, 'comparison') || djsIntelHas(title, 'versus')) score += 4;
+    if (djsIntelHas(title, 'explained') || djsIntelHas(title, 'how to')) score += 3;
+    if (info && info.postType === 'Guide') score += 3;
+    if (info && info.postType === 'Review') score += 2;
+    score += djsEvergreenAuthorityScore(entry, info);
+    score += djsTemporaryContentDecay(entry, info);
+    if (djsSeoEntryYear(entry) && djsSeoFreshnessScore(entry) < 0 && score > 0) score -= 2;
+    return Math.max(-8, Math.min(score, 18));
+  }
+
+  function djsFamilyLabel(value) {
+    if (!value) return '';
+    if (value === 'galaxy-z-fold') return 'Galaxy Z Fold';
+    if (value === 'galaxy-z-flip') return 'Galaxy Z Flip';
+    if (value === 'galaxy-s') return 'Galaxy S';
+    if (value === 'galaxy-a') return 'Galaxy A';
+    if (value === 'pixel-a') return 'Pixel A';
+    if (value === 'pixel-pro') return 'Pixel Pro';
+    if (value === 'pixel-fold') return 'Pixel Fold';
+    if (value === 'pixel-mainline') return 'Pixel';
+    if (value === 'iphone-pro') return 'iPhone Pro';
+    if (value === 'iphone-se') return 'iPhone SE';
+    if (value === 'iphone-mainline') return 'iPhone';
+    if (value === 'razr') return 'Razr';
+    if (value === 'surface') return 'Surface';
+    return value.replace(/-/g, ' ');
+  }
+
+  function djsCapitalizeWords(value) {
+    return String(value || '').replace(/-/g, ' ').replace(/\s+/g, ' ').trim().replace(/(^|\s)([a-z])/g, function(match) {
+      return match.toUpperCase();
+    });
+  }
+
+  function djsDeviceContextLabel(family, brand, platform) {
+    var familyLabel = djsFamilyLabel(family || '');
+    if (familyLabel) return djsCapitalizeWords(familyLabel);
+    if (brand) return djsCapitalizeWords(brand);
+    if (platform) return djsCapitalizeWords(platform);
+    return 'This Topic';
+  }
+
+  function djsDeviceContextTitle(prefix, family, brand, platform) {
+    return String(prefix || 'More on') + ' ' + djsDeviceContextLabel(family, brand, platform);
+  }
+
+  function djsReserveRelatedLink(link) {
+    if (!link) return;
+    if (!window.djsRelatedReservedLinks) window.djsRelatedReservedLinks = {};
+    window.djsRelatedReservedLinks[link.replace(/#.*$/, '')] = true;
+  }
+
+  function djsIsRelatedLinkReserved(link) {
+    var clean = (link || '').replace(/#.*$/, '');
+    return !!(clean && window.djsRelatedReservedLinks && window.djsRelatedReservedLinks[clean]);
+  }
+
+  function djsCrossIntentScore(currentType, candidateType) {
+    if (!candidateType) return 0;
+    if (currentType === 'Specs') {
+      if (candidateType === 'Review') return 7;
+      if (candidateType === 'Guide') return 5;
+      if (candidateType === 'News') return 2;
+      if (candidateType === 'Specs') return 1;
+    }
+    if (currentType === 'Review') {
+      if (candidateType === 'Specs') return 7;
+      if (candidateType === 'Guide') return 5;
+      if (candidateType === 'News') return 2;
+      if (candidateType === 'Review') return 1;
+    }
+    if (currentType === 'Guide') {
+      if (candidateType === 'Specs' || candidateType === 'Review') return 6;
+      if (candidateType === 'News') return 2;
+      if (candidateType === 'Guide') return 1;
+    }
+    if (currentType === 'Deals') {
+      if (candidateType === 'Review') return 4;
+      if (candidateType === 'Specs') return 3;
+      if (candidateType === 'News') return 2;
+      if (candidateType === 'Deals') return 1;
+    }
+    if (currentType === 'News') {
+      if (candidateType === 'Review' || candidateType === 'Specs') return 4;
+      if (candidateType === 'Guide') return 3;
+      if (candidateType === 'News') return 1;
+    }
+    return 0;
+  }
+
+  function initDeviceContextBlock() {
+    if (!isSinglePostView()) return;
+
+    var post = document.querySelector('.post');
+    var postBody = document.querySelector('.post-body');
+    if (!post || !postBody || post.querySelector('.device-context-bridge')) return;
+
+    var intel = window.djsDeviceIntel || {};
+    var labelNodes = post.querySelectorAll('.post-meta-row .post-label-chip');
+    var labels = djsGetTextLabels(labelNodes);
+    var postType = intel.postType ? String(intel.postType).charAt(0).toUpperCase() + String(intel.postType).slice(1) : djsInferPostType(labels);
+    var brand = intel.brand ? String(intel.brand).charAt(0).toUpperCase() + String(intel.brand).slice(1) : djsFirstMatchingLabel(labels, ['Samsung', 'Apple', 'Google', 'Motorola', 'Microsoft', 'Nokia', 'BlackBerry', 'Sony', 'HTC', 'LG', 'Nothing', 'OnePlus', 'Xiaomi']);
+    var family = intel.family || '';
+    var platform = intel.platform || djsFirstMatchingLabel(labels, ['Android', 'iOS', 'Windows', 'Windows Phone', 'Chrome OS', 'Mac']);
+    if (!family && !brand && !platform) return;
+
+    var contextLabel = djsDeviceContextLabel(family, brand, platform);
+
+    /* device-context v2 | Graceful degradation by detection level */
+    var kicker, note;
+    if (family) {
+      kicker = 'Device Intelligence';
+      note = 'Follow related reviews, specs, guides, and news tied to this device family across DJs Mobiles.';
+    } else if (brand) {
+      kicker = 'Editorial Context';
+      note = 'Explore more coverage from DJs Mobiles related to ' + djsEscapeHtml(contextLabel) + '.';
+    } else {
+      kicker = 'Editorial Context';
+      note = 'Explore more coverage from DJs Mobiles on this platform and topic.';
+    }
+
+    /* Build chips based on detection level — suppress platform when redundant with brand */
+    var platformRedundant =
+      (brand === 'apple'     && (platform === 'ios' || platform === 'mac')) ||
+      (brand === 'microsoft'  && (platform === 'windows phone' || platform === 'windows')) ||
+      (brand === 'google'    && platform === 'chrome os');
+
+    var chips = [];
+    if (postType) chips.push(postType);
+    if (brand) chips.push(brand);
+    if (family) chips.push(djsFamilyLabel(family));
+    if (platform && !brand && !platformRedundant) chips.push(platform);
+    if (platform && brand && !platformRedundant) chips.push(platform);
+
+    var chipHtml = [];
+    var i = 0;
+    while (i !== chips.length) {
+      if (chips[i]) chipHtml.push('<span class="device-context-chip">' + djsEscapeHtml(chips[i]) + '</span>');
+      i++;
+    }
+
+    var context = document.createElement('section');
+    context.className = 'device-context-bridge';
+    context.innerHTML =
+      '<span class="device-context-kicker">' + djsEscapeHtml(kicker) + '</span>' +
+      '<h3 class="device-context-title">More on ' + djsEscapeHtml(contextLabel) + '</h3>' +
+      '<p class="device-context-note">' + note + '</p>' +
+      '<div class="device-context-chips">' + chipHtml.join('') + '</div>';
+    postBody.appendChild(context);
+  }
+
+  function initRelatedBridge() {
+    if (!isSinglePostView()) return;
+
+    var post = document.querySelector('.post');
+    var postBody = document.querySelector('.post-body');
+    if (!post || !postBody || post.querySelector('.related-bridge')) return;
+
+    var labelNodes = post.querySelectorAll('.post-meta-row .post-label-chip');
+    var labels = djsGetTextLabels(labelNodes);
+    var intel = window.djsDeviceIntel || {};
+    var postType = intel.postType ? String(intel.postType).charAt(0).toUpperCase() + String(intel.postType).slice(1) : djsInferPostType(labels);
+    var brand = intel.brand ? String(intel.brand).charAt(0).toUpperCase() + String(intel.brand).slice(1) : djsFirstMatchingLabel(labels, ['Samsung', 'Apple', 'Google', 'Motorola', 'Microsoft', 'Nokia', 'BlackBerry', 'Sony', 'HTC', 'LG', 'Nothing', 'OnePlus', 'Xiaomi']);
+    var family = intel.family || '';
+    var platform = djsFirstMatchingLabel(labels, ['Android', 'iOS', 'Windows', 'Windows Phone', 'Chrome OS', 'Mac']);
+    var currentUrl = window.location.href.replace(/#.*$/, '');
+    var currentSeoTokens = djsSeoTopicTokens(labels, djsNormalizeIntelText(document.title));
+    var bridge = document.createElement('section');
+    bridge.className = 'related-bridge';
+    var relatedTitle = djsDeviceContextTitle('Continue reading about', family, brand, platform);
+    bridge.innerHTML = '<h3 class="related-bridge-title">' + djsEscapeHtml(relatedTitle) + '</h3><div class="related-bridge-grid"></div>';
+    postBody.appendChild(bridge);
+    var grid = bridge.querySelector('.related-bridge-grid');
+
+    function render(entries) {
+      if (!grid) return;
+      if (!entries.length) {
+        grid.innerHTML = '<p class="related-bridge-empty">More related coverage will appear here as the site expands.</p>';
+        return;
+      }
+      var items = [];
+      var i = 0;
+      while (i !== entries.length) {
+        var entry = entries[i];
+        var entryIntel = djsRelatedEntryIntel(entry);
+        var kicker = djsFamilyLabel(entryIntel.family) || entryIntel.postType || brand || platform || 'News';
+        items.push(
+          '<a class="related-bridge-item" href="' + djsEscapeHtml(djsFeedGetLink(entry)) + '">' +
+            '<span class="related-bridge-kicker">' + djsEscapeHtml(kicker) + '</span>' +
+            '<p class="related-bridge-item-title">' + djsEscapeHtml(djsFeedGetTitle(entry)) + '</p>' +
+          '</a>'
+        );
+        i++;
+      }
+      grid.innerHTML = items.join('');
+      var renderedLinks = grid.querySelectorAll('.related-bridge-item');
+      var renderedIndex = 0;
+      while (renderedIndex !== renderedLinks.length) {
+        djsReserveRelatedLink(renderedLinks[renderedIndex].getAttribute('href') || '');
+        renderedIndex++;
+      }
+    }
+
+    function scoreEntry(entry) {
+      var info = djsRelatedEntryIntel(entry);
+      var score = 0;
+      var sameBrand = brand && info.brand && info.brand.toLowerCase() === brand.toLowerCase();
+      var samePlatform = platform && info.platform && info.platform.toLowerCase() === platform.toLowerCase();
+      var sameFamily = family && info.family === family;
+
+      if (sameFamily) score += 34;
+      if (sameFamily && info.postType !== postType) score += 12;
+      if (sameFamily && sameBrand) score += 8;
+      if (postType !== 'News' && info.postType === postType) score += 6;
+      score += djsCrossIntentScore(postType, info.postType);
+      if (sameBrand) score += 5;
+      if (samePlatform) score += 2;
+      score += djsSeoTopicOverlapScore(currentSeoTokens, info.topics);
+      score += djsTopicAffinityScore(currentSeoTokens, info.topics, family, info.family, brand, info.brand, platform, info.platform);
+      score += djsTopicAuthorityScore(entry, info);
+      score += djsSeoFreshnessScore(entry);
+
+      if (family && sameBrand && !sameFamily) score -= 7;
+      if (family && sameBrand && !info.family) score -= 4;
+      if (family && !sameFamily && info.family) score -= 3;
+
+      return score;
+    }
+
+    function dedupeAndSort(entries) {
+      var filtered = [];
+      var seen = {};
+      var i = 0;
+      while (i !== entries.length) {
+        var link = djsFeedGetLink(entries[i]).replace(/#.*$/, '');
+        if (link && link !== currentUrl && !seen[link] && !djsIsRelatedLinkReserved(link)) {
+          seen[link] = true;
+          filtered.push(entries[i]);
+        }
+        i++;
+      }
+      filtered.sort(function(a, b) { return scoreEntry(b) - scoreEntry(a); });
+      return filtered.slice(0, 3);
+    }
+
+    var fetchQueue = [];
+    function pushLabel(label) {
+      if (!label) return;
+      if (fetchQueue.indexOf(label) === -1) fetchQueue.push(label);
+    }
+
+    var affinityLabels = djsTopicAffinityLabels(currentSeoTokens, family, brand, platform);
+    var affinityIndex = 0;
+    while (affinityIndex !== affinityLabels.length) {
+      pushLabel(affinityLabels[affinityIndex]);
+      affinityIndex++;
+    }
+
+    if (postType === 'Specs') {
+      pushLabel(brand);
+      pushLabel('Review');
+      pushLabel('Guides');
+      pushLabel('Specs');
+      pushLabel(platform);
+    } else if (postType === 'Review') {
+      pushLabel(brand);
+      pushLabel('Specs');
+      pushLabel('Guides');
+      pushLabel('Review');
+      pushLabel(platform);
+    } else if (postType === 'Deals') {
+      pushLabel(brand);
+      pushLabel('Review');
+      pushLabel('Specs');
+      pushLabel('Deals');
+      pushLabel(platform);
+    } else if (postType === 'Guide') {
+      pushLabel(brand);
+      pushLabel('Specs');
+      pushLabel('Review');
+      pushLabel('Guides');
+      pushLabel(platform);
+    } else {
+      pushLabel(brand);
+      pushLabel(platform);
+      pushLabel('Review');
+      pushLabel('Specs');
+      pushLabel('News');
+    }
+
+    if (!fetchQueue.length) {
+      render([]);
+      return;
+    }
+
+    var pending = fetchQueue.length;
+    var collected = [];
+
+    function handleDone() {
+      pending--;
+      if (pending <= 0) render(dedupeAndSort(collected));
+    }
+
+    var fetchIndex = 0;
+    while (fetchIndex !== fetchQueue.length) {
+      (function(label, index) {
+        var callbackName = 'djsRelatedFeedCallback_' + index;
+        window[callbackName] = function(feed) {
+          try {
+            var entries = (feed && feed.feed && feed.feed.entry) ? feed.feed.entry.slice(0) : [];
+            collected = collected.concat(entries);
+          } catch (e) {}
+          try { delete window[callbackName]; } catch (err) { window[callbackName] = null; }
+          handleDone();
+        };
+        djsRelatedFetch(label, callbackName);
+      })(fetchQueue[fetchIndex], fetchIndex);
+      fetchIndex++;
+    }
+  }
+
+
+
+  function djsDeviceHubSearchUrl(query) {
+    return '/search?q=' + encodeURIComponent(String(query || '').replace(/^\s+|\s+$/g, ''));
+  }
+
+  function djsDeviceHubCompareTerms(family, brand, platform) {
+    if (family === 'galaxy-s') return ['Google Pixel', 'iPhone Pro', 'OnePlus'];
+    if (family === 'galaxy-z-fold') return ['Pixel Fold', 'Galaxy Z Flip', 'Motorola Razr'];
+    if (family === 'galaxy-z-flip') return ['Motorola Razr', 'Galaxy Z Fold', 'Google Pixel'];
+    if (family === 'pixel-mainline' || family === 'pixel-pro' || family === 'pixel-a') return ['Galaxy S', 'iPhone Pro', 'OnePlus'];
+    if (family === 'pixel-fold') return ['Galaxy Z Fold', 'Motorola Razr', 'iPhone Fold'];
+    if (family === 'iphone-pro' || family === 'iphone-mainline') return ['Galaxy S', 'Google Pixel', 'OnePlus'];
+    if (family === 'iphone-se') return ['Google Pixel A', 'Galaxy A', 'Motorola Moto G'];
+    if (family === 'iphone') return ['Galaxy S', 'Google Pixel', 'OnePlus'];
+    if (family === 'razr') return ['Galaxy Z Flip', 'Galaxy Z Fold', 'Pixel Fold'];
+    if (family === 'moto-g') return ['Galaxy A', 'Pixel A', 'OnePlus Nord'];
+    if (family === 'surface-pro' || family === 'surface-laptop' || family === 'surface') return ['iPad Pro', 'Galaxy Tab', 'Windows laptops'];
+    if (brand === 'Samsung') return ['Google Pixel', 'iPhone', 'OnePlus'];
+    if (brand === 'Google') return ['Galaxy S', 'iPhone', 'OnePlus'];
+    if (brand === 'Apple') return ['Galaxy S', 'Google Pixel', 'Surface'];
+    if (platform === 'Android') return ['iPhone', 'Galaxy S', 'Google Pixel'];
+    return [];
+  }
+
+  function djsDeviceHubPriorityLabels(family, brand, platform, postType, isEditorial) {
+    var labels = [];
+    function push(label) {
+      if (!label) return;
+      if (labels.indexOf(label) === -1) labels.push(label);
+    }
+
+    push(brand);
+    push(platform);
+
+    if (family === 'galaxy-s') { push('Galaxy S'); push('Samsung'); }
+    if (family === 'galaxy-z-fold') { push('Galaxy Z Fold'); push('Foldables'); push('Samsung'); }
+    if (family === 'galaxy-z-flip') { push('Galaxy Z Flip'); push('Foldables'); push('Samsung'); }
+    if (family === 'pixel-mainline' || family === 'pixel-pro' || family === 'pixel-a') { push('Pixel'); push('Google'); }
+    if (family === 'pixel-fold') { push('Pixel Fold'); push('Foldables'); push('Google'); }
+    if (family === 'iphone-pro' || family === 'iphone-mainline' || family === 'iphone-se' || family === 'iphone') { push('iPhone'); push('Apple'); }
+    if (family === 'razr') { push('Razr'); push('Foldables'); push('Motorola'); }
+    if (family === 'moto-g' || family === 'moto-edge') { push('Motorola'); push('Android'); }
+    if (family === 'nothing-phone' || family === 'cmf-phone') { push('Nothing'); push('Android'); }
+    if (family === 'surface-pro' || family === 'surface-laptop' || family === 'surface') { push('Surface'); push('Microsoft'); }
+
+    if (isEditorial) {
+      push('Editorial');
+      push('News');
+      push('Review');
+    } else if (postType === 'Specs') {
+      push('Review');
+      push('Specs');
+      push('News');
+    } else if (postType === 'Review') {
+      push('Specs');
+      push('Review');
+      push('Guides');
+      push('News');
+    } else {
+      push('Review');
+      push('Specs');
+      push('News');
+      push('Guides');
+    }
+
+    return labels.slice(0, 8);
+  }
+
+
+  /* compare-block v2 | Polished comparison prompt for device-focused single posts */
+  function initCompareBlock() {
+    if (!isSinglePostView()) return;
+
+    var post = document.querySelector('.post');
+    var postBody = document.querySelector('.post-body');
+    if (!post || !postBody || post.querySelector('.compare-bridge')) return;
+
+    var intel = window.djsDeviceIntel || {};
+    var labelNodes = post.querySelectorAll('.post-meta-row .post-label-chip');
+    var labels = djsGetTextLabels(labelNodes);
+    var postType = intel.postType ? String(intel.postType).charAt(0).toUpperCase() + String(intel.postType).slice(1) : djsInferPostType(labels);
+    if (postType === 'Editorial') return;
+    var brand = intel.brand ? String(intel.brand).charAt(0).toUpperCase() + String(intel.brand).slice(1) : djsFirstMatchingLabel(labels, ['Samsung', 'Apple', 'Google', 'Motorola', 'Microsoft', 'Nokia', 'BlackBerry', 'Sony', 'HTC', 'LG', 'Nothing', 'OnePlus', 'Xiaomi']);
+    var family = intel.family || '';
+    var platform = intel.platform || djsFirstMatchingLabel(labels, ['Android', 'iOS', 'Windows', 'Windows Phone', 'Chrome OS', 'Mac']);
+    if (!family && !brand && !platform) return;
+
+    var contextLabel = djsDeviceContextLabel(family, brand, platform);
+    var terms = djsDeviceHubCompareTerms(family, brand, platform).slice(0, 3);
+    if (!terms.length) return;
+
+    var cards = [];
+    var i = 0;
+    while (i !== terms.length) {
+      var query = contextLabel + ' vs ' + terms[i];
+      cards.push(
+        '<a class="compare-bridge-card" href="' + djsEscapeHtml(djsDeviceHubSearchUrl(query)) + '">' +
+          '<span class="compare-bridge-label">Compare guide</span>' +
+          '<p class="compare-bridge-card-title">' + djsEscapeHtml(contextLabel + ' vs ' + terms[i]) + '</p>' +
+          '<p class="compare-bridge-card-note">Find reviews, specs, and related coverage to help narrow the choice.</p>' +
+        '</a>'
+      );
+      i++;
+    }
+
+    var bridge = document.createElement('section');
+    bridge.className = 'compare-bridge';
+    bridge.innerHTML =
+      '<span class="compare-bridge-kicker">Compare</span>' +
+      '<h3 class="compare-bridge-title">Compare with similar devices</h3>' +
+      '<p class="compare-bridge-note">Jump into practical comparison paths for nearby phones, foldables, and platform alternatives.</p>' +
+      '<div class="compare-bridge-grid">' + cards.join('') + '</div>';
+
+    var hub = post.querySelector('.device-hub');
+    if (hub && hub.parentNode) {
+      hub.parentNode.insertBefore(bridge, hub.nextSibling);
+    } else {
+      postBody.appendChild(bridge);
+    }
+  }
+
+  function initDeviceHubBlock() {
+    if (!isSinglePostView()) return;
+
+    var post = document.querySelector('.post');
+    var postBody = document.querySelector('.post-body');
+    if (!post || !postBody || post.querySelector('.device-hub')) return;
+
+    var intel = window.djsDeviceIntel || {};
+    var labelNodes = post.querySelectorAll('.post-meta-row .post-label-chip');
+    var labels = djsGetTextLabels(labelNodes);
+    var postType = intel.postType ? String(intel.postType).charAt(0).toUpperCase() + String(intel.postType).slice(1) : djsInferPostType(labels);
+    var isEditorial = postType === 'Editorial';
+    var brand = intel.brand ? String(intel.brand).charAt(0).toUpperCase() + String(intel.brand).slice(1) : djsFirstMatchingLabel(labels, ['Samsung', 'Apple', 'Google', 'Motorola', 'Microsoft', 'Nokia', 'BlackBerry', 'Sony', 'HTC', 'LG', 'Nothing', 'OnePlus', 'Xiaomi']);
+    var family = intel.family || '';
+    var platform = djsFirstMatchingLabel(labels, ['Android', 'iOS', 'Windows', 'Windows Phone', 'Chrome OS', 'Mac']);
+    if (!family && !brand && !platform) return;
+
+    var contextLabel = djsDeviceContextLabel(family, brand, platform);
+    var currentUrl = window.location.href.replace(/#.*$/, '');
+    var currentSeoTokens = djsSeoTopicTokens(labels, djsNormalizeIntelText(document.title));
+    var hub = document.createElement('section');
+    hub.className = 'device-hub';
+
+    var quickLinks;
+    if (isEditorial) {
+      quickLinks = [
+        { label: 'All coverage', query: contextLabel },
+        { label: 'Latest news', query: contextLabel + ' news' },
+        { label: 'Reviews', query: contextLabel + ' review' },
+        { label: 'Editorial', query: contextLabel + ' editorial' }
+      ];
+    } else {
+      quickLinks = [
+        { label: 'All coverage', query: contextLabel },
+        { label: 'Reviews', query: contextLabel + ' review' },
+        { label: 'Specs', query: contextLabel + ' specs' },
+        { label: 'News', query: contextLabel + ' news' },
+        { label: 'Guides', query: contextLabel + ' guide' }
+      ];
+    }
+    var linkHtml = [];
+    var i = 0;
+    while (i !== quickLinks.length) {
+      linkHtml.push('<a class="device-hub-link" href="' + djsEscapeHtml(djsDeviceHubSearchUrl(quickLinks[i].query)) + '">' + djsEscapeHtml(quickLinks[i].label) + '</a>');
+      i++;
+    }
+
+    var compareTerms = isEditorial ? [] : djsDeviceHubCompareTerms(family, brand, platform);
+    var compareHtml = [];
+    i = 0;
+    while (i !== compareTerms.length) {
+      compareHtml.push('<a class="device-hub-compare-link" href="' + djsEscapeHtml(djsDeviceHubSearchUrl(contextLabel + ' vs ' + compareTerms[i])) + '">' + djsEscapeHtml(compareTerms[i]) + '</a>');
+      i++;
+    }
+
+    hub.innerHTML =
+      '<div class="device-hub-header">' +
+        '<span class="device-hub-kicker">Device Hub</span>' +
+        '<h3 class="device-hub-title">' + djsEscapeHtml(isEditorial ? ('Explore more on ' + contextLabel) : ('Explore ' + contextLabel + ' coverage')) + '</h3>' +
+        '<p class="device-hub-note">' + djsEscapeHtml(isEditorial ? 'Read more analysis, news, and perspective connected to this topic across DJs Mobiles.' : 'Jump into related reviews, specs, guides, news, and comparisons connected to this device or topic on DJs Mobiles.') + '</p>' +
+        '<div class="device-hub-actions">' + linkHtml.join('') + '</div>' +
+        (compareHtml.length ? '<h4 class="device-hub-subtitle">Compare with</h4><div class="device-hub-compare">' + compareHtml.join('') + '</div>' : '') +
+      '</div>' +
+      '<h4 class="device-hub-subtitle">' + djsEscapeHtml(isEditorial ? 'More on this topic' : 'More from this device') + '</h4>' +
+      '<div class="device-hub-grid"><p class="device-hub-empty">Looking for related coverage...</p></div>';
+
+    postBody.appendChild(hub);
+    var grid = hub.querySelector('.device-hub-grid');
+
+    function scoreEntry(entry) {
+      var info = djsRelatedEntryIntel(entry);
+      var score = 0;
+      var sameFamily = family && info.family === family;
+      var sameBrand = brand && info.brand && info.brand.toLowerCase() === brand.toLowerCase();
+      var samePlatform = platform && info.platform && info.platform.toLowerCase() === platform.toLowerCase();
+      if (sameFamily) score += 42;
+      if (sameFamily && info.postType !== postType) score += 16;
+      if (sameBrand) score += 10;
+      if (samePlatform) score += 4;
+      score += djsCrossIntentScore(postType, info.postType);
+      if (isEditorial && info.postType === 'Editorial') score += 18;
+      if (isEditorial && info.postType === 'News') score += 8;
+      if (!isEditorial && info.postType === 'Editorial') score += 2;
+      score += djsSeoTopicOverlapScore(currentSeoTokens, info.topics);
+      score += djsTopicAffinityScore(currentSeoTokens, info.topics, family, info.family, brand, info.brand, platform, info.platform);
+      score += djsTopicAuthorityScore(entry, info);
+      score += djsSeoFreshnessScore(entry);
+      if (family && sameBrand && !sameFamily) score -= 5;
+      if (family && !sameFamily && info.family) score -= 2;
+      return score;
+    }
+
+    function render(entries) {
+      if (!grid) return;
+      var filtered = [];
+      var seen = {};
+      var i = 0;
+      while (i !== entries.length) {
+        var link = djsFeedGetLink(entries[i]).replace(/#.*$/, '');
+        if (link && link !== currentUrl && !seen[link] && !djsIsRelatedLinkReserved(link)) {
+          seen[link] = true;
+          filtered.push(entries[i]);
+        }
+        i++;
+      }
+      filtered.sort(function(a, b) { return scoreEntry(b) - scoreEntry(a); });
+      filtered = filtered.slice(0, 4);
+      if (!filtered.length) {
+        grid.innerHTML = '<p class="device-hub-empty">' + djsEscapeHtml(isEditorial ? 'We are still building out related analysis for this topic. Check back soon for more.' : 'We are still building out coverage for this device. Check back soon for more.') + '</p>';
+        return;
+      }
+      var items = [];
+      i = 0;
+      while (i !== filtered.length) {
+        var entryIntel = djsRelatedEntryIntel(filtered[i]);
+        var label = djsFamilyLabel(entryIntel.family) || entryIntel.postType || brand || platform || 'Coverage';
+        var note = entryIntel.postType || 'Related coverage';
+        if (entryIntel.brand) note += ' · ' + djsCapitalizeWords(entryIntel.brand);
+        items.push(
+          '<a class="device-hub-card" href="' + djsEscapeHtml(djsFeedGetLink(filtered[i])) + '">' +
+            '<span class="device-hub-card-label">' + djsEscapeHtml(label) + '</span>' +
+            '<p class="device-hub-card-title">' + djsEscapeHtml(djsFeedGetTitle(filtered[i])) + '</p>' +
+            '<span class="device-hub-card-note">' + djsEscapeHtml(note) + '</span>' +
+          '</a>'
+        );
+        i++;
+      }
+      grid.innerHTML = items.join('');
+    }
+
+    var fetchLabels = [];
+    function pushLabel(label) {
+      if (!label) return;
+      if (fetchLabels.indexOf(label) === -1) fetchLabels.push(label);
+    }
+    var priorityLabels = djsDeviceHubPriorityLabels(family, brand, platform, postType, isEditorial);
+    var priorityIndex = 0;
+    while (priorityIndex !== priorityLabels.length) {
+      pushLabel(priorityLabels[priorityIndex]);
+      priorityIndex++;
+    }
+    var affinityLabels = djsTopicAffinityLabels(currentSeoTokens, family, brand, platform);
+    var affinityIndex = 0;
+    while (affinityIndex !== affinityLabels.length) {
+      pushLabel(affinityLabels[affinityIndex]);
+      affinityIndex++;
+    }
+
+    if (!fetchLabels.length) {
+      render([]);
+      return;
+    }
+
+    var pending = fetchLabels.length;
+    var collected = [];
+    var fetchIndex = 0;
+    while (fetchIndex !== fetchLabels.length) {
+      (function(label, index) {
+        var callbackName = 'djsDeviceHubCallback_' + index;
+        window[callbackName] = function(feed) {
+          try {
+            var entries = (feed && feed.feed && feed.feed.entry) ? feed.feed.entry.slice(0) : [];
+            collected = collected.concat(entries);
+          } catch (e) {}
+          try { delete window[callbackName]; } catch (err) { window[callbackName] = null; }
+          pending--;
+          if (pending <= 0) render(collected);
+        };
+        djsRelatedFetch(label, callbackName);
+      })(fetchLabels[fetchIndex], fetchIndex);
+      fetchIndex++;
+    }
+  }
+
+
+  /* editorial-linking v1 | Editorial-only internal linking boost */
+  function initEditorialBridge() {
+    if (!isSinglePostView()) return;
+
+    var post = document.querySelector('.post');
+    var postBody = document.querySelector('.post-body');
+    if (!post || !postBody || post.querySelector('.editorial-bridge')) return;
+
+    var intel = window.djsDeviceIntel || {};
+    var labelNodes = post.querySelectorAll('.post-meta-row .post-label-chip');
+    var labels = djsGetTextLabels(labelNodes);
+    var postType = intel.postType ? String(intel.postType).charAt(0).toUpperCase() + String(intel.postType).slice(1) : djsInferPostType(labels);
+    if (postType !== 'Editorial') return;
+
+    var brand = intel.brand ? String(intel.brand).charAt(0).toUpperCase() + String(intel.brand).slice(1) : djsFirstMatchingLabel(labels, ['Samsung', 'Apple', 'Google', 'Motorola', 'Microsoft', 'Nokia', 'BlackBerry', 'Sony', 'HTC', 'LG', 'Nothing', 'OnePlus', 'Xiaomi']);
+    var family = intel.family || '';
+    var platform = intel.platform || djsFirstMatchingLabel(labels, ['Android', 'iOS', 'Windows', 'Windows Phone', 'Chrome OS', 'Mac']);
+    var contextLabel = djsDeviceContextLabel(family, brand, platform);
+    var currentUrl = window.location.href.replace(/#.*$/, '');
+    var currentSeoTokens = djsSeoTopicTokens(labels, djsNormalizeIntelText(document.title));
+
+    var bridge = document.createElement('section');
+    bridge.className = 'editorial-bridge';
+    bridge.innerHTML =
+      '<h3 class="editorial-bridge-title">Related Analysis</h3>' +
+      '<p class="editorial-bridge-note">More perspective and context connected to ' + djsEscapeHtml(contextLabel) + '.</p>' +
+      '<div class="editorial-bridge-grid"><p class="editorial-bridge-empty">Finding related analysis...</p></div>';
+    postBody.appendChild(bridge);
+
+    var grid = bridge.querySelector('.editorial-bridge-grid');
+
+    function scoreEntry(entry) {
+      var info = djsRelatedEntryIntel(entry);
+      var score = 0;
+      var sameFamily = family && info.family === family;
+      var sameBrand = brand && info.brand && info.brand.toLowerCase() === brand.toLowerCase();
+      var samePlatform = platform && info.platform && info.platform.toLowerCase() === platform.toLowerCase();
+
+      if (info.postType === 'Editorial') score += 36;
+      if (info.postType === 'News') score += 16;
+      if (info.postType === 'Review') score += 10;
+      if (info.postType === 'Specs') score -= 6;
+      if (sameFamily) score += 28;
+      if (sameBrand) score += 8;
+      if (samePlatform) score += 3;
+      score += djsTopicAffinityScore(currentSeoTokens, info.topics, family, info.family, brand, info.brand, platform, info.platform);
+      score += djsTopicAuthorityScore(entry, info);
+      score += djsSeoFreshnessScore(entry);
+      return score;
+    }
+
+    function render(entries) {
+      if (!grid) return;
+      var filtered = [];
+      var seen = {};
+      var i = 0;
+      while (i !== entries.length) {
+        var link = djsFeedGetLink(entries[i]).replace(/#.*$/, '');
+        if (link && link !== currentUrl && !seen[link] && !djsIsRelatedLinkReserved(link)) {
+          seen[link] = true;
+          filtered.push(entries[i]);
+        }
+        i++;
+      }
+      filtered.sort(function(a, b) { return scoreEntry(b) - scoreEntry(a); });
+      filtered = filtered.slice(0, 3);
+
+      if (!filtered.length) {
+        grid.innerHTML = '<p class="editorial-bridge-empty">More related analysis will appear here as coverage expands.</p>';
+        return;
+      }
+
+      var items = [];
+      i = 0;
+      while (i !== filtered.length) {
+        var info = djsRelatedEntryIntel(filtered[i]);
+        var kicker = info.postType || 'Editorial';
+        items.push(
+          '<a class="editorial-bridge-item" href="' + djsEscapeHtml(djsFeedGetLink(filtered[i])) + '">' +
+            '<span class="editorial-bridge-kicker">' + djsEscapeHtml(kicker) + '</span>' +
+            '<p class="editorial-bridge-item-title">' + djsEscapeHtml(djsFeedGetTitle(filtered[i])) + '</p>' +
+          '</a>'
+        );
+        i++;
+      }
+      grid.innerHTML = items.join('');
+    }
+
+    var fetchLabels = [];
+    function pushLabel(label) {
+      if (!label) return;
+      if (fetchLabels.indexOf(label) === -1) fetchLabels.push(label);
+    }
+
+    pushLabel('Editorial');
+    pushLabel(brand);
+    pushLabel(platform);
+    pushLabel('News');
+    pushLabel('Review');
+
+    var pending = fetchLabels.length;
+    var collected = [];
+    if (!pending) { render([]); return; }
+
+    var fetchIndex = 0;
+    while (fetchIndex !== fetchLabels.length) {
+      (function(label, index) {
+        var callbackName = 'djsEditorialBridgeCallback_' + index;
+        window[callbackName] = function(feed) {
+          try {
+            var entries = (feed && feed.feed && feed.feed.entry) ? feed.feed.entry.slice(0) : [];
+            collected = collected.concat(entries);
+          } catch (e) {}
+          try { delete window[callbackName]; } catch (err) { window[callbackName] = null; }
+          pending--;
+          if (pending <= 0) render(collected);
+        };
+        djsRelatedFetch(label, callbackName);
+      })(fetchLabels[fetchIndex], fetchIndex);
+      fetchIndex++;
+    }
+  }
+
+  function initContentBridge() {
+    if (!isSinglePostView()) return;
+
+    var post = document.querySelector('.post');
+    var postBody = document.querySelector('.post-body');
+    if (!post || !postBody || post.querySelector('.content-bridge')) return;
+
+    var intel = window.djsDeviceIntel || {};
+    var labelNodes = post.querySelectorAll('.post-meta-row .post-label-chip');
+    var labels = djsGetTextLabels(labelNodes);
+    var postType = intel.postType ? String(intel.postType).charAt(0).toUpperCase() + String(intel.postType).slice(1) : djsInferPostType(labels);
+    var brand = intel.brand ? String(intel.brand).charAt(0).toUpperCase() + String(intel.brand).slice(1) : djsFirstMatchingLabel(labels, ['Samsung', 'Apple', 'Google', 'Motorola', 'Microsoft', 'Nokia', 'BlackBerry', 'Sony', 'HTC', 'LG', 'Nothing', 'OnePlus', 'Xiaomi']);
+    var family = intel.family || '';
+    var platform = djsFirstMatchingLabel(labels, ['Android', 'iOS', 'Windows', 'Windows Phone', 'Chrome OS', 'Mac']);
+    var currentUrl = window.location.href.replace(/#.*$/, '');
+
+    var bridge = document.createElement('section');
+    bridge.className = 'content-bridge';
+    var bridgeTitle = family ? djsDeviceContextTitle('Read next on', family, brand, platform) : 'Read Next';
+    bridge.innerHTML = '<h3 class="content-bridge-title">' + djsEscapeHtml(bridgeTitle) + '</h3><div class="content-bridge-grid"></div>';
+    postBody.appendChild(bridge);
+    var grid = bridge.querySelector('.content-bridge-grid');
+
+    function getTargets() {
+      if (postType === 'Specs') {
+        return [
+          { type: 'Review', label: 'Review', kicker: 'Read the review', note: 'See how this device performs in real-world use.' },
+          { type: 'News', label: brand || platform || 'News', kicker: 'Latest coverage', note: 'Catch up on newer stories tied to this device or brand.' }
+        ];
+      }
+      if (postType === 'Review') {
+        return [
+          { type: 'Specs', label: 'Specs', kicker: 'View full specs', note: 'Jump into the technical breakdown and hardware details.' },
+          { type: 'News', label: brand || platform || 'News', kicker: 'More coverage', note: 'See what else is happening around this device and brand.' }
+        ];
+      }
+      if (postType === 'Editorial') {
+        return [
+          { type: 'Review', label: brand || platform || 'Review', kicker: 'Read related reviews', note: 'See hands-on perspective connected to this topic.' },
+          { type: 'Specs', label: brand || platform || 'Specs', kicker: 'View related specs', note: 'Check the devices behind the wider discussion.' }
+        ];
+      }
+      if (postType === 'Guide') {
+        return [
+          { type: 'Specs', label: 'Specs', kicker: 'View related specs', note: 'Compare the hardware behind the devices mentioned here.' },
+          { type: 'Review', label: 'Review', kicker: 'Read related reviews', note: 'See hands-on impressions and buying advice next.' }
+        ];
+      }
+      return [
+        { type: 'Specs', label: 'Specs', kicker: 'View related specs', note: 'Dive into the hardware details behind this story.' },
+        { type: 'Review', label: 'Review', kicker: 'Read related reviews', note: 'See how related devices actually perform.' }
+      ];
+    }
+
+    function scoreForTarget(entry, target) {
+      var info = djsRelatedEntryIntel(entry);
+      var score = 0;
+      var sameBrand = brand && info.brand && info.brand.toLowerCase() === brand.toLowerCase();
+      var samePlatform = platform && info.platform && info.platform.toLowerCase() === platform.toLowerCase();
+      var sameFamily = family && info.family === family;
+      if (target.type && info.postType === target.type) score += 14;
+      if (sameFamily) score += 26;
+      if (sameFamily && target.type && info.postType === target.type) score += 14;
+      if (sameBrand) score += 6;
+      if (samePlatform) score += 2;
+      score += djsSeoTopicOverlapScore(currentSeoTokens, info.topics);
+      score += djsTopicAffinityScore(currentSeoTokens, info.topics, family, info.family, brand, info.brand, platform, info.platform);
+      score += djsTopicAuthorityScore(entry, info);
+      score += djsSeoFreshnessScore(entry);
+      if (family && sameBrand && !sameFamily) score -= 6;
+      if (family && sameBrand && !info.family) score -= 3;
+      return score;
+    }
+
+    function bestEntry(entries, target) {
+      var best = null;
+      var bestScore = -1;
+      var seen = {};
+      var i = 0;
+      while (i !== entries.length) {
+        var entry = entries[i];
+        var link = djsFeedGetLink(entry).replace(/#.*$/, '');
+        if (!link || link === currentUrl || seen[link] || djsIsRelatedLinkReserved(link)) {
+          i++;
+          continue;
+        }
+        seen[link] = true;
+        var score = scoreForTarget(entry, target);
+        if (score > bestScore) {
+          bestScore = score;
+          best = entry;
+        }
+        i++;
+      }
+      if (bestScore <= 0) return null;
+      return best;
+    }
+
+    function render(targets, buckets) {
+      if (!grid) return;
+      var items = [];
+      var i = 0;
+      while (i !== targets.length) {
+        var entry = bestEntry(buckets[i], targets[i]);
+        if (entry) {
+          items.push(
+            '<a class="content-bridge-item" href="' + djsEscapeHtml(djsFeedGetLink(entry)) + '">' +
+              '<span class="content-bridge-label">' + djsEscapeHtml(targets[i].kicker) + '</span>' +
+              '<p class="content-bridge-item-title">' + djsEscapeHtml(djsFeedGetTitle(entry)) + '</p>' +
+              '<p class="content-bridge-item-note">' + djsEscapeHtml(targets[i].note) + '</p>' +
+            '</a>'
+          );
+        }
+        i++;
+      }
+      if (!items.length) {
+        grid.innerHTML = '<p class="content-bridge-empty">More connected coverage will appear here as related specs, reviews, and news expand.</p>';
+        return;
+      }
+      grid.innerHTML = items.join('');
+      var renderedLinks = grid.querySelectorAll('.content-bridge-item');
+      var renderedIndex = 0;
+      while (renderedIndex !== renderedLinks.length) {
+        djsReserveRelatedLink(renderedLinks[renderedIndex].getAttribute('href') || '');
+        renderedIndex++;
+      }
+    }
+
+    var targets = getTargets();
+    var pending = targets.length;
+    var buckets = [];
+    var idx = 0;
+    while (idx !== targets.length) {
+      buckets.push([]);
+      idx++;
+    }
+
+    function fetchTarget(target, targetIndex) {
+      var labelsToFetch = [];
+      function pushLabel(label) {
+        if (!label) return;
+        if (labelsToFetch.indexOf(label) === -1) labelsToFetch.push(label);
+      }
+
+      pushLabel(target.label);
+      pushLabel(brand);
+      pushLabel(platform);
+      var affinityLabels = djsTopicAffinityLabels(currentSeoTokens, family, brand, platform);
+      var affinityIndex = 0;
+      while (affinityIndex !== affinityLabels.length) {
+        pushLabel(affinityLabels[affinityIndex]);
+        affinityIndex++;
+      }
+      if (family && target.type === 'Review') pushLabel('Specs');
+      if (family && target.type === 'Specs') pushLabel('Review');
+
+      var localPending = labelsToFetch.length;
+      if (!localPending) {
+        pending--;
+        if (pending <= 0) render(targets, buckets);
+        return;
+      }
+
+      var i = 0;
+      while (i !== labelsToFetch.length) {
+        (function(label, callbackIndex) {
+          var callbackName = 'djsContentBridgeCallback_' + targetIndex + '_' + callbackIndex;
+          window[callbackName] = function(feed) {
+            try {
+              var entries = (feed && feed.feed && feed.feed.entry) ? feed.feed.entry.slice(0) : [];
+              buckets[targetIndex] = buckets[targetIndex].concat(entries);
+            } catch (e) {}
+            try { delete window[callbackName]; } catch (err) { window[callbackName] = null; }
+            localPending--;
+            if (localPending <= 0) {
+              pending--;
+              if (pending <= 0) render(targets, buckets);
+            }
+          };
+          djsRelatedFetch(label, callbackName);
+        })(labelsToFetch[i], i);
+        i++;
+      }
+    }
+
+    var targetIndex = 0;
+    while (targetIndex !== targets.length) {
+      fetchTarget(targets[targetIndex], targetIndex);
+      targetIndex++;
+    }
+  }
+
+  function djsNormalizeIntelText(value) {
+    return String(value || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9+]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function djsCollectSinglePostLabels() {
+    var labels = [];
+    var chips = document.querySelectorAll('.item-view .post-meta-row .post-label-chip');
+    for (var i = 0; i < chips.length; i++) {
+      var label = djsNormalizeIntelText(chips[i].textContent || chips[i].innerText || '');
+      if (label && labels.indexOf(label) === -1) labels.push(label);
+    }
+    return labels;
+  }
+
+  function djsIntelHas(text, term) {
+    return (' ' + text + ' ').indexOf(' ' + term + ' ') !== -1;
+  }
+
+  function djsDetectPostType(labels, title) {
+    var text = labels.join(' | ') + ' | ' + title;
+    if (djsIntelHas(text, 'spec') || djsIntelHas(text, 'specs')) return 'specs';
+    if (djsIntelHas(text, 'review') || djsIntelHas(text, 'reviews')) return 'review';
+    if (djsIntelHas(text, 'editorial') || djsIntelHas(text, 'opinion') || djsIntelHas(text, 'analysis')) return 'editorial';
+    if (djsIntelHas(text, 'guide') || djsIntelHas(text, 'how to') || djsIntelHas(text, 'howto') || djsIntelHas(text, 'tutorial')) return 'guide';
+    if (djsIntelHas(text, 'deal') || djsIntelHas(text, 'deals') || djsIntelHas(text, 'sale') || djsIntelHas(text, 'discount')) return 'deals';
+    return 'news';
+  }
+
+  function djsDetectBrand(labels, title) {
+    var text = labels.join(' | ') + ' | ' + title;
+    var brands = [
+      ['samsung', ['samsung', 'galaxy']],
+      ['apple', ['apple', 'iphone', 'ipad', 'mac']],
+      ['google', ['google', 'pixel', 'nest']],
+      ['microsoft', ['microsoft', 'surface', 'lumia', 'windows phone']],
+      ['motorola', ['motorola', 'moto', 'razr']],
+      ['nothing', ['nothing', 'cmf']],
+      ['oneplus', ['oneplus']],
+      ['nokia', ['nokia']],
+      ['sony', ['sony', 'xperia']],
+      ['blackberry', ['blackberry']],
+      ['htc', ['htc']],
+      ['lg', ['lg']]
+    ];
+    for (var i = 0; i < brands.length; i++) {
+      for (var j = 0; j < brands[i][1].length; j++) {
+        if (djsIntelHas(text, brands[i][1][j])) return brands[i][0];
+      }
+    }
+    return '';
+  }
+
+  function djsDetectFamily(title, brand) {
+    var text = title;
+    if (djsIntelHas(text, 'galaxy z fold') || djsIntelHas(text, 'z fold')) return 'galaxy-z-fold';
+    if (djsIntelHas(text, 'galaxy z flip') || djsIntelHas(text, 'z flip')) return 'galaxy-z-flip';
+    if (/galaxy s[0-9]/.test(text) || djsIntelHas(text, 'galaxy s ultra') || djsIntelHas(text, 'galaxy s plus')) return 'galaxy-s';
+    if (/galaxy a[0-9]/.test(text)) return 'galaxy-a';
+    if (/pixel [0-9]+a/.test(text) || djsIntelHas(text, 'pixel a')) return 'pixel-a';
+    if (/pixel [0-9]+ pro/.test(text) || djsIntelHas(text, 'pixel pro')) return 'pixel-pro';
+    if (djsIntelHas(text, 'pixel fold')) return 'pixel-fold';
+    if (/pixel [0-9]/.test(text)) return 'pixel-mainline';
+    if (/iphone [0-9]+ pro/.test(text) || djsIntelHas(text, 'iphone pro')) return 'iphone-pro';
+    if (djsIntelHas(text, 'iphone se')) return 'iphone-se';
+    if (/iphone [0-9]+/.test(text)) return 'iphone-mainline';
+    if (djsIntelHas(text, 'ipad pro')) return 'ipad-pro';
+    if (djsIntelHas(text, 'ipad air')) return 'ipad-air';
+    if (djsIntelHas(text, 'ipad mini')) return 'ipad-mini';
+    if (djsIntelHas(text, 'surface pro')) return 'surface-pro';
+    if (djsIntelHas(text, 'surface laptop')) return 'surface-laptop';
+    if (djsIntelHas(text, 'lumia')) return 'lumia';
+    if (djsIntelHas(text, 'razr')) return 'razr';
+    if (djsIntelHas(text, 'moto g')) return 'moto-g';
+    if (djsIntelHas(text, 'moto edge')) return 'moto-edge';
+    if (djsIntelHas(text, 'nothing phone') || /phone \([0-9]\)/.test(text)) return 'nothing-phone';
+    if (djsIntelHas(text, 'cmf phone')) return 'cmf-phone';
+    if (/oneplus [0-9]+/.test(text)) return 'oneplus-number';
+    if (djsIntelHas(text, 'nord')) return 'oneplus-nord';
+    if (djsIntelHas(text, 'xperia')) return 'xperia';
+    if (brand === 'samsung' && djsIntelHas(text, 'galaxy')) return 'galaxy';
+    if (brand === 'google' && djsIntelHas(text, 'pixel')) return 'pixel';
+    if (brand === 'apple' && djsIntelHas(text, 'iphone')) return 'iphone';
+    return '';
+  }
+
+  function initDeviceFamilyFramework() {
+    var body = document.body;
+    if (!body || !body.classList.contains('item-view')) return;
+
+    var titleNode = document.querySelector('.item-view .post-title');
+    var title = djsNormalizeIntelText(titleNode ? (titleNode.textContent || titleNode.innerText || '') : document.title);
+    var labels = djsCollectSinglePostLabels();
+    var postType = djsDetectPostType(labels, title);
+    var brand = djsDetectBrand(labels, title);
+    var family = djsDetectFamily(title, brand);
+
+    /* device-family-intel v2 | Platform detection + brand inference */
+    var platform = djsFirstMatchingLabel(labels, ['android', 'ios', 'windows phone', 'windows', 'chrome os', 'mac']);
+
+    /* Infer brand from platform when title detection misses it */
+    if (!brand) {
+      if (platform === 'ios' || platform === 'mac')           brand = 'apple';
+      else if (platform === 'windows phone' || platform === 'windows') brand = 'microsoft';
+      else if (platform === 'chrome os')                       brand = 'google';
+      /* android: no inference — multi-brand platform */
+    }
+
+    window.djsDeviceIntel = {
+      postType: postType,
+      brand: brand,
+      family: family,
+      platform: platform,
+      labels: labels,
+      title: title
+    };
+
+    body.setAttribute('data-djs-post-type', postType || 'news');
+    if (brand) body.setAttribute('data-djs-brand', brand);
+    if (family) body.setAttribute('data-djs-family', family);
+  }
+
+
+  function djsBuildAmazonQuery(raw) {
+    var query = String(raw || '')
+      .replace(/\s*[\|\-:]+\s*DJs Mobiles.*$/i, '')
+      .replace(/(review|reviews|specs|specifications|guide|guides|how to|hands-on|first look|vs\.?|versus|deals?)/gi, ' ')
+      .replace(/[\(\)\[\]\{\}:,]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+    return query;
+  }
+
+  function djsGetAmazonButtonText(postType) {
+    if (postType === 'review') return 'Check price on Amazon';
+    if (postType === 'specs') return 'Check availability on Amazon';
+    if (postType === 'deals') return 'See current deals';
+    return 'View related products';
+  }
+
+  function initAmazonBuyNowLinks() {
+    var postButtons = document.querySelectorAll('.post-body .buy-now-button');
+    if (!postButtons.length) return;
+
+    var AFFILIATE_TAG = 'djsmobiles04-20';
+    var body = document.body;
+    var postType = body ? (body.getAttribute('data-djs-post-type') || '') : '';
+    var isSoftIntent = postType === 'editorial' || postType === 'news';
+    var buttonText = djsGetAmazonButtonText(postType);
+    var intelTitle = window.djsDeviceIntel && window.djsDeviceIntel.title ? window.djsDeviceIntel.title : '';
+    var titleNode = document.querySelector('.item-view .post-title, .post-single .post-title, .post-title');
+    var rawTitle = intelTitle || (titleNode ? (titleNode.textContent || titleNode.innerText || '') : document.title);
+    var query = djsBuildAmazonQuery(rawTitle);
+    if (!query) return;
+
+    var amazonUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(query);
+    if (AFFILIATE_TAG && AFFILIATE_TAG !== 'YOUR-AMAZON-TAG') {
+      amazonUrl += '&tag=' + encodeURIComponent(AFFILIATE_TAG);
+    }
+
+    for (var i = 0; i < postButtons.length; i++) {
+      var existingHref = postButtons[i].getAttribute('href') || '';
+      if (!isSoftIntent || !existingHref || existingHref === '#') {
+        postButtons[i].setAttribute('href', amazonUrl);
+        postButtons[i].textContent = buttonText;
+      }
+      postButtons[i].setAttribute('target', '_blank');
+      postButtons[i].setAttribute('rel', 'nofollow sponsored noopener');
+    }
+  }
+
+  function initAffiliateDisclosure() {
+    var postBody = document.querySelector('.item-view .post-body, .post-single .post-body, .post-body');
+    if (!postBody) return;
+    if (postBody.querySelector('.djs-affiliate-disclosure')) return;
+    if (!postBody.querySelector('.buy-now-button')) return;
+
+    var body = document.body;
+    var postType = body ? (body.getAttribute('data-djs-post-type') || '') : '';
+    var isSoftIntent = postType === 'editorial' || postType === 'news';
+    var disclosure = document.createElement('div');
+    disclosure.className = isSoftIntent ? 'notice-box djs-affiliate-disclosure djs-affiliate-disclosure-soft' : 'notice-box djs-affiliate-disclosure';
+    disclosure.innerHTML = isSoftIntent
+      ? '<strong>Affiliate note:</strong> Some links may be shopping links. DJs Mobiles may earn from qualifying purchases.'
+      : '<strong>Affiliate disclosure:</strong> This post may contain affiliate links. As an Amazon Associate, DJs Mobiles earns from qualifying purchases.';
+    postBody.insertBefore(disclosure, postBody.firstChild);
+  }
+
+  function initStickyReviewCta() {
+    var body = document.body;
+    if (!body || body.getAttribute('data-djs-post-type') !== 'review') return;
+
+    var sticky = document.getElementById('djs-sticky-review-cta');
+    var stickyLink = document.getElementById('djs-sticky-review-link');
+    var sourceButton = document.querySelector('.post-body .buy-now-button');
+    if (!sticky || !stickyLink || !sourceButton) return;
+
+    var sourceHref = sourceButton.getAttribute('href') || '';
+    if (!sourceHref || sourceHref === '#') return;
+    stickyLink.setAttribute('href', sourceHref);
+    stickyLink.textContent = sourceButton.textContent || 'Check price on Amazon';
+
+    function updateStickyState() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || 0;
+      var trigger = Math.max(320, Math.floor((document.documentElement.scrollHeight - window.innerHeight) * 0.18));
+      if (scrollTop > trigger) {
+        sticky.classList.add('is-visible');
+      } else {
+        sticky.classList.remove('is-visible');
+      }
+    }
+
+    updateStickyState();
+    window.addEventListener('scroll', updateStickyState, { passive: true });
+  }
+
+  /* compact-feed v2 | Wider image extraction + polished fallback */
+  function initCompactFeedCards() {
+    var cards = document.querySelectorAll('.post.post-multi');
+    if (!cards.length) return;
+
+    function upgradeThumbUrl(src) {
+      if (!src) return '';
+      src = src.replace(/\/s\d+(-[a-z]+)?\//, '/s1600/');
+      src = src.replace(/"/g, '%22');
+      return src;
+    }
+
+    function extractThumbSrc(card) {
+      var imgs = card.querySelectorAll('img');
+      for (var k = 0; k < imgs.length; k++) {
+        var img = imgs[k];
+        var w = img.naturalWidth || parseInt(img.getAttribute('width') || '0', 10);
+        var h = img.naturalHeight || parseInt(img.getAttribute('height') || '0', 10);
+        if (w > 0 && w < 60) continue;
+        if (h > 0 && h < 60) continue;
+        var src = img.currentSrc
+          || img.getAttribute('src')
+          || img.getAttribute('data-src')
+          || img.getAttribute('data-original')
+          || '';
+        if (src && src.indexOf('data:') !== 0) return upgradeThumbUrl(src);
+      }
+      return '';
+    }
+
+    for (var i = 0; i < cards.length; i++) {
+      var card = cards[i];
+      var titleLink = card.querySelector('.post-title a');
+      if (!titleLink) continue;
+
+      var href = titleLink.getAttribute('href') || '';
+      if (!href) continue;
+      card.setAttribute('data-card-href', href);
+      card.setAttribute('role', 'link');
+      card.setAttribute('tabindex', '0');
+
+      var thumb = card.querySelector('.post-list-thumb');
+      var src = extractThumbSrc(card);
+      if (thumb && src) {
+        thumb.style.backgroundImage = 'url("' + src + '")';
+        thumb.classList.add('has-image');
+      }
+
+      card.addEventListener('click', function(event) {
+        if (event.defaultPrevented) return;
+        if (event.target.closest('a, button, input, textarea, select')) return;
+        var destination = this.getAttribute('data-card-href');
+        if (destination) window.location.href = destination;
+      });
+
+      card.addEventListener('keydown', function(event) {
+        if (event.key !== 'Enter') return;
+        if (event.target.closest('a, button, input, textarea, select')) return;
+        var destination = this.getAttribute('data-card-href');
+        if (destination) window.location.href = destination;
+      });
+    }
+  }
+
+  function initLightbox() {
+    var lightbox = qs('#djs-lightbox');
+    var image = qs('#djs-lightbox-img');
+    var caption = qs('#djs-lightbox-caption');
+    var closeButton = qs('#djs-lightbox-close');
+    if (!lightbox || !image || !caption || !closeButton) return;
+
+    function getLargeImage(src) {
+      return src ? src.replace(/\/s\d+(-[a-z]+)?\//, '/s1600/') : '';
+    }
+
+    function openLightbox(src, alt) {
+      image.src = getLargeImage(src);
+      image.alt = alt || '';
+      caption.textContent = alt || '';
+      caption.style.display = alt ? 'block' : 'none';
+      lightbox.classList.add('active');
+      document.body.classList.add('djs-lb-open');
+      closeButton.focus();
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.classList.remove('djs-lb-open');
+      image.src = '';
+      image.alt = '';
+    }
+
+    document.addEventListener('click', function(event) {
+      var target = event.target;
+      if (!target) return;
+
+      if (target.tagName === 'IMG' && target.closest('.post-body,.post-outer,.home-snippet')) {
+        if (target.closest('.site-header,.site-footer,.sidebar-area,.author-profile,.avatar-image-container')) return;
+        event.preventDefault();
+        openLightbox(target.currentSrc || target.src, target.alt);
+        return;
+      }
+
+      var link = target.closest('a');
+      if (link && link.closest('.post-body,.post-outer,.home-snippet')) {
+        var childImage = qs('img', link);
+        if (!childImage) return;
+        if (link.closest('.site-header,.site-footer,.sidebar-area,.author-profile,.avatar-image-container')) return;
+        event.preventDefault();
+        openLightbox(childImage.currentSrc || childImage.src, childImage.alt);
+      }
+    });
+
+    lightbox.addEventListener('click', function(event) {
+      if (event.target === lightbox) closeLightbox();
+    });
+
+    closeButton.addEventListener('click', closeLightbox);
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        closeMenu(qs('#search-dropdown'), qs('#search-icon-btn'));
+        closeMenu(qs('#nav-mobile'), qs('#hamburger-btn'));
+        if (lightbox.classList.contains('active')) closeLightbox();
+      }
+    });
+  }
+
+
+  /* seo-topic-refinement v1 | Crawl-friendly label archive intro blocks */
+  function initSeoLabelIntro() {
+    if (isSinglePostView()) return;
+    var path = window.location.pathname || '';
+    if (path.indexOf('/search/label/') !== 0) return;
+    var label = decodeURIComponent(path.replace('/search/label/', '').replace(/\+/g, ' ')).replace(/^\s+|\s+$/g, '');
+    if (!label) return;
+
+    var lower = label.toLowerCase();
+    var intros = {
+      'samsung': { title: 'Samsung coverage', copy: 'Follow the latest Samsung Galaxy news, reviews, specs, software updates, foldables, and buying guidance from DJs Mobiles.' },
+      'apple': { title: 'Apple coverage', copy: 'Explore iPhone, iOS, iPad, Mac, and Apple ecosystem coverage with news, specs, reviews, and practical buying context.' },
+      'google': { title: 'Google Pixel and Android coverage', copy: 'Track Pixel phones, Android updates, Google services, and related mobile technology coverage across DJs Mobiles.' },
+      'android': { title: 'Android coverage', copy: 'Browse Android phone news, platform updates, beta releases, device guides, reviews, and specs from across the mobile ecosystem.' },
+      'review': { title: 'Reviews', copy: 'Read DJs Mobiles reviews with practical verdicts, strengths, trade-offs, scores, and buying context for phones, tablets, apps, and mobile hardware.' },
+      'specs': { title: 'Specs database', copy: 'Browse device specification sheets, hardware summaries, display details, camera information, batteries, chipsets, and connectivity breakdowns.' },
+      'guides': { title: 'Guides', copy: 'Find practical mobile guides, setup tips, explainers, comparisons, and how-to coverage for devices, apps, and platforms.' },
+      'editorial': { title: 'Editorial and analysis', copy: 'Read DJs Mobiles editorial coverage, analysis, commentary, and opinion on mobile industry shifts, product strategy, and platform direction.' },
+      'deals': { title: 'Mobile deals', copy: 'Track mobile deals, device discounts, carrier offers, and buying opportunities with context from DJs Mobiles coverage.' },
+      'foldable': { title: 'Foldable phones', copy: 'Follow foldable phone coverage, including Galaxy Z Fold, Galaxy Z Flip, Pixel Fold, Razr, specs, reviews, and comparisons.' }
+    };
+    var info = intros[lower] || { title: djsCapitalizeWords(label), copy: 'Browse the latest DJs Mobiles coverage for ' + djsCapitalizeWords(label) + ', including news, reviews, specs, guides, and related analysis.' };
+
+    var target = document.querySelector('.content-area .blog-posts');
+    if (!target || document.querySelector('.djs-label-intro')) return;
+
+    var links = [
+      { text: 'Reviews', href: '/search?q=' + encodeURIComponent(label + ' review') },
+      { text: 'Specs', href: '/search?q=' + encodeURIComponent(label + ' specs') },
+      { text: 'Guides', href: '/search?q=' + encodeURIComponent(label + ' guide') },
+      { text: 'Editorial', href: '/search?q=' + encodeURIComponent(label + ' editorial') }
+    ];
+    var linkHtml = [];
+    for (var i = 0; i < links.length; i++) {
+      linkHtml.push('<a class="djs-label-intro-link" href="' + djsEscapeHtml(links[i].href) + '">' + djsEscapeHtml(links[i].text) + '</a>');
+    }
+
+    var intro = document.createElement('section');
+    intro.className = 'djs-label-intro';
+    intro.innerHTML =
+      '<span class="djs-label-intro-kicker">Topic Hub</span>' +
+      '<h1 class="djs-label-intro-title">' + djsEscapeHtml(info.title) + '</h1>' +
+      '<p class="djs-label-intro-copy">' + djsEscapeHtml(info.copy) + '</p>' +
+      '<div class="djs-label-intro-links">' + linkHtml.join('') + '</div>';
+    target.parentNode.insertBefore(intro, target);
+  }
+
+  /* back-to-top v1 | Scroll-triggered return to top button */
+  function initBackToTop() {
+    var btn = document.getElementById('djs-back-to-top');
+    if (!btn) return;
+
+    function updateState() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || 0;
+      if (scrollTop > 400) {
+        btn.classList.add('is-visible');
+      } else {
+        btn.classList.remove('is-visible');
+      }
+    }
+
+    updateState();
+    window.addEventListener('scroll', updateState, { passive: true });
+  }
+
+  /* reading-time v1 | Word count based read time estimate */
+  function initReadingTime() {
+    if (!isSinglePostView()) return;
+
+    var postBody = document.querySelector('.post-body');
+    var metaRow = document.querySelector('.post-single .post-meta-row, .post .post-meta-row');
+    if (!postBody || !metaRow) return;
+
+    var text = postBody.innerText || postBody.textContent || '';
+    var words = text.trim().split(/\s+/).length;
+    var minutes = Math.max(1, Math.round(words / 200));
+
+    var chip = document.createElement('span');
+    chip.className = 'post-read-time';
+    chip.innerHTML = '⏱ ' + minutes + ' min read';
+    metaRow.appendChild(chip);
+  }
+
+  /* pager-indicator v1 | Inject page label between pager nav buttons */
+  function initPagerIndicator() {
+    var pager = document.getElementById('blog-pager');
+    if (!pager) return;
+
+    var search = window.location.search || '';
+    var isFirstPage = !search || (search.indexOf('updated-max') === -1 && search.indexOf('start') === -1);
+    var label = document.createElement('span');
+    label.className = 'pager-label';
+    label.textContent = isFirstPage ? 'Page 1' : 'Browse';
+
+    /* Insert label between the existing buttons */
+    var firstChild = pager.firstChild;
+    if (firstChild) {
+      pager.insertBefore(label, firstChild.nextSibling || null);
+    } else {
+      pager.appendChild(label);
+    }
+  }
+
+  /* label-priority v1 | Brand always wins over platform in label chips */
+  function initLabelPriority() {
+    var BRANDS    = ['samsung', 'apple', 'microsoft', 'google', 'motorola', 'nokia', 'blackberry', 'sony', 'htc', 'lg', 'nothing', 'oneplus', 'xiaomi'];
+    var CONTENT   = ['review', 'specs', 'editorial', 'guides', 'deals', 'featured'];
+    var PLATFORMS = ['android', 'ios', 'windows phone', 'windows', 'chrome os', 'mac'];
+
+    function priorityScore(labelText) {
+      var t = (labelText || '').toLowerCase().trim();
+      for (var i = 0; i < BRANDS.length; i++)    if (t === BRANDS[i])    return 300 - i;
+      for (var j = 0; j < CONTENT.length; j++)   if (t === CONTENT[j])   return 200 - j;
+      for (var k = 0; k < PLATFORMS.length; k++)  if (t === PLATFORMS[k]) return 100 - k;
+      return 0;
+    }
+
+    /* Card view — read all labels from hidden span, pick best, update visible chip */
+    var cards = document.querySelectorAll('.post.post-multi');
+    for (var c = 0; c < cards.length; c++) {
+      var labelsSpan = cards[c].querySelector('.post-labels-data');
+      var chip = cards[c].querySelector('.post-label-chip');
+      if (!labelsSpan || !chip) continue;
+
+      var allLabels = (labelsSpan.textContent || '').split(',');
+      /* Add the currently visible chip label too */
+      allLabels.push(chip.textContent || '');
+
+      var bestLabel = '';
+      var bestScore = -1;
+      for (var x = 0; x < allLabels.length; x++) {
+        var score = priorityScore(allLabels[x]);
+        if (score > bestScore) { bestScore = score; bestLabel = allLabels[x].trim(); }
+      }
+
+      /* Update chip text and href if a better label was found */
+      if (bestLabel && bestLabel !== chip.textContent.trim()) {
+        chip.textContent = bestLabel;
+        chip.href = '/search/label/' + encodeURIComponent(bestLabel);
+      }
+    }
+
+    /* Single post view — reorder chips so brand leads */
+    if (!isSinglePostView()) return;
+    var metaRow = document.querySelector('.item-view .post-meta-row');
+    if (!metaRow) return;
+    var postChips = metaRow.querySelectorAll('.post-label-chip');
+    if (postChips.length < 2) return;
+
+    var chipsArr = [];
+    for (var p = 0; p < postChips.length; p++) chipsArr.push(postChips[p]);
+    chipsArr.sort(function(a, b) {
+      return priorityScore(b.textContent || '') - priorityScore(a.textContent || '');
+    });
+    var sep = metaRow.querySelector('.post-meta-sep');
+    for (var q = 0; q < chipsArr.length; q++) {
+      metaRow.insertBefore(chipsArr[q], sep || null);
+    }
+  }
+
+  /* sidebar-devices v1 | Latest Devices 3x2 grid from Specs feed */
+  window.djsSidebarDevices = function(feed) {
+    var rail = qs('#sidebar-devices-rail');
+    var grid = qs('#sidebar-devices-grid');
+    if (!rail || !grid) return;
+
+    if (!feed || !feed.feed || !feed.feed.entry || !feed.feed.entry.length) {
+      rail.classList.remove('is-loading');
+      rail.classList.add('is-hidden');
+      return;
+    }
+
+    try {
+      var entries = feed.feed.entry.slice(0, 6);
+      var items = [];
+
+      for (var j = 0; j < entries.length; j++) {
+        var entry = entries[j];
+        var title = djsFeedGetTitle(entry);
+        var img = djsFeedGetImage(entry, '/s400/');
+        var link = djsFeedGetLink(entry);
+        items.push(
+          '<a class="sidebar-device-item" href="' + djsEscapeHtml(link) + '">' +
+            '<div class="sidebar-device-thumb" style="background-image:url(&quot;' + djsEscapeHtml(img) + '&quot;)"></div>' +
+            '<span class="sidebar-device-name">' + djsEscapeHtml(title) + '</span>' +
+          '</a>'
+        );
+      }
+
+      grid.innerHTML = items.join('');
+      rail.classList.remove('is-loading');
+      rail.classList.add('is-ready');
+    } catch (e) {
+      rail.classList.remove('is-loading');
+      rail.classList.add('is-hidden');
+    }
+  };
+
+  function loadSidebarDevices() {
+    var rail = qs('#sidebar-devices-rail');
+    if (!rail) return; /* only present on homepage via b:if condition */
+
+    djsJsonpRequest({
+      scriptId: 'djs-sidebar-devices-feed',
+      callbackName: djsUniqueCallbackName('djsSidebarDevices'),
+      url: '/feeds/posts/default/-/Specs?alt=json-in-script&max-results=6',
+      timeoutMs: 9000,
+      onSuccess: function(feed) { window.djsSidebarDevices(feed); },
+      onError: function() {
+        rail.classList.remove('is-loading');
+        rail.classList.add('is-hidden');
+      }
+    });
+  }
+
+
+  /* global-content-identity v16.19 | Idempotent badge coloring for static and generated UI */
+  function initGlobalContentIdentity() {
+    var identityClasses = ['is-editorial', 'is-review', 'is-specs', 'is-guide', 'is-deals', 'is-news'];
+
+    function identityClass(value) {
+      var t = String(value || '').toLowerCase().replace(/^\s+|\s+$/g, '');
+      if (t === 'editorial') return 'is-editorial';
+      if (t === 'review' || t === 'reviews') return 'is-review';
+      if (t === 'spec' || t === 'specs' || t === 'specifications') return 'is-specs';
+      if (t === 'guide' || t === 'guides' || t === 'how to') return 'is-guide';
+      if (t === 'deal' || t === 'deals') return 'is-deals';
+      if (t === 'news' || t === 'post' || t === 'coverage') return 'is-news';
+      return '';
+    }
+
+    function applyIdentity(scope) {
+      var root = scope || document;
+      if (!root.querySelectorAll) return;
+      var nodes = root.querySelectorAll('.post-label-chip, .search-suggestion-type, .related-bridge-kicker, .content-bridge-label, .device-hub-card-label, .featured-badge');
+      for (var i = 0; i < nodes.length; i++) {
+        for (var j = 0; j < identityClasses.length; j++) nodes[i].classList.remove(identityClasses[j]);
+        var cls = identityClass(nodes[i].textContent || '');
+        if (cls) nodes[i].classList.add(cls);
+      }
+    }
+
+    applyIdentity(document);
+    window.djsApplyGlobalContentIdentity = function() { applyIdentity(document); };
+
+    if (window.MutationObserver && document.body) {
+      var observer = new MutationObserver(function(mutations) {
+        for (var i = 0; i < mutations.length; i++) {
+          if (mutations[i].addedNodes && mutations[i].addedNodes.length) {
+            applyIdentity(document);
+            return;
+          }
+        }
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+      window.setTimeout(function() { observer.disconnect(); }, 9000);
+    } else {
+      window.setTimeout(function() { applyIdentity(document); }, 350);
+      window.setTimeout(function() { applyIdentity(document); }, 1100);
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    initHamburger();
+    initSearch();
+    initHttpsUpgrade();
+    initPerformanceCleanup();
+    initShrinkHeader();
+    initCompactFeedCards();
+    initLabelPriority();
+    initGlobalContentIdentity();
+    initDeviceFamilyFramework();
+    loadFeaturedHomepage();
+    loadSidebarReviews();
+    loadSidebarDevices();
+    initUpdatedStoryChip();
+    initSeoLabelIntro();
+    initDeviceHubBlock();
+    initEditorialBridge();
+    initCompareBlock();
+    initAmazonBuyNowLinks();
+    initAffiliateDisclosure();
+    initStickyReviewCta();
+    initBackToTop();
+    initReadingTime();
+    initPagerIndicator();
+    initLightbox();
+  });
 })();
