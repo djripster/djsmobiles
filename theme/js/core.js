@@ -659,7 +659,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
         for (var j = 1; j < entries.length; j++) {
           cards.push(
             '<article class="featured-card">' +
-              '<div class="featured-card-thumb" style="background-image:url("' + djsEscapeHtml(djsFeedGetImage(entries[j], '/s1600/')) + '")"></div>' +
+              '<div class="featured-card-thumb" style="background-image:url(\'' + djsEscapeHtml(djsFeedGetImage(entries[j], '/s1600/')) + '\')"></div>' +
               '<div class="featured-card-body">' +
                 '<div class="featured-meta">' +
                   '<time>' + djsEscapeHtml(getDate(entries[j])) + '</time>' +
@@ -720,7 +720,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
       for (var j = 0; j < entries.length; j++) {
         items.push(
           '<a class="sidebar-review-item" href="' + djsEscapeHtml(djsFeedGetLink(entries[j])) + '">' +
-            '<span class="sidebar-review-thumb" style="background-image:url("' + djsEscapeHtml(djsFeedGetImage(entries[j], '/s1600/')) + '")"></span>' +
+            '<span class="sidebar-review-thumb" style="background-image:url(\'' + djsEscapeHtml(djsFeedGetImage(entries[j], '/s1600/')) + '\')"></span>' +
             '<span class="sidebar-review-title">' + djsEscapeHtml(djsFeedGetTitle(entries[j])) + '</span>' +
           '</a>'
         );
@@ -2468,7 +2468,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
         var link = djsFeedGetLink(entry);
         items.push(
           '<a class="sidebar-device-item" href="' + djsEscapeHtml(link) + '">' +
-            '<div class="sidebar-device-thumb" style="background-image:url("' + djsEscapeHtml(img) + '")"></div>' +
+            '<div class="sidebar-device-thumb" style="background-image:url(\'' + djsEscapeHtml(img) + '\')"></div>' +
             '<span class="sidebar-device-name">' + djsEscapeHtml(title) + '</span>' +
           '</a>'
         );
