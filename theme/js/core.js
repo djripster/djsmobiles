@@ -463,9 +463,17 @@
 
   function djsFeedGetImage(entry, size) {
     size = size || '/s1600/';
-    if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
-      return entry.media$thumbnail.url.replace(/\/s72-c\//, size);
-    }
+if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
+  var thumb = entry.media$thumbnail.url;
+
+  thumb = thumb
+    .replace(/\/s72-c\//, size)
+    .replace(/\/s72\//, size)
+    .replace(/=s72-c/, '=s1600')
+    .replace(/=s72/, '=s1600');
+
+  return thumb;
+}
 
     var html = '';
     if (entry && entry.content && entry.content.$t) html = entry.content.$t;
@@ -474,7 +482,7 @@
     var match = html.match(/<img[^>]+src=["']([^"']+)["']/i);
     if (match && match[1]) return match[1];
 
-    return 'https://djripster.github.io/djsmobiles/assets/brand/logo-cropped-wide.png';
+    return 'https://djripster.github.io/djsmobiles/assets/brand/djsmobiles-fallback.png';
   }
 
   function djsFeedGetCategories(entry) {
