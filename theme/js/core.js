@@ -2552,4 +2552,8 @@
     initPagerIndicator();
     initLightbox();
   });
+window.qs = qs;
+window.closeMenu = closeMenu;
+window.openMenu = openMenu;
+window.toggleMenu = toggleMenu;   
 })();
