@@ -423,9 +423,9 @@
   function djsEscapeHtml(value) {
     return String(value || '')
       .replace(/&/g, '&amp;')
-      .replace(/</g, '<')
-      .replace(/>/g, '>')
-      .replace(/"/g, '"')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
       .replace(new RegExp(String.fromCharCode(39), "g"), "&#39;");
   }
 
