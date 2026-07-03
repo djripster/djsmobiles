@@ -1,1 +1,62 @@
+/* ==========================================================
+   Logo Accent System
+   Core v17+
+   ----------------------------------------------------------
+   Purpose:
+   Generic commemorative accent displayed alongside the
+   DJs Mobiles logo.
 
+   The SVG asset may change throughout the year without
+   requiring HTML modifications.
+
+   Examples:
+   - America 250
+   - Site Anniversary
+   - Full Moon
+   - Seasonal Events
+
+   Core owns the positioning.
+   Assets define the appearance.
+   ========================================================== */
+
+.site-logo-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.site-logo-accent {
+  position: absolute;
+  top: -8px;
+  right: -18px;
+
+  width: 34px;
+  height: 34px;
+
+  pointer-events: none;
+  user-select: none;
+
+  z-index: 5;
+
+  opacity: 1;
+  transition:
+    opacity .25s ease,
+    transform .25s ease;
+}
+
+.site-logo-accent.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (max-width:768px) {
+
+.site-logo-accent {
+  width:28px;
+  height:28px;
+
+  top:-6px;
+  right:-14px;
+}
+
+}
