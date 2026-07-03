@@ -29,6 +29,7 @@
 }
 
 .site-logo-accent {
+  display: none; 
   position: absolute;
   inset: -10px -30px -10px -30px; /* extra room top/bottom/right/left */
   width: calc(100% + 60px);
