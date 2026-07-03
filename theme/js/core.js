@@ -91,25 +91,41 @@
     }
   }
 
-  function initHamburger() {
-    var button = qs('#hamburger-btn');
-    var menu = qs('#nav-mobile');
-    if (!button || !menu) return;
+function initHamburger() {
+  var button = qs('#hamburger-btn');
+  var menu = qs('#nav-mobile');
+  if (!button || !menu) return;
 
-    initMobileAccordion(menu);
+  initMobileAccordion(menu);
 
-    button.addEventListener('click', function() {
-      var opened = toggleMenu(menu, button);
-      if (opened) {
-        closeMenu(qs('#search-dropdown'), qs('#search-icon-btn'));
-      }
-    });
+  button.addEventListener('click', function() {
+    var opened = toggleMenu(menu, button);
+    if (opened) {
+      closeMenu(qs('#search-dropdown'), qs('#search-icon-btn'));
+    }
+  });
 
-    menu.addEventListener('click', function(event) {
-      var link = event.target.closest('a');
-      if (link) closeMenu(menu, button);
-    });
+  menu.addEventListener('click', function(event) {
+    var link = event.target.closest('a');
+    if (link) closeMenu(menu, button);
+  });
+
+  var desktopQuery = window.matchMedia('(min-width: 769px)');
+
+  function syncMenuToViewport(event) {
+    if (event.matches) {
+      closeMenu(menu, button);
+    }
   }
+
+  if (desktopQuery.addEventListener) {
+    desktopQuery.addEventListener('change', syncMenuToViewport);
+  } else if (desktopQuery.addListener) {
+    desktopQuery.addListener(syncMenuToViewport);
+  }
+
+  syncMenuToViewport(desktopQuery);
+}
 
   function initSearch() {
     var button = qs('#search-icon-btn');
