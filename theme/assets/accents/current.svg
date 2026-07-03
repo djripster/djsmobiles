@@ -59,7 +59,7 @@
   <!-- ============================================= -->
   <!-- FLAG: positioned after the final "S"           -->
   <!-- ============================================= -->
-  <g transform="translate(578 60) scale(0.62)">
+  <g transform="translate(578 100) scale(0.62)">
     <!-- Pole -->
     <rect x="0" y="0" width="2.5" height="48" rx="1.25" fill="#1f3763"/>
     <circle cx="1.25" cy="0" r="3" fill="#1f3763"/>
