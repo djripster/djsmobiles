@@ -21,42 +21,25 @@
 
 .site-logo-wrap {
   position: relative;
-  display: inline-flex;
-  align-items: center;
+  display: inline-block;
 }
 
 .site-logo-accent {
   position: absolute;
-  top: -8px;
-  right: -18px;
-
   width: 34px;
   height: 34px;
-
+  top: 18px;
+  right: 22px;
   pointer-events: none;
   user-select: none;
-
   z-index: 5;
-
-  opacity: 1;
-  transition:
-    opacity .25s ease,
-    transform .25s ease;
 }
 
-.site-logo-accent.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-}
-
-@media (max-width:768px) {
-
-.site-logo-accent {
-  width:28px;
-  height:28px;
-
-  top:-6px;
-  right:-14px;
-}
-
+@media (max-width: 768px) {
+  .site-logo-accent {
+    width: 24px;
+    height: 24px;
+    top: 10px;
+    right: 12px;
+  }
 }
