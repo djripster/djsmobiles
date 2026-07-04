@@ -111,15 +111,17 @@
         isFirstVisit: true
       };
 
-      this.article = intelligence ? intelligence.analyzeArticle() : null;
+      this.article = intelligence && intelligence.ready
+      ? intelligence
+      : null;
 
       if (state && this.article && this.isArticlePage()) {
         state.recordArticle(this.article);
         this.reader.articleHistory = state.getArticleHistory();
       }
 
-      this.conversation = intelligence
-        ? intelligence.getPulseConversation(this.reader, this.article)
+      this.conversation = core && typeof core.getPulseConversation === 'function'
+        ? core.getPulseConversation(this.reader, this.article)
         : this.getFallbackConversation();
 
       const shouldAutoOpen = state
@@ -289,10 +291,23 @@
   window.PulseConfig = PulseConfig;
   window.Pulse = Pulse;
 
-  document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
+  if (window.DJS_SITE_INTELLIGENCE && window.DJS_SITE_INTELLIGENCE.ready) {
     Pulse.init();
-  });
+    return;
+  }
 
+  window.addEventListener('djs:intelligence-ready', () => {
+    Pulse.init();
+  }, { once: true });
+
+  window.setTimeout(() => {
+    if (!Pulse.reader) {
+      Pulse.init();
+    }
+  }, 800);
+});
+  
   let pulseResizeTimer = null;
 
   window.addEventListener('resize', () => {
