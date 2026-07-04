@@ -111,9 +111,11 @@
         isFirstVisit: true
       };
 
-      this.article = intelligence && intelligence.ready
-      ? intelligence
-      : null;
+    this.article = intelligence && intelligence.ready
+    ? intelligence
+    : (core && typeof core.analyzeArticle === 'function'
+    ? core.analyzeArticle()
+    : null);
 
       if (state && this.article && this.isArticlePage()) {
         state.recordArticle(this.article);
