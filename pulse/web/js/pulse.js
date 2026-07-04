@@ -95,7 +95,8 @@
       console.log('Pulse v' + this.version + ' loaded');
 
       const state = window.DjsPulseState;
-      const intelligence = window.DjsIntelligence;
+      const intelligence = window.DJS_SITE_INTELLIGENCE;
+      const core = window.DjsIntelligence;
 
       this.isDeveloper = state ? state.isDeveloper() : false;
 
