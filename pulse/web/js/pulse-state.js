@@ -1,7 +1,7 @@
 /*
  * Pulse State
  * Module: pulse-state.js
- * Prototype: v0.3.2
+ * Prototype: v0.3.3
  *
  * DJs Mobiles Website Pulse reader memory.
  * Website-only storage. No extension dependency.
