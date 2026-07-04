@@ -1,4 +1,4 @@
-/* DJs Mobiles Core Article Context v1 */
+/* DJs Mobiles Core Article Context v1.1 */
 (function () {
   function safeCall(fn, fallback) {
     try {
