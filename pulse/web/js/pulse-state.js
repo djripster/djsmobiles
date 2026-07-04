@@ -141,6 +141,7 @@
       url: item.url,
       timestamp: item.timestamp || nowIso(),
       brand,
+      family: cleanText(item.family),
       platform,
       type: cleanText(item.type, 'Article'),
       topics
@@ -164,7 +165,24 @@
       year: 'numeric'
     });
   }
+  function normalizeArticleInput(article) {
+    if (!article) return null;
 
+    const articleData = article.article || article;
+    const pageData = article.page || {};
+
+    return {
+      title: articleData.title || pageData.title || window.document.title,
+      url: articleData.url || pageData.url || canonicalUrl(),
+      brand: articleData.brand || article.brand || '',
+      family: articleData.family || article.family || '',
+      platform: articleData.platform || article.platform || '',
+      type: articleData.type || articleData.postType || article.postType || article.type || 'Article',
+      topics: Array.isArray(articleData.topics)
+        ? articleData.topics
+        : (Array.isArray(article.topics) ? article.topics : [])
+    };
+  }
   const PulseState = {
     version: '0.3.2',
     keys: KEYS,
@@ -226,10 +244,11 @@
     },
 
     recordArticle(article) {
-      if (!article) return null;
+      const normalizedArticle = normalizeArticleInput(article);
+      if (!normalizedArticle) return null;
 
-      const title = cleanText(article.title, window.document ? window.document.title : 'Untitled article');
-      const url = canonicalUrl();
+      const title = cleanText(normalizedArticle.title, window.document ? window.document.title : 'Untitled article');
+      const url = normalizedArticle.url || canonicalUrl();
       const timestamp = nowIso();
 
       if (!title || !url) return null;
@@ -238,10 +257,11 @@
         title,
         url,
         timestamp,
-        brand: article.brand,
-        platform: article.platform,
-        type: article.type,
-        topics: article.topics
+        brand: normalizedArticle.brand,
+        family: normalizedArticle.family,
+        platform: normalizedArticle.platform,
+        type: normalizedArticle.type,
+        topics: normalizedArticle.topics
       });
 
       if (!entry) return null;
