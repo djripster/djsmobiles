@@ -216,7 +216,8 @@
         isFirstVisit: !previousLastSeen,
         followingSince: formatMonthYear(firstSeen),
         visitCount,
-        articleHistory: this.getArticleHistory()
+        articleHistory: this.getArticleHistory(),
+        interests: this.getReaderInterests()
       };
     },
 
