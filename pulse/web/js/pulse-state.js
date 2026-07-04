@@ -243,6 +243,59 @@
       return limited;
     },
 
+    getReaderInterests() {
+  const history = this.getArticleHistory();
+
+  function rank(values) {
+    const counts = {};
+
+    values.forEach(function (value) {
+      if (!value) return;
+      counts[value] = (counts[value] || 0) + 1;
+    });
+
+    return Object.keys(counts)
+      .map(function (key) {
+        return {
+          name: key,
+          count: counts[key]
+        };
+      })
+      .sort(function (a, b) {
+        return b.count - a.count;
+      });
+  }
+
+  const brands = [];
+  const families = [];
+  const platforms = [];
+  const types = [];
+  const topics = [];
+
+  history.forEach(function (article) {
+    if (!article) return;
+
+    if (article.brand) brands.push(article.brand);
+    if (article.family) families.push(article.family);
+    if (article.platform) platforms.push(article.platform);
+    if (article.type) types.push(article.type);
+
+    if (Array.isArray(article.topics)) {
+      article.topics.forEach(function (topic) {
+        topics.push(topic);
+      });
+    }
+  });
+
+  return {
+    brands: rank(brands),
+    families: rank(families),
+    platforms: rank(platforms),
+    types: rank(types),
+    topics: rank(topics)
+  };
+},
+
     recordArticle(article) {
       const normalizedArticle = normalizeArticleInput(article);
       if (!normalizedArticle) return null;
