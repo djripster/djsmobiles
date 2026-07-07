@@ -363,6 +363,6 @@
         stats
       };
     }
-
+      };
   window.DjsIntelligence = Intelligence;
 })(window, document);
