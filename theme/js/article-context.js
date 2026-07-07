@@ -89,19 +89,17 @@
     };
   }
 
-  function publishSiteIntelligence() {
-    var payload = buildSiteIntelligence();
+function publishSiteIntelligence() {
+  var payload = buildSiteIntelligence();
 
-    window.DJS_SITE_INTELLIGENCE = payload;
+  window.DJS_SITE_INTELLIGENCE = payload;
 
-    try {
-      window.dispatchEvent(new CustomEvent('djs:intelligence-ready', {
-        detail: payload
-      }));
-    } catch (e) {}
+  window.dispatchEvent(new CustomEvent('djs:intelligence-ready', {
+    detail: payload
+  }));
 
-    return payload;
-  }
+  return payload;
+}
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', publishSiteIntelligence);
