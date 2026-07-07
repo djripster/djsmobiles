@@ -276,23 +276,82 @@
         ? window.DjsPulseState.getDaysSinceLastVisit(reader)
         : 0;
 
+      const interests = reader && reader.interests ? reader.interests : {};
+      const topBrand = interests.brands && interests.brands.length ? interests.brands[0] : null;
+      const topFamily = interests.families && interests.families.length ? interests.families[0] : null;
+      const topTopic = interests.topics && interests.topics.length ? interests.topics[0] : null;
+      const topType = interests.types && interests.types.length ? interests.types[0] : null;
+      const totalRead = reader && reader.articleHistory ? reader.articleHistory.length : 0;
+
+      const stats = this.buildReaderStats(reader);
+
+      function interestLine() {
+        if (topFamily) return 'You have been spending time with ' + topFamily.name + ' coverage lately.';
+        if (topBrand) return 'You have been reading a lot about ' + topBrand.name + ' lately.';
+        if (topTopic) return 'You have been exploring ' + topTopic.name + ' stories lately.';
+        if (topType) return 'Most of your recent reading has been around ' + topType.name + ' coverage.';
+        return '';
+      }
+
+      const profileNote = interestLine();
+
       if (reader && reader.isFirstVisit) {
         return {
           eyebrow: 'Your Pulse',
-          title: 'Pulse is just getting started.',
-          message: 'More will appear here as Pulse accompanies you on your journey.',
+          title: 'Welcome to Pulse.',
+          message: 'Pulse remembers what you read and helps DJs Mobiles feel more personal over time.',
           mode: 'welcome',
-          stats: this.buildReaderStats(reader)
+          stats
         };
       }
 
-      if (daysAway >= 2) {
+      if (daysAway >= 30) {
+        return {
+          eyebrow: 'Your Pulse',
+          title: 'It has been a while.',
+          message: profileNote || 'Welcome back. Pulse is ready to help you reconnect with what matters most.',
+          mode: 'returning',
+          stats
+        };
+      }
+
+      if (daysAway >= 7) {
+        return {
+          eyebrow: 'Your Pulse',
+          title: 'We have missed you.',
+          message: profileNote || 'A lot can happen in a week. Pulse will help you pick things back up.',
+          mode: 'returning',
+          stats
+        };
+      }
+
+      if (daysAway >= 3) {
+        return {
+          eyebrow: 'Your Pulse',
+          title: 'Here is where you left off.',
+          message: profileNote || 'Pulse is keeping track of your reading so you can ease back in.',
+          mode: 'returning',
+          stats
+        };
+      }
+
+      if (daysAway >= 1) {
         return {
           eyebrow: 'Your Pulse',
           title: 'Welcome back.',
-          message: 'It has been a little while. Pulse will start surfacing what changed while you were away as your reading history grows.',
+          message: profileNote || 'Pulse is starting to learn what you like reading on DJs Mobiles.',
           mode: 'returning',
-          stats: this.buildReaderStats(reader)
+          stats
+        };
+      }
+
+      if (totalRead > 0) {
+        return {
+          eyebrow: 'Your Pulse',
+          title: 'Your Pulse is active.',
+          message: profileNote || 'Pulse is quietly keeping track of what you read.',
+          mode: 'active',
+          stats
         };
       }
 
@@ -301,10 +360,9 @@
         title: 'Pulse is just getting started.',
         message: 'More will appear here as Pulse accompanies you on your journey.',
         mode: 'welcome',
-        stats: this.buildReaderStats(reader)
+        stats
       };
     }
-  };
 
   window.DjsIntelligence = Intelligence;
 })(window, document);
