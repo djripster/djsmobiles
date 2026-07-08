@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "labels": {
+    "Huawei": {
+      "type": "brand",
+      "id": "huawei",
+      "name": "Huawei"
+    },
+    "Clicks": {
+      "type": "brand",
+      "id": "clicks",
+      "name": "Clicks"
+    },
+    "Android": {
+      "type": "platform",
+      "id": "android",
+      "name": "Android"
+    },
+    "Specs": {
+      "type": "content",
+      "id": "specs",
+      "name": "Specs"
+    },
+    "Review": {
+      "type": "content",
+      "id": "review",
+      "name": "Review"
+    },
+    "Guides": {
+      "type": "content",
+      "id": "guide",
+      "name": "Guide"
+    },
+    "Editorial": {
+      "type": "content",
+      "id": "editorial",
+      "name": "Editorial"
+    }
+  }
+}
