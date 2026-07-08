@@ -11,9 +11,37 @@
   'use strict';
 
   const SITE_TITLE_PREFIX = /^DJs Mobiles\s*\|\s*Expert Tech Insights & Mobile News Since 2010:\s*/i;
+  const LABEL_REGISTRY_URL = 'https://djripster.github.io/djsmobiles/theme/data/label-registry.json';
 
   const Intelligence = {
-    version: '0.2.4',
+    version: '0.2.5',
+    labelRegistry: null,
+    labelRegistryReady: null,
+
+    initLabelRegistry() {
+      if (this.labelRegistryReady) return this.labelRegistryReady;
+
+      if (typeof window.fetch !== 'function') {
+        this.labelRegistryReady = Promise.resolve(null);
+        return this.labelRegistryReady;
+      }
+
+      this.labelRegistryReady = window.fetch(LABEL_REGISTRY_URL, { cache: 'no-cache' })
+        .then(response => {
+          if (!response || !response.ok) return null;
+          return response.json();
+        })
+        .then(registry => {
+          if (registry && registry.labels) {
+            this.labelRegistry = registry;
+          }
+
+          return this.labelRegistry;
+        })
+        .catch(() => null);
+
+      return this.labelRegistryReady;
+    },
 
     isHomePage() {
       const path = window.location.pathname.replace(/\/+$/, '');
@@ -59,7 +87,89 @@
       return document.querySelector('.post-outer, article, .post, .blog-posts .post') || document;
     },
 
+
+    getLabelRegistryMap() {
+      return this.labelRegistry && this.labelRegistry.labels
+        ? this.labelRegistry.labels
+        : {};
+    },
+
+    getRegistryEntryForLabel(label) {
+      const labels = this.getLabelRegistryMap();
+      const raw = String(label || '').trim();
+
+      if (!raw) return null;
+      if (labels[raw]) return labels[raw];
+
+      const normalized = this.normalize(raw);
+
+      for (const key in labels) {
+        if (Object.prototype.hasOwnProperty.call(labels, key) && this.normalize(key) === normalized) {
+          return labels[key];
+        }
+      }
+
+      return null;
+    },
+
+    classifyLabels(labels) {
+      const result = {
+        brand: null,
+        platform: null,
+        type: null,
+        topics: []
+      };
+
+      (labels || []).forEach(label => {
+        const entry = this.getRegistryEntryForLabel(label);
+        if (!entry) return;
+
+        const entryClass = entry.class || entry.type || '';
+        const normalizedClass = this.normalize(entryClass);
+        const name = entry.name || String(label || '').trim();
+
+        if (normalizedClass === 'brand' && !result.brand) {
+          result.brand = {
+            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
+            name
+          };
+          return;
+        }
+
+        if (normalizedClass === 'platform' && !result.platform) {
+          result.platform = {
+            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
+            name
+          };
+          return;
+        }
+
+        if ((normalizedClass === 'content type' || normalizedClass === 'content-type' || normalizedClass === 'content') && !result.type) {
+          result.type = {
+            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
+            name
+          };
+          return;
+        }
+
+        if (normalizedClass === 'topic') {
+          const topic = {
+            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
+            name
+          };
+
+          if (!result.topics.some(existing => existing.name === topic.name)) {
+            result.topics.push(topic);
+          }
+        }
+      });
+
+      return result;
+    },
+
     detectBrand(title, labels) {
+      const classified = this.classifyLabels(labels);
+      if (classified.brand) return classified.brand.name;
       const titleText = this.normalize(title || '');
       const labelText = this.normalize((labels || []).join(' '));
 
@@ -132,6 +242,9 @@
     },
 
     detectPlatform(title, labels) {
+      const classified = this.classifyLabels(labels);
+      if (classified.platform) return classified.platform.name;
+
       const titleText = this.normalize(title || '');
       const labelText = this.normalize((labels || []).join(' '));
       const text = titleText + ' ' + labelText;
@@ -151,6 +264,9 @@
     },
 
     detectPostType(title, labels) {
+      const classified = this.classifyLabels(labels);
+      if (classified.type) return classified.type.name;
+
       const text = this.normalize((title || '') + ' ' + (labels || []).join(' '));
 
       if (this.has(text, 'specs') || this.has(text, 'spec')) return 'Specs';
@@ -163,8 +279,9 @@
     },
 
     detectTopics(title, labels) {
+      const classified = this.classifyLabels(labels);
       const text = this.normalize((title || '') + ' ' + (labels || []).join(' '));
-      const topics = [];
+      const topics = classified.topics.map(topic => topic.name);
 
       const topicMap = [
         ['AI', ['ai', 'artificial intelligence', 'galaxy ai', 'gemini', 'apple intelligence']],
@@ -182,7 +299,7 @@
 
       for (const [topic, terms] of topicMap) {
         if (terms.some(term => this.has(text, term))) {
-          topics.push(topic);
+          if (topics.indexOf(topic) === -1) topics.push(topic);
         }
       }
 
@@ -259,6 +376,15 @@
         }
       ];
 
+      if (reader && Array.isArray(reader.articleHistory) && reader.articleHistory.length) {
+        const totalRead = reader.articleHistory.length;
+
+        stats.push({
+          label: 'Articles read',
+          value: totalRead === 1 ? '1 article' : totalRead + ' articles'
+        });
+      }
+
       if (reader && typeof reader.visitCount !== 'undefined') {
         const count = Number(reader.visitCount) || 0;
 
@@ -294,7 +420,7 @@
       }
 
       return {
-        totalRead: history.length,
+        totalRead: typeof interests.totalRead === 'number' ? interests.totalRead : history.length,
         topBrand: top(interests.brands),
         topFamily: top(interests.families),
         topPlatform: top(interests.platforms),
@@ -318,7 +444,7 @@
 
       if (daysAway >= 30) {
         return {
-          mode: 'returning',
+          mode: 'returning-long',
           title: 'It has been a while.',
           daysAway
         };
@@ -326,7 +452,7 @@
 
       if (daysAway >= 7) {
         return {
-          mode: 'returning',
+          mode: 'returning-extended',
           title: 'We have missed you.',
           daysAway
         };
@@ -334,7 +460,7 @@
 
       if (daysAway >= 3) {
         return {
-          mode: 'returning',
+          mode: 'returning-medium',
           title: 'Here is where you left off.',
           daysAway
         };
@@ -414,6 +540,8 @@
 
       return '';
     }
-      };
+  };
+
+  Intelligence.initLabelRegistry();
   window.DjsIntelligence = Intelligence;
 })(window, document);
