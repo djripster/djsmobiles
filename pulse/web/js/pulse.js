@@ -14,7 +14,8 @@
   const PulseConfig = {
     publicVisible: false,
     publicAutoOpen: false,
-    publicCanExpand: false
+    publicCanExpand: false,
+    hideWhenExtensionActive: true
   };
 
   const Pulse = {
@@ -34,6 +35,14 @@
       return document.body &&
         document.body.classList.contains('item-view') &&
         !!document.querySelector('.post-body');
+    },
+
+    isExtensionActive() {
+      return PulseConfig.hideWhenExtensionActive === true && (
+        window.DJSPulseExtensionActive === true ||
+        document.documentElement.hasAttribute('data-djs-pulse-extension') ||
+        document.body && document.body.hasAttribute('data-djs-pulse-extension')
+      );
     },
 
     canExpand() {
@@ -78,6 +87,13 @@
       this.hideContainer(this.getMobileCardContainer());
     },
 
+    hideForExtension() {
+      this.hideForPublicVisitors();
+      this.reader = null;
+      this.article = null;
+      this.conversation = null;
+    },
+
     clearInactiveMounts() {
       const desktop = this.getDesktopContainer();
       const mobileButton = this.getMobileButtonContainer();
@@ -100,6 +116,11 @@
 
       this.isDeveloper = state ? state.isDeveloper() : false;
 
+      if (this.isExtensionActive()) {
+        this.hideForExtension();
+        return;
+      }
+
       if (!this.isDeveloper && PulseConfig.publicVisible !== true) {
         this.hideForPublicVisitors();
         return;
@@ -111,15 +132,16 @@
         isFirstVisit: true
       };
 
-    this.article = intelligence && intelligence.ready
-    ? intelligence
-    : (core && typeof core.analyzeArticle === 'function'
-    ? core.analyzeArticle()
-    : null);
+      this.article = intelligence && intelligence.ready
+        ? intelligence
+        : (core && typeof core.analyzeArticle === 'function'
+          ? core.analyzeArticle()
+          : null);
 
       if (state && this.article && this.isArticlePage()) {
         state.recordArticle(this.article);
         this.reader.articleHistory = state.getArticleHistory();
+        this.reader.interests = state.getReaderInterests();
       }
 
       this.conversation = core && typeof core.getPulseConversation === 'function'
@@ -294,6 +316,11 @@
   window.Pulse = Pulse;
 
 document.addEventListener('DOMContentLoaded', () => {
+  if (Pulse.isExtensionActive()) {
+    Pulse.hideForExtension();
+    return;
+  }
+
   if (window.DJS_SITE_INTELLIGENCE && window.DJS_SITE_INTELLIGENCE.ready) {
     Pulse.init();
     return;
@@ -302,6 +329,10 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('djs:intelligence-ready', () => {
     Pulse.init();
   }, { once: true });
+
+  document.addEventListener('djs:pulse-extension-ready', () => {
+    Pulse.hideForExtension();
+  });
 
   window.setTimeout(() => {
     if (!Pulse.reader) {

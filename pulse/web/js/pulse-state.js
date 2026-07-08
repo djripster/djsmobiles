@@ -139,12 +139,16 @@
     return {
       title,
       url: item.url,
-      timestamp: item.timestamp || nowIso(),
+      timestamp: item.timestamp || item.recordedAt || nowIso(),
+      recordedAt: item.recordedAt || item.timestamp || nowIso(),
       brand,
       family: cleanText(item.family),
+      familyId: cleanText(item.familyId),
       platform,
       type: cleanText(item.type, 'Article'),
-      topics
+      topics,
+      isSponsored: item.isSponsored === true,
+      isGuest: item.isGuest === true
     };
   }
 
@@ -176,15 +180,18 @@
       url: articleData.url || pageData.url || canonicalUrl(),
       brand: articleData.brand || article.brand || '',
       family: articleData.family || article.family || '',
+      familyId: articleData.familyId || article.familyId || '',
       platform: articleData.platform || article.platform || '',
       type: articleData.type || articleData.postType || article.postType || article.type || 'Article',
       topics: Array.isArray(articleData.topics)
         ? articleData.topics
-        : (Array.isArray(article.topics) ? article.topics : [])
+        : (Array.isArray(article.topics) ? article.topics : []),
+      isSponsored: articleData.isSponsored === true || article.isSponsored === true,
+      isGuest: articleData.isGuest === true || article.isGuest === true
     };
   }
   const PulseState = {
-    version: '0.3.2',
+    version: '0.3.4',
     keys: KEYS,
 
     load() {
@@ -245,57 +252,63 @@
     },
 
     getReaderInterests() {
-  const history = this.getArticleHistory();
+      const history = this.getArticleHistory();
 
-  function rank(values) {
-    const counts = {};
+      function rank(values) {
+        const counts = {};
 
-    values.forEach(function (value) {
-      if (!value) return;
-      counts[value] = (counts[value] || 0) + 1;
-    });
+        values.forEach(function (value) {
+          const name = cleanText(value);
+          if (!name) return;
+          counts[name] = (counts[name] || 0) + 1;
+        });
 
-    return Object.keys(counts)
-      .map(function (key) {
-        return {
-          name: key,
-          count: counts[key]
-        };
-      })
-      .sort(function (a, b) {
-        return b.count - a.count;
+        return Object.keys(counts)
+          .map(function (key) {
+            return {
+              name: key,
+              count: counts[key]
+            };
+          })
+          .sort(function (a, b) {
+            return b.count - a.count;
+          });
+      }
+
+      const brands = [];
+      const families = [];
+      const platforms = [];
+      const types = [];
+      const topics = [];
+
+      history.forEach(function (article) {
+        if (!article) return;
+
+        if (article.brand) brands.push(article.brand);
+        if (article.family) families.push(article.family);
+        if (article.platform) platforms.push(article.platform);
+        if (article.type) types.push(article.type);
+
+        if (Array.isArray(article.topics)) {
+          article.topics.forEach(function (topic) {
+            topics.push(topic);
+          });
+        }
       });
-  }
 
-  const brands = [];
-  const families = [];
-  const platforms = [];
-  const types = [];
-  const topics = [];
+      return {
+        brands: rank(brands),
+        families: rank(families),
+        platforms: rank(platforms),
+        types: rank(types),
+        topics: rank(topics),
+        totalRead: history.length
+      };
+    },
 
-  history.forEach(function (article) {
-    if (!article) return;
-
-    if (article.brand) brands.push(article.brand);
-    if (article.family) families.push(article.family);
-    if (article.platform) platforms.push(article.platform);
-    if (article.type) types.push(article.type);
-
-    if (Array.isArray(article.topics)) {
-      article.topics.forEach(function (topic) {
-        topics.push(topic);
-      });
-    }
-  });
-
-  return {
-    brands: rank(brands),
-    families: rank(families),
-    platforms: rank(platforms),
-    types: rank(types),
-    topics: rank(topics)
-  };
-},
+    getReaderProfile() {
+      return this.getReaderInterests();
+    },
 
     recordArticle(article) {
       const normalizedArticle = normalizeArticleInput(article);
@@ -313,9 +326,12 @@
         timestamp,
         brand: normalizedArticle.brand,
         family: normalizedArticle.family,
+        familyId: normalizedArticle.familyId,
         platform: normalizedArticle.platform,
         type: normalizedArticle.type,
-        topics: normalizedArticle.topics
+        topics: normalizedArticle.topics,
+        isSponsored: normalizedArticle.isSponsored,
+        isGuest: normalizedArticle.isGuest
       });
 
       if (!entry) return null;
