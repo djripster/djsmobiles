@@ -94,7 +94,13 @@ function publishSiteIntelligence() {
 
   window.DJS_SITE_INTELLIGENCE = payload;
 
+  // Website consumers
   window.dispatchEvent(new CustomEvent('djs:intelligence-ready', {
+    detail: payload
+  }));
+
+  // Extension/content-script consumers
+  document.dispatchEvent(new CustomEvent('djs:intelligence-ready', {
     detail: payload
   }));
 
