@@ -2,39 +2,59 @@
   "version": 1,
   "labels": {
     "Huawei": {
-      "type": "brand",
+      "class": "brand",
       "id": "huawei",
       "name": "Huawei"
     },
     "Clicks": {
-      "type": "brand",
+      "class": "brand",
       "id": "clicks",
       "name": "Clicks"
     },
     "Android": {
-      "type": "platform",
+      "class": "platform",
       "id": "android",
       "name": "Android"
     },
     "Specs": {
-      "type": "content",
+      "class": "content-type",
       "id": "specs",
       "name": "Specs"
     },
     "Review": {
-      "type": "content",
+      "class": "content-type",
       "id": "review",
       "name": "Review"
     },
     "Guides": {
-      "type": "content",
+      "class": "content-type",
       "id": "guide",
       "name": "Guide"
     },
     "Editorial": {
-      "type": "content",
+      "class": "content-type",
       "id": "editorial",
       "name": "Editorial"
+    },
+    "Deals": {
+      "class": "content-type",
+      "id": "deals",
+      "name": "Deals"
+    },
+    "AI": {
+      "class": "topic",
+      "id": "ai",
+      "name": "AI"
+    },
+    "Camera": {
+      "class": "topic",
+      "id": "camera",
+      "name": "Camera"
+    },
+    "Gaming": {
+      "class": "topic",
+      "id": "gaming",
+      "name": "Gaming"
     }
   }
 }
