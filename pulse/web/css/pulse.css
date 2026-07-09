@@ -1,7 +1,7 @@
 /*
  * Pulse
  * Module: pulse.css
- * Prototype: v0.2.6
+ * Prototype: v0.2.7
  *
  * DJs Mobiles Website Integration
  */
@@ -110,126 +110,38 @@
   line-height: 1.65;
 }
 
-
-
-/* Pulse shelves */
-.pulse-shelf {
-  margin-top: 16px;
-  padding-top: 14px;
-  border-top: 1px solid rgba(215, 227, 239, 0.85);
-}
-
-.pulse-shelf__header {
+.pulse-card__stats {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 8px;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
 }
 
-.pulse-shelf__title {
+.pulse-card__stat {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  min-height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid var(--border, #d7e3ef);
+  color: var(--text-soft, #5c6b7c);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.pulse-card__stat span {
   color: var(--primary, #0f4c81);
   font-size: 10px;
   font-weight: 900;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.pulse-reading-list {
-  display: grid;
-  gap: 6px;
-}
-
-.pulse-reading-item {
-  display: grid;
-  grid-template-columns: 22px minmax(0, 1fr) 18px;
-  align-items: center;
-  gap: 8px;
-  min-height: 36px;
-  padding: 8px 10px;
-  border: 1px solid rgba(207, 226, 243, 0.9);
-  border-radius: 13px;
-  background: rgba(255, 255, 255, 0.75);
-  color: var(--text, #17202b);
-  text-decoration: none;
-  transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
-}
-
-.pulse-reading-item:hover,
-.pulse-reading-item:focus-visible {
-  background: rgba(234, 243, 251, 0.86);
-  border-color: rgba(15, 76, 129, 0.22);
-  transform: translateY(-1px);
-  outline: none;
-}
-
-.pulse-reading-item:focus-visible {
-  box-shadow: 0 0 0 3px rgba(15, 76, 129, 0.15);
-}
-
-.pulse-reading-item__number {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 22px;
-  height: 22px;
-  border-radius: 999px;
-  background: var(--primary-soft, #eaf3fb);
-  color: var(--primary, #0f4c81);
-  font-size: 11px;
-  font-weight: 900;
-}
-
-.pulse-reading-item__title {
-  overflow: hidden;
-  color: var(--text, #17202b);
-  font-size: 13px;
-  font-weight: 800;
-  line-height: 1.35;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.pulse-reading-item__arrow {
-  color: var(--primary, #0f4c81);
-  font-size: 14px;
-  font-weight: 900;
-}
-
-.pulse-stat-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
-}
-
-.pulse-stat-tile {
-  min-width: 0;
-  padding: 10px;
-  border: 1px solid var(--border, #d7e3ef);
-  border-radius: 14px;
-  background: rgba(255, 255, 255, 0.78);
-}
-
-.pulse-stat-tile span {
-  display: block;
-  margin-bottom: 4px;
-  color: var(--primary, #0f4c81);
-  font-size: 9px;
-  font-weight: 900;
   letter-spacing: 0.08em;
-  line-height: 1.2;
   text-transform: uppercase;
 }
 
-.pulse-stat-tile strong {
-  display: block;
-  overflow: hidden;
+.pulse-card__stat strong {
   color: var(--text, #17202b);
-  font-size: 13px;
-  font-weight: 900;
-  line-height: 1.25;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  font-weight: 800;
 }
 
 /* Mobile mounts are hidden by default. */
@@ -288,10 +200,6 @@
   #pulse-mobile-card .pulse-card__body {
     padding: 0 16px 18px;
   }
-
-  .pulse-reading-item__title {
-    white-space: normal;
-  }
 }
 
 /* Desktop layout */
@@ -300,4 +208,66 @@
   #pulse-mobile-card {
     display: none !important;
   }
+}
+
+/* Compact shelf density pass */
+.pulse-shelf {
+  margin-top: 12px;
+  padding-top: 10px;
+}
+
+.pulse-shelf__header {
+  margin-bottom: 6px;
+}
+
+.pulse-reading-list {
+  gap: 4px;
+}
+
+.pulse-reading-item {
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 7px;
+  min-height: 30px;
+  padding: 6px 8px;
+  border-radius: 11px;
+}
+
+.pulse-reading-item__number {
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+}
+
+.pulse-reading-item__title {
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.pulse-reading-item__title::after {
+  content: " →";
+  color: var(--primary, #0f4c81);
+  font-weight: 900;
+}
+
+.pulse-reading-item__arrow {
+  display: none;
+}
+
+.pulse-stat-grid {
+  gap: 6px;
+}
+
+.pulse-stat-tile {
+  padding: 7px 8px;
+  border-radius: 12px;
+}
+
+.pulse-stat-tile span {
+  margin-bottom: 2px;
+  font-size: 8px;
+  letter-spacing: 0.07em;
+}
+
+.pulse-stat-tile strong {
+  font-size: 12px;
 }
