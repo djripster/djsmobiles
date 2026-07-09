@@ -19,7 +19,7 @@
   };
 
   const Pulse = {
-    version: '0.2.10',
+    version: '0.2.11',
     reader: null,
     article: null,
     conversation: null,
@@ -220,15 +220,15 @@
       const label = item.label || 'Continue Reading';
       const message = item.message || 'Pick up with a recent story from your Pulse history.';
 
-      return '<aside class="pulse-card__continue" aria-label="' + this.escapeHtml(label) + '">' +
-        '<div class="pulse-card__continue-meta">' +
+      return '<a class="pulse-card__continue" href="' + this.escapeHtml(item.url) + '" aria-label="' + this.escapeHtml(label + ': ' + item.title) + '">' +
+        '<span class="pulse-card__continue-icon" aria-hidden="true">↗</span>' +
+        '<span class="pulse-card__continue-content">' +
           '<span class="pulse-card__continue-label">' + this.escapeHtml(label) + '</span>' +
-        '</div>' +
-        '<a class="pulse-card__continue-link" href="' + this.escapeHtml(item.url) + '">' +
-          this.escapeHtml(item.title) +
-        '</a>' +
-        '<p class="pulse-card__continue-message">' + this.escapeHtml(message) + '</p>' +
-      '</aside>';
+          '<span class="pulse-card__continue-title">' + this.escapeHtml(item.title) + '</span>' +
+          '<span class="pulse-card__continue-message">' + this.escapeHtml(message) + '</span>' +
+        '</span>' +
+        '<span class="pulse-card__continue-arrow" aria-hidden="true">→</span>' +
+      '</a>';
     },
 
     expandedMarkup() {
