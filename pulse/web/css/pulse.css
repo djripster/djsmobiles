@@ -1,7 +1,7 @@
 /*
  * Pulse
  * Module: pulse.css
- * Prototype: v0.2.8
+ * Prototype: v0.2.9
  *
  * DJs Mobiles Website Integration
  */
@@ -230,6 +230,44 @@
   line-height: 1.25;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* Weekly Pulse shelf */
+.pulse-weekly-summary {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  color: var(--text-soft, #5c6b7c);
+  font-size: 11px;
+  line-height: 1.3;
+}
+
+.pulse-weekly-summary strong {
+  color: var(--text, #17202b);
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.pulse-weekly-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 7px;
+}
+
+.pulse-weekly-highlights span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: rgba(234, 243, 251, 0.9);
+  border: 1px solid rgba(207, 226, 243, 0.95);
+  color: var(--primary, #0f4c81);
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 1;
 }
 
 /* Mobile mounts are hidden by default. */
