@@ -11,12 +11,12 @@
 
   const PULSE_ASSET_PATH = 'https://djripster.github.io/djsmobiles/pulse/web/';
 
-  const PulseConfig = {
-    publicVisible: false,
-    publicAutoOpen: false,
-    publicCanExpand: false,
-    hideWhenExtensionActive: true
-  };
+const PulseConfig = {
+  publicVisible: true,
+  publicAutoOpen: false,
+  publicCanExpand: true,
+  hideWhenExtensionActive: true
+};
 
   const Pulse = {
     version: '0.2.16',
