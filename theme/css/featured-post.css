@@ -1,1 +1,612 @@
+/* ==========================================================================
+   DJs Mobiles — featured-post.css
+   Loaded on posts labelled: Featured, Review, Editorial, Article
+   Namespaced under .fp- to avoid bleed into standard posts
+   ========================================================================== */
 
+/* --------------------------------------------------------------------------
+   CSS Variables
+   -------------------------------------------------------------------------- */
+:root {
+  --fp-primary: #0f4c81;
+  --fp-primary-light: #1a6bb5;
+  --fp-radius: 10px;
+  --fp-radius-sm: 6px;
+  --fp-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  --fp-shadow-md: 0 4px 16px rgba(0,0,0,0.13);
+
+  /* Habitat palette */
+  --fp-stormfire: #F4956A;
+  --fp-stormfire-bg: #FDF0E9;
+  --fp-astral: #A78BCC;
+  --fp-astral-bg: #F3EEFA;
+  --fp-dragonflight: #6AABCC;
+  --fp-dragonflight-bg: #E8F4FA;
+  --fp-earthforged: #C4A882;
+  --fp-earthforged-bg: #F7F2EC;
+  --fp-verdant: #7BBF82;
+  --fp-verdant-bg: #EDF7EE;
+  --fp-twilight: #E8829A;
+  --fp-twilight-bg: #FDEEF2;
+
+  /* General featured palette */
+  --fp-card-bg: #f8f9fb;
+  --fp-card-border: #e2e8f0;
+  --fp-label-bg: #eef2f7;
+  --fp-label-text: #0f4c81;
+  --fp-text: #1a1a2e;
+  --fp-text-muted: #5a6a7a;
+  --fp-chip-bg: rgba(255,255,255,0.75);
+  --fp-chip-border: rgba(0,0,0,0.12);
+}
+
+/* --------------------------------------------------------------------------
+   Featured Post Wrapper
+   -------------------------------------------------------------------------- */
+.fp-post {
+  font-family: inherit;
+  color: var(--fp-text);
+}
+
+/* --------------------------------------------------------------------------
+   Section Headings
+   -------------------------------------------------------------------------- */
+.fp-heading {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--fp-primary);
+  border-left: 5px solid var(--fp-primary);
+  padding-left: 14px;
+  margin: 32px 0 16px;
+  line-height: 1.3;
+}
+
+.fp-heading--sm {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--fp-primary);
+  margin: 20px 0 10px;
+}
+
+/* --------------------------------------------------------------------------
+   Generic Card
+   -------------------------------------------------------------------------- */
+.fp-card {
+  background: var(--fp-card-bg);
+  border: 1px solid var(--fp-card-border);
+  border-radius: var(--fp-radius);
+  padding: 18px 20px;
+  margin: 16px 0;
+  box-shadow: var(--fp-shadow);
+}
+
+.fp-card--accent {
+  border-left: 4px solid var(--fp-primary);
+}
+
+/* --------------------------------------------------------------------------
+   Schedule Grid (Saturday / Sunday two columns)
+   -------------------------------------------------------------------------- */
+.fp-schedule-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+  .fp-schedule-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fp-schedule-day {
+  border-radius: var(--fp-radius);
+  overflow: hidden;
+  box-shadow: var(--fp-shadow);
+}
+
+.fp-schedule-day__header {
+  background: var(--fp-primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fp-schedule-day__header img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.fp-schedule-day__body {
+  background: #fff;
+  border: 1px solid var(--fp-card-border);
+  border-top: none;
+  border-radius: 0 0 var(--fp-radius) var(--fp-radius);
+}
+
+/* --------------------------------------------------------------------------
+   Habitat Cards
+   -------------------------------------------------------------------------- */
+.fp-habitat {
+  border-radius: var(--fp-radius);
+  margin: 12px 0;
+  overflow: hidden;
+  box-shadow: var(--fp-shadow);
+}
+
+.fp-habitat__header {
+  padding: 12px 16px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.fp-habitat__time {
+  font-size: 0.78rem;
+  font-weight: 600;
+  opacity: 0.75;
+  letter-spacing: 0.02em;
+}
+
+.fp-habitat__name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.fp-habitat__types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.fp-habitat__body {
+  background: #fff;
+  padding: 14px 16px;
+  border-top: 1px solid rgba(0,0,0,0.07);
+}
+
+/* Habitat colour variants */
+.fp-habitat--stormfire {
+  background: var(--fp-stormfire-bg);
+  border: 1px solid var(--fp-stormfire);
+}
+.fp-habitat--stormfire .fp-habitat__name { color: #b85a30; }
+.fp-habitat--stormfire .fp-habitat__time { color: #b85a30; }
+
+.fp-habitat--astral {
+  background: var(--fp-astral-bg);
+  border: 1px solid var(--fp-astral);
+}
+.fp-habitat--astral .fp-habitat__name { color: #6b4a99; }
+.fp-habitat--astral .fp-habitat__time { color: #6b4a99; }
+
+.fp-habitat--dragonflight {
+  background: var(--fp-dragonflight-bg);
+  border: 1px solid var(--fp-dragonflight);
+}
+.fp-habitat--dragonflight .fp-habitat__name { color: #2f7a9e; }
+.fp-habitat--dragonflight .fp-habitat__time { color: #2f7a9e; }
+
+.fp-habitat--earthforged {
+  background: var(--fp-earthforged-bg);
+  border: 1px solid var(--fp-earthforged);
+}
+.fp-habitat--earthforged .fp-habitat__name { color: #7a5c30; }
+.fp-habitat--earthforged .fp-habitat__time { color: #7a5c30; }
+
+.fp-habitat--verdant {
+  background: var(--fp-verdant-bg);
+  border: 1px solid var(--fp-verdant);
+}
+.fp-habitat--verdant .fp-habitat__name { color: #3a7a42; }
+.fp-habitat--verdant .fp-habitat__time { color: #3a7a42; }
+
+.fp-habitat--twilight {
+  background: var(--fp-twilight-bg);
+  border: 1px solid var(--fp-twilight);
+}
+.fp-habitat--twilight .fp-habitat__name { color: #a03a58; }
+.fp-habitat--twilight .fp-habitat__time { color: #a03a58; }
+
+/* --------------------------------------------------------------------------
+   Type Chips
+   -------------------------------------------------------------------------- */
+.fp-chip {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  background: var(--fp-chip-bg);
+  border: 1px solid var(--fp-chip-border);
+  color: var(--fp-text);
+}
+
+/* Type colour variants */
+.fp-chip--fire     { background: #FDDFCF; color: #c0440a; border-color: #f4956a; }
+.fp-chip--ice      { background: #D9F0F8; color: #1a6a8a; border-color: #6aabcc; }
+.fp-chip--electric { background: #FFF5CC; color: #8a6a00; border-color: #f0c000; }
+.fp-chip--psychic  { background: #F3EEFA; color: #6b4a99; border-color: #a78bcc; }
+.fp-chip--ghost    { background: #EAE0F5; color: #4a2a7a; border-color: #8b6ab0; }
+.fp-chip--water    { background: #D9EEF8; color: #1a4a7a; border-color: #5a9acc; }
+.fp-chip--flying   { background: #E8F4FA; color: #2f6a8a; border-color: #6aabcc; }
+.fp-chip--rock     { background: #F0EAD8; color: #6a4a20; border-color: #c4a882; }
+.fp-chip--dragon   { background: #E0D8F5; color: #3a1a7a; border-color: #7a5acc; }
+.fp-chip--ground   { background: #F7F2EC; color: #7a5c30; border-color: #c4a882; }
+.fp-chip--steel    { background: #E8EEF5; color: #2a4a6a; border-color: #7a9abc; }
+.fp-chip--normal   { background: #F5F5F0; color: #5a5a50; border-color: #b0b0a0; }
+.fp-chip--poison   { background: #F0E0F5; color: #6a1a8a; border-color: #b07acc; }
+.fp-chip--bug      { background: #E8F5D8; color: #3a5a10; border-color: #8aba50; }
+.fp-chip--grass    { background: #EDF7EE; color: #3a7a42; border-color: #7bbf82; }
+.fp-chip--dark     { background: #E0DDD8; color: #2a2a20; border-color: #7a7a60; }
+.fp-chip--fairy    { background: #FDEEF2; color: #a03a58; border-color: #e8829a; }
+.fp-chip--fighting { background: #FAE0D8; color: #8a2a10; border-color: #d07060; }
+
+/* --------------------------------------------------------------------------
+   Mega Banner (Super Mega Raid day header)
+   -------------------------------------------------------------------------- */
+.fp-mega-banner {
+  border-radius: var(--fp-radius);
+  padding: 14px 18px;
+  margin: 8px 0 4px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #fff;
+  box-shadow: var(--fp-shadow);
+}
+
+.fp-mega-banner--x {
+  background: linear-gradient(135deg, #4a6fa5 0%, #2a4a80 100%);
+}
+
+.fp-mega-banner--y {
+  background: linear-gradient(135deg, #8a4a9a 0%, #5a1a7a 100%);
+}
+
+.fp-mega-banner__label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  opacity: 0.85;
+  display: block;
+  margin-top: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   Info Table (Eggs, Attacks, City Events)
+   -------------------------------------------------------------------------- */
+.fp-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 0.9rem;
+  border-radius: var(--fp-radius);
+  overflow: hidden;
+  box-shadow: var(--fp-shadow);
+}
+
+.fp-table th {
+  background: var(--fp-primary);
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+}
+
+.fp-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--fp-card-border);
+  vertical-align: top;
+  background: #fff;
+}
+
+.fp-table tr:last-child td {
+  border-bottom: none;
+}
+
+.fp-table td.fp-table__label {
+  font-weight: 700;
+  color: var(--fp-primary);
+  white-space: nowrap;
+  width: 35%;
+}
+
+.fp-table tr:nth-child(even) td {
+  background: var(--fp-card-bg);
+}
+
+/* --------------------------------------------------------------------------
+   Bonus List
+   -------------------------------------------------------------------------- */
+.fp-bonus-group {
+  background: var(--fp-card-bg);
+  border: 1px solid var(--fp-card-border);
+  border-radius: var(--fp-radius);
+  margin: 16px 0;
+  overflow: hidden;
+  box-shadow: var(--fp-shadow);
+}
+
+.fp-bonus-group__header {
+  background: var(--fp-primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 10px 16px;
+}
+
+.fp-bonus-group__sub {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.85;
+  display: block;
+  margin-top: 2px;
+}
+
+.fp-bonus-group__body {
+  padding: 12px 16px;
+}
+
+.fp-bonus-group__body ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.fp-bonus-group__body ul li {
+  padding: 4px 0;
+  font-size: 0.9rem;
+  color: var(--fp-text);
+  border-bottom: 1px solid var(--fp-card-border);
+}
+
+.fp-bonus-group__body ul li:last-child {
+  border-bottom: none;
+}
+
+/* --------------------------------------------------------------------------
+   Shiny Section
+   -------------------------------------------------------------------------- */
+.fp-shiny-group {
+  margin: 16px 0;
+}
+
+.fp-shiny-group__title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--fp-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+
+.fp-shiny-group__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.fp-shiny-group__list li {
+  background: #fff;
+  border: 1px solid var(--fp-card-border);
+  border-radius: var(--fp-radius-sm);
+  padding: 6px 12px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--fp-text);
+  box-shadow: var(--fp-shadow);
+}
+
+.fp-shiny-group__list li::before {
+  content: "✦ ";
+  color: #f0c000;
+  font-size: 0.75rem;
+}
+
+/* --------------------------------------------------------------------------
+   Egg Pools
+   -------------------------------------------------------------------------- */
+.fp-egg-pools {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin: 16px 0;
+}
+
+@media (max-width: 580px) {
+  .fp-egg-pools {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fp-egg-pool {
+  background: #fff;
+  border: 1px solid var(--fp-card-border);
+  border-radius: var(--fp-radius);
+  overflow: hidden;
+  box-shadow: var(--fp-shadow);
+}
+
+.fp-egg-pool__header {
+  padding: 8px 14px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: #fff;
+}
+
+.fp-egg-pool__header--2km  { background: #7BBF82; }
+.fp-egg-pool__header--5km  { background: #F4956A; }
+.fp-egg-pool__header--10km { background: #A78BCC; }
+
+.fp-egg-pool__body {
+  padding: 10px 14px;
+}
+
+.fp-egg-pool__body ul {
+  margin: 0;
+  padding-left: 16px;
+  font-size: 0.85rem;
+  color: var(--fp-text);
+}
+
+.fp-egg-pool__body ul li {
+  padding: 3px 0;
+  border-bottom: 1px solid var(--fp-card-border);
+}
+
+.fp-egg-pool__body ul li:last-child {
+  border-bottom: none;
+}
+
+/* --------------------------------------------------------------------------
+   Ultra Unlock Milestones
+   -------------------------------------------------------------------------- */
+.fp-milestones {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.fp-milestone {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid var(--fp-card-border);
+  border-radius: var(--fp-radius);
+  padding: 12px 16px;
+  box-shadow: var(--fp-shadow);
+}
+
+.fp-milestone__count {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--fp-primary);
+  min-width: 52px;
+  text-align: center;
+  line-height: 1;
+}
+
+.fp-milestone__count span {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--fp-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 2px;
+}
+
+.fp-milestone__info strong {
+  display: block;
+  font-size: 0.92rem;
+  color: var(--fp-text);
+}
+
+.fp-milestone__info small {
+  font-size: 0.8rem;
+  color: var(--fp-text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   Road of Legends Daily Schedule
+   -------------------------------------------------------------------------- */
+.fp-road-day {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--fp-card-border);
+}
+
+.fp-road-day:last-child {
+  border-bottom: none;
+}
+
+.fp-road-day__date {
+  font-weight: 800;
+  font-size: 0.88rem;
+  color: var(--fp-primary);
+  min-width: 110px;
+}
+
+.fp-road-day__detail {
+  font-size: 0.88rem;
+  color: var(--fp-text);
+  line-height: 1.5;
+}
+
+/* --------------------------------------------------------------------------
+   Prepare Checklist
+   -------------------------------------------------------------------------- */
+.fp-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fp-checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--fp-card-bg);
+  border: 1px solid var(--fp-card-border);
+  border-radius: var(--fp-radius-sm);
+  padding: 12px 14px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.fp-checklist li::before {
+  content: "✓";
+  color: #7BBF82;
+  font-weight: 900;
+  font-size: 1rem;
+  margin-top: 1px;
+  flex-shrink: 0;
+}
+
+/* --------------------------------------------------------------------------
+   TBA Badge
+   -------------------------------------------------------------------------- */
+.fp-tba {
+  display: inline-block;
+  background: #FFF5CC;
+  border: 1px solid #f0c000;
+  color: #8a6a00;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.04em;
+}
+
+.fp-tba-note {
+  background: var(--fp-card-bg);
+  border: 1px dashed var(--fp-card-border);
+  border-radius: var(--fp-radius-sm);
+  padding: 12px 16px;
+  color: var(--fp-text-muted);
+  font-size: 0.88rem;
+  margin: 10px 0;
+  font-style: italic;
+}
