@@ -19,7 +19,7 @@
   };
 
   const Pulse = {
-    version: '0.2.15',
+    version: '0.2.16',
     reader: null,
     article: null,
     conversation: null,
@@ -324,9 +324,9 @@
           <div class="pulse-card__eyebrow">${this.escapeHtml(conversation.eyebrow)}</div>
           <h2>${this.escapeHtml(conversation.title)}</h2>
           <p>${this.escapeHtml(conversation.message)}</p>
-          ${this.continueReadingMarkup()}
           ${this.weeklyPulseMarkup()}
           ${this.statsMarkup(conversation.stats)}
+          ${this.continueReadingMarkup()}
         </div>
       `;
     },
