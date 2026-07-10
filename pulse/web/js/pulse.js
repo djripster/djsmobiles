@@ -19,7 +19,7 @@
   };
 
   const Pulse = {
-    version: '0.2.13',
+    version: '0.2.14',
     reader: null,
     article: null,
     conversation: null,
@@ -199,29 +199,75 @@
       return '<span class="pulse-title">' + this.iconMarkup() + '<span>Your Pulse</span></span>';
     },
 
+    normalizeStatValue(label, value) {
+      const rawLabel = String(label || '').toLowerCase();
+      let result = String(value || '');
+
+      if (rawLabel.indexOf('articles') !== -1) {
+        result = result.replace(/\s*articles?\s*$/i, '');
+      }
+
+      if (rawLabel.indexOf('visits') !== -1) {
+        result = result.replace(/\s*visits?\s*$/i, '');
+      }
+
+      return result;
+    },
+
+    normalizeStatLabel(label) {
+      const value = String(label || '');
+
+      if (/articles read/i.test(value)) return 'Read';
+      if (/following since/i.test(value)) return 'Following';
+
+      return value;
+    },
+
     statsMarkup(stats) {
       if (!stats || !stats.length) return '';
 
-      return '<div class="pulse-card__stats">' + stats.map((item) => {
-        return '<div class="pulse-card__stat">' +
-          '<span>' + this.escapeHtml(item.label) + '</span>' +
-          '<strong>' + this.escapeHtml(item.value) + '</strong>' +
-        '</div>';
-      }).join('') + '</div>';
+      return '<section class="pulse-shelf pulse-shelf--stats" aria-label="Reader Stats">' +
+        '<div class="pulse-stat-grid">' + stats.map((item) => {
+          return '<div class="pulse-stat-tile">' +
+            '<span>' + this.escapeHtml(this.normalizeStatLabel(item.label)) + '</span>' +
+            '<strong>' + this.escapeHtml(this.normalizeStatValue(item.label, item.value)) + '</strong>' +
+          '</div>';
+        }).join('') + '</div>' +
+      '</section>';
+    },
+
+    getReadingShelfItems() {
+      const currentUrl = this.article && this.article.article
+        ? this.article.article.url
+        : (this.article && this.article.url ? this.article.url : '');
+
+      const history = this.reader && Array.isArray(this.reader.articleHistory)
+        ? this.reader.articleHistory
+        : [];
+
+      return history.filter((item) => {
+        return item && item.url && item.title && item.url !== currentUrl;
+      }).slice(0, 3);
     },
 
     continueReadingMarkup() {
-      const item = this.reader && this.reader.continueReading
-        ? this.reader.continueReading
-        : null;
+      const items = this.getReadingShelfItems();
 
-      if (!item || !item.available || !item.url || !item.title) return '';
+      if (!items.length) return '';
 
-      return '<div class="pulse-card__continue">' +
-        '<span class="pulse-card__continue-label">' + this.escapeHtml(item.label || 'Continue Reading') + '</span>' +
-        '<a class="pulse-card__continue-link" href="' + this.escapeHtml(item.url) + '">' + this.escapeHtml(item.title) + '</a>' +
-        '<p>' + this.escapeHtml(item.message || 'Pick up with a recent story from your Pulse history.') + '</p>' +
-      '</div>';
+      return '<section class="pulse-shelf pulse-shelf--reading" aria-label="Continue Reading">' +
+        '<div class="pulse-shelf__header">' +
+          '<span class="pulse-shelf__title">Continue Reading</span>' +
+        '</div>' +
+        '<div class="pulse-reading-list">' +
+          items.map((item, index) => {
+            return '<a class="pulse-reading-item" href="' + this.escapeHtml(item.url) + '">' +
+              '<span class="pulse-reading-item__number">' + String(index + 1) + '</span>' +
+              '<span class="pulse-reading-item__title">' + this.escapeHtml(item.title) + '</span>' +
+            '</a>';
+          }).join('') +
+        '</div>' +
+      '</section>';
     },
 
     expandedMarkup() {
