@@ -19,7 +19,7 @@
   };
 
   const Pulse = {
-    version: '0.2.14',
+    version: '0.2.15',
     reader: null,
     article: null,
     conversation: null,
@@ -144,11 +144,13 @@
         this.reader.interests = state.getReaderInterests();
         this.reader.timeline = state.getReaderTimeline();
         this.reader.continueReading = state.getContinueReading();
+        this.reader.weeklyPulse = state.getWeeklyPulse();
       }
 
       if (state && this.reader) {
         this.reader.timeline = state.getReaderTimeline();
         this.reader.continueReading = state.getContinueReading();
+        this.reader.weeklyPulse = state.getWeeklyPulse();
       }
 
       this.conversation = core && typeof core.getPulseConversation === 'function'
@@ -270,6 +272,46 @@
       '</section>';
     },
 
+
+    weeklyPulseMarkup() {
+      const weekly = this.reader && this.reader.weeklyPulse
+        ? this.reader.weeklyPulse
+        : null;
+
+      if (!weekly || !weekly.available) return '';
+
+      const articleLabel = weekly.articleCount === 1 ? 'story' : 'stories';
+      const dayLabel = weekly.activeDays === 1 ? 'day' : 'days';
+      const highlights = [];
+
+      if (weekly.topBrand && weekly.topBrand.name) {
+        highlights.push('Top brand: ' + weekly.topBrand.name);
+      }
+
+      if (weekly.topTopic && weekly.topTopic.name) {
+        highlights.push(weekly.topTopic.name);
+      }
+
+      if (weekly.topType && weekly.topType.name) {
+        highlights.push(weekly.topType.name);
+      }
+
+      return '<section class="pulse-shelf pulse-shelf--weekly" aria-label="Weekly Pulse">' +
+        '<div class="pulse-shelf__header">' +
+          '<span class="pulse-shelf__title">Weekly Pulse</span>' +
+        '</div>' +
+        '<div class="pulse-weekly-summary">' +
+          '<strong>' + this.escapeHtml(String(weekly.articleCount)) + '</strong>' +
+          '<span>' + this.escapeHtml(articleLabel + ' across ' + weekly.activeDays + ' ' + dayLabel) + '</span>' +
+        '</div>' +
+        (highlights.length
+          ? '<div class="pulse-weekly-highlights">' + highlights.slice(0, 3).map((item) => {
+              return '<span>' + this.escapeHtml(item) + '</span>';
+            }).join('') + '</div>'
+          : '') +
+      '</section>';
+    },
+
     expandedMarkup() {
       const conversation = this.conversation || this.getFallbackConversation();
 
@@ -282,8 +324,9 @@
           <div class="pulse-card__eyebrow">${this.escapeHtml(conversation.eyebrow)}</div>
           <h2>${this.escapeHtml(conversation.title)}</h2>
           <p>${this.escapeHtml(conversation.message)}</p>
-          ${this.statsMarkup(conversation.stats)}
           ${this.continueReadingMarkup()}
+          ${this.weeklyPulseMarkup()}
+          ${this.statsMarkup(conversation.stats)}
         </div>
       `;
     },

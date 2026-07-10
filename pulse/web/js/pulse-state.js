@@ -191,7 +191,7 @@
     };
   }
   const PulseState = {
-    version: '0.3.6',
+    version: '0.3.7',
     keys: KEYS,
 
     load() {
@@ -226,7 +226,8 @@
         articleHistory: this.getArticleHistory(),
         interests: this.getReaderInterests(),
         timeline: this.getReaderTimeline(),
-        continueReading: this.getContinueReading()
+        continueReading: this.getContinueReading(),
+        weeklyPulse: this.getWeeklyPulse()
       };
     },
 
@@ -390,6 +391,69 @@
         label: 'Continue Reading',
         message: 'Pick up with a recent story from your Pulse history.',
         article: next
+      };
+    },
+
+
+    getWeeklyPulse() {
+      const history = this.getArticleHistory();
+      const cutoff = Date.now() - (7 * 86400000);
+      const recent = history.filter(function (article) {
+        if (!article) return false;
+        const rawDate = article.recordedAt || article.timestamp;
+        const articleTime = new Date(rawDate).getTime();
+        return !Number.isNaN(articleTime) && articleTime >= cutoff;
+      });
+
+      function rank(values) {
+        const counts = {};
+
+        values.forEach(function (value) {
+          const name = cleanText(value);
+          if (!name) return;
+          counts[name] = (counts[name] || 0) + 1;
+        });
+
+        return Object.keys(counts)
+          .map(function (name) {
+            return { name, count: counts[name] };
+          })
+          .sort(function (a, b) {
+            return b.count - a.count || a.name.localeCompare(b.name);
+          });
+      }
+
+      const brands = [];
+      const topics = [];
+      const types = [];
+      const activeDays = {};
+
+      recent.forEach(function (article) {
+        if (article.brand) brands.push(article.brand);
+        if (article.type) types.push(article.type);
+        if (Array.isArray(article.topics)) {
+          article.topics.forEach(function (topic) {
+            topics.push(topic);
+          });
+        }
+
+        const rawDate = article.recordedAt || article.timestamp;
+        activeDays[todayKey(rawDate)] = true;
+      });
+
+      const rankedBrands = rank(brands);
+      const rankedTopics = rank(topics);
+      const rankedTypes = rank(types);
+      const dayCount = Object.keys(activeDays).length;
+
+      return {
+        available: recent.length >= 3,
+        articleCount: recent.length,
+        activeDays: dayCount,
+        topBrand: rankedBrands[0] || null,
+        topTopic: rankedTopics[0] || null,
+        topType: rankedTypes[0] || null,
+        articles: recent.slice(0, 5)
       };
     },
 
