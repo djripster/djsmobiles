@@ -1,7 +1,7 @@
 /*
  * Pulse
  * Module: pulse.css
- * Prototype: v0.2.10
+ * Prototype: v0.2.9
  *
  * DJs Mobiles Website Integration
  */
@@ -19,48 +19,6 @@
   box-shadow: var(--shadow-sm, 0 10px 30px rgba(15, 35, 58, 0.06));
   color: var(--text, #17202b);
   overflow: hidden;
-}
-
-
-/* Emotional color system: color communicates state, not decoration. */
-.pulse-card {
-  --pulse-emotion: var(--primary, #0f4c81);
-  --pulse-emotion-soft: rgba(15, 76, 129, 0.08);
-  --pulse-emotion-border: rgba(15, 76, 129, 0.2);
-}
-
-.pulse-card--welcome {
-  --pulse-emotion: #087f8c;
-  --pulse-emotion-soft: rgba(8, 127, 140, 0.09);
-  --pulse-emotion-border: rgba(8, 127, 140, 0.22);
-}
-
-.pulse-card--active,
-.pulse-card--default {
-  --pulse-emotion: #1769aa;
-  --pulse-emotion-soft: rgba(23, 105, 170, 0.08);
-  --pulse-emotion-border: rgba(23, 105, 170, 0.2);
-}
-
-.pulse-card--returning,
-.pulse-card--reconnect {
-  --pulse-emotion: #b56a00;
-  --pulse-emotion-soft: rgba(181, 106, 0, 0.1);
-  --pulse-emotion-border: rgba(181, 106, 0, 0.23);
-}
-
-.pulse-card--milestone,
-.pulse-card--celebration {
-  --pulse-emotion: #7251b5;
-  --pulse-emotion-soft: rgba(114, 81, 181, 0.1);
-  --pulse-emotion-border: rgba(114, 81, 181, 0.23);
-}
-
-.pulse-card--quiet,
-.pulse-card--calm {
-  --pulse-emotion: #5c6b7c;
-  --pulse-emotion-soft: rgba(92, 107, 124, 0.08);
-  --pulse-emotion-border: rgba(92, 107, 124, 0.2);
 }
 
 .pulse-card__header {
@@ -88,7 +46,7 @@
   align-items: center;
   gap: 9px;
   min-width: 0;
-  color: var(--pulse-emotion, var(--primary, #0f4c81));
+  color: var(--primary, #0f4c81);
   font-size: 12px;
   font-weight: 900;
   letter-spacing: 0.08em;
@@ -108,7 +66,7 @@
 .pulse-card__chevron,
 .pulse-card__status {
   flex: 0 0 auto;
-  color: var(--pulse-emotion, var(--primary, #0f4c81));
+  color: var(--primary, #0f4c81);
   font-size: 14px;
   font-weight: 900;
 }
@@ -127,32 +85,9 @@
   padding: 0 16px 18px;
 }
 
-
-.pulse-conversation {
-  position: relative;
-  padding: 13px 14px 14px;
-  border: 1px solid var(--pulse-emotion-border);
-  border-radius: 16px;
-  background: linear-gradient(135deg, var(--pulse-emotion-soft) 0%, rgba(255, 255, 255, 0.56) 72%);
-  overflow: hidden;
-}
-
-.pulse-conversation::before {
-  content: "";
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 4px;
-  background: var(--pulse-emotion);
-  opacity: 0.9;
-}
-
-.pulse-conversation .pulse-card__eyebrow {
-  color: var(--pulse-emotion);
-}
-
 .pulse-card__eyebrow {
-  margin: 0 0 7px;
-  color: var(--pulse-emotion, var(--primary, #0f4c81));
+  margin: 0 0 10px;
+  color: var(--primary, #0f4c81);
   font-size: 10px;
   font-weight: 900;
   letter-spacing: 0.12em;
@@ -289,8 +224,8 @@
 .pulse-stat-tile strong {
   display: block;
   overflow: hidden;
-  color: var(--pulse-emotion, var(--primary, #0f4c81));
-  font-size: 14px;
+  color: var(--text, #17202b);
+  font-size: 12px;
   font-weight: 900;
   line-height: 1.25;
   text-overflow: ellipsis;
@@ -333,46 +268,6 @@
   font-size: 9px;
   font-weight: 800;
   line-height: 1;
-}
-
-/* Controlled color accents */
-.pulse-reading-item:nth-child(1) .pulse-reading-item__number {
-  background: rgba(23, 105, 170, 0.12);
-  color: #1769aa;
-}
-
-.pulse-reading-item:nth-child(2) .pulse-reading-item__number {
-  background: rgba(8, 127, 140, 0.12);
-  color: #087f8c;
-}
-
-.pulse-reading-item:nth-child(3) .pulse-reading-item__number {
-  background: rgba(181, 106, 0, 0.13);
-  color: #a45f00;
-}
-
-.pulse-weekly-highlights span:nth-child(2) {
-  background: rgba(8, 127, 140, 0.1);
-  border-color: rgba(8, 127, 140, 0.2);
-  color: #087f8c;
-}
-
-.pulse-weekly-highlights span:nth-child(3) {
-  background: rgba(114, 81, 181, 0.1);
-  border-color: rgba(114, 81, 181, 0.2);
-  color: #7251b5;
-}
-
-.dark-mode .pulse-conversation,
-body.dark-mode .pulse-conversation {
-  background: linear-gradient(135deg, var(--pulse-emotion-soft) 0%, rgba(28, 37, 48, 0.82) 72%);
-}
-
-.dark-mode .pulse-reading-item,
-.dark-mode .pulse-stat-tile,
-body.dark-mode .pulse-reading-item,
-body.dark-mode .pulse-stat-tile {
-  background: rgba(28, 37, 48, 0.72);
 }
 
 /* Mobile mounts are hidden by default. */
