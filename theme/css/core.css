@@ -39,3 +39,154 @@
   user-select: none;
   z-index: 2;
 }
+
+/* ==========================================================
+   Discussion Grid
+   Core v17+
+   ----------------------------------------------------------
+   Purpose:
+   Reusable editorial discussion cards for presenting multiple
+   viewpoints without implying a winner or loser.
+   ========================================================== */
+
+.discussion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.discussion-card {
+  position: relative;
+  padding: 1rem 1.15rem;
+  background: #ffffff;
+  border: 1px solid #dfe5ec;
+  border-left: 5px solid #9aa7b5;
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.discussion-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.discussion-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.75rem;
+}
+
+.discussion-card__icon {
+  flex: 0 0 auto;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.discussion-card__title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.discussion-card__body {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.discussion-card__body > :first-child {
+  margin-top: 0;
+}
+
+.discussion-card__body > :last-child {
+  margin-bottom: 0;
+}
+
+.discussion-card__footer {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.45;
+  opacity: 0.78;
+}
+
+.discussion-card--blue {
+  background: #eef6ff;
+  border-color: #bfdcff;
+  border-left-color: #1976d2;
+}
+
+.discussion-card--green {
+  background: #eefaf2;
+  border-color: #c8ead2;
+  border-left-color: #2e7d32;
+}
+
+.discussion-card--purple {
+  background: #f6f0ff;
+  border-color: #dfcef8;
+  border-left-color: #7b1fa2;
+}
+
+.discussion-card--orange {
+  background: #fff6ed;
+  border-color: #ffd7b2;
+  border-left-color: #ef6c00;
+}
+
+.dark-mode .discussion-card,
+body.dark-mode .discussion-card {
+  color: #edf2f7;
+  background: #222831;
+  border-color: #3b4654;
+}
+
+.dark-mode .discussion-card--blue,
+body.dark-mode .discussion-card--blue {
+  background: #172536;
+  border-left-color: #64a9f3;
+}
+
+.dark-mode .discussion-card--green,
+body.dark-mode .discussion-card--green {
+  background: #182b21;
+  border-left-color: #66bb6a;
+}
+
+.dark-mode .discussion-card--purple,
+body.dark-mode .discussion-card--purple {
+  background: #281d32;
+  border-left-color: #ba68c8;
+}
+
+.dark-mode .discussion-card--orange,
+body.dark-mode .discussion-card--orange {
+  background: #302318;
+  border-left-color: #ff9800;
+}
+
+.dark-mode .discussion-card__footer,
+body.dark-mode .discussion-card__footer {
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .discussion-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .discussion-card {
+    transition: none;
+  }
+
+  .discussion-card:hover {
+    transform: none;
+  }
+}
