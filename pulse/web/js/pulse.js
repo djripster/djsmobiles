@@ -11,15 +11,15 @@
 
   const PULSE_ASSET_PATH = 'https://djripster.github.io/djsmobiles/pulse/web/';
 
-const PulseConfig = {
-  publicVisible: true,
-  publicAutoOpen: false,
-  publicCanExpand: true,
-  hideWhenExtensionActive: true
-};
+  const PulseConfig = {
+    publicVisible: false,
+    publicAutoOpen: false,
+    publicCanExpand: false,
+    hideWhenExtensionActive: true
+  };
 
   const Pulse = {
-    version: '0.2.16',
+    version: '0.2.6',
     reader: null,
     article: null,
     conversation: null,
@@ -142,15 +142,6 @@ const PulseConfig = {
         state.recordArticle(this.article);
         this.reader.articleHistory = state.getArticleHistory();
         this.reader.interests = state.getReaderInterests();
-        this.reader.timeline = state.getReaderTimeline();
-        this.reader.continueReading = state.getContinueReading();
-        this.reader.weeklyPulse = state.getWeeklyPulse();
-      }
-
-      if (state && this.reader) {
-        this.reader.timeline = state.getReaderTimeline();
-        this.reader.continueReading = state.getContinueReading();
-        this.reader.weeklyPulse = state.getWeeklyPulse();
       }
 
       this.conversation = core && typeof core.getPulseConversation === 'function'
@@ -201,115 +192,15 @@ const PulseConfig = {
       return '<span class="pulse-title">' + this.iconMarkup() + '<span>Your Pulse</span></span>';
     },
 
-    normalizeStatValue(label, value) {
-      const rawLabel = String(label || '').toLowerCase();
-      let result = String(value || '');
-
-      if (rawLabel.indexOf('articles') !== -1) {
-        result = result.replace(/\s*articles?\s*$/i, '');
-      }
-
-      if (rawLabel.indexOf('visits') !== -1) {
-        result = result.replace(/\s*visits?\s*$/i, '');
-      }
-
-      return result;
-    },
-
-    normalizeStatLabel(label) {
-      const value = String(label || '');
-
-      if (/articles read/i.test(value)) return 'Read';
-      if (/following since/i.test(value)) return 'Following';
-
-      return value;
-    },
-
     statsMarkup(stats) {
       if (!stats || !stats.length) return '';
 
-      return '<section class="pulse-shelf pulse-shelf--stats" aria-label="Reader Stats">' +
-        '<div class="pulse-stat-grid">' + stats.map((item) => {
-          return '<div class="pulse-stat-tile">' +
-            '<span>' + this.escapeHtml(this.normalizeStatLabel(item.label)) + '</span>' +
-            '<strong>' + this.escapeHtml(this.normalizeStatValue(item.label, item.value)) + '</strong>' +
-          '</div>';
-        }).join('') + '</div>' +
-      '</section>';
-    },
-
-    getReadingShelfItems() {
-      const currentUrl = this.article && this.article.article
-        ? this.article.article.url
-        : (this.article && this.article.url ? this.article.url : '');
-
-      const history = this.reader && Array.isArray(this.reader.articleHistory)
-        ? this.reader.articleHistory
-        : [];
-
-      return history.filter((item) => {
-        return item && item.url && item.title && item.url !== currentUrl;
-      }).slice(0, 3);
-    },
-
-    continueReadingMarkup() {
-      const items = this.getReadingShelfItems();
-
-      if (!items.length) return '';
-
-      return '<section class="pulse-shelf pulse-shelf--reading" aria-label="Continue Reading">' +
-        '<div class="pulse-shelf__header">' +
-          '<span class="pulse-shelf__title">Continue Reading</span>' +
-        '</div>' +
-        '<div class="pulse-reading-list">' +
-          items.map((item, index) => {
-            return '<a class="pulse-reading-item" href="' + this.escapeHtml(item.url) + '">' +
-              '<span class="pulse-reading-item__number">' + String(index + 1) + '</span>' +
-              '<span class="pulse-reading-item__title">' + this.escapeHtml(item.title) + '</span>' +
-            '</a>';
-          }).join('') +
-        '</div>' +
-      '</section>';
-    },
-
-
-    weeklyPulseMarkup() {
-      const weekly = this.reader && this.reader.weeklyPulse
-        ? this.reader.weeklyPulse
-        : null;
-
-      if (!weekly || !weekly.available) return '';
-
-      const articleLabel = weekly.articleCount === 1 ? 'story' : 'stories';
-      const dayLabel = weekly.activeDays === 1 ? 'day' : 'days';
-      const highlights = [];
-
-      if (weekly.topBrand && weekly.topBrand.name) {
-        highlights.push('Top brand: ' + weekly.topBrand.name);
-      }
-
-      if (weekly.topTopic && weekly.topTopic.name) {
-        highlights.push(weekly.topTopic.name);
-      }
-
-      if (weekly.topType && weekly.topType.name) {
-        highlights.push(weekly.topType.name);
-      }
-
-      return '<section class="pulse-shelf pulse-shelf--weekly" aria-label="Weekly Pulse">' +
-        '<div class="pulse-shelf__header">' +
-          '<span class="pulse-shelf__title">Weekly Pulse</span>' +
-        '</div>' +
-        '<div class="pulse-weekly-summary">' +
-          '<strong>' + this.escapeHtml(String(weekly.articleCount)) + '</strong>' +
-          '<span>' + this.escapeHtml(articleLabel + ' across ' + weekly.activeDays + ' ' + dayLabel) + '</span>' +
-        '</div>' +
-        (highlights.length
-          ? '<div class="pulse-weekly-highlights">' + highlights.slice(0, 3).map((item) => {
-              return '<span>' + this.escapeHtml(item) + '</span>';
-            }).join('') + '</div>'
-          : '') +
-      '</section>';
+      return '<div class="pulse-card__stats">' + stats.map((item) => {
+        return '<div class="pulse-card__stat">' +
+          '<span>' + this.escapeHtml(item.label) + '</span>' +
+          '<strong>' + this.escapeHtml(item.value) + '</strong>' +
+        '</div>';
+      }).join('') + '</div>';
     },
 
     expandedMarkup() {
@@ -324,9 +215,7 @@ const PulseConfig = {
           <div class="pulse-card__eyebrow">${this.escapeHtml(conversation.eyebrow)}</div>
           <h2>${this.escapeHtml(conversation.title)}</h2>
           <p>${this.escapeHtml(conversation.message)}</p>
-          ${this.weeklyPulseMarkup()}
           ${this.statsMarkup(conversation.stats)}
-          ${this.continueReadingMarkup()}
         </div>
       `;
     },
