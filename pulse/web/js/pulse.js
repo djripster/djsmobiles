@@ -1,7 +1,7 @@
 /*
  * Pulse
  * Module: pulse.js
- * Prototype: v0.2.17
+ * Prototype: v0.2.18
  *
  * DJs Mobiles Website Integration
  */
@@ -19,7 +19,7 @@ const PulseConfig = {
 };
 
   const Pulse = {
-    version: '0.2.17',
+    version: '0.2.18',
     reader: null,
     article: null,
     conversation: null,
