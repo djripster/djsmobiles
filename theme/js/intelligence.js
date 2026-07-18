@@ -169,7 +169,9 @@
 
     detectBrand(title, labels) {
       const classified = this.classifyLabels(labels);
-      if (classified.brand) return classified.brand.name;
+      if (classified.brand) {
+  return this.canonicalBrandName(classified.brand.name);
+}
       const titleText = this.normalize(title || '');
       const labelText = this.normalize((labels || []).join(' '));
 
