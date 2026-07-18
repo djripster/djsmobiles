@@ -1,7 +1,7 @@
 /*
  * Pulse
  * Module: pulse.js
- * Prototype: v0.2.6
+ * Prototype: v0.2.17
  *
  * DJs Mobiles Website Integration
  */
@@ -19,7 +19,7 @@ const PulseConfig = {
 };
 
   const Pulse = {
-    version: '0.2.16',
+    version: '0.2.17',
     reader: null,
     article: null,
     conversation: null,
@@ -194,7 +194,7 @@ const PulseConfig = {
     },
 
     iconMarkup() {
-      return '<img class="pulse-icon" src="' + this.escapeHtml(this.iconPath) + '" alt="" aria-hidden="true" loading="lazy" decoding="async">';
+      return '<img class="pulse-icon" src="' + this.escapeHtml(this.iconPath) + '" width="22" height="22" alt="" aria-hidden="true" loading="lazy" decoding="async">';
     },
 
     titleMarkup() {
@@ -285,7 +285,7 @@ const PulseConfig = {
       const highlights = [];
 
       if (weekly.topBrand && weekly.topBrand.name) {
-        highlights.push('Top brand: ' + weekly.topBrand.name);
+        highlights.push(weekly.topBrand.name);
       }
 
       if (weekly.topTopic && weekly.topTopic.name) {
