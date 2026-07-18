@@ -1,10 +1,9 @@
-# Pulse Web v0.2.17 / CSS v0.2.10
+# Pulse Web v0.2.18 / CSS v0.2.11
 
-- Added restrained emotional accents by conversation mode.
-- Simplified Weekly Pulse brand chips.
-- Added distinct, muted Continue Reading number colors.
-- Increased compact stats value emphasis.
-- Hardened Pulse icon sizing against global Blogger image rules.
-- Added intrinsic 22 x 22 icon dimensions in generated markup.
-- Added dark-mode treatments for cards, shelves, rows, and tiles.
-- Preserved the existing Pulse DOM and architecture.
+- Removed the colored left-edge accent from the expanded Pulse panel.
+- Returned the outer card border to a clean neutral treatment.
+- Kept emotional color inside the conversation header and eyebrow.
+- Neutralized Weekly Pulse chips to reduce dashboard-like color.
+- Softened Continue Reading number badges.
+- Added slightly more breathing room to compact stat tiles.
+- Preserved the verified icon sizing, DOM, behavior, and asset paths.
