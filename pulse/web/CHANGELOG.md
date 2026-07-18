@@ -1,6 +1,6 @@
-# Pulse v0.2.19 — Contextual Conversation Eyebrow
+# Pulse v0.2.20
 
-- Replaces the repeated “Your Pulse” conversation eyebrow with a contextual state label.
-- Adds concise labels for welcome, active, returning, reconnecting, milestone, and quiet states.
-- Preserves the existing card layout, emotional color system, icon hardening, shelves, and reader logic.
-- No Blogger XML or asset-path changes.
+- Replaced the fixed “Your Pulse” header with reader-state-aware titles.
+- Added the agreed title states for first launch, same-day activity, daily, weekly, missed, quiet, and no-history readers.
+- Removed the separate eyebrow and conversation title to eliminate repeated labels.
+- Preserved the existing shelves, icon hardening, styling, and behavior.
