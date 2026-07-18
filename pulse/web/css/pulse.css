@@ -1,7 +1,7 @@
 /*
  * Pulse
  * Module: pulse.css
- * Prototype: v0.2.11
+ * Prototype: v0.2.12
  *
  * DJs Mobiles Website Integration
  */
@@ -453,4 +453,8 @@ body.dark-mode .pulse-reading-item:focus-visible,
   #pulse-mobile-card {
     display: none !important;
   }
+}
+/* Dynamic header conversation */
+.pulse-conversation-message {
+  margin-top: 2px !important;
 }
