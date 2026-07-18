@@ -53,14 +53,20 @@
   text-transform: uppercase;
 }
 
-.pulse-icon {
-  display: block;
-  flex: 0 0 auto;
+#pulse-container img.pulse-icon,
+#pulse-mobile-button img.pulse-icon,
+#pulse-mobile-card img.pulse-icon {
+  display: block !important;
   width: 22px !important;
   height: 22px !important;
+  min-width: 22px !important;
+  min-height: 22px !important;
   max-width: 22px !important;
   max-height: 22px !important;
-  object-fit: contain;
+  flex: 0 0 22px !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .pulse-card__chevron,
