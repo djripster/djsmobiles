@@ -53,21 +53,15 @@
   text-transform: uppercase;
 }
 
-#pulse-container img.pulse-icon,
-#pulse-mobile-button img.pulse-icon,
-#pulse-mobile-card img.pulse-icon {
-  display: block !important;
-  width: 22px !important;
-  height: 22px !important;
-  min-width: 22px !important;
-  min-height: 22px !important;
-  max-width: 22px !important;
-  max-height: 22px !important;
-  flex: 0 0 22px !important;
-  object-fit: contain !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
+<img
+  class="pulse-icon"
+  src="https://djripster.github.io/djsmobiles/pulse/web/pulse.svg"
+  width="22"
+  height="22"
+  alt=""
+  aria-hidden="true"
+  loading="lazy"
+  decoding="async">
 
 .pulse-card__chevron,
 .pulse-card__status {
