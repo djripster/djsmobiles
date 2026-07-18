@@ -1,7 +1,7 @@
 /*
  * Pulse State
  * Module: pulse-state.js
- * Prototype: v0.3.3
+ * Prototype: v0.3.8
  *
  * DJs Mobiles Website Pulse reader memory.
  * Website-only storage. No extension dependency.
@@ -21,7 +21,8 @@
     visitCount: STORAGE_PREFIX + 'visit_count',
     articleHistory: STORAGE_PREFIX + 'article_history',
     sessionVisit: STORAGE_PREFIX + 'session_visit',
-    developer: 'djs_pulse_dev'
+    developer: 'djs_pulse_dev',
+    brandCapitalizationMigration: STORAGE_PREFIX + 'migration_brand_capitalization_v1'
   };
 
   function nowIso() {
@@ -98,6 +99,42 @@
       .trim();
   }
 
+
+  const CANONICAL_BRANDS = {
+    'apple': 'Apple',
+    'google': 'Google',
+    'samsung': 'Samsung',
+    'microsoft': 'Microsoft',
+    'motorola': 'Motorola',
+    'nothing': 'Nothing',
+    'oneplus': 'OnePlus',
+    'nokia': 'Nokia',
+    'blackberry': 'BlackBerry',
+    'sony': 'Sony',
+    'htc': 'HTC',
+    'lg': 'LG',
+    'verizon': 'Verizon',
+    't mobile': 'T-Mobile',
+    'tmobile': 'T-Mobile',
+    'at t': 'AT&T',
+    'att': 'AT&T',
+    'qualcomm': 'Qualcomm',
+    'huawei': 'Huawei',
+    'xiaomi': 'Xiaomi',
+    'oppo': 'OPPO',
+    'vivo': 'Vivo',
+    'honor': 'HONOR',
+    'asus': 'ASUS',
+    'lenovo': 'Lenovo'
+  };
+
+  function canonicalizeBrand(value) {
+    const brand = cleanText(value);
+    if (!brand) return '';
+
+    return CANONICAL_BRANDS[normalize(brand)] || brand;
+  }
+
   function has(text, term) {
     return (' ' + text + ' ').indexOf(' ' + term + ' ') !== -1;
   }
@@ -114,7 +151,7 @@
 
     const title = cleanText(item.title, 'Untitled article');
     const text = normalize(title);
-    let brand = cleanText(item.brand);
+    let brand = canonicalizeBrand(item.brand);
     let platform = cleanText(item.platform);
     let topics = Array.isArray(item.topics) ? item.topics.slice(0, 6) : [];
 
@@ -150,6 +187,29 @@
       isSponsored: item.isSponsored === true,
       isGuest: item.isGuest === true
     };
+  }
+
+
+  function migrateBrandCapitalization() {
+    if (safeGet(KEYS.brandCapitalizationMigration) === '1') return;
+
+    const history = safeJsonParse(safeGet(KEYS.articleHistory), []);
+
+    if (Array.isArray(history)) {
+      const seenUrls = {};
+      const migrated = [];
+
+      history.forEach(function (item) {
+        const entry = cleanHistoryEntry(item);
+        if (!entry || seenUrls[entry.url]) return;
+        seenUrls[entry.url] = true;
+        migrated.push(entry);
+      });
+
+      safeSet(KEYS.articleHistory, JSON.stringify(migrated.slice(0, 200)));
+    }
+
+    safeSet(KEYS.brandCapitalizationMigration, '1');
   }
 
   function canonicalUrl() {
@@ -191,10 +251,12 @@
     };
   }
   const PulseState = {
-    version: '0.3.7',
+    version: '0.3.8',
     keys: KEYS,
 
     load() {
+      migrateBrandCapitalization();
+
       const current = nowIso();
       let firstSeen = safeGet(KEYS.firstSeen);
       const previousLastSeen = safeGet(KEYS.lastSeen);
