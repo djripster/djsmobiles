@@ -1,7 +1,7 @@
 /*
  * Pulse
  * Module: pulse.js
- * Prototype: v0.2.18
+ * Prototype: v0.2.19
  *
  * DJs Mobiles Website Integration
  */
@@ -19,7 +19,7 @@ const PulseConfig = {
 };
 
   const Pulse = {
-    version: '0.2.18',
+    version: '0.2.19',
     reader: null,
     article: null,
     conversation: null,
@@ -312,8 +312,29 @@ const PulseConfig = {
       '</section>';
     },
 
+    getConversationEyebrow(conversation) {
+      const mode = String(conversation && conversation.mode ? conversation.mode : 'default').toLowerCase();
+
+      const labels = {
+        welcome: 'Welcome',
+        active: 'Active',
+        returning: 'Welcome Back',
+        'returning-medium': 'Picking Up Again',
+        'returning-extended': 'Good to See You',
+        'returning-long': 'Reconnecting',
+        milestone: 'Milestone',
+        celebration: 'Milestone',
+        quiet: 'Quiet Moment',
+        calm: 'Quiet Moment',
+        default: 'Update'
+      };
+
+      return labels[mode] || labels.default;
+    },
+
     expandedMarkup() {
       const conversation = this.conversation || this.getFallbackConversation();
+      const conversationEyebrow = this.getConversationEyebrow(conversation);
 
       return `
         <button type="button" class="pulse-card__header" aria-expanded="true">
@@ -321,7 +342,7 @@ const PulseConfig = {
           <span class="pulse-card__chevron" aria-hidden="true">⌃</span>
         </button>
         <div class="pulse-card__body">
-          <div class="pulse-card__eyebrow">${this.escapeHtml(conversation.eyebrow)}</div>
+          <div class="pulse-card__eyebrow">${this.escapeHtml(conversationEyebrow)}</div>
           <h2>${this.escapeHtml(conversation.title)}</h2>
           <p>${this.escapeHtml(conversation.message)}</p>
           ${this.weeklyPulseMarkup()}
