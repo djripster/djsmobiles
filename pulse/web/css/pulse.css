@@ -53,15 +53,15 @@
   text-transform: uppercase;
 }
 
-<img
-  class="pulse-icon"
-  src="https://djripster.github.io/djsmobiles/pulse/web/pulse.svg"
-  width="22"
-  height="22"
-  alt=""
-  aria-hidden="true"
-  loading="lazy"
-  decoding="async">
+.pulse-icon {
+  display: block;
+  flex: 0 0 auto;
+  width: 22px !important;
+  height: 22px !important;
+  max-width: 22px !important;
+  max-height: 22px !important;
+  object-fit: contain;
+}
 
 .pulse-card__chevron,
 .pulse-card__status {
