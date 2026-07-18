@@ -1,7 +1,7 @@
 /*
  * Pulse
  * Module: pulse.js
- * Prototype: v0.2.19
+ * Prototype: v0.2.20
  *
  * DJs Mobiles Website Integration
  */
@@ -19,7 +19,7 @@ const PulseConfig = {
 };
 
   const Pulse = {
-    version: '0.2.19',
+    version: '0.2.20',
     reader: null,
     article: null,
     conversation: null,
@@ -197,8 +197,29 @@ const PulseConfig = {
       return '<img class="pulse-icon" src="' + this.escapeHtml(this.iconPath) + '" width="22" height="22" alt="" aria-hidden="true" loading="lazy" decoding="async">';
     },
 
+    getPulseHeaderTitle() {
+      const reader = this.reader || {};
+      const history = Array.isArray(reader.articleHistory) ? reader.articleHistory : [];
+
+      if (reader.isFirstVisit) return 'Your Pulse';
+      if (!history.length) return 'Your Pulse is Starting';
+
+      const state = window.DjsPulseState;
+      const daysAway = state && typeof state.getDaysSinceLastVisit === 'function'
+        ? Math.max(0, Number(state.getDaysSinceLastVisit(reader)) || 0)
+        : 0;
+
+      if (daysAway === 0) return 'Your Pulse is Beating';
+      if (daysAway <= 2) return 'Your Daily Pulse';
+      if (daysAway <= 6) return 'Your Weekly Pulse';
+      if (daysAway <= 29) return 'Your Pulse Missed You';
+
+      return 'A Quiet Pulse';
+    },
+
     titleMarkup() {
-      return '<span class="pulse-title">' + this.iconMarkup() + '<span>Your Pulse</span></span>';
+      return '<span class="pulse-title">' + this.iconMarkup() + '<span>' +
+        this.escapeHtml(this.getPulseHeaderTitle()) + '</span></span>';
     },
 
     normalizeStatValue(label, value) {
@@ -312,29 +333,8 @@ const PulseConfig = {
       '</section>';
     },
 
-    getConversationEyebrow(conversation) {
-      const mode = String(conversation && conversation.mode ? conversation.mode : 'default').toLowerCase();
-
-      const labels = {
-        welcome: 'Welcome',
-        active: 'Active',
-        returning: 'Welcome Back',
-        'returning-medium': 'Picking Up Again',
-        'returning-extended': 'Good to See You',
-        'returning-long': 'Reconnecting',
-        milestone: 'Milestone',
-        celebration: 'Milestone',
-        quiet: 'Quiet Moment',
-        calm: 'Quiet Moment',
-        default: 'Update'
-      };
-
-      return labels[mode] || labels.default;
-    },
-
     expandedMarkup() {
       const conversation = this.conversation || this.getFallbackConversation();
-      const conversationEyebrow = this.getConversationEyebrow(conversation);
 
       return `
         <button type="button" class="pulse-card__header" aria-expanded="true">
@@ -342,9 +342,7 @@ const PulseConfig = {
           <span class="pulse-card__chevron" aria-hidden="true">⌃</span>
         </button>
         <div class="pulse-card__body">
-          <div class="pulse-card__eyebrow">${this.escapeHtml(conversationEyebrow)}</div>
-          <h2>${this.escapeHtml(conversation.title)}</h2>
-          <p>${this.escapeHtml(conversation.message)}</p>
+          <p class="pulse-conversation-message">${this.escapeHtml(conversation.message)}</p>
           ${this.weeklyPulseMarkup()}
           ${this.statsMarkup(conversation.stats)}
           ${this.continueReadingMarkup()}
