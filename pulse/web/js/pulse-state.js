@@ -20,9 +20,9 @@
     expanded: STORAGE_PREFIX + 'expanded',
     visitCount: STORAGE_PREFIX + 'visit_count',
     articleHistory: STORAGE_PREFIX + 'article_history',
+    migrationVersion: STORAGE_PREFIX + 'migration_version',
     sessionVisit: STORAGE_PREFIX + 'session_visit',
-    developer: 'djs_pulse_dev',
-    brandCapitalizationMigration: STORAGE_PREFIX + 'migration_brand_capitalization_v1'
+    developer: 'djs_pulse_dev'
   };
 
   function nowIso() {
@@ -99,44 +99,61 @@
       .trim();
   }
 
-
-  const CANONICAL_BRANDS = {
-    'apple': 'Apple',
-    'google': 'Google',
-    'samsung': 'Samsung',
-    'microsoft': 'Microsoft',
-    'motorola': 'Motorola',
-    'nothing': 'Nothing',
-    'oneplus': 'OnePlus',
-    'nokia': 'Nokia',
-    'blackberry': 'BlackBerry',
-    'sony': 'Sony',
-    'htc': 'HTC',
-    'lg': 'LG',
-    'verizon': 'Verizon',
-    't mobile': 'T-Mobile',
-    'tmobile': 'T-Mobile',
-    'at t': 'AT&T',
-    'att': 'AT&T',
-    'qualcomm': 'Qualcomm',
-    'huawei': 'Huawei',
-    'xiaomi': 'Xiaomi',
-    'oppo': 'OPPO',
-    'vivo': 'Vivo',
-    'honor': 'HONOR',
-    'asus': 'ASUS',
-    'lenovo': 'Lenovo'
-  };
-
-  function canonicalizeBrand(value) {
-    const brand = cleanText(value);
-    if (!brand) return '';
-
-    return CANONICAL_BRANDS[normalize(brand)] || brand;
-  }
-
   function has(text, term) {
     return (' ' + text + ' ').indexOf(' ' + term + ' ') !== -1;
+  }
+
+  const BRAND_NAMES = {
+    apple: 'Apple',
+    google: 'Google',
+    samsung: 'Samsung',
+    microsoft: 'Microsoft',
+    motorola: 'Motorola',
+    nothing: 'Nothing',
+    oneplus: 'OnePlus',
+    nokia: 'Nokia',
+    blackberry: 'BlackBerry',
+    sony: 'Sony',
+    htc: 'HTC',
+    lg: 'LG',
+    verizon: 'Verizon',
+    't mobile': 'T-Mobile',
+    tmobile: 'T-Mobile',
+    'at t': 'AT&T',
+    att: 'AT&T',
+    qualcomm: 'Qualcomm',
+    huawei: 'Huawei',
+    xiaomi: 'Xiaomi',
+    vivo: 'Vivo'
+  };
+
+  function canonicalBrandName(value) {
+    const raw = cleanText(value);
+    if (!raw) return '';
+    return BRAND_NAMES[normalize(raw)] || raw;
+  }
+
+  function migrateStoredHistory() {
+    const targetVersion = 1;
+    const currentVersion = safeNumber(safeGet(KEYS.migrationVersion), 0);
+
+    if (currentVersion >= targetVersion) return;
+
+    const history = safeJsonParse(safeGet(KEYS.articleHistory), []);
+
+    if (Array.isArray(history)) {
+      const migrated = history.map(function (item) {
+        if (!item || typeof item !== 'object') return item;
+
+        const next = Object.assign({}, item);
+        next.brand = canonicalBrandName(item.brand);
+        return next;
+      });
+
+      safeSet(KEYS.articleHistory, JSON.stringify(migrated));
+    }
+
+    safeSet(KEYS.migrationVersion, String(targetVersion));
   }
 
   function addTopic(topics, topic) {
@@ -151,7 +168,7 @@
 
     const title = cleanText(item.title, 'Untitled article');
     const text = normalize(title);
-    let brand = canonicalizeBrand(item.brand);
+    let brand = cleanText(item.brand);
     let platform = cleanText(item.platform);
     let topics = Array.isArray(item.topics) ? item.topics.slice(0, 6) : [];
 
@@ -187,29 +204,6 @@
       isSponsored: item.isSponsored === true,
       isGuest: item.isGuest === true
     };
-  }
-
-
-  function migrateBrandCapitalization() {
-    if (safeGet(KEYS.brandCapitalizationMigration) === '1') return;
-
-    const history = safeJsonParse(safeGet(KEYS.articleHistory), []);
-
-    if (Array.isArray(history)) {
-      const seenUrls = {};
-      const migrated = [];
-
-      history.forEach(function (item) {
-        const entry = cleanHistoryEntry(item);
-        if (!entry || seenUrls[entry.url]) return;
-        seenUrls[entry.url] = true;
-        migrated.push(entry);
-      });
-
-      safeSet(KEYS.articleHistory, JSON.stringify(migrated.slice(0, 200)));
-    }
-
-    safeSet(KEYS.brandCapitalizationMigration, '1');
   }
 
   function canonicalUrl() {
@@ -255,7 +249,7 @@
     keys: KEYS,
 
     load() {
-      migrateBrandCapitalization();
+      migrateStoredHistory();
 
       const current = nowIso();
       let firstSeen = safeGet(KEYS.firstSeen);
