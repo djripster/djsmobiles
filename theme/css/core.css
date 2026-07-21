@@ -1014,9 +1014,9 @@ body.dark-mode .djs-form-field textarea,
 }
 
 .static-stats-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
 }
 
 .static-stat-card {
