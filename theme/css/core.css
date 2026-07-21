@@ -640,3 +640,100 @@ body.dark-mode .djs-form-field textarea,
     width: 100%;
   }
 }
+
+/* ==========================================================
+   Notice Box System
+   Contextual information, warnings, success states, and notes.
+   ========================================================== */
+
+.notice-box {
+  --notice-bg: #fff8e1;
+  --notice-border: #f59e0b;
+  --notice-text: #78350f;
+  --notice-strong: #92400e;
+  --notice-link: #92400e;
+
+  margin: 20px 0;
+  padding: 16px 18px;
+  background: var(--notice-bg);
+  border: 1px solid color-mix(in srgb, var(--notice-border) 28%, transparent);
+  border-left: 4px solid var(--notice-border);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  color: var(--notice-text);
+  font-size: 14px;
+  line-height: 1.7;
+  box-shadow: 0 10px 24px rgba(15, 35, 58, 0.05);
+}
+
+.notice-box strong {
+  color: var(--notice-strong);
+  font-weight: 800;
+}
+
+.notice-box a {
+  color: var(--notice-link);
+  font-weight: 700;
+}
+
+/* General information */
+.notice-box.notice-info {
+  --notice-bg: #eef6ff;
+  --notice-border: #1976d2;
+  --notice-text: #24435f;
+  --notice-strong: #0f4c81;
+  --notice-link: #0f4c81;
+}
+
+/* Helpful tip */
+.notice-box.notice-tip {
+  --notice-bg: #eefaf2;
+  --notice-border: #2e7d32;
+  --notice-text: #28543a;
+  --notice-strong: #1f6e2e;
+  --notice-link: #1f6e2e;
+}
+
+/* Warning or caution */
+.notice-box.notice-warning {
+  --notice-bg: #fff8e1;
+  --notice-border: #f59e0b;
+  --notice-text: #78350f;
+  --notice-strong: #92400e;
+  --notice-link: #92400e;
+}
+
+/* Error or important alert */
+.notice-box.notice-danger {
+  --notice-bg: #fff0f0;
+  --notice-border: #ef4444;
+  --notice-text: #7f1d1d;
+  --notice-strong: #991b1b;
+  --notice-link: #991b1b;
+}
+
+/* Confirmation or success */
+.notice-box.notice-success {
+  --notice-bg: #ecfdf5;
+  --notice-border: #10b981;
+  --notice-text: #245b47;
+  --notice-strong: #047857;
+  --notice-link: #047857;
+}
+
+/* Neutral supporting note */
+.notice-box.notice-neutral {
+  --notice-bg: #f8fafc;
+  --notice-border: #64748b;
+  --notice-text: #475569;
+  --notice-strong: #334155;
+  --notice-link: #334155;
+}
+
+/* Editorial or contextual note */
+.notice-box.notice-purple {
+  --notice-bg: #f6f0ff;
+  --notice-border: #7b1fa2;
+  --notice-text: #59406a;
+  --notice-strong: #6d28d9;
+  --notice-link: #6d28d9;
+}
