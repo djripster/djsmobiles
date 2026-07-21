@@ -12,7 +12,7 @@
  * Disqus block stays in the XML — it requires data:blog.canonicalUrl,
  * data:blog.pageTitle and b:if conditions that require server-side rendering.
  *
- * @version v1.0.0
+ * @version v1.0.1
  * @source  extracted-javascript.txt (frozen snapshot)
  */
 
@@ -768,8 +768,16 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
     });
   }
 
+  function isStaticPageView() {
+    var path = window.location.pathname || '';
+    return path.indexOf('/p/') === 0;
+  }
+
   function isSinglePostView() {
-    return !!document.querySelector('.post-body') && !document.querySelector('.home-snippet');
+    return !isStaticPageView() &&
+      !!(document.body && document.body.classList.contains('item-view')) &&
+      !!document.querySelector('.post-body') &&
+      !document.querySelector('.home-snippet');
   }
 
   function initUpdatedStoryChip() {
@@ -2097,6 +2105,8 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
   }
 
   function initAmazonBuyNowLinks() {
+    if (!isSinglePostView()) return;
+
     var postButtons = document.querySelectorAll('.post-body .buy-now-button');
     if (!postButtons.length) return;
 
@@ -2128,6 +2138,8 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
   }
 
   function initAffiliateDisclosure() {
+    if (!isSinglePostView()) return;
+
     var postBody = document.querySelector('.item-view .post-body, .post-single .post-body, .post-body');
     if (!postBody) return;
     if (postBody.querySelector('.djs-affiliate-disclosure')) return;
@@ -2145,6 +2157,8 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
   }
 
   function initStickyReviewCta() {
+    if (!isSinglePostView()) return;
+
     var body = document.body;
     if (!body || body.getAttribute('data-djs-post-type') !== 'review') return;
 

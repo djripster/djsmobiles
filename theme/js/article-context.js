@@ -1,4 +1,4 @@
-/* DJs Mobiles Core Article Context v1.2 */
+/* DJs Mobiles Core Article Context v1.3 */
 (function () {
   function safeCall(fn, fallback) {
     try {
@@ -17,13 +17,15 @@
   function normalizePageType(article) {
     if (article && article.isHome) return 'home';
 
-    var body = document.body;
-    if (body && body.classList.contains('item-view')) return 'article';
-
     var path = window.location.pathname || '';
+    if (path.indexOf('/p/') === 0) return 'page';
     if (path.indexOf('/search/label/') === 0) return 'label';
     if (path.indexOf('/search') === 0) return 'search';
-    if (document.querySelector('.post-body') && !document.querySelector('.home-snippet')) return 'article';
+
+    var body = document.body;
+    if (body && body.classList.contains('item-view') && document.querySelector('.post-body')) {
+      return 'article';
+    }
 
     return 'unknown';
   }
