@@ -1031,7 +1031,7 @@ body.dark-mode .djs-form-field textarea,
 .static-stat-card__value {
   display: block;
   color: var(--static-accent);
-  font-size: clamp(18px, 2.5vw, 24px);
+  font-size: 20px;
   font-weight: 850;
   letter-spacing: -.025em;
   line-height: 1.1;
