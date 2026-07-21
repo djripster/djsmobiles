@@ -190,3 +190,309 @@ body.dark-mode .discussion-card__footer {
     transform: none;
   }
 }
+
+
+/* ==========================================================
+   Content Identity and Label Pills
+   Core v17+
+   ----------------------------------------------------------
+   Purpose:
+   Shared label presentation for homepage cards, featured
+   stories, search, related content and article metadata.
+
+   Homepage feed cards may display two labels:
+   - Primary: content type
+   - Secondary: brand or other identity label
+   ========================================================== */
+
+.post-label-group {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.post-label-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  max-width: 100%;
+  padding: 6px 11px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #f4f9ff 0%, #eaf4ff 100%);
+  border: 1px solid #d4e5f7;
+  color: var(--primary, #0f4c81);
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 1.2;
+  text-decoration: none !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.post-label-chip:hover {
+  background: #e3effc;
+  transform: translateY(-1px);
+}
+
+.post-label-chip--primary {
+  order: 1;
+}
+
+.post-label-chip--secondary {
+  order: 2;
+}
+
+/* Content type colors */
+.post-label-chip.is-editorial,
+.post-label-chip[href*="/Editorial"],
+.post-label-chip[href*="/editorial"] {
+  background: linear-gradient(180deg, #f5f3ff 0%, #ede9fe 100%) !important;
+  border-color: #ddd6fe !important;
+  color: #6d28d9 !important;
+}
+
+.post-label-chip.is-review,
+.post-label-chip[href*="/Review"],
+.post-label-chip[href*="/Reviews"],
+.post-label-chip[href*="/review"],
+.post-label-chip[href*="/reviews"] {
+  background: linear-gradient(180deg, #eff6ff 0%, #dbeafe 100%) !important;
+  border-color: #bfdbfe !important;
+  color: #1d4ed8 !important;
+}
+
+.post-label-chip.is-specs,
+.post-label-chip[href*="/Specs"],
+.post-label-chip[href*="/specs"] {
+  background: linear-gradient(180deg, #ecfdf5 0%, #d1fae5 100%) !important;
+  border-color: #a7f3d0 !important;
+  color: #047857 !important;
+}
+
+.post-label-chip.is-guide,
+.post-label-chip[href*="/Guide"],
+.post-label-chip[href*="/Guides"],
+.post-label-chip[href*="/guide"],
+.post-label-chip[href*="/guides"] {
+  background: linear-gradient(180deg, #fffbeb 0%, #fef3c7 100%) !important;
+  border-color: #fde68a !important;
+  color: #b45309 !important;
+}
+
+.post-label-chip.is-deals,
+.post-label-chip[href*="/Deals"],
+.post-label-chip[href*="/Deal"],
+.post-label-chip[href*="/deals"],
+.post-label-chip[href*="/deal"] {
+  background: linear-gradient(180deg, #fff7ed 0%, #ffedd5 100%) !important;
+  border-color: #fed7aa !important;
+  color: #c2410c !important;
+}
+
+.post-label-chip.is-news,
+.post-label-chip[href*="/News"],
+.post-label-chip[href*="/news"] {
+  background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%) !important;
+  border-color: #e2e8f0 !important;
+  color: #475569 !important;
+}
+
+/* Featured homepage badges */
+.featured-meta .post-label-chip {
+  background: rgba(255,255,255,0.14);
+  color: #fff !important;
+  border-color: rgba(255,255,255,0.26);
+}
+
+.featured-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 11px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 1;
+  border: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.16);
+}
+
+.featured-hero .featured-badge {
+  color: #fff;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.featured-card .featured-badge {
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.featured-badge.is-review {
+  background: rgba(37,99,235,0.34);
+  border-color: rgba(255,255,255,0.24);
+}
+.featured-card .featured-badge.is-review {
+  background: linear-gradient(180deg, #eff6ff 0%, #dbeafe 100%);
+  border-color: #bfdbfe;
+  color: #1d4ed8;
+}
+.featured-badge.is-specs {
+  background: rgba(5,150,105,0.34);
+  border-color: rgba(255,255,255,0.24);
+}
+.featured-card .featured-badge.is-specs {
+  background: linear-gradient(180deg, #ecfdf5 0%, #d1fae5 100%);
+  border-color: #a7f3d0;
+  color: #047857;
+}
+.featured-badge.is-deals {
+  background: rgba(194,65,12,0.38);
+  border-color: rgba(255,255,255,0.26);
+}
+.featured-card .featured-badge.is-deals {
+  background: linear-gradient(180deg, #fff7ed 0%, #ffedd5 100%);
+  border-color: #fed7aa;
+  color: #c2410c;
+}
+.featured-badge.is-guide {
+  background: rgba(217,119,6,0.34);
+  border-color: rgba(255,255,255,0.24);
+}
+.featured-card .featured-badge.is-guide {
+  background: linear-gradient(180deg, #fffbeb 0%, #fef3c7 100%);
+  border-color: #fde68a;
+  color: #b45309;
+}
+.featured-badge.is-editorial,
+.featured-hero .featured-badge.is-editorial {
+  background: linear-gradient(135deg, rgba(109,40,217,0.44), rgba(76,29,149,0.34));
+  border-color: rgba(255,255,255,0.32);
+  color: #fff;
+}
+.featured-card .featured-badge.is-editorial {
+  background: linear-gradient(180deg, #f5f3ff 0%, #ede9fe 100%);
+  border-color: #ddd6fe;
+  color: #6d28d9;
+}
+.featured-badge.is-news {
+  background: rgba(71,85,105,0.28);
+  border-color: rgba(255,255,255,0.24);
+}
+.featured-card .featured-badge.is-news {
+  background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+  border-color: #e2e8f0;
+  color: #475569;
+}
+
+.featured-card:has(.featured-badge.is-editorial) {
+  border-color: rgba(109,74,255,0.18);
+  background: linear-gradient(180deg, #ffffff 0%, #fcfbff 100%);
+}
+.featured-card:has(.featured-badge.is-editorial) .featured-card-title a {
+  color: #2f256d;
+}
+.featured-card:has(.featured-badge.is-editorial) .featured-card-summary {
+  color: #526071;
+}
+.featured-card:has(.featured-badge.is-editorial) .featured-card-body:before {
+  content: none !important;
+  display: none !important;
+}
+
+.featured-card .featured-meta .post-label-chip {
+  color: var(--primary, #0f4c81) !important;
+  background: var(--primary-soft, #eaf3fb);
+  border-color: #d4e5f7;
+}
+
+/* Shared type colors outside post metadata */
+.search-suggestion-type.is-editorial,
+.related-bridge-kicker.is-editorial,
+.content-bridge-label.is-editorial,
+.device-hub-card-label.is-editorial {
+  background: #f5f3ff !important;
+  border-color: #ddd6fe !important;
+  color: #6d28d9 !important;
+}
+.search-suggestion-type.is-review,
+.related-bridge-kicker.is-review,
+.content-bridge-label.is-review,
+.device-hub-card-label.is-review {
+  background: #eff6ff !important;
+  border-color: #bfdbfe !important;
+  color: #1d4ed8 !important;
+}
+.search-suggestion-type.is-specs,
+.related-bridge-kicker.is-specs,
+.content-bridge-label.is-specs,
+.device-hub-card-label.is-specs {
+  background: #ecfdf5 !important;
+  border-color: #a7f3d0 !important;
+  color: #047857 !important;
+}
+.search-suggestion-type.is-guide,
+.related-bridge-kicker.is-guide,
+.content-bridge-label.is-guide,
+.device-hub-card-label.is-guide {
+  background: #fffbeb !important;
+  border-color: #fde68a !important;
+  color: #b45309 !important;
+}
+.search-suggestion-type.is-deals,
+.related-bridge-kicker.is-deals,
+.content-bridge-label.is-deals,
+.device-hub-card-label.is-deals {
+  background: #fff7ed !important;
+  border-color: #fed7aa !important;
+  color: #c2410c !important;
+}
+.search-suggestion-type.is-news,
+.related-bridge-kicker.is-news,
+.content-bridge-label.is-news,
+.device-hub-card-label.is-news {
+  background: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+  color: #475569 !important;
+}
+
+/* Compact feed card sizing */
+.blog-posts .post.post-multi .post-label-chip {
+  padding: 5px 9px;
+  font-size: 10px;
+}
+
+@media (max-width: 560px) {
+  .blog-posts .post.post-multi .post-label-group {
+    flex-wrap: nowrap;
+    gap: 6px;
+    max-width: 100%;
+  }
+
+  .blog-posts .post.post-multi .post-label-chip {
+    padding: 6px 10px;
+    font-size: 10px;
+    max-width: min(46vw, 150px);
+  }
+}
+
+@media (min-width: 561px) {
+  .blog-posts .post.post-multi .post-label-chip {
+    padding: 4px 8px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 380px) {
+  .blog-posts .post.post-multi .post-label-chip {
+    max-width: 128px;
+    padding-inline: 8px;
+  }
+}
