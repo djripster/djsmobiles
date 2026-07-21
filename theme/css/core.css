@@ -737,3 +737,148 @@ body.dark-mode .djs-form-field textarea,
   --notice-strong: #6d28d9;
   --notice-link: #6d28d9;
 }
+
+/* ==========================================================
+   Article Update Box System
+   Migrated from Blogger XML in Core v17.0.2.
+   ========================================================== */
+
+/* ARTICLE UPDATES | editorial-updates v2 */
+.update-box {
+  position: relative;
+  margin: 18px 0 24px;
+  padding: 16px 18px 16px 18px;
+  background: linear-gradient(180deg, #f6f3ff 0%, #efe9ff 100%);
+  border: 1px solid #ddd2ff;
+  border-left: 4px solid #6d4aff;
+  border-radius: 0 16px 16px 0;
+  box-shadow: 0 10px 24px rgba(15,35,58,0.05);
+  color: var(--text);
+}
+.update-box p:last-child,
+.update-box ul:last-child,
+.update-box ol:last-child {
+  margin-bottom: 0;
+}
+.update-box-label {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 10px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(109,74,255,0.12);
+  border: 1px solid rgba(109,74,255,0.16);
+  color: #6d4aff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.update-box-label time {
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-left: 8px;
+  opacity: 0.85;
+}
+.update-box.update-important {
+  background: linear-gradient(180deg, #f0ebff 0%, #e8deff 100%);
+  border-color: #d5c7ff;
+  border-left-color: #5a36e0;
+}
+.update-box.update-important .update-box-label {
+  background: rgba(90,54,224,0.12);
+  border-color: rgba(90,54,224,0.16);
+  color: #5a36e0;
+}
+.update-box.update-note {
+  background: linear-gradient(180deg, #faf8ff 0%, #f3f0ff 100%);
+  border-color: #e6ddff;
+  border-left-color: #8b7cff;
+}
+.update-box.update-note .update-box-label {
+  background: rgba(139,124,255,0.12);
+  border-color: rgba(139,124,255,0.16);
+  color: #6f63c7;
+}
+
+@media (max-width: 768px) {
+  .update-box {
+    margin: 16px 0 20px;
+    padding: 14px 14px 14px 14px;
+    border-radius: 0 14px 14px 0;
+  }
+  .update-box-label {
+    font-size: 10px;
+    padding: 6px 9px;
+    margin-bottom: 8px;
+  }
+}
+
+
+/* ==========================================================
+   Notice / Update Layout Integration
+   All notice-box and update-box behavior now lives in Core.
+   ========================================================== */
+
+.home-snippet .update-box {
+  display: none;
+}
+
+.post-body .notice-box + h2 {
+  margin-top: 2.15em;
+}
+
+.post-body .notice-box + h3 {
+  margin-top: 1.75em;
+}
+
+.post-body .notice-box {
+  margin-top: 1.45rem;
+  margin-bottom: 1.45rem;
+}
+
+.notice-box,
+.update-box {
+  margin-top: 22px;
+  margin-bottom: 26px;
+}
+
+.notice-box {
+  font-size: 15px;
+}
+
+.notice-box strong {
+  letter-spacing: 0.02em;
+}
+
+.post-body > .notice-box:first-child,
+.post-body > .update-box:first-child {
+  margin-top: 10px;
+}
+
+.blog-posts .post.post-multi .home-snippet .notice-box,
+.blog-posts .post.post-multi .home-snippet .update-box {
+  display: none !important;
+}
+
+.item-view .post-body .notice-box,
+.item-view .post-body .update-box {
+  margin-top: 1.65em;
+  margin-bottom: 1.65em;
+}
+
+@media (max-width: 768px) {
+  .post-body .notice-box {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .item-view .post-body .notice-box,
+  .item-view .post-body .update-box {
+    margin-top: 1.35em;
+    margin-bottom: 1.35em;
+  }
+}
+
