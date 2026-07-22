@@ -12,7 +12,7 @@
  * Disqus block stays in the XML — it requires data:blog.canonicalUrl,
  * data:blog.pageTitle and b:if conditions that require server-side rendering.
  *
- * @version v1.0.1
+ * @version v1.1.0
  * @source  extracted-javascript.txt (frozen snapshot)
  */
 
@@ -768,16 +768,8 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
     });
   }
 
-  function isStaticPageView() {
-    var path = window.location.pathname || '';
-    return path.indexOf('/p/') === 0;
-  }
-
   function isSinglePostView() {
-    return !isStaticPageView() &&
-      !!(document.body && document.body.classList.contains('item-view')) &&
-      !!document.querySelector('.post-body') &&
-      !document.querySelector('.home-snippet');
+    return !!document.querySelector('.post-body') && !document.querySelector('.home-snippet');
   }
 
   function initUpdatedStoryChip() {
@@ -2105,8 +2097,6 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
   }
 
   function initAmazonBuyNowLinks() {
-    if (!isSinglePostView()) return;
-
     var postButtons = document.querySelectorAll('.post-body .buy-now-button');
     if (!postButtons.length) return;
 
@@ -2138,8 +2128,6 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
   }
 
   function initAffiliateDisclosure() {
-    if (!isSinglePostView()) return;
-
     var postBody = document.querySelector('.item-view .post-body, .post-single .post-body, .post-body');
     if (!postBody) return;
     if (postBody.querySelector('.djs-affiliate-disclosure')) return;
@@ -2157,8 +2145,6 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
   }
 
   function initStickyReviewCta() {
-    if (!isSinglePostView()) return;
-
     var body = document.body;
     if (!body || body.getAttribute('data-djs-post-type') !== 'review') return;
 
@@ -2577,6 +2563,193 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
     }
   }
 
+
+  /* directory-system v1 | Registry-driven Brands, Carriers, and Specs directories */
+  function initDirectoryPages() {
+    var pages = document.querySelectorAll('[data-djs-directory]');
+    if (!pages.length) return;
+
+    var intelligence = window.DjsIntelligence;
+    if (!intelligence || typeof intelligence.initLabelRegistry !== 'function') return;
+
+    var logoCache = {};
+    var logoBase = 'https://djripster.github.io/djsmobiles/assets/logos/';
+
+    function normalizeClass(value) {
+      return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    }
+
+    function entryHasClass(entry, wanted) {
+      if (!entry) return false;
+      var normalizedWanted = normalizeClass(wanted);
+      if (normalizeClass(entry.class || entry.type) === normalizedWanted) return true;
+      var classes = Array.isArray(entry.classes) ? entry.classes : [];
+      for (var i = 0; i < classes.length; i++) {
+        if (normalizeClass(classes[i]) === normalizedWanted) return true;
+      }
+      return false;
+    }
+
+    function displayName(entry, groupName) {
+      if (entry && entry.displayByRegion && entry.displayByRegion[groupName]) {
+        return entry.displayByRegion[groupName];
+      }
+      return entry && (entry.name || entry.label) ? (entry.name || entry.label) : '';
+    }
+
+    function groupNames(page, entries) {
+      var requested = String(page.getAttribute('data-directory-groups') || '')
+        .split('|')
+        .map(function(value) { return value.trim(); })
+        .filter(Boolean);
+      if (requested.length) return requested;
+
+      var found = [];
+      entries.forEach(function(entry) {
+        var groups = Array.isArray(entry.regions) ? entry.regions : [];
+        groups.forEach(function(group) {
+          if (found.indexOf(group) === -1) found.push(group);
+        });
+      });
+      return found.sort();
+    }
+
+    function localLogoUrl(entry) {
+      var file = entry.asset || ((entry.id || '') + '.svg');
+      return file ? logoBase + file : '';
+    }
+
+    function cdnLogoUrl(entry) {
+      var icon = entry.icon || {};
+      if (icon.url) return icon.url;
+      if (icon.provider === 'simpleicons' && icon.slug) {
+        return 'https://cdn.simpleicons.org/' + encodeURIComponent(icon.slug) + '/' + encodeURIComponent(icon.color || '004080');
+      }
+      return '';
+    }
+
+    function testImage(url) {
+      if (!url) return Promise.resolve('');
+      if (Object.prototype.hasOwnProperty.call(logoCache, url)) return logoCache[url];
+      logoCache[url] = new Promise(function(resolve) {
+        var image = new Image();
+        image.onload = function() { resolve(url); };
+        image.onerror = function() { resolve(''); };
+        image.src = url;
+      });
+      return logoCache[url];
+    }
+
+    function resolveLogo(node, entry) {
+      var local = localLogoUrl(entry);
+      var fallback = cdnLogoUrl(entry);
+      testImage(local).then(function(found) {
+        if (found) return found;
+        return testImage(fallback);
+      }).then(function(found) {
+        if (!found || !node) return;
+        node.style.backgroundImage = 'url("' + found.replace(/"/g, '%22') + '")';
+        node.classList.add('has-image');
+      });
+    }
+
+    function createCard(entry, groupName) {
+      var name = displayName(entry, groupName);
+      var label = entry.label || name;
+      var link = document.createElement('a');
+      link.className = 'directory-card';
+      link.href = '/search/label/' + encodeURIComponent(label);
+      link.title = name;
+
+      var logo = document.createElement('span');
+      logo.className = 'directory-card__logo';
+      logo.textContent = name;
+      logo.setAttribute('aria-hidden', 'true');
+
+      var title = document.createElement('span');
+      title.className = 'directory-card__name';
+      title.textContent = name;
+
+      link.appendChild(logo);
+      link.appendChild(title);
+      resolveLogo(logo, entry);
+      return link;
+    }
+
+    function renderPage(page, registry) {
+      var className = page.getAttribute('data-djs-directory');
+      var nav = page.querySelector('[data-directory-nav]');
+      var root = page.querySelector('[data-directory-root]');
+      if (!root) return;
+
+      var map = registry && registry.labels ? registry.labels : {};
+      var entries = Object.keys(map).map(function(label) {
+        var entry = map[label] || {};
+        if (!entry.label) entry.label = label;
+        return entry;
+      }).filter(function(entry) {
+        return entryHasClass(entry, className);
+      });
+
+      if (!entries.length) {
+        root.innerHTML = '<p class="directory-status">No directory entries are available yet.</p>';
+        return;
+      }
+
+      var groups = groupNames(page, entries);
+      root.innerHTML = '';
+      if (nav) nav.innerHTML = '';
+
+      groups.forEach(function(groupName) {
+        var groupEntries = entries.filter(function(entry) {
+          return Array.isArray(entry.regions) && entry.regions.indexOf(groupName) !== -1;
+        }).sort(function(a, b) {
+          return displayName(a, groupName).localeCompare(displayName(b, groupName));
+        });
+        if (!groupEntries.length) return;
+
+        var id = 'directory-' + normalizeClass(groupName);
+        var section = document.createElement('section');
+        section.className = 'directory-section';
+        section.id = id;
+
+        var heading = document.createElement('h2');
+        heading.className = 'directory-section__heading';
+        heading.textContent = groupName;
+
+        var grid = document.createElement('div');
+        grid.className = 'directory-grid';
+        groupEntries.forEach(function(entry) {
+          grid.appendChild(createCard(entry, groupName));
+        });
+
+        section.appendChild(heading);
+        section.appendChild(grid);
+        root.appendChild(section);
+
+        if (nav) {
+          var button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'directory-nav__button';
+          button.textContent = groupName;
+          button.addEventListener('click', function() {
+            section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+          nav.appendChild(button);
+        }
+      });
+    }
+
+    intelligence.initLabelRegistry().then(function(registry) {
+      for (var i = 0; i < pages.length; i++) renderPage(pages[i], registry);
+    }).catch(function() {
+      for (var i = 0; i < pages.length; i++) {
+        var root = pages[i].querySelector('[data-directory-root]');
+        if (root) root.innerHTML = '<p class="directory-status">The directory could not be loaded. Please try again shortly.</p>';
+      }
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
     initHamburger();
     initSearch();
@@ -2586,6 +2759,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
     initCompactFeedCards();
     initLabelPriority();
     initGlobalContentIdentity();
+    initDirectoryPages();
     initDeviceFamilyFramework();
     loadFeaturedHomepage();
     loadSidebarReviews();
