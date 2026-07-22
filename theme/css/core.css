@@ -1324,3 +1324,12 @@ body.dark-mode .static-social-row__label {
     transform: none;
   }
 }
+
+.static-social-link__icon {
+  display: block;
+  width: 21px;
+  height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
