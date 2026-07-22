@@ -1,7 +1,7 @@
 /*
  * Pulse State
  * Module: pulse-state.js
- * Prototype: v0.3.8
+ * Prototype: v0.3.9
  *
  * DJs Mobiles Website Pulse reader memory.
  * Website-only storage. No extension dependency.
@@ -20,7 +20,6 @@
     expanded: STORAGE_PREFIX + 'expanded',
     visitCount: STORAGE_PREFIX + 'visit_count',
     articleHistory: STORAGE_PREFIX + 'article_history',
-    migrationVersion: STORAGE_PREFIX + 'migration_version',
     sessionVisit: STORAGE_PREFIX + 'session_visit',
     developer: 'djs_pulse_dev'
   };
@@ -103,59 +102,6 @@
     return (' ' + text + ' ').indexOf(' ' + term + ' ') !== -1;
   }
 
-  const BRAND_NAMES = {
-    apple: 'Apple',
-    google: 'Google',
-    samsung: 'Samsung',
-    microsoft: 'Microsoft',
-    motorola: 'Motorola',
-    nothing: 'Nothing',
-    oneplus: 'OnePlus',
-    nokia: 'Nokia',
-    blackberry: 'BlackBerry',
-    sony: 'Sony',
-    htc: 'HTC',
-    lg: 'LG',
-    verizon: 'Verizon',
-    't mobile': 'T-Mobile',
-    tmobile: 'T-Mobile',
-    'at t': 'AT&T',
-    att: 'AT&T',
-    qualcomm: 'Qualcomm',
-    huawei: 'Huawei',
-    xiaomi: 'Xiaomi',
-    vivo: 'Vivo'
-  };
-
-  function canonicalBrandName(value) {
-    const raw = cleanText(value);
-    if (!raw) return '';
-    return BRAND_NAMES[normalize(raw)] || raw;
-  }
-
-  function migrateStoredHistory() {
-    const targetVersion = 1;
-    const currentVersion = safeNumber(safeGet(KEYS.migrationVersion), 0);
-
-    if (currentVersion >= targetVersion) return;
-
-    const history = safeJsonParse(safeGet(KEYS.articleHistory), []);
-
-    if (Array.isArray(history)) {
-      const migrated = history.map(function (item) {
-        if (!item || typeof item !== 'object') return item;
-
-        const next = Object.assign({}, item);
-        next.brand = canonicalBrandName(item.brand);
-        return next;
-      });
-
-      safeSet(KEYS.articleHistory, JSON.stringify(migrated));
-    }
-
-    safeSet(KEYS.migrationVersion, String(targetVersion));
-  }
-
   function addTopic(topics, topic) {
     if (!topic) return topics;
     const list = Array.isArray(topics) ? topics.slice(0, 6) : [];
@@ -163,8 +109,20 @@
     return list.slice(0, 6);
   }
 
+
+  function isStaticPageUrl(value) {
+    if (!value) return false;
+
+    try {
+      const url = new URL(value, window.location.origin);
+      return url.pathname.indexOf('/p/') === 0;
+    } catch (error) {
+      return String(value).indexOf('/p/') !== -1;
+    }
+  }
+
   function cleanHistoryEntry(item) {
-    if (!item || !item.url) return null;
+    if (!item || !item.url || isStaticPageUrl(item.url)) return null;
 
     const title = cleanText(item.title, 'Untitled article');
     const text = normalize(title);
@@ -245,12 +203,10 @@
     };
   }
   const PulseState = {
-    version: '0.3.8',
+    version: '0.3.9',
     keys: KEYS,
 
     load() {
-      migrateStoredHistory();
-
       const current = nowIso();
       let firstSeen = safeGet(KEYS.firstSeen);
       const previousLastSeen = safeGet(KEYS.lastSeen);
@@ -514,6 +470,8 @@
     },
 
     recordArticle(article) {
+      if (window.location && window.location.pathname.indexOf('/p/') === 0) return null;
+
       const normalizedArticle = normalizeArticleInput(article);
       if (!normalizedArticle) return null;
 
@@ -521,7 +479,7 @@
       const url = normalizedArticle.url || canonicalUrl();
       const timestamp = nowIso();
 
-      if (!title || !url) return null;
+      if (!title || !url || isStaticPageUrl(url)) return null;
 
       const entry = cleanHistoryEntry({
         title,
