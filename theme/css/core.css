@@ -811,8 +811,11 @@ body.dark-mode .djs-form-field textarea,
   margin: 0 0 14px;
   padding: 0 13px;
   border-radius: 9px;
-  background: linear-gradient(135deg, var(--directory-accent) 0%, #16639d 100%);
-  color: #fff;
+
+background: linear-gradient(180deg, #f4f9ff 0%, #eaf3fb 100%);
+border: 1px solid #d4e5f7;
+color: var(--primary);
+
   font-size: 12px;
   font-weight: 850;
   letter-spacing: .08em;
