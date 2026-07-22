@@ -740,7 +740,7 @@ body.dark-mode .djs-form-field textarea,
 
 /* ==========================================================
    Directory System
-   Core v17+
+   Core v17+ | directory-system v2
    ----------------------------------------------------------
    Shared presentation for Brands, Carriers, and Specs pages.
    Directory data comes from label-registry.json.
@@ -811,11 +811,9 @@ body.dark-mode .djs-form-field textarea,
   margin: 0 0 14px;
   padding: 0 13px;
   border-radius: 9px;
-
-background: linear-gradient(180deg, #f4f9ff 0%, #eaf3fb 100%);
-border: 1px solid #d4e5f7;
-color: var(--primary);
-
+  background: var(--primary-soft, #eaf3fb);
+  border: 1px solid #d4e5f7;
+  color: var(--directory-accent);
   font-size: 12px;
   font-weight: 850;
   letter-spacing: .08em;
