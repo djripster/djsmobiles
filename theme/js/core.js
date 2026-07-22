@@ -12,7 +12,7 @@
  * Disqus block stays in the XML — it requires data:blog.canonicalUrl,
  * data:blog.pageTitle and b:if conditions that require server-side rendering.
  *
- * @version v1.1.0
+ * @version v1.2.0
  * @source  extracted-javascript.txt (frozen snapshot)
  */
 
@@ -2564,7 +2564,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
   }
 
 
-  /* directory-system v1 | Registry-driven Brands, Carriers, and Specs directories */
+  /* directory-system v2 | Registry-driven Brands, Carriers, and Specs directories */
   function initDirectoryPages() {
     var pages = document.querySelectorAll('[data-djs-directory]');
     if (!pages.length) return;
@@ -2597,12 +2597,39 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
       return entry && (entry.name || entry.label) ? (entry.name || entry.label) : '';
     }
 
-    function groupNames(page, entries) {
-      var requested = String(page.getAttribute('data-directory-groups') || '')
+    function groupingMode(page) {
+      return normalizeClass(page.getAttribute('data-directory-group') || 'region');
+    }
+
+    function explicitGroups(page) {
+      return String(page.getAttribute('data-directory-groups') || '')
         .split('|')
         .map(function(value) { return value.trim(); })
         .filter(Boolean);
+    }
+
+    function alphabetGroup(entry) {
+      var name = displayName(entry, '');
+      var first = name ? name.charAt(0).toUpperCase() : '#';
+      return /^[A-Z]$/.test(first) ? first : '#';
+    }
+
+    function groupNames(page, entries) {
+      var requested = explicitGroups(page);
       if (requested.length) return requested;
+
+      if (groupingMode(page) === 'alphabet') {
+        var letters = [];
+        entries.forEach(function(entry) {
+          var letter = alphabetGroup(entry);
+          if (letters.indexOf(letter) === -1) letters.push(letter);
+        });
+        return letters.sort(function(a, b) {
+          if (a === '#') return 1;
+          if (b === '#') return -1;
+          return a.localeCompare(b);
+        });
+      }
 
       var found = [];
       entries.forEach(function(entry) {
@@ -2614,18 +2641,14 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
       return found.sort();
     }
 
+    function entryBelongsToGroup(page, entry, groupName) {
+      if (groupingMode(page) === 'alphabet') return alphabetGroup(entry) === groupName;
+      return Array.isArray(entry.regions) && entry.regions.indexOf(groupName) !== -1;
+    }
+
     function localLogoUrl(entry) {
       var file = entry.asset || ((entry.id || '') + '.svg');
       return file ? logoBase + file : '';
-    }
-
-    function cdnLogoUrl(entry) {
-      var icon = entry.icon || {};
-      if (icon.url) return icon.url;
-      if (icon.provider === 'simpleicons' && icon.slug) {
-        return 'https://cdn.simpleicons.org/' + encodeURIComponent(icon.slug) + '/' + encodeURIComponent(icon.color || '004080');
-      }
-      return '';
     }
 
     function testImage(url) {
@@ -2641,24 +2664,25 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
     }
 
     function resolveLogo(node, entry) {
-      var local = localLogoUrl(entry);
-      var fallback = cdnLogoUrl(entry);
-      testImage(local).then(function(found) {
-        if (found) return found;
-        return testImage(fallback);
-      }).then(function(found) {
+      testImage(localLogoUrl(entry)).then(function(found) {
         if (!found || !node) return;
         node.style.backgroundImage = 'url("' + found.replace(/"/g, '%22') + '")';
         node.classList.add('has-image');
       });
     }
 
-    function createCard(entry, groupName) {
+    function buildDirectoryUrl(entry, mode, visibleName) {
+      var label = entry.label || visibleName || entry.name || '';
+      var encodedLabel = encodeURIComponent(label);
+      if (normalizeClass(mode) === 'specs') return '/search/label/' + encodedLabel + '+Specs';
+      return '/search/label/' + encodedLabel;
+    }
+
+    function createCard(entry, groupName, linkMode) {
       var name = displayName(entry, groupName);
-      var label = entry.label || name;
       var link = document.createElement('a');
       link.className = 'directory-card';
-      link.href = '/search/label/' + encodeURIComponent(label);
+      link.href = buildDirectoryUrl(entry, linkMode, name);
       link.title = name;
 
       var logo = document.createElement('span');
@@ -2678,13 +2702,16 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
 
     function renderPage(page, registry) {
       var className = page.getAttribute('data-djs-directory');
+      var linkMode = page.getAttribute('data-directory-link') || 'label';
       var nav = page.querySelector('[data-directory-nav]');
       var root = page.querySelector('[data-directory-root]');
       if (!root) return;
 
       var map = registry && registry.labels ? registry.labels : {};
       var entries = Object.keys(map).map(function(label) {
-        var entry = map[label] || {};
+        var source = map[label] || {};
+        var entry = {};
+        Object.keys(source).forEach(function(key) { entry[key] = source[key]; });
         if (!entry.label) entry.label = label;
         return entry;
       }).filter(function(entry) {
@@ -2702,7 +2729,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
 
       groups.forEach(function(groupName) {
         var groupEntries = entries.filter(function(entry) {
-          return Array.isArray(entry.regions) && entry.regions.indexOf(groupName) !== -1;
+          return entryBelongsToGroup(page, entry, groupName);
         }).sort(function(a, b) {
           return displayName(a, groupName).localeCompare(displayName(b, groupName));
         });
@@ -2720,7 +2747,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
         var grid = document.createElement('div');
         grid.className = 'directory-grid';
         groupEntries.forEach(function(entry) {
-          grid.appendChild(createCard(entry, groupName));
+          grid.appendChild(createCard(entry, groupName, linkMode));
         });
 
         section.appendChild(heading);
@@ -2732,6 +2759,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
           button.type = 'button';
           button.className = 'directory-nav__button';
           button.textContent = groupName;
+          button.setAttribute('aria-label', 'Jump to ' + groupName);
           button.addEventListener('click', function() {
             section.scrollIntoView({ behavior: 'smooth', block: 'start' });
           });
