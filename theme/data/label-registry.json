@@ -1,15 +1,12 @@
 {
-  "version": 2,
+  "version": 3,
   "labels": {
     "Huawei": {
       "class": "brand",
       "id": "huawei",
-      "name": "Huawei"
-    },
-    "Clicks": {
-      "class": "brand",
-      "id": "clicks",
-      "name": "Clicks"
+      "name": "Huawei",
+      "label": "Huawei",
+      "asset": "huawei.svg"
     },
     "Android": {
       "class": "platform",
@@ -64,12 +61,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "verizon.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "verizon",
-        "color": "CD040B"
-      }
+      "asset": "verizon.svg"
     },
     "ATT": {
       "class": "carrier",
@@ -79,12 +71,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "att.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "atandt",
-        "color": "00A8E0"
-      }
+      "asset": "att.svg"
     },
     "T-Mobile": {
       "class": "carrier",
@@ -94,12 +81,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "t-mobile.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "tmobile",
-        "color": "E20074"
-      }
+      "asset": "t-mobile.svg"
     },
     "Metro PCS": {
       "class": "carrier",
@@ -109,12 +91,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "metro-by-t-mobile.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "tmobile",
-        "color": "E20074"
-      }
+      "asset": "metro-by-t-mobile.svg"
     },
     "US Cellular": {
       "class": "carrier",
@@ -124,12 +101,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "us-cellular.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "uscellular",
-        "color": "004080"
-      }
+      "asset": "us-cellular.svg"
     },
     "Cricket": {
       "class": "carrier",
@@ -139,12 +111,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "cricket-wireless.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "cricketwireless",
-        "color": "004080"
-      }
+      "asset": "cricket-wireless.svg"
     },
     "Boost Mobile": {
       "class": "carrier",
@@ -154,12 +121,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "boost-mobile.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "boostmobile",
-        "color": "FF6600"
-      }
+      "asset": "boost-mobile.svg"
     },
     "Straight Talk": {
       "class": "carrier",
@@ -169,12 +131,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "straight-talk.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "straighttalk",
-        "color": "004080"
-      }
+      "asset": "straight-talk.svg"
     },
     "Mint Mobile": {
       "class": "carrier",
@@ -184,12 +141,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "mint-mobile.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "mintmobile",
-        "color": "8AC539"
-      }
+      "asset": "mint-mobile.svg"
     },
     "Consumer Cellular": {
       "class": "carrier",
@@ -199,12 +151,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "consumer-cellular.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "consumercellular",
-        "color": "004080"
-      }
+      "asset": "consumer-cellular.svg"
     },
     "TracFone": {
       "class": "carrier",
@@ -214,12 +161,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "tracfone.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "tracfone",
-        "color": "004080"
-      }
+      "asset": "tracfone.svg"
     },
     "Rogers": {
       "class": "carrier",
@@ -229,12 +171,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "rogers.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "rogers",
-        "color": "DA0000"
-      }
+      "asset": "rogers.svg"
     },
     "Bell": {
       "class": "carrier",
@@ -244,12 +181,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "bell.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "bell",
-        "color": "00509E"
-      }
+      "asset": "bell.svg"
     },
     "Telus": {
       "class": "carrier",
@@ -259,12 +191,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "telus.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "telus",
-        "color": "6ABB3F"
-      }
+      "asset": "telus.svg"
     },
     "Freedom Mobile": {
       "class": "carrier",
@@ -274,12 +201,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "freedom-mobile.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "freedommobile",
-        "color": "004080"
-      }
+      "asset": "freedom-mobile.svg"
     },
     "Videotron": {
       "class": "carrier",
@@ -289,12 +211,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "videotron.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "videotron",
-        "color": "004080"
-      }
+      "asset": "videotron.svg"
     },
     "Telcel": {
       "class": "carrier",
@@ -304,12 +221,7 @@
       "regions": [
         "North America"
       ],
-      "asset": "telcel.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "telcel",
-        "color": "004080"
-      }
+      "asset": "telcel.svg"
     },
     "Claro": {
       "class": "carrier",
@@ -319,12 +231,7 @@
       "regions": [
         "Latin America"
       ],
-      "asset": "claro.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "claro",
-        "color": "E3001B"
-      }
+      "asset": "claro.svg"
     },
     "Movistar": {
       "class": "carrier",
@@ -334,15 +241,9 @@
       "regions": [
         "Latin America"
       ],
-      "asset": "movistar.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "movistar",
-        "color": "009DE0"
-      }
+      "asset": "movistar.svg"
     },
     "Vivo": {
-      "class": "carrier",
       "id": "vivo",
       "name": "Vivo",
       "label": "Vivo",
@@ -350,11 +251,10 @@
         "Latin America"
       ],
       "asset": "vivo.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "vivo",
-        "color": "004080"
-      }
+      "classes": [
+        "brand",
+        "carrier"
+      ]
     },
     "TIM": {
       "class": "carrier",
@@ -364,12 +264,7 @@
       "regions": [
         "Latin America"
       ],
-      "asset": "tim-brasil.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "tim",
-        "color": "004080"
-      }
+      "asset": "tim-brasil.svg"
     },
     "Oi": {
       "class": "carrier",
@@ -379,12 +274,7 @@
       "regions": [
         "Latin America"
       ],
-      "asset": "oi.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "oi",
-        "color": "004080"
-      }
+      "asset": "oi.svg"
     },
     "Personal": {
       "class": "carrier",
@@ -394,12 +284,7 @@
       "regions": [
         "Latin America"
       ],
-      "asset": "personal.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "personal",
-        "color": "004080"
-      }
+      "asset": "personal.svg"
     },
     "Entel": {
       "class": "carrier",
@@ -409,12 +294,7 @@
       "regions": [
         "Latin America"
       ],
-      "asset": "entel.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "entel",
-        "color": "004080"
-      }
+      "asset": "entel.svg"
     },
     "Digicel": {
       "class": "carrier",
@@ -424,12 +304,7 @@
       "regions": [
         "Latin America"
       ],
-      "asset": "digicel.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "digicel",
-        "color": "004080"
-      }
+      "asset": "digicel.svg"
     },
     "Flow": {
       "class": "carrier",
@@ -439,12 +314,7 @@
       "regions": [
         "Latin America"
       ],
-      "asset": "flow.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "flow",
-        "color": "004080"
-      }
+      "asset": "flow.svg"
     },
     "Vodafone": {
       "class": "carrier",
@@ -454,12 +324,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "vodafone.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "vodafone",
-        "color": "E60000"
-      }
+      "asset": "vodafone.svg"
     },
     "Orange": {
       "class": "carrier",
@@ -471,11 +336,6 @@
         "Africa"
       ],
       "asset": "orange.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "orange",
-        "color": "FF7900"
-      },
       "displayByRegion": {
         "Africa": "Orange Africa"
       }
@@ -488,12 +348,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "telenor.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "telenor",
-        "color": "004080"
-      }
+      "asset": "telenor.svg"
     },
     "Telia": {
       "class": "carrier",
@@ -503,12 +358,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "telia.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "telia",
-        "color": "990AE3"
-      }
+      "asset": "telia.svg"
     },
     "Beeline": {
       "class": "carrier",
@@ -519,12 +369,7 @@
         "Europe",
         "Middle East"
       ],
-      "asset": "beeline.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "beeline",
-        "color": "004080"
-      }
+      "asset": "beeline.svg"
     },
     "Deutsche Telekom": {
       "class": "carrier",
@@ -534,12 +379,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "deutsche-telekom.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "deutschetelekom",
-        "color": "E20074"
-      }
+      "asset": "deutsche-telekom.svg"
     },
     "O2": {
       "class": "carrier",
@@ -549,12 +389,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "o2.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "o2",
-        "color": "0070C0"
-      }
+      "asset": "o2.svg"
     },
     "EE": {
       "class": "carrier",
@@ -564,12 +399,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "ee.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "ee",
-        "color": "007A4C"
-      }
+      "asset": "ee.svg"
     },
     "Three": {
       "class": "carrier",
@@ -579,12 +409,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "three.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "three",
-        "color": "004080"
-      }
+      "asset": "three.svg"
     },
     "BT Mobile": {
       "class": "carrier",
@@ -594,12 +419,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "bt-mobile.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "bt",
-        "color": "5514B4"
-      }
+      "asset": "bt-mobile.svg"
     },
     "Sky Mobile": {
       "class": "carrier",
@@ -609,12 +429,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "sky-mobile.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "sky",
-        "color": "004080"
-      }
+      "asset": "sky-mobile.svg"
     },
     "Virgin Media": {
       "class": "carrier",
@@ -624,12 +439,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "virgin-media.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "virginmedia",
-        "color": "E10A0A"
-      }
+      "asset": "virgin-media.svg"
     },
     "SFR": {
       "class": "carrier",
@@ -639,12 +449,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "sfr.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "sfr",
-        "color": "E2001A"
-      }
+      "asset": "sfr.svg"
     },
     "Bouygues": {
       "class": "carrier",
@@ -654,12 +459,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "bouygues.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "bouyguestelecom",
-        "color": "004C97"
-      }
+      "asset": "bouygues.svg"
     },
     "Free Mobile": {
       "class": "carrier",
@@ -669,12 +469,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "free-mobile.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "free",
-        "color": "CD1418"
-      }
+      "asset": "free-mobile.svg"
     },
     "TIM Italy": {
       "class": "carrier",
@@ -684,12 +479,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "tim-italy.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "tim",
-        "color": "004080"
-      }
+      "asset": "tim-italy.svg"
     },
     "Wind Tre": {
       "class": "carrier",
@@ -699,12 +489,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "wind-tre.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "windtre",
-        "color": "004080"
-      }
+      "asset": "wind-tre.svg"
     },
     "Proximus": {
       "class": "carrier",
@@ -714,12 +499,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "proximus.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "proximus",
-        "color": "5E1281"
-      }
+      "asset": "proximus.svg"
     },
     "Base": {
       "class": "carrier",
@@ -729,12 +509,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "base.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "base",
-        "color": "004080"
-      }
+      "asset": "base.svg"
     },
     "Swisscom": {
       "class": "carrier",
@@ -744,12 +519,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "swisscom.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "swisscom",
-        "color": "0066CC"
-      }
+      "asset": "swisscom.svg"
     },
     "Salt": {
       "class": "carrier",
@@ -759,12 +529,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "salt.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "salt",
-        "color": "E20020"
-      }
+      "asset": "salt.svg"
     },
     "Sunrise": {
       "class": "carrier",
@@ -774,12 +539,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "sunrise.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "sunrise",
-        "color": "FF6600"
-      }
+      "asset": "sunrise.svg"
     },
     "A1": {
       "class": "carrier",
@@ -789,12 +549,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "a1.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "a1",
-        "color": "E2001A"
-      }
+      "asset": "a1.svg"
     },
     "MTS": {
       "class": "carrier",
@@ -804,12 +559,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "mts.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "mts",
-        "color": "E30613"
-      }
+      "asset": "mts.svg"
     },
     "Megafon": {
       "class": "carrier",
@@ -819,12 +569,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "megafon.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "megafon",
-        "color": "00B856"
-      }
+      "asset": "megafon.svg"
     },
     "TELE2": {
       "class": "carrier",
@@ -834,12 +579,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "tele2.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "tele2",
-        "color": "004080"
-      }
+      "asset": "tele2.svg"
     },
     "Turkcell": {
       "class": "carrier",
@@ -850,12 +590,7 @@
         "Europe",
         "Middle East"
       ],
-      "asset": "turkcell.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "turkcell",
-        "color": "FFD100"
-      }
+      "asset": "turkcell.svg"
     },
     "Lifecell": {
       "class": "carrier",
@@ -865,12 +600,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "lifecell.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "lifecell",
-        "color": "004080"
-      }
+      "asset": "lifecell.svg"
     },
     "Play": {
       "class": "carrier",
@@ -880,12 +610,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "play.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "play",
-        "color": "E4002B"
-      }
+      "asset": "play.svg"
     },
     "Plus": {
       "class": "carrier",
@@ -895,12 +620,7 @@
       "regions": [
         "Europe"
       ],
-      "asset": "plus.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "plus",
-        "color": "004080"
-      }
+      "asset": "plus.svg"
     },
     "STC": {
       "class": "carrier",
@@ -910,12 +630,7 @@
       "regions": [
         "Middle East"
       ],
-      "asset": "stc.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "stc",
-        "color": "6D2077"
-      }
+      "asset": "stc.svg"
     },
     "Zain": {
       "class": "carrier",
@@ -925,12 +640,7 @@
       "regions": [
         "Middle East"
       ],
-      "asset": "zain.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "zain",
-        "color": "004080"
-      }
+      "asset": "zain.svg"
     },
     "Ooredoo": {
       "class": "carrier",
@@ -940,12 +650,7 @@
       "regions": [
         "Middle East"
       ],
-      "asset": "ooredoo.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "ooredoo",
-        "color": "E2001A"
-      }
+      "asset": "ooredoo.svg"
     },
     "Etisalat": {
       "class": "carrier",
@@ -955,12 +660,7 @@
       "regions": [
         "Middle East"
       ],
-      "asset": "etisalat.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "etisalat",
-        "color": "00835D"
-      }
+      "asset": "etisalat.svg"
     },
     "du": {
       "class": "carrier",
@@ -970,12 +670,7 @@
       "regions": [
         "Middle East"
       ],
-      "asset": "du.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "du",
-        "color": "004080"
-      }
+      "asset": "du.svg"
     },
     "Mobily": {
       "class": "carrier",
@@ -985,12 +680,7 @@
       "regions": [
         "Middle East"
       ],
-      "asset": "mobily.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "mobily",
-        "color": "004080"
-      }
+      "asset": "mobily.svg"
     },
     "Jawwal": {
       "class": "carrier",
@@ -1000,12 +690,7 @@
       "regions": [
         "Middle East"
       ],
-      "asset": "jawwal.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "jawwal",
-        "color": "004080"
-      }
+      "asset": "jawwal.svg"
     },
     "MTN": {
       "class": "carrier",
@@ -1015,12 +700,7 @@
       "regions": [
         "Africa"
       ],
-      "asset": "mtn.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "mtn",
-        "color": "FFCC00"
-      }
+      "asset": "mtn.svg"
     },
     "Airtel": {
       "class": "carrier",
@@ -1032,11 +712,6 @@
         "South Asia"
       ],
       "asset": "airtel-africa.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "airtel",
-        "color": "E40000"
-      },
       "displayByRegion": {
         "South Asia": "Airtel"
       }
@@ -1049,12 +724,7 @@
       "regions": [
         "Africa"
       ],
-      "asset": "vodacom.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "vodacom",
-        "color": "E60000"
-      }
+      "asset": "vodacom.svg"
     },
     "Glo": {
       "class": "carrier",
@@ -1064,12 +734,7 @@
       "regions": [
         "Africa"
       ],
-      "asset": "glo.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "glo",
-        "color": "004080"
-      }
+      "asset": "glo.svg"
     },
     "Safaricom": {
       "class": "carrier",
@@ -1079,12 +744,7 @@
       "regions": [
         "Africa"
       ],
-      "asset": "safaricom.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "safaricom",
-        "color": "4CAF50"
-      }
+      "asset": "safaricom.svg"
     },
     "Telkom": {
       "class": "carrier",
@@ -1094,12 +754,7 @@
       "regions": [
         "Africa"
       ],
-      "asset": "telkom.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "telkom",
-        "color": "004080"
-      }
+      "asset": "telkom.svg"
     },
     "Cell C": {
       "class": "carrier",
@@ -1109,12 +764,7 @@
       "regions": [
         "Africa"
       ],
-      "asset": "cell-c.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "cellc",
-        "color": "004080"
-      }
+      "asset": "cell-c.svg"
     },
     "Econet": {
       "class": "carrier",
@@ -1124,12 +774,7 @@
       "regions": [
         "Africa"
       ],
-      "asset": "econet.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "econet",
-        "color": "004080"
-      }
+      "asset": "econet.svg"
     },
     "Tigo": {
       "class": "carrier",
@@ -1139,12 +784,7 @@
       "regions": [
         "Africa"
       ],
-      "asset": "tigo.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "tigo",
-        "color": "E2001A"
-      }
+      "asset": "tigo.svg"
     },
     "Maroc Telecom": {
       "class": "carrier",
@@ -1154,12 +794,7 @@
       "regions": [
         "Africa"
       ],
-      "asset": "maroc-telecom.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "maroctelecom",
-        "color": "004080"
-      }
+      "asset": "maroc-telecom.svg"
     },
     "9mobile": {
       "class": "carrier",
@@ -1169,12 +804,7 @@
       "regions": [
         "Africa"
       ],
-      "asset": "9mobile.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "9mobile",
-        "color": "004080"
-      }
+      "asset": "9mobile.svg"
     },
     "Jio": {
       "class": "carrier",
@@ -1184,12 +814,7 @@
       "regions": [
         "South Asia"
       ],
-      "asset": "jio.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "jio",
-        "color": "004080"
-      }
+      "asset": "jio.svg"
     },
     "Vi": {
       "class": "carrier",
@@ -1199,12 +824,7 @@
       "regions": [
         "South Asia"
       ],
-      "asset": "vi.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "vodafoneidea",
-        "color": "004080"
-      }
+      "asset": "vi.svg"
     },
     "BSNL": {
       "class": "carrier",
@@ -1214,12 +834,7 @@
       "regions": [
         "South Asia"
       ],
-      "asset": "bsnl.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "bsnl",
-        "color": "004080"
-      }
+      "asset": "bsnl.svg"
     },
     "Dialog": {
       "class": "carrier",
@@ -1229,12 +844,7 @@
       "regions": [
         "South Asia"
       ],
-      "asset": "dialog.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "dialog",
-        "color": "004080"
-      }
+      "asset": "dialog.svg"
     },
     "Mobitel": {
       "class": "carrier",
@@ -1244,12 +854,7 @@
       "regions": [
         "South Asia"
       ],
-      "asset": "mobitel.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "mobitel",
-        "color": "004080"
-      }
+      "asset": "mobitel.svg"
     },
     "Grameenphone": {
       "class": "carrier",
@@ -1259,12 +864,7 @@
       "regions": [
         "South Asia"
       ],
-      "asset": "grameenphone.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "grameenphone",
-        "color": "004080"
-      }
+      "asset": "grameenphone.svg"
     },
     "Robi": {
       "class": "carrier",
@@ -1274,12 +874,7 @@
       "regions": [
         "South Asia"
       ],
-      "asset": "robi.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "robi",
-        "color": "004080"
-      }
+      "asset": "robi.svg"
     },
     "Jazz": {
       "class": "carrier",
@@ -1289,12 +884,7 @@
       "regions": [
         "South Asia"
       ],
-      "asset": "jazz.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "jazz",
-        "color": "004080"
-      }
+      "asset": "jazz.svg"
     },
     "Zong": {
       "class": "carrier",
@@ -1304,12 +894,7 @@
       "regions": [
         "South Asia"
       ],
-      "asset": "zong.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "zong",
-        "color": "004080"
-      }
+      "asset": "zong.svg"
     },
     "Ufone": {
       "class": "carrier",
@@ -1319,12 +904,7 @@
       "regions": [
         "South Asia"
       ],
-      "asset": "ufone.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "ufone",
-        "color": "004080"
-      }
+      "asset": "ufone.svg"
     },
     "Ncell": {
       "class": "carrier",
@@ -1334,12 +914,7 @@
       "regions": [
         "South Asia"
       ],
-      "asset": "ncell.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "ncell",
-        "color": "004080"
-      }
+      "asset": "ncell.svg"
     },
     "China Mobile": {
       "class": "carrier",
@@ -1349,12 +924,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "china-mobile.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "chinamobile",
-        "color": "009900"
-      }
+      "asset": "china-mobile.svg"
     },
     "China Unicom": {
       "class": "carrier",
@@ -1364,12 +934,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "china-unicom.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "chinaunicom",
-        "color": "E21B1B"
-      }
+      "asset": "china-unicom.svg"
     },
     "China Telecom": {
       "class": "carrier",
@@ -1379,12 +944,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "china-telecom.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "chinatelecom",
-        "color": "007AC2"
-      }
+      "asset": "china-telecom.svg"
     },
     "NTT Docomo": {
       "class": "carrier",
@@ -1394,12 +954,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "ntt-docomo.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "nttdocomo",
-        "color": "E2001A"
-      }
+      "asset": "ntt-docomo.svg"
     },
     "SoftBank": {
       "class": "carrier",
@@ -1409,12 +964,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "softbank.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "softbank",
-        "color": "CC0000"
-      }
+      "asset": "softbank.svg"
     },
     "au KDDI": {
       "class": "carrier",
@@ -1424,12 +974,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "au-kddi.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "kddi",
-        "color": "004080"
-      }
+      "asset": "au-kddi.svg"
     },
     "SK Telecom": {
       "class": "carrier",
@@ -1439,12 +984,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "sk-telecom.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "sktelecom",
-        "color": "E2001A"
-      }
+      "asset": "sk-telecom.svg"
     },
     "KT": {
       "class": "carrier",
@@ -1454,12 +994,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "kt.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "kt",
-        "color": "E2001A"
-      }
+      "asset": "kt.svg"
     },
     "LG Uplus": {
       "class": "carrier",
@@ -1469,12 +1004,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "lg-uplus.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "lguplus",
-        "color": "E2001A"
-      }
+      "asset": "lg-uplus.svg"
     },
     "Chunghwa Telecom": {
       "class": "carrier",
@@ -1484,12 +1014,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "chunghwa-telecom.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "chunghwatelecom",
-        "color": "004080"
-      }
+      "asset": "chunghwa-telecom.svg"
     },
     "FarEasTone": {
       "class": "carrier",
@@ -1499,12 +1024,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "fareastone.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "fareastone",
-        "color": "004080"
-      }
+      "asset": "fareastone.svg"
     },
     "Taiwan Mobile": {
       "class": "carrier",
@@ -1514,12 +1034,7 @@
       "regions": [
         "East Asia"
       ],
-      "asset": "taiwan-mobile.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "taiwanmobile",
-        "color": "004080"
-      }
+      "asset": "taiwan-mobile.svg"
     },
     "Singtel": {
       "class": "carrier",
@@ -1529,12 +1044,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "singtel.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "singtel",
-        "color": "E2001A"
-      }
+      "asset": "singtel.svg"
     },
     "StarHub": {
       "class": "carrier",
@@ -1544,12 +1054,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "starhub.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "starhub",
-        "color": "E2001A"
-      }
+      "asset": "starhub.svg"
     },
     "M1": {
       "class": "carrier",
@@ -1559,12 +1064,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "m1.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "m1",
-        "color": "004080"
-      }
+      "asset": "m1.svg"
     },
     "AIS": {
       "class": "carrier",
@@ -1574,12 +1074,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "ais.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "ais",
-        "color": "004080"
-      }
+      "asset": "ais.svg"
     },
     "DTAC": {
       "class": "carrier",
@@ -1589,12 +1084,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "dtac.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "dtac",
-        "color": "004080"
-      }
+      "asset": "dtac.svg"
     },
     "True Move": {
       "class": "carrier",
@@ -1604,12 +1094,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "true-move.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "truemove",
-        "color": "E2001A"
-      }
+      "asset": "true-move.svg"
     },
     "Maxis": {
       "class": "carrier",
@@ -1619,12 +1104,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "maxis.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "maxis",
-        "color": "004080"
-      }
+      "asset": "maxis.svg"
     },
     "Celcom": {
       "class": "carrier",
@@ -1634,12 +1114,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "celcom.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "celcom",
-        "color": "004080"
-      }
+      "asset": "celcom.svg"
     },
     "Digi": {
       "class": "carrier",
@@ -1649,12 +1124,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "digi.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "digi",
-        "color": "004080"
-      }
+      "asset": "digi.svg"
     },
     "Globe": {
       "class": "carrier",
@@ -1664,12 +1134,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "globe.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "globe",
-        "color": "004080"
-      }
+      "asset": "globe.svg"
     },
     "Smart": {
       "class": "carrier",
@@ -1679,12 +1144,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "smart.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "smart",
-        "color": "004080"
-      }
+      "asset": "smart.svg"
     },
     "Telkomsel": {
       "class": "carrier",
@@ -1694,12 +1154,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "telkomsel.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "telkomsel",
-        "color": "FF0000"
-      }
+      "asset": "telkomsel.svg"
     },
     "Indosat": {
       "class": "carrier",
@@ -1709,12 +1164,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "indosat.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "indosat",
-        "color": "004080"
-      }
+      "asset": "indosat.svg"
     },
     "XL Axiata": {
       "class": "carrier",
@@ -1724,12 +1174,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "xl-axiata.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "xlaxiata",
-        "color": "004080"
-      }
+      "asset": "xl-axiata.svg"
     },
     "Viettel": {
       "class": "carrier",
@@ -1739,12 +1184,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "viettel.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "viettel",
-        "color": "E2001A"
-      }
+      "asset": "viettel.svg"
     },
     "Vinaphone": {
       "class": "carrier",
@@ -1754,12 +1194,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "vinaphone.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "vinaphone",
-        "color": "004080"
-      }
+      "asset": "vinaphone.svg"
     },
     "Mobifone": {
       "class": "carrier",
@@ -1769,12 +1204,7 @@
       "regions": [
         "Southeast Asia"
       ],
-      "asset": "mobifone.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "mobifone",
-        "color": "004080"
-      }
+      "asset": "mobifone.svg"
     },
     "Telstra": {
       "class": "carrier",
@@ -1784,12 +1214,7 @@
       "regions": [
         "Oceania"
       ],
-      "asset": "telstra.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "telstra",
-        "color": "00619A"
-      }
+      "asset": "telstra.svg"
     },
     "Optus": {
       "class": "carrier",
@@ -1799,12 +1224,7 @@
       "regions": [
         "Oceania"
       ],
-      "asset": "optus.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "optus",
-        "color": "FF7000"
-      }
+      "asset": "optus.svg"
     },
     "Vodafone AU": {
       "class": "carrier",
@@ -1814,12 +1234,7 @@
       "regions": [
         "Oceania"
       ],
-      "asset": "vodafone-au.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "vodafone",
-        "color": "E60000"
-      }
+      "asset": "vodafone-au.svg"
     },
     "Spark": {
       "class": "carrier",
@@ -1829,12 +1244,7 @@
       "regions": [
         "Oceania"
       ],
-      "asset": "spark.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "spark",
-        "color": "00B0CA"
-      }
+      "asset": "spark.svg"
     },
     "One NZ": {
       "class": "carrier",
@@ -1844,12 +1254,7 @@
       "regions": [
         "Oceania"
       ],
-      "asset": "one-nz.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "one",
-        "color": "004080"
-      }
+      "asset": "one-nz.svg"
     },
     "2degrees": {
       "class": "carrier",
@@ -1859,12 +1264,378 @@
       "regions": [
         "Oceania"
       ],
-      "asset": "2degrees.svg",
-      "icon": {
-        "provider": "simpleicons",
-        "slug": "2degrees",
-        "color": "004080"
-      }
+      "asset": "2degrees.svg"
+    },
+    "Acer": {
+      "class": "brand",
+      "id": "acer",
+      "name": "Acer",
+      "label": "Acer",
+      "asset": "acer.svg"
+    },
+    "Alcatel": {
+      "class": "brand",
+      "id": "alcatel",
+      "name": "Alcatel",
+      "label": "Alcatel",
+      "asset": "alcatel.svg"
+    },
+    "AllView": {
+      "class": "brand",
+      "id": "allview",
+      "name": "AllView",
+      "label": "AllView",
+      "asset": "allview.svg"
+    },
+    "Amazon": {
+      "class": "brand",
+      "id": "amazon",
+      "name": "Amazon",
+      "label": "Amazon",
+      "asset": "amazon.svg"
+    },
+    "Apple": {
+      "class": "brand",
+      "id": "apple",
+      "name": "Apple",
+      "label": "Apple",
+      "asset": "apple.svg"
+    },
+    "Archos": {
+      "class": "brand",
+      "id": "archos",
+      "name": "Archos",
+      "label": "Archos",
+      "asset": "archos.svg"
+    },
+    "Asus": {
+      "class": "brand",
+      "id": "asus",
+      "name": "Asus",
+      "label": "Asus",
+      "asset": "asus.svg"
+    },
+    "BenQ": {
+      "class": "brand",
+      "id": "benq",
+      "name": "BenQ",
+      "label": "BenQ",
+      "asset": "benq.svg"
+    },
+    "BlackBerry": {
+      "class": "brand",
+      "id": "blackberry",
+      "name": "BlackBerry",
+      "label": "BlackBerry",
+      "asset": "blackberry.svg"
+    },
+    "BLU": {
+      "class": "brand",
+      "id": "blu",
+      "name": "BLU",
+      "label": "BLU",
+      "asset": "blu.svg"
+    },
+    "Bosch": {
+      "class": "brand",
+      "id": "bosch",
+      "name": "Bosch",
+      "label": "Bosch",
+      "asset": "bosch.svg"
+    },
+    "Casio": {
+      "class": "brand",
+      "id": "casio",
+      "name": "Casio",
+      "label": "Casio",
+      "asset": "casio.svg"
+    },
+    "CAT": {
+      "class": "brand",
+      "id": "cat",
+      "name": "CAT",
+      "label": "CAT",
+      "asset": "cat.svg"
+    },
+    "Dell": {
+      "class": "brand",
+      "id": "dell",
+      "name": "Dell",
+      "label": "Dell",
+      "asset": "dell.svg"
+    },
+    "Ericsson": {
+      "class": "brand",
+      "id": "ericsson",
+      "name": "Ericsson",
+      "label": "Ericsson",
+      "asset": "ericsson.svg"
+    },
+    "Fujitsu": {
+      "class": "brand",
+      "id": "fujitsu",
+      "name": "Fujitsu",
+      "label": "Fujitsu",
+      "asset": "fujitsu.svg"
+    },
+    "Garmin": {
+      "class": "brand",
+      "id": "garmin",
+      "name": "Garmin",
+      "label": "Garmin",
+      "asset": "garmin.svg"
+    },
+    "Gigabyte": {
+      "class": "brand",
+      "id": "gigabyte",
+      "name": "Gigabyte",
+      "label": "Gigabyte",
+      "asset": "gigabyte.svg"
+    },
+    "Google": {
+      "class": "brand",
+      "id": "google",
+      "name": "Google",
+      "label": "Google",
+      "asset": "google.svg"
+    },
+    "Haier": {
+      "class": "brand",
+      "id": "haier",
+      "name": "Haier",
+      "label": "Haier",
+      "asset": "haier.svg"
+    },
+    "Honor": {
+      "class": "brand",
+      "id": "honor",
+      "name": "Honor",
+      "label": "Honor",
+      "asset": "honor.svg"
+    },
+    "HP": {
+      "class": "brand",
+      "id": "hp",
+      "name": "HP",
+      "label": "HP",
+      "asset": "hp.svg"
+    },
+    "HTC": {
+      "class": "brand",
+      "id": "htc",
+      "name": "HTC",
+      "label": "HTC",
+      "asset": "htc.svg"
+    },
+    "Infinix": {
+      "class": "brand",
+      "id": "infinix",
+      "name": "Infinix",
+      "label": "Infinix",
+      "asset": "infinix.svg"
+    },
+    "Itel": {
+      "class": "brand",
+      "id": "itel",
+      "name": "Itel",
+      "label": "Itel",
+      "asset": "itel.svg"
+    },
+    "Jolla": {
+      "class": "brand",
+      "id": "jolla",
+      "name": "Jolla",
+      "label": "Jolla",
+      "asset": "jolla.svg"
+    },
+    "Kyocera": {
+      "class": "brand",
+      "id": "kyocera",
+      "name": "Kyocera",
+      "label": "Kyocera",
+      "asset": "kyocera.svg"
+    },
+    "Lenovo": {
+      "class": "brand",
+      "id": "lenovo",
+      "name": "Lenovo",
+      "label": "Lenovo",
+      "asset": "lenovo.svg"
+    },
+    "LG": {
+      "class": "brand",
+      "id": "lg",
+      "name": "LG",
+      "label": "LG",
+      "asset": "lg.svg"
+    },
+    "Meizu": {
+      "class": "brand",
+      "id": "meizu",
+      "name": "Meizu",
+      "label": "Meizu",
+      "asset": "meizu.svg"
+    },
+    "Micromax": {
+      "class": "brand",
+      "id": "micromax",
+      "name": "Micromax",
+      "label": "Micromax",
+      "asset": "micromax.svg"
+    },
+    "Microsoft": {
+      "class": "brand",
+      "id": "microsoft",
+      "name": "Microsoft",
+      "label": "Microsoft",
+      "asset": "microsoft.svg"
+    },
+    "Motorola": {
+      "class": "brand",
+      "id": "motorola",
+      "name": "Motorola",
+      "label": "Motorola",
+      "asset": "motorola.svg"
+    },
+    "MSI": {
+      "class": "brand",
+      "id": "msi",
+      "name": "MSI",
+      "label": "MSI",
+      "asset": "msi.svg"
+    },
+    "Nokia": {
+      "class": "brand",
+      "id": "nokia",
+      "name": "Nokia",
+      "label": "Nokia",
+      "asset": "nokia.svg"
+    },
+    "Nothing": {
+      "class": "brand",
+      "id": "nothing",
+      "name": "Nothing",
+      "label": "Nothing",
+      "asset": "nothing.svg"
+    },
+    "OnePlus": {
+      "class": "brand",
+      "id": "oneplus",
+      "name": "OnePlus",
+      "label": "OnePlus",
+      "asset": "oneplus.svg"
+    },
+    "Oppo": {
+      "class": "brand",
+      "id": "oppo",
+      "name": "Oppo",
+      "label": "Oppo",
+      "asset": "oppo.svg"
+    },
+    "Panasonic": {
+      "class": "brand",
+      "id": "panasonic",
+      "name": "Panasonic",
+      "label": "Panasonic",
+      "asset": "panasonic.svg"
+    },
+    "Philips": {
+      "class": "brand",
+      "id": "philips",
+      "name": "Philips",
+      "label": "Philips",
+      "asset": "philips.svg"
+    },
+    "Realme": {
+      "class": "brand",
+      "id": "realme",
+      "name": "Realme",
+      "label": "Realme",
+      "asset": "realme.svg"
+    },
+    "Sagem": {
+      "class": "brand",
+      "id": "sagem",
+      "name": "Sagem",
+      "label": "Sagem",
+      "asset": "sagem.svg"
+    },
+    "Samsung": {
+      "class": "brand",
+      "id": "samsung",
+      "name": "Samsung",
+      "label": "Samsung",
+      "asset": "samsung.svg"
+    },
+    "Sharp": {
+      "class": "brand",
+      "id": "sharp",
+      "name": "Sharp",
+      "label": "Sharp",
+      "asset": "sharp.svg"
+    },
+    "Siemens": {
+      "class": "brand",
+      "id": "siemens",
+      "name": "Siemens",
+      "label": "Siemens",
+      "asset": "siemens.svg"
+    },
+    "Sony": {
+      "class": "brand",
+      "id": "sony",
+      "name": "Sony",
+      "label": "Sony",
+      "asset": "sony.svg"
+    },
+    "TCL": {
+      "class": "brand",
+      "id": "tcl",
+      "name": "TCL",
+      "label": "TCL",
+      "asset": "tcl.svg"
+    },
+    "Toshiba": {
+      "class": "brand",
+      "id": "toshiba",
+      "name": "Toshiba",
+      "label": "Toshiba",
+      "asset": "toshiba.svg"
+    },
+    "ViewSonic": {
+      "class": "brand",
+      "id": "viewsonic",
+      "name": "ViewSonic",
+      "label": "ViewSonic",
+      "asset": "viewsonic.svg"
+    },
+    "Wiko": {
+      "class": "brand",
+      "id": "wiko",
+      "name": "Wiko",
+      "label": "Wiko",
+      "asset": "wiko.svg"
+    },
+    "Xiaomi": {
+      "class": "brand",
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "label": "Xiaomi",
+      "asset": "xiaomi.svg"
+    },
+    "Yezz": {
+      "class": "brand",
+      "id": "yezz",
+      "name": "Yezz",
+      "label": "Yezz",
+      "asset": "yezz.svg"
+    },
+    "ZTE": {
+      "class": "brand",
+      "id": "zte",
+      "name": "ZTE",
+      "label": "ZTE",
+      "asset": "zte.svg"
     }
   },
   "updated": "2026-07-22"
