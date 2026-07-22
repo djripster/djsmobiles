@@ -941,3 +941,12 @@ body.dark-mode .directory-intro,
   .directory-card:hover { transform: none; }
 }
 
+.home-snippet .notice-box,
+.home-snippet .update-box,
+.home-snippet .key-takeaways,
+.home-snippet .review-verdict,
+.home-snippet .review-score-strip,
+.home-snippet .pros-cons-grid,
+.home-snippet .protocol-grid {
+  display: none !important;
+}
