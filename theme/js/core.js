@@ -598,7 +598,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
     return String(prefix || 'djsFeedCallback') + '_' + String(Date.now()) + '_' + String(Math.floor(Math.random() * 100000));
   }
 
-  /* featured-homepage v5 | Skeleton swap + clean hide on empty/failed feed */
+  /* featured-homepage v6 | Editorial hierarchy, clamping, and full-card hero interaction */
   window.djsFeaturedFeed = function(feed) {
     var section = qs('#homepage-featured');
     if (!section) return;
@@ -622,50 +622,64 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
         var raw = '';
         if (entry.summary && entry.summary.$t) raw = entry.summary.$t;
         else if (entry.content && entry.content.$t) raw = entry.content.$t;
-        return djsCleanFeaturedText(raw, window.innerWidth <= 768 ? 100 : 155);
+        return djsCleanFeaturedText(raw, window.innerWidth <= 768 ? 110 : 170);
+      }
+
+      function enableCardNavigation(card, url, label) {
+        if (!card || !url) return;
+        card.setAttribute('data-featured-href', url);
+        card.setAttribute('role', 'link');
+        card.setAttribute('tabindex', '0');
+        if (label) card.setAttribute('aria-label', label);
+
+        card.addEventListener('click', function(event) {
+          if (event.defaultPrevented || event.target.closest('a, button')) return;
+          window.location.href = url;
+        });
+
+        card.addEventListener('keydown', function(event) {
+          if (event.key !== 'Enter' && event.key !== ' ') return;
+          if (event.target.closest('a, button')) return;
+          event.preventDefault();
+          window.location.href = url;
+        });
       }
 
       var hero = entries[0];
+      var heroUrl = djsFeedGetLink(hero);
+      var heroTitleText = djsFeedGetTitle(hero);
       var heroSkel = qs('#featured-hero-skel');
       var heroReal = qs('#featured-hero-real');
       var heroKicker = qs('#featured-hero-kicker');
       var heroTitle = qs('#featured-hero-title');
       var heroMeta = qs('#featured-hero-meta');
       var heroSummary = qs('#featured-hero-summary');
-      var heroLink = qs('#featured-hero-link');
       var heroMedia = qs('#featured-hero-media');
+      var heroCard = qs('#featured-hero');
       var side = qs('#featured-side');
 
-      /* Update kicker to reflect actual post type */
-      if (heroKicker) {
-        var badge = djsGetFeaturedBadge(hero);
-        var kickerMap = {
-          'is-review': 'Featured Story',
-          'is-specs':  'Featured Story',
-          'is-deals':  'Featured Story',
-          'is-guide':  'Featured Story',
-          'is-editorial': 'Featured Story',
-          'is-news':   'Featured Story'
-        };
-        heroKicker.textContent = kickerMap[badge.cls] || 'Featured Story';
+      if (heroKicker) heroKicker.textContent = 'Featured';
+
+      if (heroMeta) {
+        heroMeta.innerHTML =
+          djsFeaturedBadgeHtml(hero) +
+          '<span class="post-meta-sep">&#8226;</span>' +
+          '<time>' + djsEscapeHtml(getDate(hero)) + '</time>';
       }
 
       if (heroTitle) {
-        heroTitle.innerHTML = '<a href="' + djsEscapeHtml(djsFeedGetLink(hero)) + '">' + djsEscapeHtml(djsFeedGetTitle(hero)) + '</a>';
+        heroTitle.innerHTML = '<a href="' + djsEscapeHtml(heroUrl) + '">' + djsEscapeHtml(heroTitleText) + '</a>';
       }
-      if (heroMeta) {
-        heroMeta.innerHTML =
-          '<time>' + djsEscapeHtml(getDate(hero)) + '</time>' +
-          '<span class="post-meta-sep">&#8226;</span>' +
-          djsFeaturedBadgeHtml(hero);
-      }
+
       if (heroSummary) heroSummary.textContent = getSummary(hero);
-      if (heroLink) heroLink.href = djsFeedGetLink(hero);
+
       if (heroMedia) {
         var heroImageUrl = djsFeedGetImage(hero, '/s1600/');
         heroMedia.style.backgroundImage = 'url("' + heroImageUrl + '")';
         heroMedia.innerHTML = '<img alt="" decoding="async" fetchpriority="high" src="' + djsEscapeHtml(heroImageUrl) + '"/>';
       }
+
+      enableCardNavigation(heroCard, heroUrl, heroTitleText);
 
       if (heroSkel) heroSkel.style.display = 'none';
       if (heroReal) heroReal.style.display = '';
@@ -678,9 +692,9 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
               '<div class="featured-card-thumb" style="background-image:url(\'' + djsEscapeHtml(djsFeedGetImage(entries[j], '/s1600/')) + '\')"></div>' +
               '<div class="featured-card-body">' +
                 '<div class="featured-meta">' +
-                  '<time>' + djsEscapeHtml(getDate(entries[j])) + '</time>' +
-                  '<span class="post-meta-sep">&#8226;</span>' +
                   djsFeaturedBadgeHtml(entries[j]) +
+                  '<span class="post-meta-sep">&#8226;</span>' +
+                  '<time>' + djsEscapeHtml(getDate(entries[j])) + '</time>' +
                 '</div>' +
                 '<h3 class="featured-card-title"><a href="' + djsEscapeHtml(djsFeedGetLink(entries[j])) + '">' + djsEscapeHtml(djsFeedGetTitle(entries[j])) + '</a></h3>' +
                 '<p class="featured-card-summary">' + djsEscapeHtml(getSummary(entries[j])) + '</p>' +
