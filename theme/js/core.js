@@ -707,15 +707,31 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
         side.innerHTML = cards.join('');
       }
 
-      /* Buzz belongs to the parent grid, not the side-card renderer. */
-      if (featuredGrid) {
+      /* Buzz stays in the side stack on desktop, then moves below the full grid when Featured stacks. */
+      if (featuredGrid && side) {
         if (!buzz) {
           buzz = document.createElement('section');
           buzz.id = 'featured-buzz';
           buzz.className = 'featured-buzz';
           buzz.setAttribute('aria-label', 'Buzz');
         }
-        if (buzz.parentNode !== featuredGrid) featuredGrid.appendChild(buzz);
+
+        function syncBuzzPlacement() {
+          var stacked = window.matchMedia('(max-width: 980px)').matches;
+          var target = stacked ? featuredGrid : side;
+          if (buzz.parentNode !== target) target.appendChild(buzz);
+        }
+
+        syncBuzzPlacement();
+
+        if (!section._djsBuzzResizeBound) {
+          section._djsBuzzResizeBound = true;
+          var buzzResizeTimer = null;
+          window.addEventListener('resize', function() {
+            window.clearTimeout(buzzResizeTimer);
+            buzzResizeTimer = window.setTimeout(syncBuzzPlacement, 120);
+          });
+        }
       }
 
       section.classList.remove('is-loading');
