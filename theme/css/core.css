@@ -1171,6 +1171,18 @@ body.dark-mode .directory-intro,
   height: auto;
 }
 
+/* Buzz shell | Compact text-only Featured companion */
+.featured-buzz {
+  display: block;
+  width: 100%;
+  min-height: 58px;
+  box-sizing: border-box;
+  border: 1px solid rgba(215,227,239,0.95);
+  border-radius: 20px;
+  background: linear-gradient(180deg, #ffffff 0%, #f9fbfe 100%);
+  box-shadow: var(--shadow-sm);
+}
+
 .featured-card {
   position: relative;
   display: grid;
@@ -1298,6 +1310,12 @@ body.dark-mode .directory-intro,
 
   .featured-card-summary {
     font-size: 11.5px;
+  }
+}
+
+@media (max-width: 980px) {
+  .featured-buzz {
+    display: none;
   }
 }
 
