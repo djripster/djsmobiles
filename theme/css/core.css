@@ -1173,7 +1173,6 @@ body.dark-mode .directory-intro,
 
 /* Buzz shell | utility-card language borrowed from collapsed Pulse */
 .featured-buzz {
-  grid-column: 2;
   min-width: 0;
   min-height: 52px;
   overflow: hidden;
@@ -1331,7 +1330,7 @@ body.dark-mode .featured-buzz,
     gap: 18px;
   }
 
-  .featured-buzz {
+  .homepage-featured-grid > .featured-buzz {
     grid-column: 1 / -1;
     width: 100%;
   }
@@ -1375,7 +1374,7 @@ body.dark-mode .featured-buzz,
     gap: 16px;
   }
 
-  .featured-buzz {
+  .homepage-featured-grid > .featured-buzz {
     grid-column: 1 / -1;
     width: 100%;
     border-radius: 18px;
