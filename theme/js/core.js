@@ -2418,7 +2418,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
     }
   }
 
-  /* label-priority v1 | Brand always wins over platform in label chips */
+  /* label-priority v2 | Content type wins when present; brand still wins over platform */
   function initLabelPriority() {
     var BRANDS    = ['samsung', 'apple', 'microsoft', 'google', 'motorola', 'nokia', 'blackberry', 'sony', 'htc', 'lg', 'nothing', 'oneplus', 'xiaomi'];
     var CONTENT   = ['review', 'specs', 'editorial', 'guides', 'deals', 'featured'];
@@ -2426,8 +2426,8 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
 
     function priorityScore(labelText) {
       var t = (labelText || '').toLowerCase().trim();
-      for (var i = 0; i < BRANDS.length; i++)    if (t === BRANDS[i])    return 300 - i;
-      for (var j = 0; j < CONTENT.length; j++)   if (t === CONTENT[j])   return 200 - j;
+      for (var j = 0; j < CONTENT.length; j++)    if (t === CONTENT[j])    return 400 - j;
+      for (var i = 0; i < BRANDS.length; i++)     if (t === BRANDS[i])     return 300 - i;
       for (var k = 0; k < PLATFORMS.length; k++)  if (t === PLATFORMS[k]) return 100 - k;
       return 0;
     }
