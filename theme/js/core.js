@@ -12,7 +12,7 @@
  * Disqus block stays in the XML — it requires data:blog.canonicalUrl,
  * data:blog.pageTitle and b:if conditions that require server-side rendering.
  *
- * @version v1.2.0
+ * @version v1.2.1
  * @source  extracted-javascript.txt (frozen snapshot)
  */
 
@@ -598,7 +598,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
     return String(prefix || 'djsFeedCallback') + '_' + String(Date.now()) + '_' + String(Math.floor(Math.random() * 100000));
   }
 
-  /* featured-homepage v6 | Editorial hierarchy, clamping, and full-card hero interaction */
+  /* featured-homepage v6.1 | Editorial hierarchy, clamping, and full-card hero interaction */
   window.djsFeaturedFeed = function(feed) {
     var section = qs('#homepage-featured');
     if (!section) return;
@@ -702,6 +702,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
             '</article>'
           );
         }
+        cards.push('<div aria-hidden="true" class="featured-buzz-shell" id="featured-buzz"></div>');
         side.innerHTML = cards.join('');
       }
 
