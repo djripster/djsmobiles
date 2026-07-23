@@ -598,7 +598,7 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
     return String(prefix || 'djsFeedCallback') + '_' + String(Date.now()) + '_' + String(Math.floor(Math.random() * 100000));
   }
 
-  /* featured-homepage v6.1 | Editorial hierarchy, clamping, and full-card hero interaction */
+  /* featured-homepage v7 | Responsive Buzz shell + editorial hierarchy */
   window.djsFeaturedFeed = function(feed) {
     var section = qs('#homepage-featured');
     if (!section) return;
@@ -657,6 +657,8 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
       var heroMedia = qs('#featured-hero-media');
       var heroCard = qs('#featured-hero');
       var side = qs('#featured-side');
+      var featuredGrid = qs('.homepage-featured-grid', section);
+      var buzz = qs('#featured-buzz', section);
 
       if (heroKicker) heroKicker.textContent = 'Featured';
 
@@ -702,8 +704,18 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
             '</article>'
           );
         }
-        cards.push('<div aria-hidden="true" class="featured-buzz-shell" id="featured-buzz"></div>');
         side.innerHTML = cards.join('');
+      }
+
+      /* Buzz belongs to the parent grid, not the side-card renderer. */
+      if (featuredGrid) {
+        if (!buzz) {
+          buzz = document.createElement('section');
+          buzz.id = 'featured-buzz';
+          buzz.className = 'featured-buzz';
+          buzz.setAttribute('aria-label', 'Buzz');
+        }
+        if (buzz.parentNode !== featuredGrid) featuredGrid.appendChild(buzz);
       }
 
       section.classList.remove('is-loading');
