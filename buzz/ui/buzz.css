@@ -170,3 +170,37 @@ body.dark-mode .buzz-nav:hover:not(:disabled),
     transition: none;
   }
 }
+
+/* Buzz item types | v1.1
+   Type presentation stays restrained. Type behavior is owned by buzz.js. */
+.buzz-label--live {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #b42318;
+}
+
+.buzz-live-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 0 3px rgba(180, 35, 24, 0.10);
+}
+
+body.dark-mode .buzz-label--live,
+.dark-mode .buzz-label--live {
+  color: #ff8a80;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .buzz-card--live .buzz-live-dot {
+    animation: buzzLivePulse 2s ease-in-out infinite;
+  }
+}
+
+@keyframes buzzLivePulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.48; }
+}
