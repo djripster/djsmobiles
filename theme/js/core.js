@@ -2833,6 +2833,9 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
     initDirectoryPages();
     initDeviceFamilyFramework();
     loadFeaturedHomepage();
+    if (window.DJSBuzz && typeof window.DJSBuzz.init === 'function') {
+      window.DJSBuzz.init();
+    }
     loadSidebarReviews();
     loadSidebarDevices();
     initUpdatedStoryChip();
