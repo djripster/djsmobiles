@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-24T00:00:00Z",
+  "sources": [
+    {
+      "id": "huawei-newsroom",
+      "name": "Huawei Newsroom",
+      "brandId": "huawei",
+      "websiteUrl": "https://www.huawei.com/en/news",
+      "enabled": true,
+      "collection": {
+        "preferred": "rss",
+        "rss": {
+          "url": "https://www.huawei.com/en/rss-feeds/huawei-updates/rss"
+        }
+      }
+    },
+    {
+      "id": "clicks-news",
+      "name": "Clicks",
+      "brandId": "clicks",
+      "websiteUrl": "https://www.clicks.tech/",
+      "enabled": false,
+      "collection": {
+        "preferred": "webpage",
+        "webpage": {
+          "url": "https://www.clicks.tech/"
+        }
+      },
+      "notes": "Disabled until an official structured news feed is confirmed."
+    }
+  ]
+}
