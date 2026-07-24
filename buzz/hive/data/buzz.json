@@ -1,5 +1,20 @@
-Firefox 156
-
-Chrome 142
-
-Pixel Camera 9.8
+{
+  "version": 1,
+  "generated": "2026-07-24T00:00:00Z",
+  "items": [
+    {
+      "id": "meta-seller-app-20260724",
+      "headline": "Meta Launches Seller App",
+      "url": "https://about.fb.com/news/2026/07/introducing-seller-app-facebook-marketplace/",
+      "brand": "Meta",
+      "published": "2026-07-24T00:00:00Z"
+    },
+    {
+      "id": "huawei-pura-90s-series-20260714",
+      "headline": "Huawei Launches Pura 90s Series",
+      "url": "https://consumer.huawei.com/en/press/events/2026/huawei-flagship-product-launch-july-14/",
+      "brand": "Huawei",
+      "published": "2026-07-14T00:00:00Z"
+    }
+  ]
+}
