@@ -5,9 +5,11 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const crypto = require('node:crypto');
 
-const ROOT = __dirname;
-const SOURCES_FILE = path.join(ROOT, 'sources.json');
-const STORIES_FILE = path.join(ROOT, 'stories.json');
+const ROOT = path.resolve(__dirname, '..');
+const DATA_DIR = path.join(ROOT, 'hive', 'data');
+
+const SOURCES_FILE = path.join(DATA_DIR, 'sources.json');
+const STORIES_FILE = path.join(DATA_DIR, 'stories.json');
 
 function decodeXml(value = '') {
   return value
