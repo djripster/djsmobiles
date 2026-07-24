@@ -156,7 +156,7 @@
           '<button class="buzz-nav buzz-nav--previous" type="button" aria-label="Previous Buzz headline"' + (controlsDisabled ? ' disabled' : '') + '>' +
             '<span class="buzz-chevron buzz-chevron--left" aria-hidden="true"></span>' +
           '</button>' +
-          '<a class="buzz-headline" href="' + this.escapeHtml(item.url) + '">' +
+          '<a class="buzz-headline" href="' + this.escapeHtml(item.url) + '" target="_blank" rel="noopener noreferrer">' +
             '<span class="buzz-label">Buzz</span>' +
             '<span class="buzz-headline__text">' + this.escapeHtml(item.title) + '</span>' +
           '</a>' +
