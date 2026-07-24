@@ -1,0 +1,172 @@
+/* ==========================================================
+   Buzz v1 | Meadow headline renderer
+   Buzz owns its controls and content presentation.
+   Core owns placement of #featured-buzz in the homepage grid.
+   ========================================================== */
+
+#featured-buzz[hidden],
+#featured-buzz:empty {
+  display: none;
+}
+
+.buzz-card {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) 42px;
+  align-items: stretch;
+  min-height: 64px;
+}
+
+.buzz-card--status {
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+}
+
+.buzz-headline {
+  display: flex;
+  min-width: 0;
+  padding: 11px 10px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  color: var(--text, #17202b);
+  text-decoration: none !important;
+}
+
+.buzz-headline:hover .buzz-headline__text,
+.buzz-headline:focus-visible .buzz-headline__text {
+  color: var(--primary, #0f4c81);
+}
+
+.buzz-headline:focus-visible,
+.buzz-nav:focus-visible {
+  outline: 3px solid rgba(15, 76, 129, 0.22);
+  outline-offset: -3px;
+}
+
+.buzz-label {
+  color: var(--primary, #0f4c81);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.buzz-headline__text {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--text, #17202b);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  transition: color 160ms ease;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.buzz-status {
+  color: var(--text-soft, #5c6b7c);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.buzz-nav {
+  appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 42px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--primary, #0f4c81);
+  cursor: pointer;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.buzz-nav:hover:not(:disabled) {
+  background: rgba(15, 76, 129, 0.07);
+  color: var(--primary-dark, #0a3357);
+}
+
+.buzz-nav:disabled {
+  cursor: default;
+  opacity: 0.28;
+}
+
+.buzz-nav--previous {
+  border-right: 1px solid rgba(215, 227, 239, 0.8);
+}
+
+.buzz-nav--next {
+  border-left: 1px solid rgba(215, 227, 239, 0.8);
+}
+
+.buzz-chevron {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+}
+
+.buzz-chevron--left {
+  transform: rotate(-135deg);
+}
+
+.buzz-chevron--right {
+  transform: rotate(45deg);
+}
+
+body.dark-mode .buzz-headline,
+.dark-mode .buzz-headline,
+body.dark-mode .buzz-headline__text,
+.dark-mode .buzz-headline__text {
+  color: #edf2f7;
+}
+
+body.dark-mode .buzz-status,
+.dark-mode .buzz-status {
+  color: #aeb9c6;
+}
+
+body.dark-mode .buzz-nav--previous,
+.dark-mode .buzz-nav--previous {
+  border-right-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .buzz-nav--next,
+.dark-mode .buzz-nav--next {
+  border-left-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .buzz-nav:hover:not(:disabled),
+.dark-mode .buzz-nav:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+@media (max-width: 480px) {
+  .buzz-card {
+    grid-template-columns: 38px minmax(0, 1fr) 38px;
+    min-height: 62px;
+  }
+
+  .buzz-nav {
+    min-width: 38px;
+  }
+
+  .buzz-headline {
+    padding-inline: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .buzz-headline__text,
+  .buzz-nav {
+    transition: none;
+  }
+}
