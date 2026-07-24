@@ -3,6 +3,32 @@
   "updatedAt": "2026-07-24T00:00:00Z",
   "sources": [
     {
+      "id": "google-news",
+      "name": "News from Google",
+      "brandId": "google",
+      "websiteUrl": "https://blog.google/",
+      "enabled": true,
+      "collection": {
+        "preferred": "rss",
+        "rss": {
+          "url": "https://blog.google/rss/"
+        }
+      }
+    },
+    {
+      "id": "samsung-global-newsroom",
+      "name": "Samsung Global Newsroom",
+      "brandId": "samsung",
+      "websiteUrl": "https://news.samsung.com/global/",
+      "enabled": true,
+      "collection": {
+        "preferred": "rss",
+        "rss": {
+          "url": "https://news.samsung.com/global/feed/rss"
+        }
+      }
+    },
+    {
       "id": "huawei-newsroom",
       "name": "Huawei Newsroom",
       "brandId": "huawei",
@@ -16,18 +42,102 @@
       }
     },
     {
-      "id": "clicks-news",
-      "name": "Clicks",
-      "brandId": "clicks",
-      "websiteUrl": "https://www.clicks.tech/",
+      "id": "apple-newsroom",
+      "name": "Apple Newsroom",
+      "brandId": "apple",
+      "websiteUrl": "https://www.apple.com/newsroom/",
       "enabled": false,
       "collection": {
         "preferred": "webpage",
         "webpage": {
-          "url": "https://www.clicks.tech/"
+          "url": "https://www.apple.com/newsroom/"
         }
       },
-      "notes": "Disabled until an official structured news feed is confirmed."
+      "notes": "Official newsroom confirmed. Disabled until Hive supports a stable structured collection method for this page."
+    },
+    {
+      "id": "motorola-newsroom",
+      "name": "Motorola Newsroom",
+      "brandId": "motorola",
+      "websiteUrl": "https://motorolanews.com/",
+      "enabled": false,
+      "collection": {
+        "preferred": "webpage",
+        "webpage": {
+          "url": "https://motorolanews.com/"
+        }
+      },
+      "notes": "Official newsroom entry reserved. Feed verification is still required before enabling."
+    },
+    {
+      "id": "oneplus-newsroom",
+      "name": "OnePlus Newsroom",
+      "brandId": "oneplus",
+      "websiteUrl": "https://www.oneplus.com/press",
+      "enabled": false,
+      "collection": {
+        "preferred": "webpage",
+        "webpage": {
+          "url": "https://www.oneplus.com/press"
+        }
+      },
+      "notes": "Official press destination reserved. Feed verification is still required before enabling."
+    },
+    {
+      "id": "nothing-newsroom",
+      "name": "Nothing Newsroom",
+      "brandId": "nothing",
+      "websiteUrl": "https://nothing.tech/pages/newsroom",
+      "enabled": false,
+      "collection": {
+        "preferred": "webpage",
+        "webpage": {
+          "url": "https://nothing.tech/pages/newsroom"
+        }
+      },
+      "notes": "Official newsroom entry reserved. No official RSS feed has been confirmed."
+    },
+    {
+      "id": "xiaomi-global-newsroom",
+      "name": "Xiaomi Global Newsroom",
+      "brandId": "xiaomi",
+      "websiteUrl": "https://www.mi.com/global/discover/newsroom",
+      "enabled": false,
+      "collection": {
+        "preferred": "webpage",
+        "webpage": {
+          "url": "https://www.mi.com/global/discover/newsroom"
+        }
+      },
+      "notes": "Official global newsroom confirmed. Disabled until Hive supports its JavaScript-rendered listing or a suitable official feed is confirmed."
+    },
+    {
+      "id": "honor-global-news",
+      "name": "HONOR Global News",
+      "brandId": "honor",
+      "websiteUrl": "https://www.honor.com/global/news/",
+      "enabled": false,
+      "collection": {
+        "preferred": "webpage",
+        "webpage": {
+          "url": "https://www.honor.com/global/news/"
+        }
+      },
+      "notes": "Official news destination reserved. Feed verification is still required before enabling."
+    },
+    {
+      "id": "sony-group-news-releases",
+      "name": "Sony Group News Releases",
+      "brandId": "sony",
+      "websiteUrl": "https://www.sony.com/en/SonyInfo/News/Press/",
+      "enabled": false,
+      "collection": {
+        "preferred": "webpage",
+        "webpage": {
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/"
+        }
+      },
+      "notes": "Official news release page and RSS option confirmed. Disabled until the exact feed endpoint is validated in the collector environment."
     }
   ]
 }
