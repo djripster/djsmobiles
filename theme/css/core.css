@@ -1171,14 +1171,31 @@ body.dark-mode .directory-intro,
   height: auto;
 }
 
-/* Buzz shell | utility-card language borrowed from collapsed Pulse */
+/* Buzz shell | sunlit amber utility-card identity */
 .featured-buzz {
+  --buzz-sun-glow: rgba(255, 215, 90, 0.14);
+  --buzz-sun-top: #fffefb;
+  --buzz-sun-mid: #fffbf3;
+  --buzz-sun-bottom: #fff8ef;
+  --buzz-sun-border: rgba(226, 191, 106, 0.32);
+
   min-width: 0;
   min-height: 52px;
   overflow: hidden;
-  border: 1px solid var(--border, #d7e3ef);
+  border: 1px solid var(--buzz-sun-border);
   border-radius: 22px;
-  background: linear-gradient(180deg, #ffffff 0%, #f8fbfe 100%);
+  background:
+    radial-gradient(
+      circle at 50% -20%,
+      var(--buzz-sun-glow) 0%,
+      transparent 40%
+    ),
+    linear-gradient(
+      180deg,
+      var(--buzz-sun-top) 0%,
+      var(--buzz-sun-mid) 25%,
+      var(--buzz-sun-bottom) 100%
+    );
   box-shadow: var(--shadow-sm, 0 10px 30px rgba(15, 35, 58, 0.06));
   color: var(--text, #17202b);
 }
