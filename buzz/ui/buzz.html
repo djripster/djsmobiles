@@ -33,5 +33,13 @@
 
 <script src="https://djripster.github.io/djsmobiles/buzz/ui/buzz.js" defer></script>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.DJSBuzz && typeof window.DJSBuzz.init === 'function') {
+      window.DJSBuzz.init();
+    }
+  });
+</script>
+
 </body>
 </html>
