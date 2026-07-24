@@ -1,1 +1,42 @@
+name: Hive Pipeline
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hive-pipeline
+  cancel-in-progress: false
+
+jobs:
+  update-hive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run Hive collector
+        run: node buzz/hive/collector.js
+
+      - name: Run Hive publisher
+        run: node buzz/hive/publisher.js
+
+      - name: Commit updated Hive data
+        run: |
+          git config user.name "DJs Mobiles Hive"
+          git config user.email "actions@users.noreply.github.com"
+          git add buzz/hive/data/stories.json
+          git add buzz/hive/data/buzz.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update Hive data"
+          git push
