@@ -1,7 +1,7 @@
 /*
  * Pulse
  * Module: pulse.js
- * Prototype: v0.2.20
+ * Prototype: v0.2.21
  *
  * DJs Mobiles Website Integration
  */
@@ -19,7 +19,7 @@ const PulseConfig = {
 };
 
   const Pulse = {
-    version: '0.2.20',
+    version: '0.2.21',
     reader: null,
     article: null,
     conversation: null,
@@ -339,7 +339,7 @@ const PulseConfig = {
       return `
         <button type="button" class="pulse-card__header" aria-expanded="true">
           ${this.titleMarkup()}
-          <span class="pulse-card__chevron" aria-hidden="true">⌃</span>
+          <span class="pulse-chevron pulse-chevron--up" aria-hidden="true"></span>
         </button>
         <div class="pulse-card__body">
           <p class="pulse-conversation-message">${this.escapeHtml(conversation.message)}</p>
@@ -352,7 +352,7 @@ const PulseConfig = {
 
     collapsedMarkup() {
       const affordance = this.canExpand()
-        ? '<span class="pulse-card__chevron" aria-hidden="true">⌄</span>'
+        ? '<span class="pulse-chevron pulse-chevron--down" aria-hidden="true"></span>'
         : '<span class="pulse-card__status" aria-hidden="true">Soon</span>';
 
       return `
