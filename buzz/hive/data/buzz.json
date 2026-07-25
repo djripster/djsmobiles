@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-25T19:33:01.101Z",
+  "updatedAt": "2026-07-25T21:07:57.421Z",
   "items": [
     {
       "id": "google-news-5f9b54e1255a0c17",
@@ -55,17 +55,6 @@
         "google"
       ],
       "publishedAt": "2026-07-23T10:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-646dcb0e6c7c90b7",
-      "headline": "Google: Q2 2026 earnings call: Remarks from our CEO",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-22T20:45:00.000Z",
       "type": "standard"
     }
   ]
