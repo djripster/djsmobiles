@@ -1,5 +1,72 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-25T16:06:45.826Z",
-  "items": []
+  "updatedAt": "2026-07-25T16:13:45.816Z",
+  "items": [
+    {
+      "id": "google-news-5f9b54e1255a0c17",
+      "headline": "Google is signing the EU AI Act Code of Practice on Transparency of AI-Generated Content.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-24T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-8745f7ae3db700e5",
+      "headline": "Play Points members and comic book fans can score exclusive rewards with Google Play",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/comic-con-san-diego/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-23T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-736c640ea333d43e",
+      "headline": "Apply now for the Google for Startups Gemini Startup Forum.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/gemini-startup-forum-winter-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-23T15:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-c02aaf31c680d513",
+      "headline": "Understanding the AI economy",
+      "url": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-23T10:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-15bbd3f3024c5182",
+      "headline": "Introducing selfie for sign-in: a new, easy way to access your Google Account",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-23T10:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-646dcb0e6c7c90b7",
+      "headline": "Q2 2026 earnings call: Remarks from our CEO",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-22T20:45:00.000Z",
+      "type": "standard"
+    }
+  ]
 }
