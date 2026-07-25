@@ -1,5 +1,486 @@
 {
   "schemaVersion": 1,
-  "updatedAt": null,
-  "stories": []
+  "updatedAt": "2026-07-25T16:06:45.780Z",
+  "stories": [
+    {
+      "id": "google-news-5f9b54e1255a0c17",
+      "headline": "Google is signing the EU AI Act Code of Practice on Transparency of AI-Generated Content.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-24T14:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.524Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-8745f7ae3db700e5",
+      "headline": "Play Points members and comic book fans can score exclusive rewards with Google Play",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/comic-con-san-diego/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-23T17:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.524Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-736c640ea333d43e",
+      "headline": "Apply now for the Google for Startups Gemini Startup Forum.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/gemini-startup-forum-winter-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-23T15:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.524Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-c02aaf31c680d513",
+      "headline": "Understanding the AI economy",
+      "url": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-23T10:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-15bbd3f3024c5182",
+      "headline": "Introducing selfie for sign-in: a new, easy way to access your Google Account",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-23T10:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-646dcb0e6c7c90b7",
+      "headline": "Q2 2026 earnings call: Remarks from our CEO",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-22T20:45:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b6c036e2206be4c5",
+      "headline": "Here’s how to ask Gemini Live for help with anything you see.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-22T16:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-106d2d20c4267f40",
+      "headline": "Switch to Android easily — and bring your data with you.",
+      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-switch-from-iphone-to-android/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-22T13:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a9dfe60b87c54070",
+      "headline": "3 Google updates from Galaxy Unpacked 2026",
+      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-22T13:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a2bae1fb58d9c3a2",
+      "headline": "Drive with Halo on Waze",
+      "url": "https://blog.google/waze/waze-halo/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-22T09:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-20883c2d7e6f78f8",
+      "headline": "13 Google tips for a fun, productive summer off from college",
+      "url": "https://blog.google/products-and-platforms/products/education/summer-productivity-tips-google-ai-tools/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-21T20:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-09b59cb95c871d71",
+      "headline": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-21T15:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-75ecaa0d32cd9a27",
+      "headline": "We’re announcing the Alliance for America’s Skilled Trades.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/alliance-america-skilled-trades/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-21T14:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-85a5cc9c947a5efb",
+      "headline": "5 ways to build a side hustle with Gemini",
+      "url": "https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-20T19:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-ddb57c781fa8d504",
+      "headline": "China Unicom and Huawei Release World's Largest 5G-A 100 MHz GigaUplink Network",
+      "url": "https://www.huawei.com/en/news/2026/7/5g-capital-giga-uplink",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-07-17T17:32:26.941Z",
+      "collectedAt": "2026-07-25T16:06:45.778Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-8ee07bde15228ed0",
+      "headline": "Designing emoji for the way we communicate today",
+      "url": "https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-17T14:25:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-382a6315777ec39b",
+      "headline": "Experience the legacy of Estadio Azteca on Google Earth.",
+      "url": "https://blog.google/products-and-platforms/products/earth/estadio-azteca/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-16T19:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-c24e6c27e2a27ebc",
+      "headline": "Beach vibes and temporary wallpaper are trending for back-to-school season.",
+      "url": "https://blog.google/products-and-platforms/products/shopping/back-to-school-trends/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-16T17:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-53380e6a2af7af8d",
+      "headline": "6 back-to-school shopping tricks every student should know",
+      "url": "https://blog.google/products-and-platforms/products/shopping/6-back-to-school-shopping-tricks-every-student-should-know/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-16T17:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-23f2c01019c8a33a",
+      "headline": "Reimagining higher education with the Waterloo Futures Lab",
+      "url": "https://blog.google/products-and-platforms/products/education/university-of-waterloo-futures-lab/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-16T16:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-af76aea73422e52b",
+      "headline": "NotebookLM is now Gemini Notebook",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-16T16:00:00.000Z",
+      "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-be3f248444f5c911",
+      "headline": "Huawei OceanProtect Data Protection Named Among the 2026–27 DCIG TOP 5 Cyber Resilient PBBAs",
+      "url": "https://www.huawei.com/en/news/2026/7/ocean-protect-dcig",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-07-16T14:22:00.957Z",
+      "collectedAt": "2026-07-25T16:06:45.778Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-0e8d577456caf696",
+      "headline": "GlobalData Reconfirms Huawei Single Voice Core as Sole Leader in Competitive Landscape Assessment",
+      "url": "https://www.huawei.com/en/news/2026/7/svc-aicalling-globaldata",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-07-09T15:26:14.917Z",
+      "collectedAt": "2026-07-25T16:06:45.778Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-95b036a72d5f2b53",
+      "headline": "rain South Africa and Huawei Launch World-First Multi-Thousand-Site Sub-1 GHz Massive MIMO 5G Network",
+      "url": "https://www.huawei.com/en/news/2026/7/sub1-ghz-massive-mimo",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-07-07T11:22:30.976Z",
+      "collectedAt": "2026-07-25T16:06:45.778Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-a909d23f09d7720e",
+      "headline": "Huawei OceanStor A800 Storage Tops IO500 Rankings",
+      "url": "https://www.huawei.com/en/news/2026/6/io500-oceanstor-a800",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-07-02T09:32:30.634Z",
+      "collectedAt": "2026-07-25T16:06:45.778Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-b821466f2f2f7f60",
+      "headline": "APAC Industry Leaders Explore New Pathways to AI Monetization Enabled by 5G-Advanced",
+      "url": "https://www.huawei.com/en/news/2026/6/mwcs-gsma-asac-5g-advanced",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-30T19:32:39.790Z",
+      "collectedAt": "2026-07-25T16:06:45.778Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-d1b9b173b649658e",
+      "headline": "Huawei and Industry Partners Launch OpenAN Project to Boost Large-Scale Deployment of Level 4 Autonomous Networks",
+      "url": "https://www.huawei.com/en/news/2026/6/openan-project",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-30T19:30:31.316Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-b9f3e7819847b385",
+      "headline": "TM Forum, Huawei Release Agentic BSS Standard Report",
+      "url": "https://www.huawei.com/en/news/2026/6/bss-standard-report",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-30T19:29:10.647Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-4a77e100419787a7",
+      "headline": "AI-Driven Green & Resilience: New Blueprint for Zero-Carbon and Reliable Network Architecture",
+      "url": "https://www.huawei.com/en/news/2026/6/gni-tmforum-dtw26",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-30T17:32:10.316Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-e983a1c731154c99",
+      "headline": "Building an All-Scenario 5G-A IoT Foundation, Embracing 100 Billion Intelligent Connections",
+      "url": "https://www.huawei.com/en/news/2026/6/mwcs-gsma-iot-summit",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-29T19:41:01.566Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-69e7be534d1ac62d",
+      "headline": "Accelerating the U6GHz Industry Growth to Lay the Network Foundation for Mobile AI",
+      "url": "https://www.huawei.com/en/news/2026/6/mwcs-u6ghz-mobile-ai",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-29T18:46:48.769Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-d8c2bda26fc43f7d",
+      "headline": "World's First Commercial Multimodal LLM for Cultural Tourism Enters Broad Application",
+      "url": "https://www.huawei.com/en/news/2026/6/boguanllm-5ga-intelligent-airport",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-29T17:40:00.637Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-aa3aa0edf0bd9d8a",
+      "headline": "TM Forum and Huawei Jointly Release the AI4Contact-Center: AI Transformation Whitepaper v2.0.0",
+      "url": "https://www.huawei.com/en/news/2026/6/tm-forum-whitepaper",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-29T11:52:33.527Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-28178b061cbedace",
+      "headline": "Indonesia's Indosat Ooredoo Hutchison (IOH) and Huawei Win TM Forum 2026 \"Excellence in AI & Data for business impact\" Award",
+      "url": "https://www.huawei.com/en/news/2026/6/dtw-excellence-award-autinops",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-26T18:49:54.942Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-6e0e1371ac49cefa",
+      "headline": "China Telecom and Huawei Win TM Forum 2026 Excellence Award for Second Straight Year",
+      "url": "https://www.huawei.com/en/news/2026/6/excellence-award3",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-26T16:56:37.254Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-5a9226ab6189770e",
+      "headline": "Huawei Launches AI-OTN and AI-FAN Solutions, Empowering Operators to Upgrade Business Models",
+      "url": "https://www.huawei.com/en/news/2026/6/mwcs-wbba-bdc",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-26T16:22:14.554Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-21d74cd19e02e077",
+      "headline": "Reshaping Products and Services with AI, Driving Value Leap with Token Monetization",
+      "url": "https://www.huawei.com/en/news/2026/6/mwcs-ai-reshaping-token",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-26T15:30:17.219Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-30bf68d520a195a2",
+      "headline": "Huawei Unveils GigaUplink Solution to Advance Mobile AI",
+      "url": "https://www.huawei.com/en/news/2026/6/mwcs-mobileai-gigauplink-solution",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-26T10:13:00.624Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-ba8206d6cfc9ef69",
+      "headline": "China Mobile and Huawei Win Two GLOMO Awards at MWC Shanghai 2026 for the Innovative RAN Intelligence Solution",
+      "url": "https://www.huawei.com/en/news/2026/6/mwcs-glomo-two-awards",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-26T09:32:30.571Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-c0c501fb75dbee85",
+      "headline": "5G-A Experience Monetization Forum Debuts Milestone Results to Accelerate Terminal-Network-Business Synergy",
+      "url": "https://www.huawei.com/en/news/2026/6/mwcs-synergy-ecosystem-monetization",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-06-25T20:50:29.940Z",
+      "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    }
+  ]
 }
