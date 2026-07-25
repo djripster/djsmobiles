@@ -1,7 +1,7 @@
 /*
  * Pulse
  * Module: pulse.css
- * Prototype: v0.2.12
+ * Prototype: v0.2.13
  *
  * DJs Mobiles Website Integration
  */
@@ -67,7 +67,7 @@
 }
 
 .pulse-card--expanded .pulse-title,
-.pulse-card--expanded .pulse-card__chevron,
+.pulse-card--expanded .pulse-chevron,
 .pulse-card--expanded .pulse-card__eyebrow {
   color: var(--pulse-emotion, var(--primary, #0f4c81));
 }
@@ -120,7 +120,24 @@
   object-fit: contain !important;
 }
 
-.pulse-card__chevron,
+/* Reusable pure-CSS chevron */
+.pulse-chevron {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  color: var(--primary, #0f4c81);
+  transform-origin: center;
+  transition: transform 180ms ease;
+}
+
+.pulse-chevron--down { transform: rotate(45deg); }
+.pulse-chevron--left { transform: rotate(135deg); }
+.pulse-chevron--up { transform: rotate(225deg); }
+.pulse-chevron--right { transform: rotate(-45deg); }
+
 .pulse-card__status {
   flex: 0 0 auto;
   color: var(--primary, #0f4c81);
@@ -457,4 +474,11 @@ body.dark-mode .pulse-reading-item:focus-visible,
 /* Dynamic header conversation */
 .pulse-conversation-message {
   margin-top: 2px !important;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .pulse-chevron {
+    transition: none;
+  }
 }
