@@ -13,6 +13,36 @@ const BUZZ_FILE = path.join(DATA_DIR, 'buzz.json');
 const MAX_ITEMS = 15;
 const MAX_AGE_HOURS = 72;
 
+const BRAND_NAMES = {
+  google: 'Google',
+  samsung: 'Samsung',
+  huawei: 'Huawei',
+  apple: 'Apple',
+  motorola: 'Motorola',
+  oneplus: 'OnePlus',
+  nothing: 'Nothing',
+  xiaomi: 'Xiaomi',
+  honor: 'HONOR',
+  sony: 'Sony'
+};
+
+function formatBuzzHeadline(story) {
+  const headline = String(story.headline || '').trim();
+  const brandId = Array.isArray(story.brandIds) ? story.brandIds[0] : '';
+  const brandName = BRAND_NAMES[brandId];
+
+  if (!headline || !brandName) return headline;
+
+  const escapedBrand = brandName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const brandPattern = new RegExp(`\\b${escapedBrand}\\b`, 'i');
+
+  if (brandPattern.test(headline)) {
+    return headline;
+  }
+
+  return `${brandName}: ${headline}`;
+}
+
 async function writeJsonAtomic(file, data) {
   const temp = `${file}.tmp`;
   await fs.writeFile(temp, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
@@ -32,15 +62,15 @@ async function main() {
       return new Date(b.publishedAt || b.collectedAt) - new Date(a.publishedAt || a.collectedAt);
     })
     .slice(0, MAX_ITEMS)
-    .map(({ id, headline, url, sourceId, brandIds, publishedAt, type }) => ({
-      id,
-      headline,
-      url,
-      sourceId,
-      brandIds,
-      publishedAt,
-      type: type || 'standard'
-    }));
+.map((story) => ({
+  id: story.id,
+  headline: formatBuzzHeadline(story),
+  url: story.url,
+  sourceId: story.sourceId,
+  brandIds: story.brandIds,
+  publishedAt: story.publishedAt,
+  type: story.type || 'standard'
+}));
 
   await writeJsonAtomic(BUZZ_FILE, {
     schemaVersion: 1,
