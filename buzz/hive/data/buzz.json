@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-25T18:07:47.437Z",
+  "updatedAt": "2026-07-25T19:04:49.014Z",
   "items": [
     {
       "id": "google-news-5f9b54e1255a0c17",
@@ -37,7 +37,7 @@
     },
     {
       "id": "google-news-c02aaf31c680d513",
-      "headline": "Understanding the AI economy",
+      "headline": "Google: Understanding the AI economy",
       "url": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
       "sourceId": "google-news",
       "brandIds": [
@@ -59,7 +59,7 @@
     },
     {
       "id": "google-news-646dcb0e6c7c90b7",
-      "headline": "Q2 2026 earnings call: Remarks from our CEO",
+      "headline": "Google: Q2 2026 earnings call: Remarks from our CEO",
       "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/",
       "sourceId": "google-news",
       "brandIds": [
