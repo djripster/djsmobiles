@@ -11,7 +11,7 @@ const STORIES_FILE = path.join(DATA_DIR, 'stories.json');
 const BUZZ_FILE = path.join(DATA_DIR, 'buzz.json');
 
 const MAX_ITEMS = 15;
-const MAX_AGE_HOURS = 24;
+const MAX_AGE_HOURS = 72;
 
 async function writeJsonAtomic(file, data) {
   const temp = `${file}.tmp`;
