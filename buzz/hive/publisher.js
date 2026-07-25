@@ -5,8 +5,11 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 
 const ROOT = __dirname;
-const STORIES_FILE = path.join(ROOT, 'stories.json');
-const BUZZ_FILE = path.join(ROOT, 'buzz.json');
+const DATA_DIR = path.join(ROOT, 'data');
+
+const STORIES_FILE = path.join(DATA_DIR, 'stories.json');
+const BUZZ_FILE = path.join(DATA_DIR, 'buzz.json');
+
 const MAX_ITEMS = 15;
 const MAX_AGE_HOURS = 24;
 
