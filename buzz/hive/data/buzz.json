@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-26T17:14:05.607Z",
+  "updatedAt": "2026-07-26T18:11:51.991Z",
   "items": [
     {
       "id": "samsung-global-newsroom-bd739fbc33fb8bb2",
@@ -22,17 +22,6 @@
         "google"
       ],
       "publishedAt": "2026-07-24T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-ee2b658cb0dfffbc",
-      "headline": "Samsung: [Infographic] [Galaxy Unpacked July 2026] Highlights From Galaxy Unpacked",
-      "url": "https://news.samsung.com/global/infographic-galaxy-unpacked-july-2026-highlights-from-galaxy-unpacked",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-07-23T18:00:00.000Z",
       "type": "standard"
     }
   ]
