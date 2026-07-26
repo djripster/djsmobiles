@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-26T09:22:48.168Z",
+  "updatedAt": "2026-07-26T11:36:18.566Z",
   "items": [
     {
       "id": "google-news-5f9b54e1255a0c17",
@@ -33,28 +33,6 @@
         "google"
       ],
       "publishedAt": "2026-07-23T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-c02aaf31c680d513",
-      "headline": "Google: Understanding the AI economy",
-      "url": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-23T10:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-15bbd3f3024c5182",
-      "headline": "Introducing selfie for sign-in: a new, easy way to access your Google Account",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-23T10:00:00.000Z",
       "type": "standard"
     }
   ]
