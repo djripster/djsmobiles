@@ -1,0 +1,156 @@
+--- /mnt/data/pulse(7).js	2026-07-26 01:24:25.663847132 +0000
++++ /mnt/data/pulse.js	2026-07-26 01:25:06.347845842 +0000
+@@ -1,7 +1,7 @@
+ /*
+  * Pulse
+  * Module: pulse.js
+- * Prototype: v0.2.21
++ * Prototype: v0.2.22
+  *
+  * DJs Mobiles Website Integration
+  */
+@@ -19,7 +19,7 @@
+ };
+ 
+   const Pulse = {
+-    version: '0.2.21',
++    version: '0.2.22',
+     reader: null,
+     article: null,
+     conversation: null,
+@@ -153,6 +153,10 @@
+         this.reader.weeklyPulse = state.getWeeklyPulse();
+       }
+ 
++      if (this.reader) {
++        this.reader.storyThreads = this.getStoryThreads(this.reader.articleHistory);
++      }
++
+       this.conversation = core && typeof core.getPulseConversation === 'function'
+         ? core.getPulseConversation(this.reader, this.article)
+         : this.getFallbackConversation();
+@@ -259,6 +263,104 @@
+       '</section>';
+     },
+ 
++    normalizeStoryValue(value) {
++      return String(value || '')
++        .trim()
++        .toLowerCase()
++        .replace(/[^a-z0-9]+/g, '-')
++        .replace(/^-+|-+$/g, '');
++    },
++
++    storyLabel(value) {
++      return String(value || '')
++        .trim()
++        .replace(/\b\w/g, (letter) => letter.toUpperCase());
++    },
++
++    getStoryThreads(history) {
++      const articles = Array.isArray(history) ? history : [];
++      const buckets = {};
++      const dimensions = [
++        { field: 'family', weight: 4 },
++        { field: 'topics', weight: 3 },
++        { field: 'brand', weight: 2 }
++      ];
++
++      const addToBucket = (dimension, rawValue, article, weight) => {
++        const normalized = this.normalizeStoryValue(rawValue);
++        if (!normalized || normalized === 'android' || normalized === 'mobile') return;
++
++        const key = dimension + ':' + normalized;
++        if (!buckets[key]) {
++          buckets[key] = {
++            key,
++            dimension,
++            name: this.storyLabel(rawValue),
++            weight,
++            articles: [],
++            urls: {}
++          };
++        }
++
++        if (!article.url || buckets[key].urls[article.url]) return;
++        buckets[key].urls[article.url] = true;
++        buckets[key].articles.push(article);
++      };
++
++      articles.forEach((article) => {
++        if (!article || !article.url || !article.title) return;
++
++        dimensions.forEach((dimension) => {
++          const value = article[dimension.field];
++          const values = Array.isArray(value) ? value : [value];
++          values.forEach((item) => addToBucket(dimension.field, item, article, dimension.weight));
++        });
++      });
++
++      return Object.keys(buckets)
++        .map((key) => {
++          const thread = buckets[key];
++          thread.articles.sort((a, b) => {
++            const aTime = new Date(a.recordedAt || a.timestamp || 0).getTime();
++            const bTime = new Date(b.recordedAt || b.timestamp || 0).getTime();
++            return bTime - aTime;
++          });
++          thread.count = thread.articles.length;
++          thread.latest = thread.articles[0] || null;
++          thread.score = (thread.count * 10) + thread.weight;
++          return thread;
++        })
++        .filter((thread) => thread.count >= 2 && thread.latest)
++        .sort((a, b) => b.score - a.score || a.name.localeCompare(b.name));
++    },
++
++    getFollowingShelfItems() {
++      const currentUrl = this.article && this.article.article
++        ? this.article.article.url
++        : (this.article && this.article.url ? this.article.url : '');
++      const threads = this.reader && Array.isArray(this.reader.storyThreads)
++        ? this.reader.storyThreads
++        : [];
++      const usedUrls = {};
++
++      return threads.reduce((items, thread) => {
++        if (items.length >= 3) return items;
++
++        const nextArticle = thread.articles.find((article) => {
++          return article.url !== currentUrl && !usedUrls[article.url];
++        });
++
++        if (!nextArticle) return items;
++        usedUrls[nextArticle.url] = true;
++        items.push({
++          title: thread.name + ' — ' + thread.count + ' ' + (thread.count === 1 ? 'story' : 'stories'),
++          url: nextArticle.url,
++          thread
++        });
++        return items;
++      }, []);
++    },
++
+     getReadingShelfItems() {
+       const currentUrl = this.article && this.article.article
+         ? this.article.article.url
+@@ -274,13 +376,16 @@
+     },
+ 
+     continueReadingMarkup() {
+-      const items = this.getReadingShelfItems();
++      const followingItems = this.getFollowingShelfItems();
++      const items = followingItems.length ? followingItems : this.getReadingShelfItems();
++      const isFollowing = followingItems.length > 0;
++      const shelfTitle = isFollowing ? 'Continue Following' : 'Continue Reading';
+ 
+       if (!items.length) return '';
+ 
+-      return '<section class="pulse-shelf pulse-shelf--reading" aria-label="Continue Reading">' +
++      return '<section class="pulse-shelf pulse-shelf--reading" aria-label="' + this.escapeHtml(shelfTitle) + '">' +
+         '<div class="pulse-shelf__header">' +
+-          '<span class="pulse-shelf__title">Continue Reading</span>' +
++          '<span class="pulse-shelf__title">' + this.escapeHtml(shelfTitle) + '</span>' +
+         '</div>' +
+         '<div class="pulse-reading-list">' +
+           items.map((item, index) => {
