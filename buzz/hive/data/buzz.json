@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-26T13:54:09.408Z",
+  "updatedAt": "2026-07-26T15:18:27.614Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-bd739fbc33fb8bb2",
+      "headline": "Samsung Electronics and Broadcom Expand Strategic Collaboration Across Memory and Foundry Technologies",
+      "url": "https://news.samsung.com/global/samsung-electronics-and-broadcom-expand-strategic-collaboration-across-memory-and-foundry-technologies",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-25T14:32:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5f9b54e1255a0c17",
       "headline": "Google is signing the EU AI Act Code of Practice on Transparency of AI-Generated Content.",
@@ -11,6 +22,17 @@
         "google"
       ],
       "publishedAt": "2026-07-24T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-ee2b658cb0dfffbc",
+      "headline": "Samsung: [Infographic] [Galaxy Unpacked July 2026] Highlights From Galaxy Unpacked",
+      "url": "https://news.samsung.com/global/infographic-galaxy-unpacked-july-2026-highlights-from-galaxy-unpacked",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-23T18:00:00.000Z",
       "type": "standard"
     },
     {
@@ -25,14 +47,14 @@
       "type": "standard"
     },
     {
-      "id": "google-news-736c640ea333d43e",
-      "headline": "Apply now for the Google for Startups Gemini Startup Forum.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/gemini-startup-forum-winter-2026/",
-      "sourceId": "google-news",
+      "id": "samsung-global-newsroom-032ebcb3943c8307",
+      "headline": "[Galaxy Unpacked July 2026] Samsung and Partners Envision a Connected Care Future — From First Signal to Lasting Change",
+      "url": "https://news.samsung.com/global/galaxy-unpacked-july-2026-samsung-and-partners-envision-a-connected-care-future-from-first-signal-to-lasting-change",
+      "sourceId": "samsung-global-newsroom",
       "brandIds": [
-        "google"
+        "samsung"
       ],
-      "publishedAt": "2026-07-23T15:00:00.000Z",
+      "publishedAt": "2026-07-23T16:00:00.000Z",
       "type": "standard"
     }
   ]

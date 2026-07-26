@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-26T13:54:09.362Z",
+  "updatedAt": "2026-07-26T15:18:27.569Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-bd739fbc33fb8bb2",
+      "headline": "Samsung Electronics and Broadcom Expand Strategic Collaboration Across Memory and Foundry Technologies",
+      "url": "https://news.samsung.com/global/samsung-electronics-and-broadcom-expand-strategic-collaboration-across-memory-and-foundry-technologies",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-25T14:32:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5f9b54e1255a0c17",
       "headline": "Google is signing the EU AI Act Code of Practice on Transparency of AI-Generated Content.",
@@ -15,6 +27,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-ee2b658cb0dfffbc",
+      "headline": "[Infographic] [Galaxy Unpacked July 2026] Highlights From Galaxy Unpacked",
+      "url": "https://news.samsung.com/global/infographic-galaxy-unpacked-july-2026-highlights-from-galaxy-unpacked",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-23T18:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-8745f7ae3db700e5",
       "headline": "Play Points members and comic book fans can score exclusive rewards with Google Play",
       "url": "https://blog.google/products-and-platforms/platforms/google-play/comic-con-san-diego/",
@@ -24,6 +48,18 @@
       ],
       "publishedAt": "2026-07-23T17:00:00.000Z",
       "collectedAt": "2026-07-25T16:06:25.524Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-032ebcb3943c8307",
+      "headline": "[Galaxy Unpacked July 2026] Samsung and Partners Envision a Connected Care Future — From First Signal to Lasting Change",
+      "url": "https://news.samsung.com/global/galaxy-unpacked-july-2026-samsung-and-partners-envision-a-connected-care-future-from-first-signal-to-lasting-change",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-23T16:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
       "type": "standard"
     },
     {
@@ -60,6 +96,66 @@
       ],
       "publishedAt": "2026-07-23T10:00:00.000Z",
       "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-6871adffe8910381",
+      "headline": "[Galaxy Unpacked July 2026] A First Look at Galaxy Z Fold8 Ultra, Galaxy Z Fold8 and Galaxy Z Flip8",
+      "url": "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-22T22:04:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-8956b8f95f8049ae",
+      "headline": "[Galaxy Unpacked July 2026] A First Look at Galaxy Watch Ultra2 and Galaxy Watch9",
+      "url": "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-watch-ultra2-and-galaxy-watch9",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-22T22:03:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-3c09b6e86ff09a21",
+      "headline": "Samsung Galaxy Z Fold8 Ultra, Fold8 and Flip8: Foldables, Perfected for Every Way of Living",
+      "url": "https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-22T22:02:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-d2071e7bcb1db744",
+      "headline": "Samsung Galaxy Watch Ultra2 and Watch9: Your Health Companion on the Wrist",
+      "url": "https://news.samsung.com/global/samsung-galaxy-watch-ultra2-and-watch9-your-health-companion-on-the-wrist",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-22T22:01:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-c3c9b17859519c82",
+      "headline": "Samsung Brings Galaxy Ecosystem Into Everyday Eyewear",
+      "url": "https://news.samsung.com/global/samsung-brings-galaxy-ecosystem-into-everyday-eyewear",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-22T22:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
       "type": "standard"
     },
     {
@@ -159,6 +255,30 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-86a53ad6e44b3c3f",
+      "headline": "Introducing Samsung Galaxy Card",
+      "url": "https://news.samsung.com/global/introducing-samsung-galaxy-card",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-21T06:25:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-3fca870bb74b7407",
+      "headline": "Samsung Launches Health Assistant Beta, First Fully Integrated AI-Powered Personal Health Assistant",
+      "url": "https://news.samsung.com/global/samsung-launches-health-assistant-beta-first-fully-integrated-ai-powered-personal-health-assistant",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-85a5cc9c947a5efb",
       "headline": "5 ways to build a side hustle with Gemini",
       "url": "https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini/",
@@ -168,6 +288,30 @@
       ],
       "publishedAt": "2026-07-20T19:00:00.000Z",
       "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-534b16f8cd6c625d",
+      "headline": "Connecting Everyday Life: How Samsung Account Brings It All Together",
+      "url": "https://news.samsung.com/global/connecting-everyday-life-how-samsung-account-brings-it-all-together",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-20T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-bd7bb5342c1452ef",
+      "headline": "Samsung Announces Addition of Louvre Collection to Samsung Art Store",
+      "url": "https://news.samsung.com/global/samsung-announces-addition-of-louvre-collection-to-samsung-art-store",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-20T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
       "type": "standard"
     },
     {
@@ -267,6 +411,90 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-8bf6fd542a55aa83",
+      "headline": "Samsung Launches New Slide-in Ranges and Over-the-Range Microwave With Air Fry Max",
+      "url": "https://news.samsung.com/global/samsung-launches-new-slide-in-ranges-and-over-the-range-microwave-with-air-fry-max",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-16T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.434Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-190b96c8094db4ed",
+      "headline": "Samsung Expands Sony Pictures’ ‘Spider-Man™: Brand New Day’ Collaboration With New Cinematic Spot Starring Jacob Batalon",
+      "url": "https://news.samsung.com/global/samsung-expands-sony-pictures-spider-man-brand-new-day-collaboration-with-new-cinematic-spot-starring-jacob-batalon",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-16T00:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-ba14783dac084ce3",
+      "headline": "Samsung Introduces Flex Titanium Technology To Advance Foldable Displays",
+      "url": "https://news.samsung.com/global/samsung-introduces-flex-titanium-technology-to-advance-foldable-displays",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-15T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-6c41bd3bec1d4595",
+      "headline": "Samsung Launches New Bespoke AI Washer and Dryer Lineup With AI-Enhanced Fabric Care and Seamless Connectivity",
+      "url": "https://news.samsung.com/global/samsung-launches-new-bespoke-ai-washer-and-dryer-lineup-with-ai-enhanced-fabric-care-and-seamless-connectivity",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-14T08:21:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-dda1fa3dc107a8b5",
+      "headline": "Samsung Wins Two Red Dot Award: Design Concept ‘Best of the Best’ Awards",
+      "url": "https://news.samsung.com/global/samsung-wins-two-red-dot-award-design-concept-best-of-the-best-awards",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-14T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-cfc6d3e0f9e1f96a",
+      "headline": "Coming Soon: A New AI-Powered Health Companion on Your Wrist",
+      "url": "https://news.samsung.com/global/coming-soon-a-new-ai-powered-health-companion-on-your-wrist",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-14T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-01134fd2c2256a8f",
+      "headline": "[Infographic] Where Culture Meets Innovation: Galaxy Unpacked’s Journey Through Global Cities",
+      "url": "https://news.samsung.com/global/infographic-where-culture-meets-innovation-galaxy-unpackeds-journey-through-global-cities",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-10T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
       "id": "huawei-newsroom-0e8d577456caf696",
       "headline": "GlobalData Reconfirms Huawei Single Voice Core as Sole Leader in Competitive Landscape Assessment",
       "url": "https://www.huawei.com/en/news/2026/7/svc-aicalling-globaldata",
@@ -276,6 +504,66 @@
       ],
       "publishedAt": "2026-07-09T15:26:14.917Z",
       "collectedAt": "2026-07-25T16:06:45.778Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-e2d1f050bc7fd62e",
+      "headline": "Samsung Advances AI-Powered, Personalized Learning at ISTELive 2026",
+      "url": "https://news.samsung.com/global/samsung-advances-ai-powered-personalized-learning-at-istelive-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-09T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-5a13914ddce077f5",
+      "headline": "Samsung Launches New Bespoke AI Washer Dryer That Cuts Energy Use While Delivering Smarter Fabric Care",
+      "url": "https://news.samsung.com/global/samsung-launches-new-bespoke-ai-washer-dryer-that-cuts-energy-use-while-delivering-smarter-fabric-care",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-08T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-ffa2f59ee7918b4b",
+      "headline": "Samsung Begins Mass Production of PM1763 SSD Optimized for Next-Generation AI Infrastructure",
+      "url": "https://news.samsung.com/global/samsung-begins-mass-production-of-pm1763-ssd-optimized-for-next-generation-ai-infrastructure",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-08T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-fab833f38ab53549",
+      "headline": "[Editorial] AI Doesn’t Need To Outthink You. It Needs To Understand You",
+      "url": "https://news.samsung.com/global/ai-doesnt-need-to-outthink-you-it-needs-to-understand-you",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-08T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-ef37a0101e0ba9b8",
+      "headline": "[Invitation] Galaxy Unpacked July 2026: A New Shape Unfolds",
+      "url": "https://news.samsung.com/global/invitation-galaxy-unpacked-july-2026-a-new-shape-unfolds",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-08T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
       "type": "standard"
     },
     {
@@ -291,6 +579,30 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-c8b79c93c6f1a343",
+      "headline": "Samsung Electronics Announces Earnings Guidance for Second Quarter 2026",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-second-quarter-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-07T07:52:11.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-cc87c2195ac6e707",
+      "headline": "[Interview] Art Made for the Senses: Karim Noureldin x Samsung Art Store",
+      "url": "https://news.samsung.com/global/interview-art-made-for-the-senses-karim-noureldin-x-samsung-art-store",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-03T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
       "id": "huawei-newsroom-a909d23f09d7720e",
       "headline": "Huawei OceanStor A800 Storage Tops IO500 Rankings",
       "url": "https://www.huawei.com/en/news/2026/6/io500-oceanstor-a800",
@@ -300,6 +612,18 @@
       ],
       "publishedAt": "2026-07-02T09:32:30.634Z",
       "collectedAt": "2026-07-25T16:06:45.778Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-b69cbab0242e3311",
+      "headline": "Samsung and KDDI Successfully Complete AI-Powered Network Optimization Trial on Commercial 5G Standalone Network in Japan",
+      "url": "https://news.samsung.com/global/samsung-and-kddi-successfully-complete-ai-powered-network-optimization-trial-on-commercial-5g-standalone-network-in-japan",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-30T21:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
       "type": "standard"
     },
     {
@@ -348,6 +672,18 @@
       ],
       "publishedAt": "2026-06-30T17:32:10.316Z",
       "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-8ca0e817b0db60b4",
+      "headline": "Samsung Introduces New Education Tools for Interactive Displays at ISTELive 26",
+      "url": "https://news.samsung.com/global/samsung-introduces-new-education-tools-for-interactive-displays-at-istelive-26",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-29T21:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
       "type": "standard"
     },
     {
@@ -423,6 +759,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-a3d2ddcb4dde9450",
+      "headline": "Samsung Electronics Releases 2026 Sustainability Report, Expanding Water Replenishment Efforts",
+      "url": "https://news.samsung.com/global/samsung-electronics-releases-2026-sustainability-report-expanding-water-replenishment-efforts",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-26T16:25:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
       "id": "huawei-newsroom-5a9226ab6189770e",
       "headline": "Huawei Launches AI-OTN and AI-FAN Solutions, Empowering Operators to Upgrade Business Models",
       "url": "https://www.huawei.com/en/news/2026/6/mwcs-wbba-bdc",
@@ -471,6 +819,30 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-da888edead6b5cef",
+      "headline": "[Interview] Patterns That Hold Memory: Athene Galiciadis x Samsung Art Store",
+      "url": "https://news.samsung.com/global/interview-patterns-that-hold-memory-athene-galiciadis-x-samsung-art-store",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-26T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-807c634c4add1ca4",
+      "headline": "Samsung Galaxy A27 5G Brings an Immersive Display and Awesome Intelligence to More Users",
+      "url": "https://news.samsung.com/global/samsung-galaxy-a27-5g-brings-an-immersive-display-and-awesome-intelligence-to-more-users",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-25T21:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
       "id": "huawei-newsroom-c0c501fb75dbee85",
       "headline": "5G-A Experience Monetization Forum Debuts Milestone Results to Accelerate Terminal-Network-Business Synergy",
       "url": "https://www.huawei.com/en/news/2026/6/mwcs-synergy-ecosystem-monetization",
@@ -480,6 +852,234 @@
       ],
       "publishedAt": "2026-06-25T20:50:29.940Z",
       "collectedAt": "2026-07-25T16:06:45.779Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-6ca267fb5ea67247",
+      "headline": "Finding Your Voice Anywhere: The Tech Behind Galaxy Buds4 Pro’s Crystal-Clear Calls",
+      "url": "https://news.samsung.com/global/finding-your-voice-anywhere-the-tech-behindgalaxy-buds4-pros-crystal-clear-calls",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-25T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-9574749ae43754b0",
+      "headline": "Samsung Partners With Alcedis To Advance Clinical Research Using Wearable-Based Endpoints",
+      "url": "https://news.samsung.com/global/samsung-partners-with-alcedis-to-advance-clinical-research-using-wearable-based-endpoints",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-24T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-69f2acd30e0cb277",
+      "headline": "Meet the Generation17 Young Leaders: The Story of José Francisco Ochoa",
+      "url": "https://news.samsung.com/global/meet-the-generation17-young-leaders-the-story-of-jose-francisco-ochoa",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-24T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-a87445bf4ae444aa",
+      "headline": "Samsung Partners With Warner Bros. Pictures and DC Studios To Bring ‘Supergirl’ Experiences to Fans",
+      "url": "https://news.samsung.com/global/samsung-partners-with-warner-bros-pictures-and-dc-studios-to-bring-supergirl-experiences-to-fans",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-bd70cfb09d6c1980",
+      "headline": "[Interview] A Decade of WindFree™ Innovation: Taking Another Step Forward Through Design Integrated Into Living Spaces",
+      "url": "https://news.samsung.com/global/interview-a-decade-of-windfree-innovation-taking-another-step-forward-through-design-integrated-into-living-spaces",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-23T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-fde336be83190a44",
+      "headline": "Samsung Unveils Industry’s Fastest UFS 5.0 Solution for Next-Gen On-Device AI Applications",
+      "url": "https://news.samsung.com/global/samsung-unveils-industrys-fastest-ufs-5-0-solution-for-next-gen-on-device-ai-applications",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-23T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-900ee18e80a18a36",
+      "headline": "Art Basel in Basel 2026: Samsung Art TV Brings Personal Curation to the Center of the Art World",
+      "url": "https://news.samsung.com/global/art-basel-in-basel-2026-samsung-art-tv-brings-personal-curation-to-the-center-of-the-art-world",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-22T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.435Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-198c5d2829a5178f",
+      "headline": "Samsung Highlights Open Ecosystem To Accelerate Connected Care for Daily Wellness at VivaTech 2026",
+      "url": "https://news.samsung.com/global/samsung-highlights-open-ecosystem-to-accelerate-connected-care-for-daily-wellness-at-vivatech-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-19T23:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-7843f81afe0d1a47",
+      "headline": "Samsung Redefines Everyday Wellness With Connected Care Solutions at VivaTech 2026",
+      "url": "https://news.samsung.com/global/samsung-redefines-everyday-wellness-with-connected-care-solutions-at-vivatech-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-17T11:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-b0952c8ec4aff786",
+      "headline": "Samsung Launches Spidey Tracker Experience Ahead of Spider-Man™: Brand New Day",
+      "url": "https://news.samsung.com/global/samsung-launches-spidey-tracker-experience-ahead-of-spider-man-brand-new-day",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-17T09:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-ef842b7979fd93e0",
+      "headline": "[Interview] The Future of Screen Experiences ②: From Watching to Understanding With Vision AI Companion",
+      "url": "https://news.samsung.com/global/interview-the-future-of-screen-experiences-%e2%91%a1-from-watching-to-understanding-with-vision-ai-companion",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-17T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-dff5ca1fe063a6dc",
+      "headline": "Staying Dry and Clean at Festivals: Samsung’s WashPoint Zone Was a Huge Hit With Rock for People Festival-Goers",
+      "url": "https://news.samsung.com/global/staying-dry-and-clean-at-festivals-samsungs-washpoint-zone-was-a-huge-hit-with-rock-for-people-festival-goers",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-0c051e790573f5c1",
+      "headline": "Samsung Launches The Frame Hospitality Model at HITEC 2026",
+      "url": "https://news.samsung.com/global/samsung-launches-the-frame-hospitality-model-at-hitec-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-16T23:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-42b3f6ba3c78f7c1",
+      "headline": "[Infographic] The Origin of Art TV: The Frame’s Journey in Bringing Art Into Everyday Life",
+      "url": "https://news.samsung.com/global/infographic-the-origin-of-art-tv-the-frames-journey-in-bringing-art-into-everyday-life",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-16T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-5537c5b73f56b74b",
+      "headline": "Samsung Art Store Brings Art Basel to Homes Worldwide With New Curated Collection",
+      "url": "https://news.samsung.com/global/samsung-art-store-brings-art-basel-to-homes-worldwide-with-new-curated-collection",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-15T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-9ae9f85173cd68a1",
+      "headline": "Samsung Launches Global Landmark Outdoor Billboard Campaigns for Micro RGB",
+      "url": "https://news.samsung.com/global/samsung-launches-global-landmark-outdoor-billboard-campaigns-for-micro-rgb",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-14T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-fbf51fc28b797bff",
+      "headline": "Galaxy XR Helps Reimagine Blood Donation Experiences for Donors Worldwide",
+      "url": "https://news.samsung.com/global/galaxy-xr-helps-reimagine-blood-donation-experiences-for-donors-worldwide",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-11T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-da82f9f882529b75",
+      "headline": "[Interview] How Samsung OLED TV Achieved Pantone® Validated ArtfulColor Certification",
+      "url": "https://news.samsung.com/global/interview-how-samsung-oled-tv-achieved-pantone-validated-artfulcolor-certification",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-10T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-2462ad0bdb8e209b",
+      "headline": "[Interview] Inside SDIC: How Samsung Is Advancing Wearables Through Computational Design",
+      "url": "https://news.samsung.com/global/interview-inside-sdic-how-samsung-is-advancing-wearables-through-computational-design",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-06-09T08:00:00.000Z",
+      "collectedAt": "2026-07-26T15:18:27.436Z",
       "type": "standard"
     }
   ]
