@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-27T11:37:14.490Z",
+  "updatedAt": "2026-07-27T15:11:17.130Z",
   "items": [
     {
       "id": "samsung-global-newsroom-bd739fbc33fb8bb2",
@@ -11,17 +11,6 @@
         "samsung"
       ],
       "publishedAt": "2026-07-25T14:32:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5f9b54e1255a0c17",
-      "headline": "Google is signing the EU AI Act Code of Practice on Transparency of AI-Generated Content.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-24T14:00:00.000Z",
       "type": "standard"
     }
   ]
