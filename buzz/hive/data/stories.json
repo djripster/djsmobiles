@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-27T17:06:58.394Z",
+  "updatedAt": "2026-07-27T18:45:26.441Z",
   "stories": [
+    {
+      "id": "google-news-e2ef01d5562bef3a",
+      "headline": "NOAA and Google Cloud collaborate to advance weather forecasting.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/noaa-google-cloud-weather-forecasting/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-27T17:00:00.000Z",
+      "collectedAt": "2026-07-27T18:45:04.900Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-bd739fbc33fb8bb2",
       "headline": "Samsung Electronics and Broadcom Expand Strategic Collaboration Across Memory and Foundry Technologies",
