@@ -1,0 +1,238 @@
+--- a/pulse-state.js
++++ b/pulse-state.js
+@@ -98,6 +98,22 @@
+       .trim();
+   }
+ 
++  function normalizeStoryValue(value) {
++    return String(value || '')
++      .trim()
++      .toLowerCase()
++      .replace(/[^a-z0-9]+/g, '-')
++      .replace(/^-+|-+$/g, '');
++  }
++
++  function storyLabel(value) {
++    return String(value || '')
++      .trim()
++      .replace(/\b\w/g, function (letter) {
++        return letter.toUpperCase();
++      });
++  }
++
+   function has(text, term) {
+     return (' ' + text + ' ').indexOf(' ' + term + ' ') !== -1;
+   }
+@@ -203,7 +219,7 @@
+     };
+   }
+   const PulseState = {
+-    version: '0.3.9',
++    version: '0.3.10',
+     keys: KEYS,
+ 
+     load() {
+@@ -239,7 +255,8 @@
+         interests: this.getReaderInterests(),
+         timeline: this.getReaderTimeline(),
+         continueReading: this.getContinueReading(),
+-        weeklyPulse: this.getWeeklyPulse()
++        weeklyPulse: this.getWeeklyPulse(),
++        storyThreads: this.getStoryThreads()
+       };
+     },
+ 
+@@ -406,6 +423,70 @@
+       };
+     },
+ 
++    getStoryThreads() {
++      const articles = this.getArticleHistory();
++      const buckets = {};
++      const dimensions = [
++        { field: 'family', weight: 4 },
++        { field: 'topics', weight: 3 },
++        { field: 'brand', weight: 2 }
++      ];
++
++      function addToBucket(dimension, rawValue, article, weight) {
++        const normalized = normalizeStoryValue(rawValue);
++        if (!normalized || normalized === 'android' || normalized === 'mobile') return;
++
++        const key = dimension + ':' + normalized;
++        if (!buckets[key]) {
++          buckets[key] = {
++            key,
++            dimension,
++            name: storyLabel(rawValue),
++            weight,
++            articles: [],
++            urls: {}
++          };
++        }
++
++        if (!article.url || buckets[key].urls[article.url]) return;
++        buckets[key].urls[article.url] = true;
++        buckets[key].articles.push(article);
++      }
++
++      articles.forEach(function (article) {
++        if (!article || !article.url || !article.title) return;
++
++        dimensions.forEach(function (dimension) {
++          const value = article[dimension.field];
++          const values = Array.isArray(value) ? value : [value];
++          values.forEach(function (item) {
++            addToBucket(dimension.field, item, article, dimension.weight);
++          });
++        });
++      });
++
++      return Object.keys(buckets)
++        .map(function (key) {
++          const thread = buckets[key];
++          thread.articles.sort(function (a, b) {
++            const aTime = new Date(a.recordedAt || a.timestamp || 0).getTime();
++            const bTime = new Date(b.recordedAt || b.timestamp || 0).getTime();
++            return bTime - aTime;
++          });
++          thread.count = thread.articles.length;
++          thread.latest = thread.articles[0] || null;
++          thread.score = (thread.count * 10) + thread.weight;
++          delete thread.urls;
++          return thread;
++        })
++        .filter(function (thread) {
++          return thread.count >= 2 && thread.latest;
++        })
++        .sort(function (a, b) {
++          return b.score - a.score || a.name.localeCompare(b.name);
++        });
++    },
++
+ 
+     getWeeklyPulse() {
+       const history = this.getArticleHistory();
+--- a/pulse.js
++++ b/pulse.js
+@@ -1,7 +1,7 @@
+ /*
+  * Pulse
+  * Module: pulse.js
+- * Prototype: v0.2.22
++ * Prototype: v0.2.23
+  *
+  * DJs Mobiles Website Integration
+  */
+@@ -19,7 +19,7 @@
+ };
+ 
+   const Pulse = {
+-    version: '0.2.22',
++    version: '0.2.23',
+     reader: null,
+     article: null,
+     conversation: null,
+@@ -140,21 +140,15 @@
+ 
+       if (state && this.article && this.isArticlePage()) {
+         state.recordArticle(this.article);
+-        this.reader.articleHistory = state.getArticleHistory();
+-        this.reader.interests = state.getReaderInterests();
+-        this.reader.timeline = state.getReaderTimeline();
+-        this.reader.continueReading = state.getContinueReading();
+-        this.reader.weeklyPulse = state.getWeeklyPulse();
+       }
+ 
+       if (state && this.reader) {
++        this.reader.articleHistory = state.getArticleHistory();
++        this.reader.interests = state.getReaderInterests();
+         this.reader.timeline = state.getReaderTimeline();
+         this.reader.continueReading = state.getContinueReading();
+         this.reader.weeklyPulse = state.getWeeklyPulse();
+-      }
+-
+-      if (this.reader) {
+-        this.reader.storyThreads = this.getStoryThreads(this.reader.articleHistory);
++        this.reader.storyThreads = state.getStoryThreads();
+       }
+ 
+       this.conversation = core && typeof core.getPulseConversation === 'function'
+@@ -263,77 +257,6 @@
+       '</section>';
+     },
+ 
+-    normalizeStoryValue(value) {
+-      return String(value || '')
+-        .trim()
+-        .toLowerCase()
+-        .replace(/[^a-z0-9]+/g, '-')
+-        .replace(/^-+|-+$/g, '');
+-    },
+-
+-    storyLabel(value) {
+-      return String(value || '')
+-        .trim()
+-        .replace(/\b\w/g, (letter) => letter.toUpperCase());
+-    },
+-
+-    getStoryThreads(history) {
+-      const articles = Array.isArray(history) ? history : [];
+-      const buckets = {};
+-      const dimensions = [
+-        { field: 'family', weight: 4 },
+-        { field: 'topics', weight: 3 },
+-        { field: 'brand', weight: 2 }
+-      ];
+-
+-      const addToBucket = (dimension, rawValue, article, weight) => {
+-        const normalized = this.normalizeStoryValue(rawValue);
+-        if (!normalized || normalized === 'android' || normalized === 'mobile') return;
+-
+-        const key = dimension + ':' + normalized;
+-        if (!buckets[key]) {
+-          buckets[key] = {
+-            key,
+-            dimension,
+-            name: this.storyLabel(rawValue),
+-            weight,
+-            articles: [],
+-            urls: {}
+-          };
+-        }
+-
+-        if (!article.url || buckets[key].urls[article.url]) return;
+-        buckets[key].urls[article.url] = true;
+-        buckets[key].articles.push(article);
+-      };
+-
+-      articles.forEach((article) => {
+-        if (!article || !article.url || !article.title) return;
+-
+-        dimensions.forEach((dimension) => {
+-          const value = article[dimension.field];
+-          const values = Array.isArray(value) ? value : [value];
+-          values.forEach((item) => addToBucket(dimension.field, item, article, dimension.weight));
+-        });
+-      });
+-
+-      return Object.keys(buckets)
+-        .map((key) => {
+-          const thread = buckets[key];
+-          thread.articles.sort((a, b) => {
+-            const aTime = new Date(a.recordedAt || a.timestamp || 0).getTime();
+-            const bTime = new Date(b.recordedAt || b.timestamp || 0).getTime();
+-            return bTime - aTime;
+-          });
+-          thread.count = thread.articles.length;
+-          thread.latest = thread.articles[0] || null;
+-          thread.score = (thread.count * 10) + thread.weight;
+-          return thread;
+-        })
+-        .filter((thread) => thread.count >= 2 && thread.latest)
+-        .sort((a, b) => b.score - a.score || a.name.localeCompare(b.name));
+-    },
+-
+     getFollowingShelfItems() {
+       const currentUrl = this.article && this.article.article
+         ? this.article.article.url
