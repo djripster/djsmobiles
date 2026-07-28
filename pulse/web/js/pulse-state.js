@@ -1,7 +1,7 @@
 /*
  * Pulse State
  * Module: pulse-state.js
- * Prototype: v0.3.9
+ * Prototype: v0.3.10
  *
  * DJs Mobiles Website Pulse reader memory.
  * Website-only storage. No extension dependency.
@@ -90,26 +90,6 @@
       .trim();
   }
 
-  function normalize(value) {
-    return String(value || '')
-      .toLowerCase()
-      .replace(/[^a-z0-9+]+/g, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
-  }
-
-  function has(text, term) {
-    return (' ' + text + ' ').indexOf(' ' + term + ' ') !== -1;
-  }
-
-  function addTopic(topics, topic) {
-    if (!topic) return topics;
-    const list = Array.isArray(topics) ? topics.slice(0, 6) : [];
-    if (list.indexOf(topic) === -1) list.push(topic);
-    return list.slice(0, 6);
-  }
-
-
   function isStaticPageUrl(value) {
     if (!value) return false;
 
@@ -125,28 +105,11 @@
     if (!item || !item.url || isStaticPageUrl(item.url)) return null;
 
     const title = cleanText(item.title, 'Untitled article');
-    const text = normalize(title);
-    let brand = cleanText(item.brand);
-    let platform = cleanText(item.platform);
-    let topics = Array.isArray(item.topics) ? item.topics.slice(0, 6) : [];
-
-    if (has(text, 'pokemon') || has(text, 'pokémon')) {
-      if (brand === 'Apple') brand = '';
-      topics = addTopic(topics, 'Gaming');
-    }
-
-    if (has(text, 'brave') || has(text, 'browser') || has(text, 'firefox')) {
-      if (brand === 'Microsoft' && !has(text, 'microsoft') && !has(text, 'surface')) brand = '';
-      topics = addTopic(topics, 'Browsers');
-    }
-
-    if (brand === 'Apple' && (has(text, 'iphone and android') || has(text, 'ios and android'))) {
-      brand = '';
-    }
-
-    if ((has(text, 'iphone') || has(text, 'ios') || has(text, 'ipad')) && has(text, 'android')) {
-      platform = 'Mobile';
-    }
+    // Reader memory must preserve Core's article intelligence verbatim. Pulse Web
+    // should never reclassify articles from title keywords or Blogger labels.
+    const brand = cleanText(item.brand);
+    const platform = cleanText(item.platform);
+    const topics = Array.isArray(item.topics) ? item.topics.slice(0, 6) : [];
 
     return {
       title,
@@ -203,7 +166,7 @@
     };
   }
   const PulseState = {
-    version: '0.3.9',
+    version: '0.3.10',
     keys: KEYS,
 
     load() {
