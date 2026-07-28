@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T14:34:36.356Z",
+  "updatedAt": "2026-07-28T16:49:38.895Z",
   "items": [
+    {
+      "id": "google-news-7691342c0d33f9ea",
+      "headline": "Google: How Gemini Flash agents are helping a Michigan dairy farmer",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-28T16:15:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-55560096859ebe20",
+      "headline": "Google: Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-28T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-7fd8522a2c7e4fc3",
+      "headline": "Google: 3 new ways nonprofits can put AI to work",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/nonprofits-ai-tools-training/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-28T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-dc323d8334b79ae7",
       "headline": "Google: 5 ways AI Mode in Search helps you enjoy the real world",
