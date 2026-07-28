@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T18:43:30.687Z",
+  "updatedAt": "2026-07-28T20:33:38.757Z",
   "stories": [
     {
       "id": "google-news-7691342c0d33f9ea",
@@ -72,6 +72,18 @@
       ],
       "publishedAt": "2026-07-28T13:00:00.000Z",
       "collectedAt": "2026-07-28T14:34:16.053Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-6d04464a311efcf3",
+      "headline": "First woman to head UNESCO urges tech companies to do more for women in tech",
+      "url": "https://www.huawei.com/en/news/2023/3/women-tech-transform",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-07-28T11:34:33.451Z",
+      "collectedAt": "2026-07-28T20:33:38.756Z",
       "type": "standard"
     },
     {
