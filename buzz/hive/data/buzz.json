@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T12:11:07.913Z",
+  "updatedAt": "2026-07-28T14:34:36.356Z",
   "items": [
+    {
+      "id": "google-news-dc323d8334b79ae7",
+      "headline": "Google: 5 ways AI Mode in Search helps you enjoy the real world",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a3885c9250669c1d",
+      "headline": "These Google Trends show people really want to touch grass",
+      "url": "https://blog.google/products-and-platforms/products/search/touch-grass-trends/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-41e0168f6a5bfe73",
+      "headline": "5 ways to host the ultimate dinner party with Google Search",
+      "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-af83a14b083e6ea0",
       "headline": "Google and KDDI are ready to back Japanese startups.",
@@ -22,17 +55,6 @@
         "google"
       ],
       "publishedAt": "2026-07-27T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-bd739fbc33fb8bb2",
-      "headline": "Samsung Electronics and Broadcom Expand Strategic Collaboration Across Memory and Foundry Technologies",
-      "url": "https://news.samsung.com/global/samsung-electronics-and-broadcom-expand-strategic-collaboration-across-memory-and-foundry-technologies",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-07-25T14:32:00.000Z",
       "type": "standard"
     }
   ]
