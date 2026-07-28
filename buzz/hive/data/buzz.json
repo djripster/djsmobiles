@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28T00:10:18.012Z",
+  "updatedAt": "2026-07-28T03:31:52.788Z",
   "items": [
+    {
+      "id": "google-news-af83a14b083e6ea0",
+      "headline": "Google and KDDI are ready to back Japanese startups.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/ai-startup-support-program-japan/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-28T01:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-e2ef01d5562bef3a",
       "headline": "NOAA and Google Cloud collaborate to advance weather forecasting.",
