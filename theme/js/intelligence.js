@@ -104,12 +104,109 @@
       const normalized = this.normalize(raw);
 
       for (const key in labels) {
-        if (Object.prototype.hasOwnProperty.call(labels, key) && this.normalize(key) === normalized) {
+        if (!Object.prototype.hasOwnProperty.call(labels, key)) continue;
+
+        const entry = labels[key];
+        const aliases = Array.isArray(entry.aliases) ? entry.aliases : [];
+
+        if (this.normalize(key) === normalized || aliases.some(alias => this.normalize(alias) === normalized)) {
+          return entry;
+        }
+      }
+
+      return null;
+    },
+
+    getRegistryEntryById(id) {
+      const labels = this.getLabelRegistryMap();
+      const wanted = String(id || '').trim();
+
+      if (!wanted) return null;
+
+      for (const key in labels) {
+        if (Object.prototype.hasOwnProperty.call(labels, key) && labels[key].id === wanted) {
           return labels[key];
         }
       }
 
       return null;
+    },
+
+    buildSemanticSignal(entry, options) {
+      const settings = options || {};
+      const entryClass = String(entry.class || entry.type || 'entity');
+      const kind = entryClass === 'topic' ? 'topic' : 'entity';
+      const signal = {
+        id: kind + ':' + entry.id,
+        name: entry.name || entry.label || entry.id,
+        kind,
+        entityType: entry.entityType || entryClass,
+        role: settings.role || 'primary-subject',
+        confidence: settings.confidence || 1,
+        eligible: settings.eligible === true,
+        source: settings.source || 'label'
+      };
+
+      if (entry.subtype) signal.subtype = entry.subtype;
+      if (settings.relationship) signal.relationship = settings.relationship;
+      if (settings.relatedTo) signal.relatedTo = settings.relatedTo;
+
+      return signal;
+    },
+
+    resolveArticleLabels(labels) {
+      const interestSignals = [];
+      const contextSignals = [];
+      const unresolvedLabels = [];
+      const seen = {};
+      const ignored = ['review', 'reviews', 'spec', 'specs', 'guide', 'guides', 'editorial', 'deals', 'deal', 'mvno', 'carrier', 'carriers'];
+
+      const addUnique = function (list, signal) {
+        if (!signal || seen[signal.id + ':' + signal.role]) return;
+        seen[signal.id + ':' + signal.role] = true;
+        list.push(signal);
+      };
+
+      (labels || []).forEach(label => {
+        const raw = String(label || '').trim();
+        const normalized = this.normalize(raw);
+        const entry = this.getRegistryEntryForLabel(raw);
+
+        if (!entry) {
+          if (normalized && ignored.indexOf(normalized) === -1 && !unresolvedLabels.some(item => item.normalized === normalized)) {
+            unresolvedLabels.push({ label: raw, normalized });
+          }
+          return;
+        }
+
+        const entryClass = this.normalize(entry.class || entry.type || '');
+        if (entryClass === 'content type' || entryClass === 'content-type' || entryClass === 'classification') return;
+
+        const primary = this.buildSemanticSignal(entry, {
+          eligible: entry.eligible !== false,
+          role: 'primary-subject'
+        });
+
+        if (primary.eligible) addUnique(interestSignals, primary);
+
+        const relatedIds = []
+          .concat(Array.isArray(entry.parents) ? entry.parents.map(id => ({ id, relationship: 'parent' })) : [])
+          .concat(Array.isArray(entry.context) ? entry.context.map(id => ({ id, relationship: 'context' })) : []);
+
+        relatedIds.forEach(related => {
+          const relatedEntry = this.getRegistryEntryById(related.id);
+          if (!relatedEntry) return;
+
+          addUnique(contextSignals, this.buildSemanticSignal(relatedEntry, {
+            eligible: false,
+            role: 'context',
+            relationship: related.relationship,
+            relatedTo: primary.id
+          }));
+        });
+      });
+
+      return { interestSignals, contextSignals, unresolvedLabels };
     },
 
     classifyLabels(labels) {

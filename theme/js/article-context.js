@@ -60,6 +60,13 @@
 
     var deviceIntel = window.djsDeviceIntel || {};
     var pageType = normalizePageType(analyzed);
+    var semantic = safeCall(function () {
+      return intelligence.resolveArticleLabels(analyzed.labels || deviceIntel.labels || []);
+    }, {}) || {};
+
+    var interestSignals = Array.isArray(semantic.interestSignals) ? semantic.interestSignals : [];
+    var contextSignals = Array.isArray(semantic.contextSignals) ? semantic.contextSignals : [];
+    var unresolvedLabels = Array.isArray(semantic.unresolvedLabels) ? semantic.unresolvedLabels : [];
 
     var article = null;
 
@@ -72,6 +79,9 @@
         familyId: deviceIntel.family || '',
         labels: analyzed.labels || deviceIntel.labels || [],
         topics: analyzed.topics || [],
+        interestSignals: interestSignals,
+        contextSignals: contextSignals,
+        unresolvedLabels: unresolvedLabels,
         isSponsored: false,
         isGuest: false
       };
@@ -87,7 +97,9 @@
         title: cleanTitle(analyzed.title || document.title)
       },
 
-      article: article
+      article: article,
+      interestSignals: article ? interestSignals : [],
+      unresolvedLabels: article ? unresolvedLabels : []
     };
   }
 
