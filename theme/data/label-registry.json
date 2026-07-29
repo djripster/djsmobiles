@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "labels": {
     "Huawei": {
       "class": "brand",
@@ -11,7 +11,9 @@
     "Android": {
       "class": "platform",
       "id": "android",
-      "name": "Android"
+      "name": "Android",
+      "entityType": "operating-system",
+      "parents": ["google"]
     },
     "Specs": {
       "class": "content-type",
@@ -52,6 +54,23 @@
       "class": "topic",
       "id": "gaming",
       "name": "Gaming"
+    },
+    "Browsers": {
+      "class": "topic",
+      "id": "browsers",
+      "name": "Browsers"
+    },
+    "MVNO": {
+      "class": "classification",
+      "id": "mvno",
+      "name": "MVNO",
+      "eligible": false
+    },
+    "Carriers": {
+      "class": "classification",
+      "id": "carriers",
+      "name": "Carriers",
+      "eligible": false
     },
     "Verizon": {
       "class": "carrier",
@@ -138,6 +157,7 @@
       "id": "mint-mobile",
       "name": "Mint Mobile",
       "label": "Mint Mobile",
+      "subtype": "mvno",
       "regions": [
         "North America"
       ],
@@ -1299,6 +1319,7 @@
       "id": "apple",
       "name": "Apple",
       "label": "Apple",
+      "entityType": "technology-company",
       "asset": "apple.svg"
     },
     "Archos": {
@@ -1397,6 +1418,7 @@
       "id": "google",
       "name": "Google",
       "label": "Google",
+      "entityType": "technology-company",
       "asset": "google.svg"
     },
     "Haier": {
@@ -1565,6 +1587,7 @@
       "id": "samsung",
       "name": "Samsung",
       "label": "Samsung",
+      "entityType": "technology-company",
       "asset": "samsung.svg"
     },
     "Sharp": {
@@ -1630,6 +1653,78 @@
       "label": "Yezz",
       "asset": "yezz.svg"
     },
+    "Pixel": {
+      "class": "device-family",
+      "id": "pixel",
+      "name": "Pixel",
+      "aliases": ["Google Pixel"],
+      "parents": ["google"],
+      "context": ["android"]
+    },
+    "iOS": {
+      "class": "platform",
+      "id": "ios",
+      "name": "iOS",
+      "parents": ["apple"]
+    },
+    "iPhone": {
+      "class": "device-family",
+      "id": "iphone",
+      "name": "iPhone",
+      "parents": ["apple"],
+      "context": ["ios"]
+    },
+    "Galaxy": {
+      "class": "device-family",
+      "id": "galaxy",
+      "name": "Galaxy",
+      "parents": ["samsung"],
+      "context": ["android"]
+    },
+    "US Mobile": {
+      "class": "carrier",
+      "id": "us-mobile",
+      "name": "US Mobile",
+      "subtype": "mvno",
+      "regions": ["North America"]
+    },
+    "Pokémon": {
+      "class": "brand",
+      "id": "pokemon",
+      "name": "Pokémon",
+      "aliases": ["Pokemon"],
+      "entityType": "gaming-franchise"
+    },
+    "Pokémon GO": {
+      "class": "game",
+      "id": "pokemon-go",
+      "name": "Pokémon GO",
+      "aliases": ["Pokemon GO"],
+      "parents": ["pokemon"],
+      "context": ["gaming"]
+    },
+    "Firefox": {
+      "class": "brand",
+      "id": "firefox",
+      "name": "Firefox",
+      "entityType": "browser",
+      "context": ["browsers"]
+    },
+    "Opera": {
+      "class": "brand",
+      "id": "opera",
+      "name": "Opera",
+      "entityType": "browser",
+      "context": ["browsers"]
+    },
+    "Chrome": {
+      "class": "brand",
+      "id": "chrome",
+      "name": "Chrome",
+      "entityType": "browser",
+      "parents": ["google"],
+      "context": ["browsers"]
+    },
     "ZTE": {
       "class": "brand",
       "id": "zte",
@@ -1638,5 +1733,5 @@
       "asset": "zte.svg"
     }
   },
-  "updated": "2026-07-22"
+  "updated": "2026-07-29"
 }
