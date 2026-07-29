@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T12:18:11.283Z",
+  "updatedAt": "2026-07-29T15:18:36.618Z",
   "items": [
+    {
+      "id": "google-news-18e8d4ab775bfb03",
+      "headline": "Google: Gemini for macOS adds new natural language capabilities",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-29T15:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-7691342c0d33f9ea",
       "headline": "Google: How Gemini Flash agents are helping a Michigan dairy farmer",
