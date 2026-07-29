@@ -190,6 +190,743 @@ body.dark-mode .discussion-card__footer {
     transform: none;
   }
 }
+/* ============================================================
+   REVIEW COMPONENTS — shared styles
+   review-components v3
+   ============================================================ */
+.protocol-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  margin: 20px 0 28px;
+}
+.protocol-card {
+  background: linear-gradient(180deg, #ffffff 0%, var(--primary-soft) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 18px 20px;
+  box-shadow: var(--shadow-sm);
+}
+.protocol-card .proto-name {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.protocol-card .proto-name .badge {
+  background: var(--primary);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 999px;
+  letter-spacing: 0.06em;
+}
+.protocol-card p {
+  font-size: 13px;
+  color: var(--text-soft);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* Review section heading utility */
+.review-section-title,
+.post-body h2.review-section-title {
+  margin: 34px 0 16px;
+  padding-left: 14px;
+  border-left: 5px solid var(--primary);
+  color: var(--primary);
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+}
+
+/* Review score strip */
+.review-score-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  margin: 22px 0 28px;
+}
+.review-score-item {
+  background: linear-gradient(180deg, #ffffff 0%, #f6fbff 100%);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 14px 14px 12px;
+  box-shadow: var(--shadow-sm);
+}
+.review-score-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-soft);
+  margin-bottom: 8px;
+}
+.review-score-value {
+  display: block;
+  color: var(--primary);
+  font-size: 1.45rem;
+  line-height: 1;
+  font-weight: 800;
+}
+.review-score-note {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--text-soft);
+  line-height: 1.45;
+}
+
+/* Verdict block */
+.review-verdict {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbfe 100%);
+  border: 1px solid rgba(215,227,239,0.95);
+  border-radius: 20px;
+  box-shadow: var(--shadow-sm);
+  padding: 22px 22px 20px;
+  margin: 26px 0 30px;
+  position: relative;
+  overflow: hidden;
+}
+.review-verdict:before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+}
+.review-verdict-kicker {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  border: 1px solid #d4e5f7;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.review-verdict-title {
+  margin: 0 0 10px;
+  color: var(--text);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.review-verdict p:last-child {
+  margin-bottom: 0;
+}
+.review-verdict-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+.review-verdict-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid var(--border);
+  color: var(--text-soft);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Key takeaways */
+.key-takeaways {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbfe 100%);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px 18px 16px;
+  box-shadow: var(--shadow-sm);
+  margin: 22px 0 28px;
+}
+.key-takeaways-title {
+  margin: 0 0 12px;
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.key-takeaways ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.key-takeaways li {
+  margin: 0 0 8px;
+  color: var(--text);
+  line-height: 1.6;
+}
+.key-takeaways li:last-child {
+  margin-bottom: 0;
+}
+
+/* Pros / cons */
+.pros-cons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 22px 0 28px;
+}
+.pros-box,
+.cons-box {
+  border-radius: 18px;
+  padding: 18px 18px 16px;
+  box-shadow: var(--shadow-sm);
+}
+.pros-box {
+  background: linear-gradient(180deg, #ffffff 0%, #f3fbf6 100%);
+  border: 1px solid #cfe9d7;
+}
+.cons-box {
+  background: linear-gradient(180deg, #ffffff 0%, #fff6f6 100%);
+  border: 1px solid #f0d1d1;
+}
+.pros-cons-title {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.pros-box .pros-cons-title {
+  color: #1f6e2e;
+}
+.cons-box .pros-cons-title {
+  color: #b42318;
+}
+.pros-cons-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pros-cons-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: var(--text);
+}
+.pros-cons-list li:last-child {
+  margin-bottom: 0;
+}
+.pros-box .pros-cons-list li:before,
+.cons-box .pros-cons-list li:before {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 800;
+}
+.pros-box .pros-cons-list li:before {
+  content: '+';
+  background: #1f6e2e;
+  color: #fff;
+}
+.cons-box .pros-cons-list li:before {
+  content: '-';
+  background: #b42318;
+  color: #fff;
+}
+
+/* Existing review utilities */
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.feature-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
+.feature-list li::before {
+  content: '\2713';
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 800;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.rating-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.rating-label {
+  min-width: 120px;
+  font-weight: 700;
+  color: var(--text-soft);
+}
+.rating-track {
+  flex: 1;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.rating-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+}
+.rating-score {
+  min-width: 36px;
+  font-weight: 800;
+  color: var(--primary);
+  text-align: right;
+}
+
+
+
+/* v14.9.4.7 | Homepage image pass only
+   Normalizes homepage/list snippet image wrappers without touching
+   featured companion title/summary behavior. */
+.home-snippet .separator,
+.home-snippet .separator a {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+
+.home-snippet img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+}
+
+.home-snippet a {
+  max-width: 100%;
+}
+
+.home-snippet .separator,
+.home-snippet p,
+.home-snippet div {
+  max-width: 100%;
+}
+
+.home-snippet .separator {
+  margin-top: 0 !important;
+  margin-bottom: 14px !important;
+}
+
+.home-snippet br {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .protocol-grid { grid-template-columns: 1fr; }
+  .review-score-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pros-cons-grid { grid-template-columns: 1fr; }
+  .rating-label { min-width: 100px; }
+  .review-verdict { padding: 20px 16px 18px; }
+}
+
+
+/* section-title v1 | Left accent bar matching review heading pattern */
+.section-title {
+  margin: 4px 0 16px;
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding-left: 12px;
+  border-left: 4px solid var(--primary);
+  line-height: 1.2;
+}
+
+/* v16.14 | Reading Experience Polish */
+.item-view .post-body {
+  font-size: 16.5px;
+  line-height: 1.82;
+}
+.item-view .post-body p {
+  margin-top: 0;
+  margin-bottom: 1.15em;
+}
+.item-view .post-body .separator,
+.item-view .post-body .hero-banner {
+  margin-top: 1.35em;
+  margin-bottom: 1.55em;
+}
+.item-view .post-body img {
+  max-width: 100%;
+  height: auto;
+}
+.item-view .post-body .key-takeaways,
+.item-view .post-body .protocol-grid,
+.item-view .post-body .pros-cons-grid,
+.item-view .post-body .review-verdict,
+.item-view .post-body .spec-summary,
+.item-view .post-body .tech-table {
+  margin-top: 1.65em;
+  margin-bottom: 1.65em;
+}
+.item-view .post-body .review-section-title {
+  scroll-margin-top: 96px;
+  margin-top: 2.15em;
+}
+.item-view .post-body a[name="more"] {
+  display: block;
+  scroll-margin-top: 104px;
+}
+@media (max-width: 768px) {
+  .item-view .post-body {
+    font-size: 16px;
+    line-height: 1.78;
+  }
+  .item-view .post-body p {
+    margin-bottom: 1.08em;
+  }
+  .item-view .post-body .key-takeaways,
+  .item-view .post-body .protocol-grid,
+  .item-view .post-body .pros-cons-grid,
+  .item-view .post-body .review-verdict,
+  .item-view .post-body .spec-summary,
+  .item-view .post-body .tech-table {
+    margin-top: 1.35em;
+    margin-bottom: 1.35em;
+  }
+  .item-view .post-body .review-section-title {
+    margin-top: 1.85em;
+  }
+}
+
+/* ==========================================================
+   Guide Components
+   Core v18.0.6
+   ----------------------------------------------------------
+   Guides share the review system's visual language, but make
+   sequence, preparation, and recovery unmistakable.
+   ========================================================== */
+.content-section-title,
+.post-body h2.content-section-title,
+.guide-section-title,
+.post-body h2.guide-section-title {
+  margin: 34px 0 16px;
+  padding-left: 14px;
+  border-left: 5px solid var(--primary);
+  color: var(--primary);
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  scroll-margin-top: 96px;
+}
+
+.guide-intro,
+.guide-prerequisites,
+.guide-troubleshooting,
+.guide-related {
+  margin: 22px 0 28px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbfe 100%);
+  box-shadow: var(--shadow-sm);
+}
+
+.guide-intro {
+  position: relative;
+  overflow: hidden;
+}
+
+.guide-intro:before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+}
+
+.guide-intro > :first-child,
+.guide-prerequisites > :first-child,
+.guide-troubleshooting > :first-child,
+.guide-related > :first-child {
+  margin-top: 0;
+}
+
+.guide-intro > :last-child,
+.guide-prerequisites > :last-child,
+.guide-troubleshooting > :last-child,
+.guide-related > :last-child {
+  margin-bottom: 0;
+}
+
+.guide-intro-title,
+.guide-prerequisites-title,
+.guide-troubleshooting-title,
+.guide-related-title {
+  margin: 0 0 10px;
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.guide-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.guide-meta-item {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--text-soft);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.guide-prerequisites {
+  background: linear-gradient(180deg, #ffffff 0%, #f6fbff 100%);
+}
+
+.guide-checklist {
+  display: grid;
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.guide-checklist li {
+  position: relative;
+  padding-left: 28px;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.guide-checklist li:before {
+  content: '\2713';
+  position: absolute;
+  top: .18em;
+  left: 0;
+  display: grid;
+  width: 18px;
+  height: 18px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.guide-steps {
+  display: grid;
+  gap: 16px;
+  margin: 22px 0 28px;
+}
+
+.guide-step {
+  position: relative;
+  padding: 20px 20px 20px 70px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+.guide-step-number {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #fff;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.guide-step-title {
+  margin: 0 0 8px;
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.guide-step > :last-child { margin-bottom: 0; }
+
+.guide-note,
+.guide-tip,
+.guide-warning {
+  --guide-callout-bg: #eef6ff;
+  --guide-callout-border: #1976d2;
+  margin: 16px 0;
+  padding: 14px 16px;
+  border: 1px solid color-mix(in srgb, var(--guide-callout-border) 28%, transparent);
+  border-left: 4px solid var(--guide-callout-border);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--guide-callout-bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.guide-tip {
+  --guide-callout-bg: #eefaf2;
+  --guide-callout-border: #2e7d32;
+}
+
+.guide-warning {
+  --guide-callout-bg: #fff8e1;
+  --guide-callout-border: #f59e0b;
+}
+
+.guide-note > :first-child,
+.guide-tip > :first-child,
+.guide-warning > :first-child { margin-top: 0; }
+.guide-note > :last-child,
+.guide-tip > :last-child,
+.guide-warning > :last-child { margin-bottom: 0; }
+
+.guide-troubleshooting details {
+  padding: 13px 0;
+  border-top: 1px solid var(--border);
+}
+
+.guide-troubleshooting details:first-of-type { border-top: 0; }
+.guide-troubleshooting summary {
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 800;
+}
+.guide-troubleshooting details > :last-child { margin-bottom: 0; }
+
+.guide-related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+}
+
+.guide-related-card {
+  display: block;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: #fff;
+  color: var(--text) !important;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.45;
+  text-decoration: none !important;
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+
+.guide-related-card:hover,
+.guide-related-card:focus-visible {
+  border-color: var(--border-strong);
+  box-shadow: 0 16px 30px rgba(15,35,58,.1);
+  outline: none;
+  transform: translateY(-2px);
+}
+
+.home-snippet .guide-intro,
+.home-snippet .guide-prerequisites,
+.home-snippet .guide-steps,
+.home-snippet .guide-step,
+.home-snippet .guide-troubleshooting,
+.home-snippet .guide-related { display: none !important; }
+
+@media (max-width: 600px) {
+  .guide-intro,
+  .guide-prerequisites,
+  .guide-troubleshooting,
+  .guide-related { padding: 18px 16px; }
+  .guide-step { padding: 18px 16px 18px 62px; }
+  .guide-step-number { top: 16px; left: 16px; }
+}
+
+.item-view .post-body .guide-intro,
+.item-view .post-body .guide-prerequisites,
+.item-view .post-body .guide-steps,
+.item-view .post-body .guide-troubleshooting,
+.item-view .post-body .guide-related {
+  margin-top: 1.65em;
+  margin-bottom: 1.65em;
+}
+
+body.dark-mode .guide-intro,
+body.dark-mode .guide-prerequisites,
+body.dark-mode .guide-step,
+body.dark-mode .guide-troubleshooting,
+body.dark-mode .guide-related,
+.dark-mode .guide-intro,
+.dark-mode .guide-prerequisites,
+.dark-mode .guide-step,
+.dark-mode .guide-troubleshooting,
+.dark-mode .guide-related {
+  background: linear-gradient(180deg, #222b36 0%, #1c2530 100%);
+  border-color: #3b4654;
+}
+
+body.dark-mode .guide-meta-item,
+body.dark-mode .guide-related-card,
+.dark-mode .guide-meta-item,
+.dark-mode .guide-related-card {
+  background: #222b36;
+  border-color: #3b4654;
+  color: #edf2f7 !important;
+}
+
+
 
 
 /* ==========================================================
