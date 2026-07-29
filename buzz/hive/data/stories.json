@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T15:18:36.568Z",
+  "updatedAt": "2026-07-29T17:36:18.512Z",
   "stories": [
+    {
+      "id": "google-news-8349f68dd8803365",
+      "headline": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-29T16:00:00.000Z",
+      "collectedAt": "2026-07-29T17:35:58.297Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-25aaae92dd46fc81",
+      "headline": "Prepare for the holiday season with July’s Demand Gen Drop.",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-july-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-29T15:30:00.000Z",
+      "collectedAt": "2026-07-29T17:35:58.297Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-18e8d4ab775bfb03",
       "headline": "Gemini for macOS adds new natural language capabilities",
