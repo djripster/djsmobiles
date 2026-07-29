@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T03:35:21.445Z",
+  "updatedAt": "2026-07-29T06:43:08.124Z",
   "stories": [
     {
       "id": "google-news-7691342c0d33f9ea",
@@ -111,6 +111,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-cf5d2fa3989b6815",
+      "headline": "[Infographic] What’s Your Artistic Style? Discover Your Perfect Art Collection on Samsung Art Store",
+      "url": "https://news.samsung.com/global/infographic-whats-your-artistic-style-discover-your-perfect-art-collection-on-samsung-art-store",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-27T08:00:00.000Z",
+      "collectedAt": "2026-07-29T06:43:07.911Z",
+      "type": "standard"
+    },
+    {
       "id": "samsung-global-newsroom-bd739fbc33fb8bb2",
       "headline": "Samsung Electronics and Broadcom Expand Strategic Collaboration Across Memory and Foundry Technologies",
       "url": "https://news.samsung.com/global/samsung-electronics-and-broadcom-expand-strategic-collaboration-across-memory-and-foundry-technologies",
@@ -204,6 +216,18 @@
       ],
       "publishedAt": "2026-07-23T10:00:00.000Z",
       "collectedAt": "2026-07-25T16:06:25.525Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-d22b91faccd24397",
+      "headline": "Samsung Opens The Fold Inn To Showcase Its Latest Galaxy Z Series in London",
+      "url": "https://news.samsung.com/global/samsung-opens-the-fold-inn-to-showcase-its-latest-galaxy-z-series-in-london",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-23T00:00:00.000Z",
+      "collectedAt": "2026-07-29T06:43:07.911Z",
       "type": "standard"
     },
     {

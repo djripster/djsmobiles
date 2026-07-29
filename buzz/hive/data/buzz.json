@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T03:35:21.489Z",
+  "updatedAt": "2026-07-29T06:43:08.175Z",
   "items": [
     {
       "id": "google-news-7691342c0d33f9ea",
@@ -99,6 +99,17 @@
         "google"
       ],
       "publishedAt": "2026-07-27T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-cf5d2fa3989b6815",
+      "headline": "[Infographic] What’s Your Artistic Style? Discover Your Perfect Art Collection on Samsung Art Store",
+      "url": "https://news.samsung.com/global/infographic-whats-your-artistic-style-discover-your-perfect-art-collection-on-samsung-art-store",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-27T08:00:00.000Z",
       "type": "standard"
     }
   ]
