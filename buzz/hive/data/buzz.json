@@ -1,11 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T19:41:03.073Z",
+  "updatedAt": "2026-07-29T21:11:27.151Z",
   "items": [
     {
       "id": "google-news-8349f68dd8803365",
       "headline": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-29T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-80a79506bd7dc9b2",
+      "headline": "Google: How the Head of YouTube Health handles screen time with his kids",
+      "url": "https://blog.google/innovation-and-ai/technology/families/kids-summer-screen-time-tips/",
       "sourceId": "google-news",
       "brandIds": [
         "google"

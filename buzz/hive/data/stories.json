@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T19:41:03.024Z",
+  "updatedAt": "2026-07-29T21:11:27.103Z",
   "stories": [
     {
       "id": "google-news-8349f68dd8803365",
@@ -12,6 +12,18 @@
       ],
       "publishedAt": "2026-07-29T16:00:00.000Z",
       "collectedAt": "2026-07-29T17:35:58.297Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-80a79506bd7dc9b2",
+      "headline": "How the Head of YouTube Health handles screen time with his kids",
+      "url": "https://blog.google/innovation-and-ai/technology/families/kids-summer-screen-time-tips/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-29T16:00:00.000Z",
+      "collectedAt": "2026-07-29T21:11:06.672Z",
       "type": "standard"
     },
     {
