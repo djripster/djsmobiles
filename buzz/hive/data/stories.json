@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-29T17:36:18.512Z",
+  "updatedAt": "2026-07-29T19:41:03.024Z",
   "stories": [
     {
       "id": "google-news-8349f68dd8803365",
@@ -36,6 +36,18 @@
       ],
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "collectedAt": "2026-07-29T15:18:16.321Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-9ceb4566bc9d767c",
+      "headline": "inwi and Huawei Commercially Deploy 8T8R Solution, Setting New Benchmark for Mobile Experience on High-Speed Transportation Corridors",
+      "url": "https://www.huawei.com/en/news/2026/7/8t8r-highspeedrailway-hyperbeamforming",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-07-29T11:38:46.004Z",
+      "collectedAt": "2026-07-29T19:41:03.023Z",
       "type": "standard"
     },
     {
