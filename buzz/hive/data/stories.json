@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T14:29:48.231Z",
+  "updatedAt": "2026-07-30T16:46:18.014Z",
   "stories": [
+    {
+      "id": "google-news-0bb5162dd11b68c1",
+      "headline": "Introducing Gemini Robotics ER 2",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-30T15:00:00.000Z",
+      "collectedAt": "2026-07-30T16:45:57.670Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4f7ea67314c2f480",
+      "headline": "Take a look at short films created by our latest group of artists in Google’s Flow Sessions program.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/google-flow-sessions-short-films/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-30T15:00:00.000Z",
+      "collectedAt": "2026-07-30T16:45:57.671Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-e34d22620052c11c",
       "headline": "Transform any place with Nano Banana in Google Earth",
