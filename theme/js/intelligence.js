@@ -1,7 +1,7 @@
 /*
  * DJs Mobiles Intelligence
  * Module: intelligence.js
- * Prototype: v0.2.4
+ * Prototype: v0.3.0
  *
  * Shared website intelligence layer.
  * Theme first. Pulse second.
@@ -14,7 +14,7 @@
   const LABEL_REGISTRY_URL = 'https://djripster.github.io/djsmobiles/theme/data/label-registry.json';
 
   const Intelligence = {
-    version: '0.2.5',
+    version: '0.3.0',
     labelRegistry: null,
     labelRegistryReady: null,
 
@@ -104,27 +104,7 @@
       const normalized = this.normalize(raw);
 
       for (const key in labels) {
-        if (!Object.prototype.hasOwnProperty.call(labels, key)) continue;
-
-        const entry = labels[key];
-        const aliases = Array.isArray(entry.aliases) ? entry.aliases : [];
-
-        if (this.normalize(key) === normalized || aliases.some(alias => this.normalize(alias) === normalized)) {
-          return entry;
-        }
-      }
-
-      return null;
-    },
-
-    getRegistryEntryById(id) {
-      const labels = this.getLabelRegistryMap();
-      const wanted = String(id || '').trim();
-
-      if (!wanted) return null;
-
-      for (const key in labels) {
-        if (Object.prototype.hasOwnProperty.call(labels, key) && labels[key].id === wanted) {
+        if (Object.prototype.hasOwnProperty.call(labels, key) && this.normalize(key) === normalized) {
           return labels[key];
         }
       }
@@ -132,81 +112,28 @@
       return null;
     },
 
-    buildSemanticSignal(entry, options) {
-      const settings = options || {};
-      const entryClass = String(entry.class || entry.type || 'entity');
-      const kind = entryClass === 'topic' ? 'topic' : 'entity';
-      const signal = {
-        id: kind + ':' + entry.id,
-        name: entry.name || entry.label || entry.id,
-        kind,
-        entityType: entry.entityType || entryClass,
-        role: settings.role || 'primary-subject',
-        confidence: settings.confidence || 1,
-        eligible: settings.eligible === true,
-        source: settings.source || 'label'
-      };
-
-      if (entry.subtype) signal.subtype = entry.subtype;
-      if (settings.relationship) signal.relationship = settings.relationship;
-      if (settings.relatedTo) signal.relatedTo = settings.relatedTo;
-
-      return signal;
+    getRegistryEntryForId(id) {
+      const target = String(id || '').trim();
+      if (!target) return null;
+      const labels = this.getLabelRegistryMap();
+      for (const key in labels) {
+        if (Object.prototype.hasOwnProperty.call(labels, key) && labels[key] && labels[key].id === target) {
+          return labels[key];
+        }
+      }
+      return null;
     },
 
-    resolveArticleLabels(labels) {
-      const interestSignals = [];
-      const contextSignals = [];
-      const unresolvedLabels = [];
-      const seen = {};
-      const ignored = ['review', 'reviews', 'spec', 'specs', 'guide', 'guides', 'editorial', 'deals', 'deal', 'mvno', 'carrier', 'carriers'];
+    entryRoles(entry) {
+      if (entry && Array.isArray(entry.roles) && entry.roles.length) return entry.roles;
+      if (entry && Array.isArray(entry.classes)) return entry.classes;
+      if (entry && (entry.class || entry.type || entry.kind)) return [entry.class || entry.type || entry.kind];
+      return [];
+    },
 
-      const addUnique = function (list, signal) {
-        if (!signal || seen[signal.id + ':' + signal.role]) return;
-        seen[signal.id + ':' + signal.role] = true;
-        list.push(signal);
-      };
-
-      (labels || []).forEach(label => {
-        const raw = String(label || '').trim();
-        const normalized = this.normalize(raw);
-        const entry = this.getRegistryEntryForLabel(raw);
-
-        if (!entry) {
-          if (normalized && ignored.indexOf(normalized) === -1 && !unresolvedLabels.some(item => item.normalized === normalized)) {
-            unresolvedLabels.push({ label: raw, normalized });
-          }
-          return;
-        }
-
-        const entryClass = this.normalize(entry.class || entry.type || '');
-        if (entryClass === 'content type' || entryClass === 'content-type' || entryClass === 'classification') return;
-
-        const primary = this.buildSemanticSignal(entry, {
-          eligible: entry.eligible !== false,
-          role: 'primary-subject'
-        });
-
-        if (primary.eligible) addUnique(interestSignals, primary);
-
-        const relatedIds = []
-          .concat(Array.isArray(entry.parents) ? entry.parents.map(id => ({ id, relationship: 'parent' })) : [])
-          .concat(Array.isArray(entry.context) ? entry.context.map(id => ({ id, relationship: 'context' })) : []);
-
-        relatedIds.forEach(related => {
-          const relatedEntry = this.getRegistryEntryById(related.id);
-          if (!relatedEntry) return;
-
-          addUnique(contextSignals, this.buildSemanticSignal(relatedEntry, {
-            eligible: false,
-            role: 'context',
-            relationship: related.relationship,
-            relatedTo: primary.id
-          }));
-        });
-      });
-
-      return { interestSignals, contextSignals, unresolvedLabels };
+    entryHasRole(entry, role) {
+      const expected = this.normalize(role);
+      return this.entryRoles(entry).some(value => this.normalize(value) === expected);
     },
 
     classifyLabels(labels) {
@@ -217,15 +144,15 @@
         topics: []
       };
 
+      if (!this.labelRegistry) return result;
+
       (labels || []).forEach(label => {
         const entry = this.getRegistryEntryForLabel(label);
         if (!entry) return;
 
-        const entryClass = entry.class || entry.type || '';
-        const normalizedClass = this.normalize(entryClass);
         const name = entry.name || String(label || '').trim();
 
-        if (normalizedClass === 'brand' && !result.brand) {
+        if (this.entryHasRole(entry, 'brand') && !result.brand) {
           result.brand = {
             id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
             name
@@ -233,15 +160,20 @@
           return;
         }
 
-        if (normalizedClass === 'platform' && !result.platform) {
+        if (this.entryHasRole(entry, 'platform') && !result.platform) {
           result.platform = {
             id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
             name
           };
+          const ownerId = entry.relationships && entry.relationships.owner;
+          const owner = this.getRegistryEntryForId(ownerId);
+          if (owner && this.entryHasRole(owner, 'brand') && !result.brand) {
+            result.brand = { id: owner.id, name: owner.name || ownerId };
+          }
           return;
         }
 
-        if ((normalizedClass === 'content type' || normalizedClass === 'content-type' || normalizedClass === 'content') && !result.type) {
+        if (this.entryHasRole(entry, 'content-type') && !result.type) {
           result.type = {
             id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
             name
@@ -249,7 +181,7 @@
           return;
         }
 
-        if (normalizedClass === 'topic') {
+        if (this.entryHasRole(entry, 'topic')) {
           const topic = {
             id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
             name
@@ -266,142 +198,22 @@
 
     detectBrand(title, labels) {
       const classified = this.classifyLabels(labels);
-      if (classified.brand) {
-  return this.canonicalBrandName(classified.brand.name);
-}
-      const titleText = this.normalize(title || '');
-      const labelText = this.normalize((labels || []).join(' '));
-
-      const topicOnlySignals = [
-        'pokemon',
-        'pokémon',
-        'brave browser',
-        'brave',
-        'firefox',
-        'chrome browser',
-        'browser review'
-      ];
-
-      const productContextBrands = [
-        ['Samsung', ['samsung', 'galaxy']],
-        ['Apple', ['apple', 'homepod', 'iphone', 'ipad', 'macbook', 'imac', 'airpods', 'apple watch']],
-        ['Google', ['google', 'pixel', 'nest', 'chromecast']],
-        ['Microsoft', ['microsoft', 'surface', 'xbox']],
-        ['Motorola', ['motorola', 'moto', 'razr']],
-        ['Nothing', ['nothing', 'cmf']],
-        ['OnePlus', ['oneplus']],
-        ['Nokia', ['nokia']],
-        ['BlackBerry', ['blackberry']],
-        ['Sony', ['sony', 'xperia', 'wh 1000xm', 'wh1000xm', 'playstation']],
-        ['HTC', ['htc']],
-        ['LG', ['lg']],
-        ['Verizon', ['verizon']],
-        ['T-Mobile', ['t mobile', 'tmobile']],
-        ['AT&T', ['at t', 'att']],
-        ['Qualcomm', ['qualcomm', 'snapdragon']]
-      ];
-
-      for (const [brand, terms] of productContextBrands) {
-        const directBrandName = this.normalize(brand);
-
-        if (this.has(titleText, directBrandName)) {
-          return brand;
-        }
-
-        const productTerms = terms.filter(function (term) {
-          return ['homepod', 'iphone', 'ipad', 'macbook', 'imac', 'airpods', 'apple watch', 'galaxy', 'pixel', 'nest', 'chromecast', 'surface', 'xbox', 'moto', 'razr', 'xperia', 'wh 1000xm', 'wh1000xm', 'playstation', 'snapdragon'].indexOf(term) !== -1;
-        });
-
-        if (productTerms.some(term => this.has(titleText, term))) {
-          if (brand === 'Apple' && this.hasAny(titleText, topicOnlySignals) && !this.has(titleText, 'apple')) {
-            continue;
-          }
-
-          return brand;
-        }
-      }
-
-      for (const [brand, terms] of productContextBrands) {
-        const brandName = this.normalize(brand);
-
-        if (this.has(labelText, brandName)) {
-          return brand;
-        }
-
-        const strongTerms = terms.filter(function (term) {
-          return ['galaxy', 'pixel', 'surface', 'moto', 'razr', 'xperia', 'snapdragon'].indexOf(term) !== -1;
-        });
-
-        if (strongTerms.some(term => this.has(labelText, term))) {
-          return brand;
-        }
-      }
-
-      return '';
+      return classified.brand ? classified.brand.name : '';
     },
 
     detectPlatform(title, labels) {
       const classified = this.classifyLabels(labels);
-      if (classified.platform) return classified.platform.name;
-
-      const titleText = this.normalize(title || '');
-      const labelText = this.normalize((labels || []).join(' '));
-      const text = titleText + ' ' + labelText;
-
-      const hasAndroid = this.has(text, 'android');
-      const hasIos = this.has(text, 'ios') || this.has(text, 'iphone') || this.has(text, 'ipad');
-
-      if (hasAndroid && hasIos) return 'Mobile';
-      if (this.has(text, 'windows phone')) return 'Windows Phone';
-      if (this.has(text, 'chrome os')) return 'Chrome OS';
-      if (hasAndroid) return 'Android';
-      if (hasIos) return 'iOS';
-      if (this.has(titleText, 'windows')) return 'Windows';
-      if (this.has(titleText, 'mac') || this.has(titleText, 'macos')) return 'Mac';
-
-      return '';
+      return classified.platform ? classified.platform.name : '';
     },
 
     detectPostType(title, labels) {
       const classified = this.classifyLabels(labels);
-      if (classified.type) return classified.type.name;
-
-      const text = this.normalize((title || '') + ' ' + (labels || []).join(' '));
-
-      if (this.has(text, 'specs') || this.has(text, 'spec')) return 'Specs';
-      if (this.has(text, 'review') || this.has(text, 'reviews')) return 'Review';
-      if (this.has(text, 'editorial') || this.has(text, 'opinion') || this.has(text, 'analysis')) return 'Editorial';
-      if (this.has(text, 'guide') || this.has(text, 'guides') || this.has(text, 'how to')) return 'Guide';
-      if (this.has(text, 'deal') || this.has(text, 'deals')) return 'Deals';
-
-      return 'News';
+      return classified.type ? classified.type.name : '';
     },
 
     detectTopics(title, labels) {
       const classified = this.classifyLabels(labels);
-      const text = this.normalize((title || '') + ' ' + (labels || []).join(' '));
       const topics = classified.topics.map(topic => topic.name);
-
-      const topicMap = [
-        ['AI', ['ai', 'artificial intelligence', 'galaxy ai', 'gemini', 'apple intelligence']],
-        ['Browsers', ['browser', 'browsers', 'chrome', 'firefox', 'safari', 'edge', 'brave']],
-        ['Privacy', ['privacy', 'private browsing']],
-        ['Security', ['security', 'malware', 'password', 'passkey']],
-        ['Camera', ['camera', 'photo', 'video', 'imaging']],
-        ['Battery', ['battery', 'charging']],
-        ['Foldables', ['foldable', 'foldables', 'z fold', 'z flip', 'razr']],
-        ['Android Updates', ['android update', 'android beta', 'security patch', 'pixel update']],
-        ['Gaming', ['gaming', 'game', 'pokemon', 'pokémon', 'console']],
-        ['Wearables', ['wear os', 'watch', 'wearable']],
-        ['Carriers', ['carrier', 'mvno', '5g', 'verizon', 't mobile', 'tmobile', 'at t', 'att']]
-      ];
-
-      for (const [topic, terms] of topicMap) {
-        if (terms.some(term => this.has(text, term))) {
-          if (topics.indexOf(topic) === -1) topics.push(topic);
-        }
-      }
-
       return topics;
     },
 
