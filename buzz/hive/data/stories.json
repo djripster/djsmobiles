@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T18:43:46.062Z",
+  "updatedAt": "2026-07-30T20:33:31.659Z",
   "stories": [
+    {
+      "id": "google-news-5a01c69735c087a1",
+      "headline": "Gemini Spark now integrates with Chrome",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-30T20:00:00.000Z",
+      "collectedAt": "2026-07-30T20:33:11.146Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-15cfab867801223e",
+      "headline": "Huawei's MB2 Antenna Wins 2026 Red Dot Design Award",
+      "url": "https://www.huawei.com/en/news/2026/7/reddot-mb2",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-07-30T19:34:07.811Z",
+      "collectedAt": "2026-07-30T20:33:31.658Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-0bb5162dd11b68c1",
       "headline": "Introducing Gemini Robotics ER 2",

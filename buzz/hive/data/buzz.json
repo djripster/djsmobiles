@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T18:43:46.109Z",
+  "updatedAt": "2026-07-30T20:33:31.710Z",
   "items": [
+    {
+      "id": "google-news-5a01c69735c087a1",
+      "headline": "Google: Gemini Spark now integrates with Chrome",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-30T20:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-15cfab867801223e",
+      "headline": "Huawei's MB2 Antenna Wins 2026 Red Dot Design Award",
+      "url": "https://www.huawei.com/en/news/2026/7/reddot-mb2",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-07-30T19:34:07.811Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-0bb5162dd11b68c1",
       "headline": "Google: Introducing Gemini Robotics ER 2",
@@ -143,28 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-07-28T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-41e0168f6a5bfe73",
-      "headline": "5 ways to host the ultimate dinner party with Google Search",
-      "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-28T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-6d04464a311efcf3",
-      "headline": "Huawei: First woman to head UNESCO urges tech companies to do more for women in tech",
-      "url": "https://www.huawei.com/en/news/2023/3/women-tech-transform",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-07-28T11:34:33.451Z",
       "type": "standard"
     }
   ]
