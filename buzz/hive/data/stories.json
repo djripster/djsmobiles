@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T20:33:31.659Z",
+  "updatedAt": "2026-07-30T22:17:32.606Z",
   "stories": [
     {
       "id": "google-news-5a01c69735c087a1",
@@ -60,6 +60,30 @@
       ],
       "publishedAt": "2026-07-30T12:30:00.000Z",
       "collectedAt": "2026-07-30T14:29:28.055Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-2558f6527bf922f9",
+      "headline": "[Interview] [Galaxy Unpacked July 2026] Inside the Engineering Behind the Latest Galaxy Z Series",
+      "url": "https://news.samsung.com/global/interview-galaxy-unpacked-july-2026-inside-the-engineering-behind-the-latest-galaxy-z-series",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-30T10:41:00.000Z",
+      "collectedAt": "2026-07-30T22:17:32.324Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-539510a5b969765a",
+      "headline": "Samsung Electronics Announces Second Quarter 2026 Results",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-30T08:56:00.000Z",
+      "collectedAt": "2026-07-30T22:17:32.324Z",
       "type": "standard"
     },
     {
