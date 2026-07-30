@@ -2,262 +2,338 @@
   "version": 4,
   "labels": {
     "Huawei": {
-      "class": "brand",
       "id": "huawei",
       "name": "Huawei",
-      "label": "Huawei",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Huawei",
       "asset": "huawei.svg"
     },
     "Android": {
-      "class": "platform",
       "id": "android",
       "name": "Android",
-      "entityType": "operating-system",
-      "parents": ["google"]
+      "kind": "platform",
+      "roles": [
+        "platform"
+      ],
+      "sourceLabel": "Android"
     },
     "Specs": {
-      "class": "content-type",
       "id": "specs",
-      "name": "Specs"
+      "name": "Specs",
+      "kind": "content-type",
+      "roles": [
+        "content-type"
+      ],
+      "sourceLabel": "Specs"
     },
     "Review": {
-      "class": "content-type",
       "id": "review",
-      "name": "Review"
+      "name": "Review",
+      "kind": "content-type",
+      "roles": [
+        "content-type"
+      ],
+      "sourceLabel": "Review"
     },
     "Guides": {
-      "class": "content-type",
       "id": "guide",
-      "name": "Guide"
+      "name": "Guide",
+      "kind": "content-type",
+      "roles": [
+        "content-type"
+      ],
+      "sourceLabel": "Guides"
     },
     "Editorial": {
-      "class": "content-type",
       "id": "editorial",
-      "name": "Editorial"
+      "name": "Editorial",
+      "kind": "content-type",
+      "roles": [
+        "content-type"
+      ],
+      "sourceLabel": "Editorial"
     },
     "Deals": {
-      "class": "content-type",
       "id": "deals",
-      "name": "Deals"
+      "name": "Deals",
+      "kind": "content-type",
+      "roles": [
+        "content-type"
+      ],
+      "sourceLabel": "Deals"
     },
     "AI": {
-      "class": "topic",
       "id": "ai",
-      "name": "AI"
+      "name": "AI",
+      "kind": "topic",
+      "roles": [
+        "topic"
+      ],
+      "sourceLabel": "AI"
     },
     "Camera": {
-      "class": "topic",
       "id": "camera",
-      "name": "Camera"
+      "name": "Camera",
+      "kind": "topic",
+      "roles": [
+        "topic"
+      ],
+      "sourceLabel": "Camera"
     },
     "Gaming": {
-      "class": "topic",
       "id": "gaming",
-      "name": "Gaming"
-    },
-    "Browsers": {
-      "class": "topic",
-      "id": "browsers",
-      "name": "Browsers"
-    },
-    "MVNO": {
-      "class": "classification",
-      "id": "mvno",
-      "name": "MVNO",
-      "eligible": false
-    },
-    "Carriers": {
-      "class": "classification",
-      "id": "carriers",
-      "name": "Carriers",
-      "eligible": false
+      "name": "Gaming",
+      "kind": "topic",
+      "roles": [
+        "topic"
+      ],
+      "sourceLabel": "Gaming"
     },
     "Verizon": {
-      "class": "carrier",
       "id": "verizon",
       "name": "Verizon",
-      "label": "Verizon",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Verizon",
       "regions": [
         "North America"
       ],
       "asset": "verizon.svg"
     },
     "ATT": {
-      "class": "carrier",
       "id": "att",
       "name": "AT&T",
-      "label": "ATT",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "ATT",
       "regions": [
         "North America"
       ],
       "asset": "att.svg"
     },
     "T-Mobile": {
-      "class": "carrier",
       "id": "t-mobile",
       "name": "T-Mobile",
-      "label": "T-Mobile",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "T-Mobile",
       "regions": [
         "North America"
       ],
       "asset": "t-mobile.svg"
     },
     "Metro PCS": {
-      "class": "carrier",
       "id": "metro-by-t-mobile",
       "name": "Metro by T-Mobile",
-      "label": "Metro PCS",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Metro PCS",
       "regions": [
         "North America"
       ],
       "asset": "metro-by-t-mobile.svg"
     },
     "US Cellular": {
-      "class": "carrier",
       "id": "us-cellular",
       "name": "US Cellular",
-      "label": "US Cellular",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "US Cellular",
       "regions": [
         "North America"
       ],
       "asset": "us-cellular.svg"
     },
     "Cricket": {
-      "class": "carrier",
       "id": "cricket-wireless",
       "name": "Cricket Wireless",
-      "label": "Cricket",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Cricket",
       "regions": [
         "North America"
       ],
       "asset": "cricket-wireless.svg"
     },
     "Boost Mobile": {
-      "class": "carrier",
       "id": "boost-mobile",
       "name": "Boost Mobile",
-      "label": "Boost Mobile",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Boost Mobile",
       "regions": [
         "North America"
       ],
       "asset": "boost-mobile.svg"
     },
     "Straight Talk": {
-      "class": "carrier",
       "id": "straight-talk",
       "name": "Straight Talk",
-      "label": "Straight Talk",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Straight Talk",
       "regions": [
         "North America"
       ],
       "asset": "straight-talk.svg"
     },
     "Mint Mobile": {
-      "class": "carrier",
       "id": "mint-mobile",
       "name": "Mint Mobile",
-      "label": "Mint Mobile",
-      "subtype": "mvno",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Mint Mobile",
       "regions": [
         "North America"
       ],
       "asset": "mint-mobile.svg"
     },
     "Consumer Cellular": {
-      "class": "carrier",
       "id": "consumer-cellular",
       "name": "Consumer Cellular",
-      "label": "Consumer Cellular",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Consumer Cellular",
       "regions": [
         "North America"
       ],
       "asset": "consumer-cellular.svg"
     },
     "TracFone": {
-      "class": "carrier",
       "id": "tracfone",
       "name": "TracFone",
-      "label": "TracFone",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "TracFone",
       "regions": [
         "North America"
       ],
       "asset": "tracfone.svg"
     },
     "Rogers": {
-      "class": "carrier",
       "id": "rogers",
       "name": "Rogers",
-      "label": "Rogers",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Rogers",
       "regions": [
         "North America"
       ],
       "asset": "rogers.svg"
     },
     "Bell": {
-      "class": "carrier",
       "id": "bell",
       "name": "Bell",
-      "label": "Bell",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Bell",
       "regions": [
         "North America"
       ],
       "asset": "bell.svg"
     },
     "Telus": {
-      "class": "carrier",
       "id": "telus",
       "name": "Telus",
-      "label": "Telus",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Telus",
       "regions": [
         "North America"
       ],
       "asset": "telus.svg"
     },
     "Freedom Mobile": {
-      "class": "carrier",
       "id": "freedom-mobile",
       "name": "Freedom Mobile",
-      "label": "Freedom Mobile",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Freedom Mobile",
       "regions": [
         "North America"
       ],
       "asset": "freedom-mobile.svg"
     },
     "Videotron": {
-      "class": "carrier",
       "id": "videotron",
       "name": "Videotron",
-      "label": "Videotron",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Videotron",
       "regions": [
         "North America"
       ],
       "asset": "videotron.svg"
     },
     "Telcel": {
-      "class": "carrier",
       "id": "telcel",
       "name": "Telcel",
-      "label": "Telcel",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Telcel",
       "regions": [
         "North America"
       ],
       "asset": "telcel.svg"
     },
     "Claro": {
-      "class": "carrier",
       "id": "claro",
       "name": "Claro",
-      "label": "Claro",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Claro",
       "regions": [
         "Latin America"
       ],
       "asset": "claro.svg"
     },
     "Movistar": {
-      "class": "carrier",
       "id": "movistar",
       "name": "Movistar",
-      "label": "Movistar",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Movistar",
       "regions": [
         "Latin America"
       ],
@@ -266,91 +342,116 @@
     "Vivo": {
       "id": "vivo",
       "name": "Vivo",
-      "label": "Vivo",
+      "kind": "organization",
+      "roles": [
+        "brand",
+        "carrier"
+      ],
+      "sourceLabel": "Vivo",
       "regions": [
         "Latin America"
       ],
-      "asset": "vivo.svg",
-      "classes": [
-        "brand",
-        "carrier"
-      ]
+      "asset": "vivo.svg"
     },
     "TIM": {
-      "class": "carrier",
       "id": "tim-brasil",
       "name": "TIM Brasil",
-      "label": "TIM",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "TIM",
       "regions": [
         "Latin America"
       ],
       "asset": "tim-brasil.svg"
     },
     "Oi": {
-      "class": "carrier",
       "id": "oi",
       "name": "Oi",
-      "label": "Oi",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Oi",
       "regions": [
         "Latin America"
       ],
       "asset": "oi.svg"
     },
     "Personal": {
-      "class": "carrier",
       "id": "personal",
       "name": "Personal",
-      "label": "Personal",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Personal",
       "regions": [
         "Latin America"
       ],
       "asset": "personal.svg"
     },
     "Entel": {
-      "class": "carrier",
       "id": "entel",
       "name": "Entel",
-      "label": "Entel",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Entel",
       "regions": [
         "Latin America"
       ],
       "asset": "entel.svg"
     },
     "Digicel": {
-      "class": "carrier",
       "id": "digicel",
       "name": "Digicel",
-      "label": "Digicel",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Digicel",
       "regions": [
         "Latin America"
       ],
       "asset": "digicel.svg"
     },
     "Flow": {
-      "class": "carrier",
       "id": "flow",
       "name": "Flow",
-      "label": "Flow",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Flow",
       "regions": [
         "Latin America"
       ],
       "asset": "flow.svg"
     },
     "Vodafone": {
-      "class": "carrier",
       "id": "vodafone",
       "name": "Vodafone",
-      "label": "Vodafone",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Vodafone",
       "regions": [
         "Europe"
       ],
       "asset": "vodafone.svg"
     },
     "Orange": {
-      "class": "carrier",
       "id": "orange",
       "name": "Orange",
-      "label": "Orange",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Orange",
       "regions": [
         "Europe",
         "Africa"
@@ -361,30 +462,39 @@
       }
     },
     "Telenor": {
-      "class": "carrier",
       "id": "telenor",
       "name": "Telenor",
-      "label": "Telenor",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Telenor",
       "regions": [
         "Europe"
       ],
       "asset": "telenor.svg"
     },
     "Telia": {
-      "class": "carrier",
       "id": "telia",
       "name": "Telia",
-      "label": "Telia",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Telia",
       "regions": [
         "Europe"
       ],
       "asset": "telia.svg"
     },
     "Beeline": {
-      "class": "carrier",
       "id": "beeline",
       "name": "Beeline",
-      "label": "Beeline",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Beeline",
       "regions": [
         "Europe",
         "Middle East"
@@ -392,220 +502,286 @@
       "asset": "beeline.svg"
     },
     "Deutsche Telekom": {
-      "class": "carrier",
       "id": "deutsche-telekom",
       "name": "Deutsche Telekom",
-      "label": "Deutsche Telekom",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Deutsche Telekom",
       "regions": [
         "Europe"
       ],
       "asset": "deutsche-telekom.svg"
     },
     "O2": {
-      "class": "carrier",
       "id": "o2",
       "name": "O2",
-      "label": "O2",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "O2",
       "regions": [
         "Europe"
       ],
       "asset": "o2.svg"
     },
     "EE": {
-      "class": "carrier",
       "id": "ee",
       "name": "EE",
-      "label": "EE",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "EE",
       "regions": [
         "Europe"
       ],
       "asset": "ee.svg"
     },
     "Three": {
-      "class": "carrier",
       "id": "three",
       "name": "Three",
-      "label": "Three",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Three",
       "regions": [
         "Europe"
       ],
       "asset": "three.svg"
     },
     "BT Mobile": {
-      "class": "carrier",
       "id": "bt-mobile",
       "name": "BT Mobile",
-      "label": "BT Mobile",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "BT Mobile",
       "regions": [
         "Europe"
       ],
       "asset": "bt-mobile.svg"
     },
     "Sky Mobile": {
-      "class": "carrier",
       "id": "sky-mobile",
       "name": "Sky Mobile",
-      "label": "Sky Mobile",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Sky Mobile",
       "regions": [
         "Europe"
       ],
       "asset": "sky-mobile.svg"
     },
     "Virgin Media": {
-      "class": "carrier",
       "id": "virgin-media",
       "name": "Virgin Media",
-      "label": "Virgin Media",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Virgin Media",
       "regions": [
         "Europe"
       ],
       "asset": "virgin-media.svg"
     },
     "SFR": {
-      "class": "carrier",
       "id": "sfr",
       "name": "SFR",
-      "label": "SFR",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "SFR",
       "regions": [
         "Europe"
       ],
       "asset": "sfr.svg"
     },
     "Bouygues": {
-      "class": "carrier",
       "id": "bouygues",
       "name": "Bouygues",
-      "label": "Bouygues",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Bouygues",
       "regions": [
         "Europe"
       ],
       "asset": "bouygues.svg"
     },
     "Free Mobile": {
-      "class": "carrier",
       "id": "free-mobile",
       "name": "Free Mobile",
-      "label": "Free Mobile",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Free Mobile",
       "regions": [
         "Europe"
       ],
       "asset": "free-mobile.svg"
     },
     "TIM Italy": {
-      "class": "carrier",
       "id": "tim-italy",
       "name": "TIM Italy",
-      "label": "TIM Italy",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "TIM Italy",
       "regions": [
         "Europe"
       ],
       "asset": "tim-italy.svg"
     },
     "Wind Tre": {
-      "class": "carrier",
       "id": "wind-tre",
       "name": "Wind Tre",
-      "label": "Wind Tre",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Wind Tre",
       "regions": [
         "Europe"
       ],
       "asset": "wind-tre.svg"
     },
     "Proximus": {
-      "class": "carrier",
       "id": "proximus",
       "name": "Proximus",
-      "label": "Proximus",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Proximus",
       "regions": [
         "Europe"
       ],
       "asset": "proximus.svg"
     },
     "Base": {
-      "class": "carrier",
       "id": "base",
       "name": "Base",
-      "label": "Base",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Base",
       "regions": [
         "Europe"
       ],
       "asset": "base.svg"
     },
     "Swisscom": {
-      "class": "carrier",
       "id": "swisscom",
       "name": "Swisscom",
-      "label": "Swisscom",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Swisscom",
       "regions": [
         "Europe"
       ],
       "asset": "swisscom.svg"
     },
     "Salt": {
-      "class": "carrier",
       "id": "salt",
       "name": "Salt",
-      "label": "Salt",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Salt",
       "regions": [
         "Europe"
       ],
       "asset": "salt.svg"
     },
     "Sunrise": {
-      "class": "carrier",
       "id": "sunrise",
       "name": "Sunrise",
-      "label": "Sunrise",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Sunrise",
       "regions": [
         "Europe"
       ],
       "asset": "sunrise.svg"
     },
     "A1": {
-      "class": "carrier",
       "id": "a1",
       "name": "A1",
-      "label": "A1",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "A1",
       "regions": [
         "Europe"
       ],
       "asset": "a1.svg"
     },
     "MTS": {
-      "class": "carrier",
       "id": "mts",
       "name": "MTS",
-      "label": "MTS",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "MTS",
       "regions": [
         "Europe"
       ],
       "asset": "mts.svg"
     },
     "Megafon": {
-      "class": "carrier",
       "id": "megafon",
       "name": "Megafon",
-      "label": "Megafon",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Megafon",
       "regions": [
         "Europe"
       ],
       "asset": "megafon.svg"
     },
     "TELE2": {
-      "class": "carrier",
       "id": "tele2",
       "name": "TELE2",
-      "label": "TELE2",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "TELE2",
       "regions": [
         "Europe"
       ],
       "asset": "tele2.svg"
     },
     "Turkcell": {
-      "class": "carrier",
       "id": "turkcell",
       "name": "Turkcell",
-      "label": "Turkcell",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Turkcell",
       "regions": [
         "Europe",
         "Middle East"
@@ -613,120 +789,156 @@
       "asset": "turkcell.svg"
     },
     "Lifecell": {
-      "class": "carrier",
       "id": "lifecell",
       "name": "Lifecell",
-      "label": "Lifecell",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Lifecell",
       "regions": [
         "Europe"
       ],
       "asset": "lifecell.svg"
     },
     "Play": {
-      "class": "carrier",
       "id": "play",
       "name": "Play",
-      "label": "Play",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Play",
       "regions": [
         "Europe"
       ],
       "asset": "play.svg"
     },
     "Plus": {
-      "class": "carrier",
       "id": "plus",
       "name": "Plus",
-      "label": "Plus",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Plus",
       "regions": [
         "Europe"
       ],
       "asset": "plus.svg"
     },
     "STC": {
-      "class": "carrier",
       "id": "stc",
       "name": "STC",
-      "label": "STC",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "STC",
       "regions": [
         "Middle East"
       ],
       "asset": "stc.svg"
     },
     "Zain": {
-      "class": "carrier",
       "id": "zain",
       "name": "Zain",
-      "label": "Zain",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Zain",
       "regions": [
         "Middle East"
       ],
       "asset": "zain.svg"
     },
     "Ooredoo": {
-      "class": "carrier",
       "id": "ooredoo",
       "name": "Ooredoo",
-      "label": "Ooredoo",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Ooredoo",
       "regions": [
         "Middle East"
       ],
       "asset": "ooredoo.svg"
     },
     "Etisalat": {
-      "class": "carrier",
       "id": "etisalat",
       "name": "Etisalat",
-      "label": "Etisalat",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Etisalat",
       "regions": [
         "Middle East"
       ],
       "asset": "etisalat.svg"
     },
     "du": {
-      "class": "carrier",
       "id": "du",
       "name": "du",
-      "label": "du",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "du",
       "regions": [
         "Middle East"
       ],
       "asset": "du.svg"
     },
     "Mobily": {
-      "class": "carrier",
       "id": "mobily",
       "name": "Mobily",
-      "label": "Mobily",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Mobily",
       "regions": [
         "Middle East"
       ],
       "asset": "mobily.svg"
     },
     "Jawwal": {
-      "class": "carrier",
       "id": "jawwal",
       "name": "Jawwal",
-      "label": "Jawwal",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Jawwal",
       "regions": [
         "Middle East"
       ],
       "asset": "jawwal.svg"
     },
     "MTN": {
-      "class": "carrier",
       "id": "mtn",
       "name": "MTN",
-      "label": "MTN",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "MTN",
       "regions": [
         "Africa"
       ],
       "asset": "mtn.svg"
     },
     "Airtel": {
-      "class": "carrier",
       "id": "airtel-africa",
       "name": "Airtel Africa",
-      "label": "Airtel",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Airtel",
       "regions": [
         "Africa",
         "South Asia"
@@ -737,1001 +949,1250 @@
       }
     },
     "Vodacom": {
-      "class": "carrier",
       "id": "vodacom",
       "name": "Vodacom",
-      "label": "Vodacom",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Vodacom",
       "regions": [
         "Africa"
       ],
       "asset": "vodacom.svg"
     },
     "Glo": {
-      "class": "carrier",
       "id": "glo",
       "name": "Glo",
-      "label": "Glo",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Glo",
       "regions": [
         "Africa"
       ],
       "asset": "glo.svg"
     },
     "Safaricom": {
-      "class": "carrier",
       "id": "safaricom",
       "name": "Safaricom",
-      "label": "Safaricom",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Safaricom",
       "regions": [
         "Africa"
       ],
       "asset": "safaricom.svg"
     },
     "Telkom": {
-      "class": "carrier",
       "id": "telkom",
       "name": "Telkom",
-      "label": "Telkom",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Telkom",
       "regions": [
         "Africa"
       ],
       "asset": "telkom.svg"
     },
     "Cell C": {
-      "class": "carrier",
       "id": "cell-c",
       "name": "Cell C",
-      "label": "Cell C",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Cell C",
       "regions": [
         "Africa"
       ],
       "asset": "cell-c.svg"
     },
     "Econet": {
-      "class": "carrier",
       "id": "econet",
       "name": "Econet",
-      "label": "Econet",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Econet",
       "regions": [
         "Africa"
       ],
       "asset": "econet.svg"
     },
     "Tigo": {
-      "class": "carrier",
       "id": "tigo",
       "name": "Tigo",
-      "label": "Tigo",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Tigo",
       "regions": [
         "Africa"
       ],
       "asset": "tigo.svg"
     },
     "Maroc Telecom": {
-      "class": "carrier",
       "id": "maroc-telecom",
       "name": "Maroc Telecom",
-      "label": "Maroc Telecom",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Maroc Telecom",
       "regions": [
         "Africa"
       ],
       "asset": "maroc-telecom.svg"
     },
     "9mobile": {
-      "class": "carrier",
       "id": "9mobile",
       "name": "9mobile",
-      "label": "9mobile",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "9mobile",
       "regions": [
         "Africa"
       ],
       "asset": "9mobile.svg"
     },
     "Jio": {
-      "class": "carrier",
       "id": "jio",
       "name": "Jio",
-      "label": "Jio",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Jio",
       "regions": [
         "South Asia"
       ],
       "asset": "jio.svg"
     },
     "Vi": {
-      "class": "carrier",
       "id": "vi",
       "name": "Vi",
-      "label": "Vi",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Vi",
       "regions": [
         "South Asia"
       ],
       "asset": "vi.svg"
     },
     "BSNL": {
-      "class": "carrier",
       "id": "bsnl",
       "name": "BSNL",
-      "label": "BSNL",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "BSNL",
       "regions": [
         "South Asia"
       ],
       "asset": "bsnl.svg"
     },
     "Dialog": {
-      "class": "carrier",
       "id": "dialog",
       "name": "Dialog",
-      "label": "Dialog",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Dialog",
       "regions": [
         "South Asia"
       ],
       "asset": "dialog.svg"
     },
     "Mobitel": {
-      "class": "carrier",
       "id": "mobitel",
       "name": "Mobitel",
-      "label": "Mobitel",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Mobitel",
       "regions": [
         "South Asia"
       ],
       "asset": "mobitel.svg"
     },
     "Grameenphone": {
-      "class": "carrier",
       "id": "grameenphone",
       "name": "Grameenphone",
-      "label": "Grameenphone",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Grameenphone",
       "regions": [
         "South Asia"
       ],
       "asset": "grameenphone.svg"
     },
     "Robi": {
-      "class": "carrier",
       "id": "robi",
       "name": "Robi",
-      "label": "Robi",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Robi",
       "regions": [
         "South Asia"
       ],
       "asset": "robi.svg"
     },
     "Jazz": {
-      "class": "carrier",
       "id": "jazz",
       "name": "Jazz",
-      "label": "Jazz",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Jazz",
       "regions": [
         "South Asia"
       ],
       "asset": "jazz.svg"
     },
     "Zong": {
-      "class": "carrier",
       "id": "zong",
       "name": "Zong",
-      "label": "Zong",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Zong",
       "regions": [
         "South Asia"
       ],
       "asset": "zong.svg"
     },
     "Ufone": {
-      "class": "carrier",
       "id": "ufone",
       "name": "Ufone",
-      "label": "Ufone",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Ufone",
       "regions": [
         "South Asia"
       ],
       "asset": "ufone.svg"
     },
     "Ncell": {
-      "class": "carrier",
       "id": "ncell",
       "name": "Ncell",
-      "label": "Ncell",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Ncell",
       "regions": [
         "South Asia"
       ],
       "asset": "ncell.svg"
     },
     "China Mobile": {
-      "class": "carrier",
       "id": "china-mobile",
       "name": "China Mobile",
-      "label": "China Mobile",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "China Mobile",
       "regions": [
         "East Asia"
       ],
       "asset": "china-mobile.svg"
     },
     "China Unicom": {
-      "class": "carrier",
       "id": "china-unicom",
       "name": "China Unicom",
-      "label": "China Unicom",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "China Unicom",
       "regions": [
         "East Asia"
       ],
       "asset": "china-unicom.svg"
     },
     "China Telecom": {
-      "class": "carrier",
       "id": "china-telecom",
       "name": "China Telecom",
-      "label": "China Telecom",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "China Telecom",
       "regions": [
         "East Asia"
       ],
       "asset": "china-telecom.svg"
     },
     "NTT Docomo": {
-      "class": "carrier",
       "id": "ntt-docomo",
       "name": "NTT Docomo",
-      "label": "NTT Docomo",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "NTT Docomo",
       "regions": [
         "East Asia"
       ],
       "asset": "ntt-docomo.svg"
     },
     "SoftBank": {
-      "class": "carrier",
       "id": "softbank",
       "name": "SoftBank",
-      "label": "SoftBank",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "SoftBank",
       "regions": [
         "East Asia"
       ],
       "asset": "softbank.svg"
     },
     "au KDDI": {
-      "class": "carrier",
       "id": "au-kddi",
       "name": "au KDDI",
-      "label": "au KDDI",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "au KDDI",
       "regions": [
         "East Asia"
       ],
       "asset": "au-kddi.svg"
     },
     "SK Telecom": {
-      "class": "carrier",
       "id": "sk-telecom",
       "name": "SK Telecom",
-      "label": "SK Telecom",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "SK Telecom",
       "regions": [
         "East Asia"
       ],
       "asset": "sk-telecom.svg"
     },
     "KT": {
-      "class": "carrier",
       "id": "kt",
       "name": "KT",
-      "label": "KT",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "KT",
       "regions": [
         "East Asia"
       ],
       "asset": "kt.svg"
     },
     "LG Uplus": {
-      "class": "carrier",
       "id": "lg-uplus",
       "name": "LG Uplus",
-      "label": "LG Uplus",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "LG Uplus",
       "regions": [
         "East Asia"
       ],
       "asset": "lg-uplus.svg"
     },
     "Chunghwa Telecom": {
-      "class": "carrier",
       "id": "chunghwa-telecom",
       "name": "Chunghwa Telecom",
-      "label": "Chunghwa Telecom",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Chunghwa Telecom",
       "regions": [
         "East Asia"
       ],
       "asset": "chunghwa-telecom.svg"
     },
     "FarEasTone": {
-      "class": "carrier",
       "id": "fareastone",
       "name": "FarEasTone",
-      "label": "FarEasTone",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "FarEasTone",
       "regions": [
         "East Asia"
       ],
       "asset": "fareastone.svg"
     },
     "Taiwan Mobile": {
-      "class": "carrier",
       "id": "taiwan-mobile",
       "name": "Taiwan Mobile",
-      "label": "Taiwan Mobile",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Taiwan Mobile",
       "regions": [
         "East Asia"
       ],
       "asset": "taiwan-mobile.svg"
     },
     "Singtel": {
-      "class": "carrier",
       "id": "singtel",
       "name": "Singtel",
-      "label": "Singtel",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Singtel",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "singtel.svg"
     },
     "StarHub": {
-      "class": "carrier",
       "id": "starhub",
       "name": "StarHub",
-      "label": "StarHub",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "StarHub",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "starhub.svg"
     },
     "M1": {
-      "class": "carrier",
       "id": "m1",
       "name": "M1",
-      "label": "M1",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "M1",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "m1.svg"
     },
     "AIS": {
-      "class": "carrier",
       "id": "ais",
       "name": "AIS",
-      "label": "AIS",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "AIS",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "ais.svg"
     },
     "DTAC": {
-      "class": "carrier",
       "id": "dtac",
       "name": "DTAC",
-      "label": "DTAC",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "DTAC",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "dtac.svg"
     },
     "True Move": {
-      "class": "carrier",
       "id": "true-move",
       "name": "True Move",
-      "label": "True Move",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "True Move",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "true-move.svg"
     },
     "Maxis": {
-      "class": "carrier",
       "id": "maxis",
       "name": "Maxis",
-      "label": "Maxis",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Maxis",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "maxis.svg"
     },
     "Celcom": {
-      "class": "carrier",
       "id": "celcom",
       "name": "Celcom",
-      "label": "Celcom",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Celcom",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "celcom.svg"
     },
     "Digi": {
-      "class": "carrier",
       "id": "digi",
       "name": "Digi",
-      "label": "Digi",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Digi",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "digi.svg"
     },
     "Globe": {
-      "class": "carrier",
       "id": "globe",
       "name": "Globe",
-      "label": "Globe",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Globe",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "globe.svg"
     },
     "Smart": {
-      "class": "carrier",
       "id": "smart",
       "name": "Smart",
-      "label": "Smart",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Smart",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "smart.svg"
     },
     "Telkomsel": {
-      "class": "carrier",
       "id": "telkomsel",
       "name": "Telkomsel",
-      "label": "Telkomsel",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Telkomsel",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "telkomsel.svg"
     },
     "Indosat": {
-      "class": "carrier",
       "id": "indosat",
       "name": "Indosat",
-      "label": "Indosat",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Indosat",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "indosat.svg"
     },
     "XL Axiata": {
-      "class": "carrier",
       "id": "xl-axiata",
       "name": "XL Axiata",
-      "label": "XL Axiata",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "XL Axiata",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "xl-axiata.svg"
     },
     "Viettel": {
-      "class": "carrier",
       "id": "viettel",
       "name": "Viettel",
-      "label": "Viettel",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Viettel",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "viettel.svg"
     },
     "Vinaphone": {
-      "class": "carrier",
       "id": "vinaphone",
       "name": "Vinaphone",
-      "label": "Vinaphone",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Vinaphone",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "vinaphone.svg"
     },
     "Mobifone": {
-      "class": "carrier",
       "id": "mobifone",
       "name": "Mobifone",
-      "label": "Mobifone",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Mobifone",
       "regions": [
         "Southeast Asia"
       ],
       "asset": "mobifone.svg"
     },
     "Telstra": {
-      "class": "carrier",
       "id": "telstra",
       "name": "Telstra",
-      "label": "Telstra",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Telstra",
       "regions": [
         "Oceania"
       ],
       "asset": "telstra.svg"
     },
     "Optus": {
-      "class": "carrier",
       "id": "optus",
       "name": "Optus",
-      "label": "Optus",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Optus",
       "regions": [
         "Oceania"
       ],
       "asset": "optus.svg"
     },
     "Vodafone AU": {
-      "class": "carrier",
       "id": "vodafone-au",
       "name": "Vodafone AU",
-      "label": "Vodafone AU",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Vodafone AU",
       "regions": [
         "Oceania"
       ],
       "asset": "vodafone-au.svg"
     },
     "Spark": {
-      "class": "carrier",
       "id": "spark",
       "name": "Spark",
-      "label": "Spark",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "Spark",
       "regions": [
         "Oceania"
       ],
       "asset": "spark.svg"
     },
     "One NZ": {
-      "class": "carrier",
       "id": "one-nz",
       "name": "One NZ",
-      "label": "One NZ",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "One NZ",
       "regions": [
         "Oceania"
       ],
       "asset": "one-nz.svg"
     },
     "2degrees": {
-      "class": "carrier",
       "id": "2degrees",
       "name": "2degrees",
-      "label": "2degrees",
+      "kind": "organization",
+      "roles": [
+        "carrier"
+      ],
+      "sourceLabel": "2degrees",
       "regions": [
         "Oceania"
       ],
       "asset": "2degrees.svg"
     },
     "Acer": {
-      "class": "brand",
       "id": "acer",
       "name": "Acer",
-      "label": "Acer",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Acer",
       "asset": "acer.svg"
     },
     "Alcatel": {
-      "class": "brand",
       "id": "alcatel",
       "name": "Alcatel",
-      "label": "Alcatel",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Alcatel",
       "asset": "alcatel.svg"
     },
     "AllView": {
-      "class": "brand",
       "id": "allview",
       "name": "AllView",
-      "label": "AllView",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "AllView",
       "asset": "allview.svg"
     },
     "Amazon": {
-      "class": "brand",
       "id": "amazon",
       "name": "Amazon",
-      "label": "Amazon",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Amazon",
       "asset": "amazon.svg"
     },
     "Apple": {
-      "class": "brand",
       "id": "apple",
       "name": "Apple",
-      "label": "Apple",
-      "entityType": "technology-company",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Apple",
       "asset": "apple.svg"
     },
     "Archos": {
-      "class": "brand",
       "id": "archos",
       "name": "Archos",
-      "label": "Archos",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Archos",
       "asset": "archos.svg"
     },
     "Asus": {
-      "class": "brand",
       "id": "asus",
       "name": "Asus",
-      "label": "Asus",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Asus",
       "asset": "asus.svg"
     },
     "BenQ": {
-      "class": "brand",
       "id": "benq",
       "name": "BenQ",
-      "label": "BenQ",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "BenQ",
       "asset": "benq.svg"
     },
     "BlackBerry": {
-      "class": "brand",
       "id": "blackberry",
       "name": "BlackBerry",
-      "label": "BlackBerry",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "BlackBerry",
       "asset": "blackberry.svg"
     },
     "BLU": {
-      "class": "brand",
       "id": "blu",
       "name": "BLU",
-      "label": "BLU",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "BLU",
       "asset": "blu.svg"
     },
     "Bosch": {
-      "class": "brand",
       "id": "bosch",
       "name": "Bosch",
-      "label": "Bosch",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Bosch",
       "asset": "bosch.svg"
     },
     "Casio": {
-      "class": "brand",
       "id": "casio",
       "name": "Casio",
-      "label": "Casio",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Casio",
       "asset": "casio.svg"
     },
     "CAT": {
-      "class": "brand",
       "id": "cat",
       "name": "CAT",
-      "label": "CAT",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "CAT",
       "asset": "cat.svg"
     },
     "Dell": {
-      "class": "brand",
       "id": "dell",
       "name": "Dell",
-      "label": "Dell",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Dell",
       "asset": "dell.svg"
     },
     "Ericsson": {
-      "class": "brand",
       "id": "ericsson",
       "name": "Ericsson",
-      "label": "Ericsson",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Ericsson",
       "asset": "ericsson.svg"
     },
     "Fujitsu": {
-      "class": "brand",
       "id": "fujitsu",
       "name": "Fujitsu",
-      "label": "Fujitsu",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Fujitsu",
       "asset": "fujitsu.svg"
     },
     "Garmin": {
-      "class": "brand",
       "id": "garmin",
       "name": "Garmin",
-      "label": "Garmin",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Garmin",
       "asset": "garmin.svg"
     },
     "Gigabyte": {
-      "class": "brand",
       "id": "gigabyte",
       "name": "Gigabyte",
-      "label": "Gigabyte",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Gigabyte",
       "asset": "gigabyte.svg"
     },
     "Google": {
-      "class": "brand",
       "id": "google",
       "name": "Google",
-      "label": "Google",
-      "entityType": "technology-company",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Google",
       "asset": "google.svg"
     },
     "Haier": {
-      "class": "brand",
       "id": "haier",
       "name": "Haier",
-      "label": "Haier",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Haier",
       "asset": "haier.svg"
     },
     "Honor": {
-      "class": "brand",
       "id": "honor",
       "name": "Honor",
-      "label": "Honor",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Honor",
       "asset": "honor.svg"
     },
     "HP": {
-      "class": "brand",
       "id": "hp",
       "name": "HP",
-      "label": "HP",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "HP",
       "asset": "hp.svg"
     },
     "HTC": {
-      "class": "brand",
       "id": "htc",
       "name": "HTC",
-      "label": "HTC",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "HTC",
       "asset": "htc.svg"
     },
     "Infinix": {
-      "class": "brand",
       "id": "infinix",
       "name": "Infinix",
-      "label": "Infinix",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Infinix",
       "asset": "infinix.svg"
     },
     "Itel": {
-      "class": "brand",
       "id": "itel",
       "name": "Itel",
-      "label": "Itel",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Itel",
       "asset": "itel.svg"
     },
     "Jolla": {
-      "class": "brand",
       "id": "jolla",
       "name": "Jolla",
-      "label": "Jolla",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Jolla",
       "asset": "jolla.svg"
     },
     "Kyocera": {
-      "class": "brand",
       "id": "kyocera",
       "name": "Kyocera",
-      "label": "Kyocera",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Kyocera",
       "asset": "kyocera.svg"
     },
     "Lenovo": {
-      "class": "brand",
       "id": "lenovo",
       "name": "Lenovo",
-      "label": "Lenovo",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Lenovo",
       "asset": "lenovo.svg"
     },
     "LG": {
-      "class": "brand",
       "id": "lg",
       "name": "LG",
-      "label": "LG",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "LG",
       "asset": "lg.svg"
     },
     "Meizu": {
-      "class": "brand",
       "id": "meizu",
       "name": "Meizu",
-      "label": "Meizu",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Meizu",
       "asset": "meizu.svg"
     },
     "Micromax": {
-      "class": "brand",
       "id": "micromax",
       "name": "Micromax",
-      "label": "Micromax",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Micromax",
       "asset": "micromax.svg"
     },
     "Microsoft": {
-      "class": "brand",
       "id": "microsoft",
       "name": "Microsoft",
-      "label": "Microsoft",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Microsoft",
       "asset": "microsoft.svg"
     },
     "Motorola": {
-      "class": "brand",
       "id": "motorola",
       "name": "Motorola",
-      "label": "Motorola",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Motorola",
       "asset": "motorola.svg"
     },
     "MSI": {
-      "class": "brand",
       "id": "msi",
       "name": "MSI",
-      "label": "MSI",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "MSI",
       "asset": "msi.svg"
     },
     "Nokia": {
-      "class": "brand",
       "id": "nokia",
       "name": "Nokia",
-      "label": "Nokia",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Nokia",
       "asset": "nokia.svg"
     },
     "Nothing": {
-      "class": "brand",
       "id": "nothing",
       "name": "Nothing",
-      "label": "Nothing",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Nothing",
       "asset": "nothing.svg"
     },
     "OnePlus": {
-      "class": "brand",
       "id": "oneplus",
       "name": "OnePlus",
-      "label": "OnePlus",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "OnePlus",
       "asset": "oneplus.svg"
     },
     "Oppo": {
-      "class": "brand",
       "id": "oppo",
       "name": "Oppo",
-      "label": "Oppo",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Oppo",
       "asset": "oppo.svg"
     },
     "Panasonic": {
-      "class": "brand",
       "id": "panasonic",
       "name": "Panasonic",
-      "label": "Panasonic",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Panasonic",
       "asset": "panasonic.svg"
     },
     "Philips": {
-      "class": "brand",
       "id": "philips",
       "name": "Philips",
-      "label": "Philips",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Philips",
       "asset": "philips.svg"
     },
     "Realme": {
-      "class": "brand",
       "id": "realme",
       "name": "Realme",
-      "label": "Realme",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Realme",
       "asset": "realme.svg"
     },
     "Sagem": {
-      "class": "brand",
       "id": "sagem",
       "name": "Sagem",
-      "label": "Sagem",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Sagem",
       "asset": "sagem.svg"
     },
     "Samsung": {
-      "class": "brand",
       "id": "samsung",
       "name": "Samsung",
-      "label": "Samsung",
-      "entityType": "technology-company",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Samsung",
       "asset": "samsung.svg"
     },
     "Sharp": {
-      "class": "brand",
       "id": "sharp",
       "name": "Sharp",
-      "label": "Sharp",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Sharp",
       "asset": "sharp.svg"
     },
     "Siemens": {
-      "class": "brand",
       "id": "siemens",
       "name": "Siemens",
-      "label": "Siemens",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Siemens",
       "asset": "siemens.svg"
     },
     "Sony": {
-      "class": "brand",
       "id": "sony",
       "name": "Sony",
-      "label": "Sony",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Sony",
       "asset": "sony.svg"
     },
     "TCL": {
-      "class": "brand",
       "id": "tcl",
       "name": "TCL",
-      "label": "TCL",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "TCL",
       "asset": "tcl.svg"
     },
     "Toshiba": {
-      "class": "brand",
       "id": "toshiba",
       "name": "Toshiba",
-      "label": "Toshiba",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Toshiba",
       "asset": "toshiba.svg"
     },
     "ViewSonic": {
-      "class": "brand",
       "id": "viewsonic",
       "name": "ViewSonic",
-      "label": "ViewSonic",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "ViewSonic",
       "asset": "viewsonic.svg"
     },
     "Wiko": {
-      "class": "brand",
       "id": "wiko",
       "name": "Wiko",
-      "label": "Wiko",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Wiko",
       "asset": "wiko.svg"
     },
     "Xiaomi": {
-      "class": "brand",
       "id": "xiaomi",
       "name": "Xiaomi",
-      "label": "Xiaomi",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Xiaomi",
       "asset": "xiaomi.svg"
     },
     "Yezz": {
-      "class": "brand",
       "id": "yezz",
       "name": "Yezz",
-      "label": "Yezz",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "Yezz",
       "asset": "yezz.svg"
     },
-    "Pixel": {
-      "class": "device-family",
-      "id": "pixel",
-      "name": "Pixel",
-      "aliases": ["Google Pixel"],
-      "parents": ["google"],
-      "context": ["android"]
-    },
-    "iOS": {
-      "class": "platform",
-      "id": "ios",
-      "name": "iOS",
-      "parents": ["apple"]
-    },
-    "iPhone": {
-      "class": "device-family",
-      "id": "iphone",
-      "name": "iPhone",
-      "parents": ["apple"],
-      "context": ["ios"]
-    },
-    "Galaxy": {
-      "class": "device-family",
-      "id": "galaxy",
-      "name": "Galaxy",
-      "parents": ["samsung"],
-      "context": ["android"]
-    },
-    "US Mobile": {
-      "class": "carrier",
-      "id": "us-mobile",
-      "name": "US Mobile",
-      "subtype": "mvno",
-      "regions": ["North America"]
-    },
-    "Pokémon": {
-      "class": "brand",
-      "id": "pokemon",
-      "name": "Pokémon",
-      "aliases": ["Pokemon"],
-      "entityType": "gaming-franchise"
-    },
-    "Pokémon GO": {
-      "class": "game",
-      "id": "pokemon-go",
-      "name": "Pokémon GO",
-      "aliases": ["Pokemon GO"],
-      "parents": ["pokemon"],
-      "context": ["gaming"]
-    },
-    "Firefox": {
-      "class": "brand",
-      "id": "firefox",
-      "name": "Firefox",
-      "entityType": "browser",
-      "context": ["browsers"]
-    },
-    "Opera": {
-      "class": "brand",
-      "id": "opera",
-      "name": "Opera",
-      "entityType": "browser",
-      "context": ["browsers"]
-    },
-    "Chrome": {
-      "class": "brand",
-      "id": "chrome",
-      "name": "Chrome",
-      "entityType": "browser",
-      "parents": ["google"],
-      "context": ["browsers"]
-    },
     "ZTE": {
-      "class": "brand",
       "id": "zte",
       "name": "ZTE",
-      "label": "ZTE",
+      "kind": "organization",
+      "roles": [
+        "brand"
+      ],
+      "sourceLabel": "ZTE",
       "asset": "zte.svg"
     }
   },
-  "updated": "2026-07-29"
+  "updated": "2026-07-30"
 }
