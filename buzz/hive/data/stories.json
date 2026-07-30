@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T12:02:53.339Z",
+  "updatedAt": "2026-07-30T14:29:48.231Z",
   "stories": [
+    {
+      "id": "google-news-e34d22620052c11c",
+      "headline": "Transform any place with Nano Banana in Google Earth",
+      "url": "https://blog.google/products-and-platforms/products/earth/nano-banana-google-earth-image-generation/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-30T12:30:00.000Z",
+      "collectedAt": "2026-07-30T14:29:28.055Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-8349f68dd8803365",
       "headline": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control.",
