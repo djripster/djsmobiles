@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T14:37:16.695Z",
+  "updatedAt": "2026-07-31T16:55:26.866Z",
   "stories": [
+    {
+      "id": "google-news-04e5894ab585e2de",
+      "headline": "Find out what’s new in the Gemini app in July's Gemini Drop.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-31T16:00:00.000Z",
+      "collectedAt": "2026-07-31T16:55:06.723Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-b944f9d0dc67e63e",
       "headline": "[Video] Unfolding New Experiences With the Galaxy Z Series",

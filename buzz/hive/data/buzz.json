@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T14:37:16.734Z",
+  "updatedAt": "2026-07-31T16:55:26.915Z",
   "items": [
+    {
+      "id": "google-news-04e5894ab585e2de",
+      "headline": "Google: Find out what’s new in the Gemini app in July's Gemini Drop.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-31T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-b944f9d0dc67e63e",
       "headline": "Samsung: [Video] Unfolding New Experiences With the Galaxy Z Series",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-07-29T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-9ceb4566bc9d767c",
-      "headline": "inwi and Huawei Commercially Deploy 8T8R Solution, Setting New Benchmark for Mobile Experience on High-Speed Transportation Corridors",
-      "url": "https://www.huawei.com/en/news/2026/7/8t8r-highspeedrailway-hyperbeamforming",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-07-29T11:38:46.004Z",
       "type": "standard"
     }
   ]
