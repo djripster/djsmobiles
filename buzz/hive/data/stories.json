@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T18:43:56.548Z",
+  "updatedAt": "2026-07-31T20:37:18.918Z",
   "stories": [
+    {
+      "id": "google-news-5566bf3bec361e2f",
+      "headline": "Simplify your morning with this vibe-coded schedule app.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-31T19:00:00.000Z",
+      "collectedAt": "2026-07-31T20:36:58.784Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-04e5894ab585e2de",
       "headline": "Find out what’s new in the Gemini app in July's Gemini Drop.",

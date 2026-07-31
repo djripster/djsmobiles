@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T18:43:56.598Z",
+  "updatedAt": "2026-07-31T20:37:19.036Z",
   "items": [
+    {
+      "id": "google-news-5566bf3bec361e2f",
+      "headline": "Google: Simplify your morning with this vibe-coded schedule app.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-07-31T19:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-04e5894ab585e2de",
       "headline": "Google: Find out what’s new in the Gemini app in July's Gemini Drop.",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-07-29T15:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-18e8d4ab775bfb03",
-      "headline": "Google: Gemini for macOS adds new natural language capabilities",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-29T15:00:00.000Z",
       "type": "standard"
     }
   ]
