@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T07:12:41.102Z",
+  "updatedAt": "2026-07-31T09:59:26.339Z",
   "items": [
     {
       "id": "samsung-global-newsroom-b944f9d0dc67e63e",
@@ -20,6 +20,17 @@
       "sourceId": "samsung-global-newsroom",
       "brandIds": [
         "samsung"
+      ],
+      "publishedAt": "2026-07-31T08:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-f0d3b5f3abe8ba04",
+      "headline": "Google: Experience the magic of Kosovo from anywhere with Street View",
+      "url": "https://blog.google/products-and-platforms/products/maps/google-street-view-kosovo/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
       ],
       "publishedAt": "2026-07-31T08:00:00.000Z",
       "type": "standard"
@@ -154,17 +165,6 @@
         "huawei"
       ],
       "publishedAt": "2026-07-29T11:38:46.004Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-7691342c0d33f9ea",
-      "headline": "Google: How Gemini Flash agents are helping a Michigan dairy farmer",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-28T16:15:00.000Z",
       "type": "standard"
     }
   ]
