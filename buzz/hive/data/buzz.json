@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T00:14:51.921Z",
+  "updatedAt": "2026-07-31T03:51:28.009Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-b944f9d0dc67e63e",
+      "headline": "Samsung: [Video] Unfolding New Experiences With the Galaxy Z Series",
+      "url": "https://news.samsung.com/global/video-unfolding-new-experiences-with-the-galaxy-z-series",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-31T08:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-fc9304f962e39f03",
+      "headline": "Samsung: [Interview] [Galaxy Unpacked July 2026] Intelligent Eyewear: The First Step Toward the Next Mobile AI Interface",
+      "url": "https://news.samsung.com/global/interview-galaxy-unpacked-july-2026-intelligent-eyewear-the-first-step-toward-the-next-mobile-ai-interface",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-31T08:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5a01c69735c087a1",
       "headline": "Google: Gemini Spark now integrates with Chrome",
@@ -143,28 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-07-28T16:15:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-55560096859ebe20",
-      "headline": "Google: Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-28T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-7fd8522a2c7e4fc3",
-      "headline": "Google: 3 new ways nonprofits can put AI to work",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/nonprofits-ai-tools-training/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-28T16:00:00.000Z",
       "type": "standard"
     }
   ]

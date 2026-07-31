@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T00:14:51.538Z",
+  "updatedAt": "2026-07-31T03:51:27.955Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-b944f9d0dc67e63e",
+      "headline": "[Video] Unfolding New Experiences With the Galaxy Z Series",
+      "url": "https://news.samsung.com/global/video-unfolding-new-experiences-with-the-galaxy-z-series",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-31T08:00:00.000Z",
+      "collectedAt": "2026-07-31T03:51:27.188Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-fc9304f962e39f03",
+      "headline": "[Interview] [Galaxy Unpacked July 2026] Intelligent Eyewear: The First Step Toward the Next Mobile AI Interface",
+      "url": "https://news.samsung.com/global/interview-galaxy-unpacked-july-2026-intelligent-eyewear-the-first-step-toward-the-next-mobile-ai-interface",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-31T08:00:00.000Z",
+      "collectedAt": "2026-07-31T03:51:27.188Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5a01c69735c087a1",
       "headline": "Gemini Spark now integrates with Chrome",
