@@ -2192,7 +2192,21 @@
       ],
       "sourceLabel": "ZTE",
       "asset": "zte.svg"
+    },
+    "Windows": {
+      "id": "windows",
+      "name": "Windows",
+      "kind": "platform",
+      "roles": [
+        "platform"
+      ],
+      "domains": [
+        "computing"
+      ],
+      "relationships": {
+        "owner": "microsoft"
+      }
     }
   },
-  "updated": "2026-07-30"
+  "updated": "2026-07-31"
 }
