@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T09:19:24.095Z",
+  "updatedAt": "2026-08-02T11:33:26.800Z",
   "items": [
     {
       "id": "google-news-5566bf3bec361e2f",
@@ -110,17 +110,6 @@
         "google"
       ],
       "publishedAt": "2026-07-30T12:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-2558f6527bf922f9",
-      "headline": "Samsung: [Interview] [Galaxy Unpacked July 2026] Inside the Engineering Behind the Latest Galaxy Z Series",
-      "url": "https://news.samsung.com/global/interview-galaxy-unpacked-july-2026-inside-the-engineering-behind-the-latest-galaxy-z-series",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-07-30T10:41:00.000Z",
       "type": "standard"
     }
   ]
