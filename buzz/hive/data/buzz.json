@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T11:33:26.800Z",
+  "updatedAt": "2026-08-02T13:51:47.029Z",
   "items": [
     {
       "id": "google-news-5566bf3bec361e2f",
@@ -99,17 +99,6 @@
         "google"
       ],
       "publishedAt": "2026-07-30T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-e34d22620052c11c",
-      "headline": "Transform any place with Nano Banana in Google Earth",
-      "url": "https://blog.google/products-and-platforms/products/earth/nano-banana-google-earth-image-generation/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-30T12:30:00.000Z",
       "type": "standard"
     }
   ]
