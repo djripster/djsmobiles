@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T13:51:47.029Z",
+  "updatedAt": "2026-08-02T15:17:39.878Z",
   "items": [
     {
       "id": "google-news-5566bf3bec361e2f",
@@ -77,28 +77,6 @@
         "huawei"
       ],
       "publishedAt": "2026-07-30T19:34:07.811Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-0bb5162dd11b68c1",
-      "headline": "Google: Introducing Gemini Robotics ER 2",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-30T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-4f7ea67314c2f480",
-      "headline": "Take a look at short films created by our latest group of artists in Google’s Flow Sessions program.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/google-flow-sessions-short-films/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-30T15:00:00.000Z",
       "type": "standard"
     }
   ]
