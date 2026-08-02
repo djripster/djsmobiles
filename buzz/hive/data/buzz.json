@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-02T19:32:12.935Z",
+  "updatedAt": "2026-08-02T21:09:22.145Z",
   "items": [
     {
       "id": "google-news-5566bf3bec361e2f",
@@ -55,28 +55,6 @@
         "google"
       ],
       "publishedAt": "2026-07-31T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5a01c69735c087a1",
-      "headline": "Google: Gemini Spark now integrates with Chrome",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-30T20:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-15cfab867801223e",
-      "headline": "Huawei's MB2 Antenna Wins 2026 Red Dot Design Award",
-      "url": "https://www.huawei.com/en/news/2026/7/reddot-mb2",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-07-30T19:34:07.811Z",
       "type": "standard"
     }
   ]
