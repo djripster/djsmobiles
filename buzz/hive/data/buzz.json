@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T15:13:48.802Z",
+  "updatedAt": "2026-08-03T17:19:44.387Z",
   "items": [
+    {
+      "id": "google-news-5631b64c6ecc9a47",
+      "headline": "Google: Welcome to Sail Tower, our newest Austin office",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/austin-office-sail-tower/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-03T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-6193ed5523d0e166",
       "headline": "Google: Inside our 353,000-person vibe coding course",
@@ -22,17 +33,6 @@
         "google"
       ],
       "publishedAt": "2026-07-31T19:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-04e5894ab585e2de",
-      "headline": "Google: Find out what’s new in the Gemini app in July's Gemini Drop.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-31T16:00:00.000Z",
       "type": "standard"
     }
   ]
