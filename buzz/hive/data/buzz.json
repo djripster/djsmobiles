@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T07:44:18.424Z",
+  "updatedAt": "2026-08-03T11:41:54.105Z",
   "items": [
     {
       "id": "google-news-5566bf3bec361e2f",
@@ -22,39 +22,6 @@
         "google"
       ],
       "publishedAt": "2026-07-31T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-b944f9d0dc67e63e",
-      "headline": "Samsung: [Video] Unfolding New Experiences With the Galaxy Z Series",
-      "url": "https://news.samsung.com/global/video-unfolding-new-experiences-with-the-galaxy-z-series",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-07-31T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-fc9304f962e39f03",
-      "headline": "Samsung: [Interview] [Galaxy Unpacked July 2026] Intelligent Eyewear: The First Step Toward the Next Mobile AI Interface",
-      "url": "https://news.samsung.com/global/interview-galaxy-unpacked-july-2026-intelligent-eyewear-the-first-step-toward-the-next-mobile-ai-interface",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-07-31T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-f0d3b5f3abe8ba04",
-      "headline": "Google: Experience the magic of Kosovo from anywhere with Street View",
-      "url": "https://blog.google/products-and-platforms/products/maps/google-street-view-kosovo/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-31T08:00:00.000Z",
       "type": "standard"
     }
   ]
