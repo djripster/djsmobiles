@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T11:41:54.051Z",
+  "updatedAt": "2026-08-03T15:13:48.750Z",
   "stories": [
+    {
+      "id": "google-news-6193ed5523d0e166",
+      "headline": "Inside our 353,000-person vibe coding course",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-03T15:00:00.000Z",
+      "collectedAt": "2026-08-03T15:13:28.594Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5566bf3bec361e2f",
       "headline": "Simplify your morning with this vibe-coded schedule app.",
