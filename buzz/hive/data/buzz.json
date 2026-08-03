@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T17:19:44.387Z",
+  "updatedAt": "2026-08-03T19:55:28.565Z",
   "items": [
     {
       "id": "google-news-5631b64c6ecc9a47",
@@ -22,17 +22,6 @@
         "google"
       ],
       "publishedAt": "2026-08-03T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5566bf3bec361e2f",
-      "headline": "Google: Simplify your morning with this vibe-coded schedule app.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-07-31T19:00:00.000Z",
       "type": "standard"
     }
   ]
