@@ -26,13 +26,13 @@
         return this.labelRegistryReady;
       }
 
-      this.labelRegistryReady = window.fetch(LABEL_REGISTRY_URL, { cache: 'no-store' })
+      this.labelRegistryReady = window.fetch(LABEL_REGISTRY_URL, { cache: 'no-cache' })
         .then(response => {
           if (!response || !response.ok) return null;
           return response.json();
         })
         .then(registry => {
-          if (this.isValidRegistry(registry)) {
+          if (registry && registry.labels) {
             this.labelRegistry = registry;
           }
 
@@ -94,20 +94,6 @@
         : {};
     },
 
-    isValidRegistry(registry) {
-      if (!registry || Number(registry.version) < 4 || !registry.labels || typeof registry.labels !== 'object') return false;
-
-      return Object.keys(registry.labels).every(label => {
-        const entry = registry.labels[label];
-        return !!entry &&
-          typeof entry.id === 'string' && entry.id.length > 0 &&
-          typeof entry.name === 'string' && entry.name.length > 0 &&
-          typeof entry.kind === 'string' && entry.kind.length > 0 &&
-          Array.isArray(entry.roles) && entry.roles.length > 0 &&
-          entry.roles.every(role => typeof role === 'string' && role.length > 0);
-      });
-    },
-
     getRegistryEntryForLabel(label) {
       const labels = this.getLabelRegistryMap();
       const raw = String(label || '').trim();
@@ -115,12 +101,12 @@
       if (!raw) return null;
       if (labels[raw]) return labels[raw];
 
-      /* Only explicit source-label or alias migrations are accepted. */
+      const normalized = this.normalize(raw);
+
       for (const key in labels) {
-        if (!Object.prototype.hasOwnProperty.call(labels, key)) continue;
-        const entry = labels[key];
-        if (entry && entry.sourceLabel === raw) return entry;
-        if (entry && Array.isArray(entry.aliases) && entry.aliases.indexOf(raw) !== -1) return entry;
+        if (Object.prototype.hasOwnProperty.call(labels, key) && this.normalize(key) === normalized) {
+          return labels[key];
+        }
       }
 
       return null;
@@ -139,7 +125,10 @@
     },
 
     entryRoles(entry) {
-      return entry && Array.isArray(entry.roles) ? entry.roles : [];
+      if (entry && Array.isArray(entry.roles) && entry.roles.length) return entry.roles;
+      if (entry && Array.isArray(entry.classes)) return entry.classes;
+      if (entry && (entry.class || entry.type || entry.kind)) return [entry.class || entry.type || entry.kind];
+      return [];
     },
 
     entryHasRole(entry, role) {
@@ -147,65 +136,142 @@
       return this.entryRoles(entry).some(value => this.normalize(value) === expected);
     },
 
-    classifyLabels(labels) {
-      const result = {
-        managed: [],
-        unclassified: [],
-        brands: [],
-        platforms: [],
-        types: [],
-        topics: [],
-        interestSignals: []
-      };
-
-      if (!this.labelRegistry) {
-        result.unclassified = (labels || []).map(label => String(label || '').trim()).filter(Boolean);
-        return result;
-      }
+    managedLabels(labels) {
+      const managed = [];
+      const unclassified = [];
+      const seen = {};
 
       (labels || []).forEach(label => {
-        const entry = this.getRegistryEntryForLabel(label);
-        const rawLabel = String(label || '').trim();
-        if (!entry) {
-          if (rawLabel && result.unclassified.indexOf(rawLabel) === -1) result.unclassified.push(rawLabel);
+        const raw = String(label || '').trim();
+        if (!raw) return;
+
+        const entry = this.getRegistryEntryForLabel(raw);
+        if (!entry || !entry.id || !entry.kind) {
+          if (unclassified.indexOf(raw) === -1) unclassified.push(raw);
           return;
         }
 
-        const name = entry.name || rawLabel;
-        const roles = this.entryRoles(entry);
-        const signal = {
+        // A Blogger label can only contribute its own registry record. No title,
+        // owner, family, or related-label inference is permitted here.
+        if (seen[entry.id]) return;
+        seen[entry.id] = true;
+
+        managed.push({
           id: entry.id,
-          name,
+          name: entry.name || raw,
           kind: entry.kind,
-          roles: roles.slice(),
-          domains: Array.isArray(entry.domains) ? entry.domains.slice() : [],
-          relationships: entry.relationships && typeof entry.relationships === 'object' ? { ...entry.relationships } : {},
-          confidence: 'explicit-label',
-          eligible: entry.kind !== 'content-type'
-        };
+          roles: this.entryRoles(entry),
+          sourceLabel: raw
+        });
+      });
 
-        if (!result.managed.some(existing => existing.id === signal.id)) result.managed.push(signal);
-        if (!result.interestSignals.some(existing => existing.id === signal.id)) result.interestSignals.push(signal);
+      return { managed, unclassified };
+    },
 
-        if (this.entryHasRole(entry, 'brand')) {
-          result.brands.push({ id: entry.id, name });
+    interestSignals(labels) {
+      const classified = this.managedLabels(labels);
+      const signals = [];
+      const seen = {};
+
+      classified.managed.forEach(managed => {
+        let kind = '';
+        let entityType = '';
+
+        if (managed.kind === 'organization') {
+          kind = 'entity';
+          // Roles are a controlled registry vocabulary. Prefer the specific
+          // entity type, never whichever label happens to be first on a post.
+          entityType = managed.roles.indexOf('brand') !== -1 ? 'brand'
+            : (managed.roles.indexOf('carrier') !== -1 ? 'carrier' : 'organization');
+        } else if (managed.kind === 'platform') {
+          kind = 'platform';
+          entityType = 'platform';
+        } else if (managed.kind === 'topic') {
+          kind = 'topic';
+          entityType = 'topic';
+        } else {
+          // Content types and anything not explicitly modelled as an interest
+          // are retained in managedLabels but are not recommendation signals.
+          return;
         }
 
-        if (entry.kind === 'platform' || this.entryHasRole(entry, 'platform')) {
-          result.platforms.push({ id: entry.id, name });
+        const id = kind + ':' + managed.id;
+        if (seen[id]) return;
+        seen[id] = true;
+
+        signals.push({
+          id,
+          name: managed.name,
+          kind,
+          entityType,
+          role: 'primary-subject',
+          confidence: 0.95,
+          eligible: true
+        });
+      });
+
+      return {
+        managed: classified.managed,
+        unclassified: classified.unclassified,
+        signals
+      };
+    },
+
+    classifyLabels(labels) {
+      const result = {
+        brand: null,
+        platform: null,
+        type: null,
+        topics: []
+      };
+
+      if (!this.labelRegistry) return result;
+
+      (labels || []).forEach(label => {
+        const entry = this.getRegistryEntryForLabel(label);
+        if (!entry) return;
+
+        const name = entry.name || String(label || '').trim();
+
+        if (this.entryHasRole(entry, 'brand') && !result.brand) {
+          result.brand = {
+            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
+            name
+          };
+          return;
         }
 
-        if (entry.kind === 'content-type' || this.entryHasRole(entry, 'content-type')) {
-          result.types.push({ id: entry.id, name });
+        if (this.entryHasRole(entry, 'platform') && !result.platform) {
+          result.platform = {
+            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
+            name
+          };
+          const ownerId = entry.relationships && entry.relationships.owner;
+          const owner = this.getRegistryEntryForId(ownerId);
+          if (owner && this.entryHasRole(owner, 'brand') && !result.brand) {
+            result.brand = { id: owner.id, name: owner.name || ownerId };
+          }
+          return;
+        }
+
+        if (this.entryHasRole(entry, 'content-type') && !result.type) {
+          result.type = {
+            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
+            name
+          };
+          return;
         }
 
         if (this.entryHasRole(entry, 'topic')) {
-          result.topics.push({ id: entry.id, name });
-        }
-      });
+          const topic = {
+            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
+            name
+          };
 
-      ['brands', 'platforms', 'types', 'topics'].forEach(key => {
-        result[key] = result[key].filter((entry, index, list) => list.findIndex(candidate => candidate.id === entry.id) === index);
+          if (!result.topics.some(existing => existing.name === topic.name)) {
+            result.topics.push(topic);
+          }
+        }
       });
 
       return result;
@@ -213,17 +279,17 @@
 
     detectBrand(title, labels) {
       const classified = this.classifyLabels(labels);
-      return classified.brands.length ? classified.brands[0].name : '';
+      return classified.brand ? classified.brand.name : '';
     },
 
     detectPlatform(title, labels) {
       const classified = this.classifyLabels(labels);
-      return classified.platforms.length ? classified.platforms[0].name : '';
+      return classified.platform ? classified.platform.name : '';
     },
 
     detectPostType(title, labels) {
       const classified = this.classifyLabels(labels);
-      return classified.types.length ? classified.types[0].name : '';
+      return classified.type ? classified.type.name : '';
     },
 
     detectTopics(title, labels) {
@@ -260,9 +326,6 @@
           topics: [],
           managed: [],
           unclassified: [],
-          brands: [],
-          platforms: [],
-          types: [],
           interestSignals: [],
           isHome: true
         };
@@ -271,21 +334,18 @@
       const source = article || this.collectArticleFromPage();
       const title = this.cleanTitle(source?.title || document.title || '');
       const labels = source?.labels || [];
-      const classified = this.classifyLabels(labels);
+      const interest = this.interestSignals(labels);
 
       return {
         title,
         labels,
-        brand: classified.brands.length ? classified.brands[0].name : '',
-        platform: classified.platforms.length ? classified.platforms[0].name : '',
-        type: classified.types.length ? classified.types[0].name : '',
-        topics: classified.topics.map(topic => topic.name),
-        managed: classified.managed,
-        unclassified: classified.unclassified,
-        brands: classified.brands,
-        platforms: classified.platforms,
-        types: classified.types,
-        interestSignals: classified.interestSignals,
+        brand: this.detectBrand(title, labels),
+        platform: this.detectPlatform(title, labels),
+        type: this.detectPostType(title, labels),
+        topics: this.detectTopics(title, labels),
+        managed: interest.managed,
+        unclassified: interest.unclassified,
+        interestSignals: interest.signals,
         isHome: false
       };
     },

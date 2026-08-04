@@ -78,7 +78,7 @@
     }
 
     return {
-      schemaVersion: 1,
+      schemaVersion: 2,
       ready: true,
 
       page: {
