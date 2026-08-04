@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T12:17:18.357Z",
+  "updatedAt": "2026-08-04T15:33:56.362Z",
   "stories": [
+    {
+      "id": "google-news-58ba351a21396b43",
+      "headline": "The latest AI news we announced in July 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-04T13:00:00.000Z",
+      "collectedAt": "2026-08-04T15:33:36.100Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-53b058105eeb81e6",
       "headline": "Samsung Launches World’s First HDR10+ ADVANCED Streaming Experience on Prime Video",
