@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T18:02:19.319Z",
+  "updatedAt": "2026-08-04T19:55:03.234Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-42b5f82863a8bc9c",
+      "headline": "Huawei's E-band Microwave RTN 3800 Wins 2026 iF Design Award and Red Dot Design Award",
+      "url": "https://www.huawei.com/en/news/2026/8/reddot-rtn3800",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-08-04T17:38:25.299Z",
+      "collectedAt": "2026-08-04T19:55:03.233Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-58ba351a21396b43",
       "headline": "The latest AI news we announced in July 2026",
