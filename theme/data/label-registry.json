@@ -20,6 +20,22 @@
       ],
       "sourceLabel": "Android"
     },
+    "Windows": {
+      "id": "windows",
+      "name": "Windows",
+      "kind": "platform",
+      "roles": [
+        "platform",
+        "operating-system"
+      ],
+      "domains": [
+        "computing"
+      ],
+      "sourceLabel": "Windows",
+      "relationships": {
+        "owner": "microsoft"
+      }
+    },
     "Specs": {
       "id": "specs",
       "name": "Specs",
@@ -345,11 +361,11 @@
       "kind": "organization",
       "roles": [
         "brand",
-        "carrier"
+        "device-maker"
       ],
       "sourceLabel": "Vivo",
-      "regions": [
-        "Latin America"
+      "domains": [
+        "mobile"
       ],
       "asset": "vivo.svg"
     },
