@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-03T23:17:58.319Z",
+  "updatedAt": "2026-08-04T03:34:04.851Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-53b058105eeb81e6",
+      "headline": "Samsung Launches World’s First HDR10+ ADVANCED Streaming Experience on Prime Video",
+      "url": "https://news.samsung.com/global/samsung-launches-worlds-first-hdr10-advanced-streaming-experience-on-prime-video",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-04T08:00:00.000Z",
+      "collectedAt": "2026-08-04T03:34:04.372Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5631b64c6ecc9a47",
       "headline": "Welcome to Sail Tower, our newest Austin office",
@@ -24,6 +36,18 @@
       ],
       "publishedAt": "2026-08-03T15:00:00.000Z",
       "collectedAt": "2026-08-03T15:13:28.594Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-78bfbd590932ec50",
+      "headline": "[Interview] [Galaxy Unpacked July 2026] Inside the Design Behind the Latest Galaxy Z Series and Galaxy Watch",
+      "url": "https://news.samsung.com/global/interview-galaxy-unpacked-july-2026-inside-the-design-behind-the-latest-galaxy-z-series-and-galaxy-watch",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-03T13:00:00.000Z",
+      "collectedAt": "2026-08-04T03:34:04.372Z",
       "type": "standard"
     },
     {
@@ -228,6 +252,18 @@
       ],
       "publishedAt": "2026-07-29T11:38:46.004Z",
       "collectedAt": "2026-07-29T19:41:03.023Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-82a1b8630d11b0ea",
+      "headline": "Samsung Marks Galaxy Z Fold8 Debut With Skydiving Performance Above Palm Jumeirah in Dubai",
+      "url": "https://news.samsung.com/global/samsung-marks-galaxy-z-fold8-debut-with-skydiving-performance-above-palm-jumeirah-in-dubai",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "collectedAt": "2026-08-04T03:34:04.372Z",
       "type": "standard"
     },
     {
