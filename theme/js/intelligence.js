@@ -1,7 +1,7 @@
 /*
  * DJs Mobiles Intelligence
  * Module: intelligence.js
- * Prototype: v0.3.0
+ * Prototype: v0.4.0
  *
  * Shared website intelligence layer.
  * Theme first. Pulse second.
@@ -14,7 +14,7 @@
   const LABEL_REGISTRY_URL = 'https://djripster.github.io/djsmobiles/theme/data/label-registry.json';
 
   const Intelligence = {
-    version: '0.3.0',
+    version: '0.4.0',
     labelRegistry: null,
     labelRegistryReady: null,
 
@@ -26,13 +26,13 @@
         return this.labelRegistryReady;
       }
 
-      this.labelRegistryReady = window.fetch(LABEL_REGISTRY_URL, { cache: 'no-cache' })
+      this.labelRegistryReady = window.fetch(LABEL_REGISTRY_URL, { cache: 'no-store' })
         .then(response => {
           if (!response || !response.ok) return null;
           return response.json();
         })
         .then(registry => {
-          if (registry && registry.labels) {
+          if (this.isValidRegistry(registry)) {
             this.labelRegistry = registry;
           }
 
@@ -94,6 +94,20 @@
         : {};
     },
 
+    isValidRegistry(registry) {
+      if (!registry || Number(registry.version) < 4 || !registry.labels || typeof registry.labels !== 'object') return false;
+
+      return Object.keys(registry.labels).every(label => {
+        const entry = registry.labels[label];
+        return !!entry &&
+          typeof entry.id === 'string' && entry.id.length > 0 &&
+          typeof entry.name === 'string' && entry.name.length > 0 &&
+          typeof entry.kind === 'string' && entry.kind.length > 0 &&
+          Array.isArray(entry.roles) && entry.roles.length > 0 &&
+          entry.roles.every(role => typeof role === 'string' && role.length > 0);
+      });
+    },
+
     getRegistryEntryForLabel(label) {
       const labels = this.getLabelRegistryMap();
       const raw = String(label || '').trim();
@@ -101,12 +115,12 @@
       if (!raw) return null;
       if (labels[raw]) return labels[raw];
 
-      const normalized = this.normalize(raw);
-
+      /* Only explicit source-label or alias migrations are accepted. */
       for (const key in labels) {
-        if (Object.prototype.hasOwnProperty.call(labels, key) && this.normalize(key) === normalized) {
-          return labels[key];
-        }
+        if (!Object.prototype.hasOwnProperty.call(labels, key)) continue;
+        const entry = labels[key];
+        if (entry && entry.sourceLabel === raw) return entry;
+        if (entry && Array.isArray(entry.aliases) && entry.aliases.indexOf(raw) !== -1) return entry;
       }
 
       return null;
@@ -125,10 +139,7 @@
     },
 
     entryRoles(entry) {
-      if (entry && Array.isArray(entry.roles) && entry.roles.length) return entry.roles;
-      if (entry && Array.isArray(entry.classes)) return entry.classes;
-      if (entry && (entry.class || entry.type || entry.kind)) return [entry.class || entry.type || entry.kind];
-      return [];
+      return entry && Array.isArray(entry.roles) ? entry.roles : [];
     },
 
     entryHasRole(entry, role) {
@@ -138,59 +149,63 @@
 
     classifyLabels(labels) {
       const result = {
-        brand: null,
-        platform: null,
-        type: null,
-        topics: []
+        managed: [],
+        unclassified: [],
+        brands: [],
+        platforms: [],
+        types: [],
+        topics: [],
+        interestSignals: []
       };
 
-      if (!this.labelRegistry) return result;
+      if (!this.labelRegistry) {
+        result.unclassified = (labels || []).map(label => String(label || '').trim()).filter(Boolean);
+        return result;
+      }
 
       (labels || []).forEach(label => {
         const entry = this.getRegistryEntryForLabel(label);
-        if (!entry) return;
-
-        const name = entry.name || String(label || '').trim();
-
-        if (this.entryHasRole(entry, 'brand') && !result.brand) {
-          result.brand = {
-            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
-            name
-          };
+        const rawLabel = String(label || '').trim();
+        if (!entry) {
+          if (rawLabel && result.unclassified.indexOf(rawLabel) === -1) result.unclassified.push(rawLabel);
           return;
         }
 
-        if (this.entryHasRole(entry, 'platform') && !result.platform) {
-          result.platform = {
-            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
-            name
-          };
-          const ownerId = entry.relationships && entry.relationships.owner;
-          const owner = this.getRegistryEntryForId(ownerId);
-          if (owner && this.entryHasRole(owner, 'brand') && !result.brand) {
-            result.brand = { id: owner.id, name: owner.name || ownerId };
-          }
-          return;
+        const name = entry.name || rawLabel;
+        const roles = this.entryRoles(entry);
+        const signal = {
+          id: entry.id,
+          name,
+          kind: entry.kind,
+          roles: roles.slice(),
+          domains: Array.isArray(entry.domains) ? entry.domains.slice() : [],
+          relationships: entry.relationships && typeof entry.relationships === 'object' ? { ...entry.relationships } : {},
+          confidence: 'explicit-label',
+          eligible: entry.kind !== 'content-type'
+        };
+
+        if (!result.managed.some(existing => existing.id === signal.id)) result.managed.push(signal);
+        if (!result.interestSignals.some(existing => existing.id === signal.id)) result.interestSignals.push(signal);
+
+        if (this.entryHasRole(entry, 'brand')) {
+          result.brands.push({ id: entry.id, name });
         }
 
-        if (this.entryHasRole(entry, 'content-type') && !result.type) {
-          result.type = {
-            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
-            name
-          };
-          return;
+        if (entry.kind === 'platform' || this.entryHasRole(entry, 'platform')) {
+          result.platforms.push({ id: entry.id, name });
+        }
+
+        if (entry.kind === 'content-type' || this.entryHasRole(entry, 'content-type')) {
+          result.types.push({ id: entry.id, name });
         }
 
         if (this.entryHasRole(entry, 'topic')) {
-          const topic = {
-            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
-            name
-          };
-
-          if (!result.topics.some(existing => existing.name === topic.name)) {
-            result.topics.push(topic);
-          }
+          result.topics.push({ id: entry.id, name });
         }
+      });
+
+      ['brands', 'platforms', 'types', 'topics'].forEach(key => {
+        result[key] = result[key].filter((entry, index, list) => list.findIndex(candidate => candidate.id === entry.id) === index);
       });
 
       return result;
@@ -198,17 +213,17 @@
 
     detectBrand(title, labels) {
       const classified = this.classifyLabels(labels);
-      return classified.brand ? classified.brand.name : '';
+      return classified.brands.length ? classified.brands[0].name : '';
     },
 
     detectPlatform(title, labels) {
       const classified = this.classifyLabels(labels);
-      return classified.platform ? classified.platform.name : '';
+      return classified.platforms.length ? classified.platforms[0].name : '';
     },
 
     detectPostType(title, labels) {
       const classified = this.classifyLabels(labels);
-      return classified.type ? classified.type.name : '';
+      return classified.types.length ? classified.types[0].name : '';
     },
 
     detectTopics(title, labels) {
@@ -243,6 +258,12 @@
           platform: '',
           type: 'Home',
           topics: [],
+          managed: [],
+          unclassified: [],
+          brands: [],
+          platforms: [],
+          types: [],
+          interestSignals: [],
           isHome: true
         };
       }
@@ -250,14 +271,21 @@
       const source = article || this.collectArticleFromPage();
       const title = this.cleanTitle(source?.title || document.title || '');
       const labels = source?.labels || [];
+      const classified = this.classifyLabels(labels);
 
       return {
         title,
         labels,
-        brand: this.detectBrand(title, labels),
-        platform: this.detectPlatform(title, labels),
-        type: this.detectPostType(title, labels),
-        topics: this.detectTopics(title, labels),
+        brand: classified.brands.length ? classified.brands[0].name : '',
+        platform: classified.platforms.length ? classified.platforms[0].name : '',
+        type: classified.types.length ? classified.types[0].name : '',
+        topics: classified.topics.map(topic => topic.name),
+        managed: classified.managed,
+        unclassified: classified.unclassified,
+        brands: classified.brands,
+        platforms: classified.platforms,
+        types: classified.types,
+        interestSignals: classified.interestSignals,
         isHome: false
       };
     },

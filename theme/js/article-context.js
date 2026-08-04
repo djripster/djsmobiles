@@ -58,20 +58,20 @@
       return intelligence.analyzeArticle();
     }, {}) || {};
 
-    var deviceIntel = window.djsDeviceIntel || {};
     var pageType = normalizePageType(analyzed);
 
     var article = null;
 
     if (pageType === 'article') {
       article = {
-        type: analyzed.type || deviceIntel.postType || null,
-        brand: analyzed.brand || deviceIntel.brand || null,
-        platform: analyzed.platform || deviceIntel.platform || null,
-        family: familyDisplayName(deviceIntel.family || ''),
-        familyId: deviceIntel.family || '',
-        labels: analyzed.labels || deviceIntel.labels || [],
+        type: analyzed.type || null,
+        brand: analyzed.brand || null,
+        platform: analyzed.platform || null,
+        labels: analyzed.labels || [],
         topics: analyzed.topics || [],
+        managedLabels: analyzed.managed || [],
+        unclassifiedLabels: analyzed.unclassified || [],
+        interestSignals: analyzed.interestSignals || [],
         isSponsored: false,
         isGuest: false
       };
@@ -110,7 +110,12 @@ function publishSiteIntelligence() {
 }
 
   function publishWhenReady() {
-    var registryReady = window.DjsIntelligence && window.DjsIntelligence.labelRegistryReady;
+    var intelligence = window.DjsIntelligence || {};
+    var registryReady = safeCall(function () {
+      return typeof intelligence.initLabelRegistry === 'function'
+        ? intelligence.initLabelRegistry()
+        : intelligence.labelRegistryReady;
+    }, null);
 
     if (registryReady && typeof registryReady.then === 'function') {
       registryReady.then(publishSiteIntelligence).catch(publishSiteIntelligence);
