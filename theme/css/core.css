@@ -2242,3 +2242,33 @@ body.dark-mode .featured-buzz,
     transform: none;
   }
 }
+
+/* ==========================================================
+   Section Header System
+   Bold, full-width dividers for major article sections.
+   ========================================================== */
+.section-header {
+  --section-header-bg: #1976d2;
+
+  margin: 32px 0 16px;
+  padding: 12px 16px;
+  background: var(--section-header-bg);
+  border-radius: 10px;
+  color: #fff;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+.section-header--blue    { --section-header-bg: #1976d2; }
+.section-header--green   { --section-header-bg: #2e7d32; }
+.section-header--orange  { --section-header-bg: #d97706; }
+.section-header--red     { --section-header-bg: #d32f2f; }
+.section-header--purple  { --section-header-bg: #7b1fa2; }
+.section-header--teal    { --section-header-bg: #0f766e; }
+.section-header--neutral { --section-header-bg: #475569; }
+
+.dark-mode .section-header {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+}
