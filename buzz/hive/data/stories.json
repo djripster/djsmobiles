@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T14:34:51.476Z",
+  "updatedAt": "2026-08-05T16:51:23.134Z",
   "stories": [
+    {
+      "id": "google-news-543b898b1d1b7d82",
+      "headline": "The next chapter of our AI momentum",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-05T16:00:00.000Z",
+      "collectedAt": "2026-08-05T16:51:02.962Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-42b5f82863a8bc9c",
       "headline": "Huawei's E-band Microwave RTN 3800 Wins 2026 iF Design Award and Red Dot Design Award",
