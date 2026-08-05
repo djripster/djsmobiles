@@ -2272,3 +2272,77 @@ body.dark-mode .featured-buzz,
 .dark-mode .section-header {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
 }
+
+/* ==========================================================================
+   App Download Component
+   Usage: .app-download + platform modifier
+   ========================================================================== */
+
+.app-download {
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 16px 0;
+  border-left: 5px solid;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.app-download__title {
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 10px 0;
+}
+
+.app-download ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.app-download ul li {
+  font-size: 0.9rem;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  color: #1a1a2e;
+}
+
+.app-download ul li:last-child {
+  border-bottom: none;
+}
+
+/* Platform variants */
+.app-download--android {
+  background: #F0FBF5;
+  border-left-color: #3DDC84;
+}
+
+.app-download--android .app-download__title {
+  color: #1a7a42;
+}
+
+.app-download--ios {
+  background: #F0F6FF;
+  border-left-color: #0071E3;
+}
+
+.app-download--ios .app-download__title {
+  color: #0050a0;
+}
+
+.app-download--windows {
+  background: #F0F8FF;
+  border-left-color: #00A4EF;
+}
+
+.app-download--windows .app-download__title {
+  color: #006aaa;
+}
+
+.app-download--other {
+  background: #F5F6F7;
+  border-left-color: #5A6A7A;
+}
+
+.app-download--other .app-download__title {
+  color: #3a4a5a;
+}
