@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T12:16:57.403Z",
+  "updatedAt": "2026-08-06T15:26:28.303Z",
   "items": [
+    {
+      "id": "google-news-57be00a8fb4ba4af",
+      "headline": "Google: Our WeatherNext 2 AI model demonstrated a massive leap forward in predicting cyclones.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-2-cyclones/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-06T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-18291651db99ad77",
+      "headline": "Step into the world of tango on Google Arts & Culture",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/argentina-tango-collection/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-06T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d3ef96dcffd5d0c1",
+      "headline": "Google: Ask Maps gets more helpful with food ordering and more",
+      "url": "https://blog.google/products-and-platforms/products/maps/order-food-in-ask-maps/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-06T12:30:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-543b898b1d1b7d82",
       "headline": "Google: The next chapter of our AI momentum",
@@ -55,28 +88,6 @@
         "google"
       ],
       "publishedAt": "2026-08-03T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6193ed5523d0e166",
-      "headline": "Google: Inside our 353,000-person vibe coding course",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-03T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-78bfbd590932ec50",
-      "headline": "Samsung: [Interview] [Galaxy Unpacked July 2026] Inside the Design Behind the Latest Galaxy Z Series and Galaxy Watch",
-      "url": "https://news.samsung.com/global/interview-galaxy-unpacked-july-2026-inside-the-design-behind-the-latest-galaxy-z-series-and-galaxy-watch",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-03T13:00:00.000Z",
       "type": "standard"
     }
   ]

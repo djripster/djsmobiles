@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T12:16:57.356Z",
+  "updatedAt": "2026-08-06T15:26:28.258Z",
   "stories": [
+    {
+      "id": "google-news-57be00a8fb4ba4af",
+      "headline": "Our WeatherNext 2 AI model demonstrated a massive leap forward in predicting cyclones.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-2-cyclones/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-06T14:00:00.000Z",
+      "collectedAt": "2026-08-06T15:26:07.940Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-18291651db99ad77",
+      "headline": "Step into the world of tango on Google Arts & Culture",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/argentina-tango-collection/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-06T13:00:00.000Z",
+      "collectedAt": "2026-08-06T15:26:07.940Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d3ef96dcffd5d0c1",
+      "headline": "Ask Maps gets more helpful with food ordering and more",
+      "url": "https://blog.google/products-and-platforms/products/maps/order-food-in-ask-maps/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-06T12:30:00.000Z",
+      "collectedAt": "2026-08-06T15:26:07.941Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-543b898b1d1b7d82",
       "headline": "The next chapter of our AI momentum",
