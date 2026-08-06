@@ -684,3 +684,35 @@ body.dark-mode .fp-contents__grid a,
     transform: none;
   }
 }
+.fp-contents__list {
+  display: grid;
+  gap: 0.2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fp-contents__list a {
+  display: block;
+  padding: 0.55rem 0;
+  color: var(--fp-primary);
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: none;
+  border-bottom: 1px solid var(--fp-card-border);
+}
+
+.fp-contents__list li:last-child a {
+  border-bottom: 0;
+}
+
+.fp-contents__list a::before {
+  content: "→";
+  margin-right: 0.55rem;
+  color: var(--fp-primary-light);
+}
+
+.fp-contents__list a:hover,
+.fp-contents__list a:focus-visible {
+  text-decoration: underline;
+}
