@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T13:36:27.837Z",
+  "updatedAt": "2026-08-07T15:07:36.647Z",
   "stories": [
+    {
+      "id": "google-news-3a0d04875556775f",
+      "headline": "See what 5 builders are making with Gemini Omni",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-07T14:00:00.000Z",
+      "collectedAt": "2026-08-07T15:07:16.432Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-afda4f7a00b098d5",
       "headline": "[Interview] From Stage to Screen: Samsung TV Plus and Eclipsa Audio Usher in a New Era of Home Entertainment",
