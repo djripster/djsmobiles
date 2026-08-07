@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T08:20:32.750Z",
+  "updatedAt": "2026-08-07T10:08:46.913Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-afda4f7a00b098d5",
+      "headline": "[Interview] From Stage to Screen: Samsung TV Plus and Eclipsa Audio Usher in a New Era of Home Entertainment",
+      "url": "https://news.samsung.com/global/interview-from-stage-to-screen-samsung-tv-plus-and-eclipsa-audio-usher-in-a-new-era-of-home-entertainment",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-07T08:00:00.000Z",
+      "collectedAt": "2026-08-07T10:08:46.574Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-f16c60e3579bdfc0",
+      "headline": "[Video] Smarter Fitness and Everyday Wellness With New Galaxy Watch",
+      "url": "https://news.samsung.com/global/video-smarter-fitness-and-everyday-wellness-with-new-galaxy-watch",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-07T08:00:00.000Z",
+      "collectedAt": "2026-08-07T10:08:46.574Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-000c138b764e8bec",
+      "headline": "[Infographic] [Galaxy Unpacked July 2026] Samsung Members Stars Share Their Favorite Features of the New Galaxy Devices",
+      "url": "https://news.samsung.com/global/infographic-galaxy-unpacked-july-2026-samsung-members-stars-share-their-favorite-features-of-the-new-galaxy-devices",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-07T08:00:00.000Z",
+      "collectedAt": "2026-08-07T10:08:46.574Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-bc81276b19b87764",
       "headline": "How Gemini plans such detailed vacation itineraries for you",
@@ -63,6 +99,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-adfe1e0782ba32fd",
+      "headline": "Samsung Officially Launches Galaxy Z Fold8 Ultra, Fold8, Flip8, Watch Ultra2 and Watch9",
+      "url": "https://news.samsung.com/global/samsung-officially-launches-galaxy-z-fold8-ultra-fold8-flip8-watch-ultra2-and-watch9",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-06T08:00:00.000Z",
+      "collectedAt": "2026-08-07T10:08:46.574Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-543b898b1d1b7d82",
       "headline": "The next chapter of our AI momentum",
       "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
@@ -72,6 +120,18 @@
       ],
       "publishedAt": "2026-08-05T16:00:00.000Z",
       "collectedAt": "2026-08-05T16:51:02.962Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-6b83654b7e5eed93",
+      "headline": "Samsung Unveils Next-Gen 3D-Memory Vision at FMS 2026, Charting the Future of AI Infrastructure",
+      "url": "https://news.samsung.com/global/samsung-unveils-next-gen-3d-memory-vision-at-fms-2026-charting-the-future-of-ai-infrastructure",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-05T04:30:00.000Z",
+      "collectedAt": "2026-08-07T10:08:46.574Z",
       "type": "standard"
     },
     {
