@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T11:55:19.441Z",
+  "updatedAt": "2026-08-07T13:36:27.882Z",
   "items": [
     {
       "id": "samsung-global-newsroom-afda4f7a00b098d5",
@@ -132,17 +132,6 @@
         "huawei"
       ],
       "publishedAt": "2026-08-04T17:38:25.299Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-58ba351a21396b43",
-      "headline": "Google: The latest AI news we announced in July 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-04T13:00:00.000Z",
       "type": "standard"
     }
   ]
