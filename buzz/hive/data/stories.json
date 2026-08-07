@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T18:00:08.017Z",
+  "updatedAt": "2026-08-07T19:13:14.889Z",
   "stories": [
     {
       "id": "google-news-3a0d04875556775f",
@@ -12,6 +12,18 @@
       ],
       "publishedAt": "2026-08-07T14:00:00.000Z",
       "collectedAt": "2026-08-07T15:07:16.432Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-b3e362ab9ca36c2f",
+      "headline": "Huawei Named Sole Leader in GlobalData 2026 Microwave Backhaul: Competitive Landscape Assessment",
+      "url": "https://www.huawei.com/en/news/2026/8/globaldata-microwave-leader",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-08-07T11:39:42.450Z",
+      "collectedAt": "2026-08-07T19:13:14.887Z",
       "type": "standard"
     },
     {
