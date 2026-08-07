@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T15:26:28.258Z",
+  "updatedAt": "2026-08-07T00:14:05.482Z",
   "stories": [
+    {
+      "id": "google-news-bc81276b19b87764",
+      "headline": "How Gemini plans such detailed vacation itineraries for you",
+      "url": "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-06T18:00:00.000Z",
+      "collectedAt": "2026-08-07T00:13:45.219Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b9db60c952971728",
+      "headline": "Parents can now send money to their kids on Google Wallet.",
+      "url": "https://blog.google/products-and-platforms/platforms/google-pay/send-kids-money-google-wallet/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-06T16:00:00.000Z",
+      "collectedAt": "2026-08-07T00:13:45.220Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-57be00a8fb4ba4af",
       "headline": "Our WeatherNext 2 AI model demonstrated a massive leap forward in predicting cyclones.",

@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T15:26:28.303Z",
+  "updatedAt": "2026-08-07T00:14:05.536Z",
   "items": [
+    {
+      "id": "google-news-bc81276b19b87764",
+      "headline": "Google: How Gemini plans such detailed vacation itineraries for you",
+      "url": "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-06T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b9db60c952971728",
+      "headline": "Parents can now send money to their kids on Google Wallet.",
+      "url": "https://blog.google/products-and-platforms/platforms/google-pay/send-kids-money-google-wallet/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-06T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-57be00a8fb4ba4af",
       "headline": "Google: Our WeatherNext 2 AI model demonstrated a massive leap forward in predicting cyclones.",
@@ -77,17 +99,6 @@
         "samsung"
       ],
       "publishedAt": "2026-08-04T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5631b64c6ecc9a47",
-      "headline": "Google: Welcome to Sail Tower, our newest Austin office",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/austin-office-sail-tower/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-03T16:00:00.000Z",
       "type": "standard"
     }
   ]
