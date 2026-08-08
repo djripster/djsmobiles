@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-08T04:19:35.001Z",
+  "updatedAt": "2026-08-08T05:54:55.197Z",
   "items": [
     {
       "id": "google-news-3a0d04875556775f",
@@ -132,17 +132,6 @@
         "google"
       ],
       "publishedAt": "2026-08-05T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-6b83654b7e5eed93",
-      "headline": "Samsung Unveils Next-Gen 3D-Memory Vision at FMS 2026, Charting the Future of AI Infrastructure",
-      "url": "https://news.samsung.com/global/samsung-unveils-next-gen-3d-memory-vision-at-fms-2026-charting-the-future-of-ai-infrastructure",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-05T04:30:00.000Z",
       "type": "standard"
     }
   ]
