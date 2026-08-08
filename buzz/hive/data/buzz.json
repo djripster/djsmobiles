@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-08T15:44:03.818Z",
+  "updatedAt": "2026-08-08T16:50:16.581Z",
   "items": [
     {
       "id": "google-news-3a0d04875556775f",
@@ -121,17 +121,6 @@
         "samsung"
       ],
       "publishedAt": "2026-08-06T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-543b898b1d1b7d82",
-      "headline": "Google: The next chapter of our AI momentum",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-05T16:00:00.000Z",
       "type": "standard"
     }
   ]
