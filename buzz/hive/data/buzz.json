@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-09T15:44:45.079Z",
+  "updatedAt": "2026-08-09T16:52:12.205Z",
   "items": [
     {
       "id": "google-news-3a0d04875556775f",
@@ -66,17 +66,6 @@
         "google"
       ],
       "publishedAt": "2026-08-06T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b9db60c952971728",
-      "headline": "Parents can now send money to their kids on Google Wallet.",
-      "url": "https://blog.google/products-and-platforms/platforms/google-pay/send-kids-money-google-wallet/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-06T16:00:00.000Z",
       "type": "standard"
     }
   ]
