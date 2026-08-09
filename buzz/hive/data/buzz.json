@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-09T07:14:10.951Z",
+  "updatedAt": "2026-08-09T08:02:09.834Z",
   "items": [
     {
       "id": "google-news-3a0d04875556775f",
@@ -110,17 +110,6 @@
         "google"
       ],
       "publishedAt": "2026-08-06T12:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-adfe1e0782ba32fd",
-      "headline": "Samsung Officially Launches Galaxy Z Fold8 Ultra, Fold8, Flip8, Watch Ultra2 and Watch9",
-      "url": "https://news.samsung.com/global/samsung-officially-launches-galaxy-z-fold8-ultra-fold8-flip8-watch-ultra2-and-watch9",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-06T08:00:00.000Z",
       "type": "standard"
     }
   ]
