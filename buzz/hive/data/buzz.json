@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-09T11:42:29.986Z",
+  "updatedAt": "2026-08-09T13:13:16.773Z",
   "items": [
     {
       "id": "google-news-3a0d04875556775f",
@@ -88,28 +88,6 @@
         "google"
       ],
       "publishedAt": "2026-08-06T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-18291651db99ad77",
-      "headline": "Step into the world of tango on Google Arts & Culture",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/argentina-tango-collection/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-06T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d3ef96dcffd5d0c1",
-      "headline": "Google: Ask Maps gets more helpful with food ordering and more",
-      "url": "https://blog.google/products-and-platforms/products/maps/order-food-in-ask-maps/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-06T12:30:00.000Z",
       "type": "standard"
     }
   ]
