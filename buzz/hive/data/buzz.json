@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-09T17:45:47.753Z",
+  "updatedAt": "2026-08-09T18:59:05.786Z",
   "items": [
     {
       "id": "google-news-3a0d04875556775f",
@@ -55,17 +55,6 @@
         "samsung"
       ],
       "publishedAt": "2026-08-07T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-bc81276b19b87764",
-      "headline": "Google: How Gemini plans such detailed vacation itineraries for you",
-      "url": "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-06T18:00:00.000Z",
       "type": "standard"
     }
   ]
