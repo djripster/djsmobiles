@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-09T13:58:38.554Z",
+  "updatedAt": "2026-08-09T14:50:50.326Z",
   "items": [
     {
       "id": "google-news-3a0d04875556775f",
@@ -77,17 +77,6 @@
         "google"
       ],
       "publishedAt": "2026-08-06T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-57be00a8fb4ba4af",
-      "headline": "Google: Our WeatherNext 2 AI model demonstrated a massive leap forward in predicting cyclones.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-2-cyclones/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-06T14:00:00.000Z",
       "type": "standard"
     }
   ]
