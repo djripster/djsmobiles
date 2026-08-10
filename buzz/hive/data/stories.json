@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T13:41:26.021Z",
+  "updatedAt": "2026-08-10T15:15:04.002Z",
   "stories": [
+    {
+      "id": "google-news-6b59545a1676c64d",
+      "headline": "Evolve your marketing with new AI tools",
+      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-10T14:30:00.000Z",
+      "collectedAt": "2026-08-10T15:14:43.119Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-cb24b4cfd442a3c2",
       "headline": "Venmo is giving you a new way to pay on Google Play.",

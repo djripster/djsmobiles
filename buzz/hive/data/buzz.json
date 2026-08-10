@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T13:41:26.063Z",
+  "updatedAt": "2026-08-10T15:15:04.053Z",
   "items": [
+    {
+      "id": "google-news-6b59545a1676c64d",
+      "headline": "Google: Evolve your marketing with new AI tools",
+      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-10T14:30:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-cb24b4cfd442a3c2",
       "headline": "Venmo is giving you a new way to pay on Google Play.",
@@ -11,17 +22,6 @@
         "google"
       ],
       "publishedAt": "2026-08-10T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-3a0d04875556775f",
-      "headline": "Google: See what 5 builders are making with Gemini Omni",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-07T14:00:00.000Z",
       "type": "standard"
     }
   ]
