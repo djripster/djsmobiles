@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T15:15:04.053Z",
+  "updatedAt": "2026-08-10T16:09:59.825Z",
   "items": [
+    {
+      "id": "google-news-b2ade2099549ff92",
+      "headline": "Have more fun at the state fair with these Google tools",
+      "url": "https://blog.google/products-and-platforms/products/gemini/state-fair-tips/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-10T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-6b59545a1676c64d",
       "headline": "Google: Evolve your marketing with new AI tools",
