@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T11:57:32.267Z",
+  "updatedAt": "2026-08-10T13:41:26.021Z",
   "stories": [
+    {
+      "id": "google-news-cb24b4cfd442a3c2",
+      "headline": "Venmo is giving you a new way to pay on Google Play.",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/venmo-google-play-store/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-10T12:00:00.000Z",
+      "collectedAt": "2026-08-10T13:41:05.208Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-3a0d04875556775f",
       "headline": "See what 5 builders are making with Gemini Omni",
