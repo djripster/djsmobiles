@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-10T06:21:24.821Z",
+  "updatedAt": "2026-08-10T08:49:36.010Z",
   "items": [
     {
       "id": "google-news-3a0d04875556775f",
@@ -22,39 +22,6 @@
         "huawei"
       ],
       "publishedAt": "2026-08-07T11:39:42.450Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-afda4f7a00b098d5",
-      "headline": "[Interview] From Stage to Screen: Samsung TV Plus and Eclipsa Audio Usher in a New Era of Home Entertainment",
-      "url": "https://news.samsung.com/global/interview-from-stage-to-screen-samsung-tv-plus-and-eclipsa-audio-usher-in-a-new-era-of-home-entertainment",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-07T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-f16c60e3579bdfc0",
-      "headline": "Samsung: [Video] Smarter Fitness and Everyday Wellness With New Galaxy Watch",
-      "url": "https://news.samsung.com/global/video-smarter-fitness-and-everyday-wellness-with-new-galaxy-watch",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-07T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-000c138b764e8bec",
-      "headline": "[Infographic] [Galaxy Unpacked July 2026] Samsung Members Stars Share Their Favorite Features of the New Galaxy Devices",
-      "url": "https://news.samsung.com/global/infographic-galaxy-unpacked-july-2026-samsung-members-stars-share-their-favorite-features-of-the-new-galaxy-devices",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-07T08:00:00.000Z",
       "type": "standard"
     }
   ]
