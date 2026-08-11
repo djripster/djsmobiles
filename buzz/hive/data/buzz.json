@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T16:11:44.925Z",
+  "updatedAt": "2026-08-11T17:11:32.830Z",
   "items": [
+    {
+      "id": "google-news-012e30e2c241e587",
+      "headline": "Google: AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-11T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-7bf5671a78577217",
+      "headline": "Stream free movies and shows on Google TV Freeplay",
+      "url": "https://blog.google/products-and-platforms/platforms/google-tv/google-freeplay-free-on-demand-tv-shows-movies/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-11T17:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-6541ad92f1f4dfd4",
       "headline": "Google Health announces a strategic partnership with Abbott, a leader in health and wellness.",
@@ -143,28 +165,6 @@
         "huawei"
       ],
       "publishedAt": "2026-08-10T14:41:06.100Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6b59545a1676c64d",
-      "headline": "Google: Evolve your marketing with new AI tools",
-      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-10T14:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-cb24b4cfd442a3c2",
-      "headline": "Venmo is giving you a new way to pay on Google Play.",
-      "url": "https://blog.google/products-and-platforms/platforms/google-play/venmo-google-play-store/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-10T12:00:00.000Z",
       "type": "standard"
     }
   ]
