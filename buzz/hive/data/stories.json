@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T11:54:52.916Z",
+  "updatedAt": "2026-08-11T13:40:09.993Z",
   "stories": [
+    {
+      "id": "google-news-6541ad92f1f4dfd4",
+      "headline": "Google Health announces a strategic partnership with Abbott, a leader in health and wellness.",
+      "url": "https://blog.google/products-and-platforms/products/google-health/abbott-google-health-partnership/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-11T13:00:00.000Z",
+      "collectedAt": "2026-08-11T13:39:49.674Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ac9e3b2d2f353f60",
+      "headline": "Expanding the Google AI Professional Certificate with vibe coding",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/vibe-coding-course/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-11T13:00:00.000Z",
+      "collectedAt": "2026-08-11T13:39:49.674Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-b424409ae804f30d",
       "headline": "Statement Re: HPSCI's Report",
