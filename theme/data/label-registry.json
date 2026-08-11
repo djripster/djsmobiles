@@ -20,33 +20,6 @@
       ],
       "sourceLabel": "Android"
     },
-    "iOS": {
-      "id": "ios",
-      "name": "iOS",
-      "kind": "platform",
-      "roles": [
-        "platform"
-      ],
-      "sourceLabel": "iOS"
-    },
-    "Windows": {
-      "id": "windows",
-      "name": "Windows",
-      "kind": "platform",
-      "roles": [
-        "platform"
-      ],
-      "sourceLabel": "Windows"
-    },
-    "Carrier": {
-      "id": "carrier",
-      "name": "Carrier",
-      "kind": "topic",
-      "roles": [
-        "topic"
-      ],
-      "sourceLabel": "Carrier"
-    },
     "Specs": {
       "id": "specs",
       "name": "Specs",
@@ -371,9 +344,13 @@
       "name": "Vivo",
       "kind": "organization",
       "roles": [
-        "brand"
+        "brand",
+        "carrier"
       ],
       "sourceLabel": "Vivo",
+      "regions": [
+        "Latin America"
+      ],
       "asset": "vivo.svg"
     },
     "TIM": {
@@ -1735,15 +1712,6 @@
       ],
       "sourceLabel": "Apple",
       "asset": "apple.svg"
-    },
-    "Pokemon": {
-      "id": "pokemon",
-      "name": "Pokémon",
-      "kind": "organization",
-      "roles": [
-        "brand"
-      ],
-      "sourceLabel": "Pokemon"
     },
     "Archos": {
       "id": "archos",
