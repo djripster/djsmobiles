@@ -985,6 +985,69 @@ body.dark-mode .guide-related-card,
   order: 2;
 }
 
+/* Article hero labels and coverage status */
+.post-hero-labels {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+  margin: 0 0 10px;
+}
+
+.post-hero-labels .post-label-chip {
+  flex: 0 0 auto;
+}
+
+.post-status-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 11px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.post-status-badge--ongoing {
+  color: #047857;
+  background: linear-gradient(180deg, #ecfdf5 0%, #d1fae5 100%);
+  border-color: #a7f3d0;
+}
+
+.post-status-badge--ongoing::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  margin-right: 7px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.14);
+}
+
+.post-status-badge--live {
+  color: #fff;
+  background: #dc2626;
+  border-color: #b91c1c;
+}
+
+.post-status-badge--live::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  margin-right: 7px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.post-meta-row--article {
+  gap: 8px;
+  margin: 0 0 18px;
+}
+
 /* Direct coverage-format status badges on individual articles. */
 .coverage-status-row {
   display: flex;
