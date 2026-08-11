@@ -1,7 +1,7 @@
 /*
  * DJs Mobiles Intelligence
  * Module: intelligence.js
- * Prototype: v0.3.0
+ * Prototype: v0.4.0
  *
  * Shared website intelligence layer.
  * Theme first. Pulse second.
@@ -14,7 +14,7 @@
   const LABEL_REGISTRY_URL = 'https://djripster.github.io/djsmobiles/theme/data/label-registry.json';
 
   const Intelligence = {
-    version: '0.3.0',
+    version: '0.4.0',
     labelRegistry: null,
     labelRegistryReady: null,
 
@@ -141,7 +141,8 @@
         brand: null,
         platform: null,
         type: null,
-        topics: []
+        topics: [],
+        formats: []
       };
 
       if (!this.labelRegistry) return result;
@@ -181,6 +182,18 @@
           return;
         }
 
+        if (this.entryHasRole(entry, 'coverage-format')) {
+          const format = {
+            id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
+            name
+          };
+
+          if (!result.formats.some(existing => existing.id === format.id)) {
+            result.formats.push(format);
+          }
+          return;
+        }
+
         if (this.entryHasRole(entry, 'topic')) {
           const topic = {
             id: entry.id || this.normalize(name).replace(/\s+/g, '-'),
@@ -217,6 +230,10 @@
       return topics;
     },
 
+    detectFormats(labels) {
+      return this.classifyLabels(labels).formats;
+    },
+
     collectArticleFromPage() {
       const root = this.getArticleRoot();
       const titleNode = root.querySelector('.post-title, h1') || document.querySelector('.post-title, h1, title');
@@ -225,6 +242,11 @@
 
       labelNodes.forEach(function (node) {
         const label = String(node.textContent || '').trim();
+        if (label && labels.indexOf(label) === -1) labels.push(label);
+      });
+
+      root.querySelectorAll('[data-djs-format-label]').forEach(function (node) {
+        const label = String(node.getAttribute('data-djs-format-label') || '').trim();
         if (label && labels.indexOf(label) === -1) labels.push(label);
       });
 
@@ -243,6 +265,7 @@
           platform: '',
           type: 'Home',
           topics: [],
+          formats: [],
           isHome: true
         };
       }
@@ -250,14 +273,16 @@
       const source = article || this.collectArticleFromPage();
       const title = this.cleanTitle(source?.title || document.title || '');
       const labels = source?.labels || [];
+      const classified = this.classifyLabels(labels);
 
       return {
         title,
         labels,
-        brand: this.detectBrand(title, labels),
-        platform: this.detectPlatform(title, labels),
-        type: this.detectPostType(title, labels),
-        topics: this.detectTopics(title, labels),
+        brand: classified.brand ? classified.brand.name : '',
+        platform: classified.platform ? classified.platform.name : '',
+        type: classified.type ? classified.type.name : '',
+        topics: classified.topics.map(topic => topic.name),
+        formats: classified.formats,
         isHome: false
       };
     },

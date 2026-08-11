@@ -1,4 +1,4 @@
-/* DJs Mobiles Core Article Context v1.3 */
+/* DJs Mobiles Core Article Context v1.4 */
 (function () {
   function safeCall(fn, fallback) {
     try {
@@ -72,13 +72,14 @@
         familyId: deviceIntel.family || '',
         labels: analyzed.labels || deviceIntel.labels || [],
         topics: analyzed.topics || [],
+        formats: analyzed.formats || [],
         isSponsored: false,
         isGuest: false
       };
     }
 
     return {
-      schemaVersion: 1,
+      schemaVersion: 2,
       ready: true,
 
       page: {
@@ -87,7 +88,8 @@
         title: cleanTitle(analyzed.title || document.title)
       },
 
-      article: article
+      article: article,
+      formats: article ? article.formats : []
     };
   }
 
