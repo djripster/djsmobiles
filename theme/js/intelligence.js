@@ -1,7 +1,7 @@
 /*
  * DJs Mobiles Intelligence
  * Module: intelligence.js
- * Prototype: v0.4.0
+ * Prototype: v0.3.0
  *
  * Shared website intelligence layer.
  * Theme first. Pulse second.
@@ -14,7 +14,7 @@
   const LABEL_REGISTRY_URL = 'https://djripster.github.io/djsmobiles/theme/data/label-registry.json';
 
   const Intelligence = {
-    version: '0.4.0',
+    version: '0.3.0',
     labelRegistry: null,
     labelRegistryReady: null,
 
@@ -136,87 +136,6 @@
       return this.entryRoles(entry).some(value => this.normalize(value) === expected);
     },
 
-    managedLabels(labels) {
-      const managed = [];
-      const unclassified = [];
-      const seen = {};
-
-      (labels || []).forEach(label => {
-        const raw = String(label || '').trim();
-        if (!raw) return;
-
-        const entry = this.getRegistryEntryForLabel(raw);
-        if (!entry || !entry.id || !entry.kind) {
-          if (unclassified.indexOf(raw) === -1) unclassified.push(raw);
-          return;
-        }
-
-        // A Blogger label can only contribute its own registry record. No title,
-        // owner, family, or related-label inference is permitted here.
-        if (seen[entry.id]) return;
-        seen[entry.id] = true;
-
-        managed.push({
-          id: entry.id,
-          name: entry.name || raw,
-          kind: entry.kind,
-          roles: this.entryRoles(entry),
-          sourceLabel: raw
-        });
-      });
-
-      return { managed, unclassified };
-    },
-
-    interestSignals(labels) {
-      const classified = this.managedLabels(labels);
-      const signals = [];
-      const seen = {};
-
-      classified.managed.forEach(managed => {
-        let kind = '';
-        let entityType = '';
-
-        if (managed.kind === 'organization') {
-          kind = 'entity';
-          // Roles are a controlled registry vocabulary. Prefer the specific
-          // entity type, never whichever label happens to be first on a post.
-          entityType = managed.roles.indexOf('brand') !== -1 ? 'brand'
-            : (managed.roles.indexOf('carrier') !== -1 ? 'carrier' : 'organization');
-        } else if (managed.kind === 'platform') {
-          kind = 'platform';
-          entityType = 'platform';
-        } else if (managed.kind === 'topic') {
-          kind = 'topic';
-          entityType = 'topic';
-        } else {
-          // Content types and anything not explicitly modelled as an interest
-          // are retained in managedLabels but are not recommendation signals.
-          return;
-        }
-
-        const id = kind + ':' + managed.id;
-        if (seen[id]) return;
-        seen[id] = true;
-
-        signals.push({
-          id,
-          name: managed.name,
-          kind,
-          entityType,
-          role: 'primary-subject',
-          confidence: 0.95,
-          eligible: true
-        });
-      });
-
-      return {
-        managed: classified.managed,
-        unclassified: classified.unclassified,
-        signals
-      };
-    },
-
     classifyLabels(labels) {
       const result = {
         brand: null,
@@ -324,9 +243,6 @@
           platform: '',
           type: 'Home',
           topics: [],
-          managed: [],
-          unclassified: [],
-          interestSignals: [],
           isHome: true
         };
       }
@@ -334,7 +250,6 @@
       const source = article || this.collectArticleFromPage();
       const title = this.cleanTitle(source?.title || document.title || '');
       const labels = source?.labels || [];
-      const interest = this.interestSignals(labels);
 
       return {
         title,
@@ -343,9 +258,6 @@
         platform: this.detectPlatform(title, labels),
         type: this.detectPostType(title, labels),
         topics: this.detectTopics(title, labels),
-        managed: interest.managed,
-        unclassified: interest.unclassified,
-        interestSignals: interest.signals,
         isHome: false
       };
     },
