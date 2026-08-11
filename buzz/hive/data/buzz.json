@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T17:11:32.830Z",
+  "updatedAt": "2026-08-11T18:06:03.683Z",
   "items": [
     {
       "id": "google-news-012e30e2c241e587",
@@ -22,6 +22,17 @@
         "google"
       ],
       "publishedAt": "2026-08-11T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-19face5b8e898c91",
+      "headline": "Google: More than 1 billion people are using the Gemini app every month.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-11T16:00:00.000Z",
       "type": "standard"
     },
     {
@@ -154,17 +165,6 @@
         "huawei"
       ],
       "publishedAt": "2026-08-10T14:56:30.130Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-456c8feacdd02f90",
-      "headline": "Huawei: Statement Re: Patent Licensing Agreement with Qualcomm",
-      "url": "https://www.huawei.com/en/news/2020/7/huawei-qualcomm-ip-agreement",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-10T14:41:06.100Z",
       "type": "standard"
     }
   ]

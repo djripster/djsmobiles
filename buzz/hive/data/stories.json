@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T17:11:32.719Z",
+  "updatedAt": "2026-08-11T18:06:03.638Z",
   "stories": [
     {
       "id": "google-news-012e30e2c241e587",
@@ -24,6 +24,18 @@
       ],
       "publishedAt": "2026-08-11T17:00:00.000Z",
       "collectedAt": "2026-08-11T17:11:11.414Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-19face5b8e898c91",
+      "headline": "More than 1 billion people are using the Gemini app every month.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-11T16:00:00.000Z",
+      "collectedAt": "2026-08-11T18:05:42.910Z",
       "type": "standard"
     },
     {
