@@ -830,7 +830,8 @@ if (entry && entry.media$thumbnail && entry.media$thumbnail.url) {
             var chip = document.createElement('span');
             chip.className = 'updated-story-chip';
             chip.textContent = 'Updated';
-            meta.appendChild(chip);
+            var heroLabels = post.querySelector('.post-hero-labels');
+              (heroLabels || meta).appendChild(chip);
           }
         }
       }
