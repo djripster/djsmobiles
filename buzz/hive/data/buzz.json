@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-12T19:17:50.481Z",
+  "updatedAt": "2026-08-12T21:01:02.910Z",
   "items": [
     {
       "id": "google-news-5cdaf604df44a05a",
@@ -157,14 +157,14 @@
       "type": "standard"
     },
     {
-      "id": "samsung-global-newsroom-1b724c5d98d116cb",
-      "headline": "[Video] Samsung AMS Transforms Shared Classroom Displays Into Personalized Workspaces for Teachers",
-      "url": "https://news.samsung.com/global/video-samsung-ams-transforms-shared-classroom-displays-into-personalized-workspaces-for-teachers",
-      "sourceId": "samsung-global-newsroom",
+      "id": "google-news-02860cd00a3daba1",
+      "headline": "Google: Here are 3 ways your Pixel just got even more helpful.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-helpful-updates-features/",
+      "sourceId": "google-news",
       "brandIds": [
-        "samsung"
+        "google"
       ],
-      "publishedAt": "2026-08-12T11:00:00.000Z",
+      "publishedAt": "2026-08-12T14:00:00.000Z",
       "type": "standard"
     }
   ]

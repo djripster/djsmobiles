@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-12T19:17:50.437Z",
+  "updatedAt": "2026-08-12T21:01:02.860Z",
   "stories": [
     {
       "id": "google-news-5cdaf604df44a05a",
@@ -168,6 +168,18 @@
       ],
       "publishedAt": "2026-08-12T14:00:00.000Z",
       "collectedAt": "2026-08-12T15:12:32.582Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-02860cd00a3daba1",
+      "headline": "Here are 3 ways your Pixel just got even more helpful.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-helpful-updates-features/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "collectedAt": "2026-08-12T21:00:42.631Z",
       "type": "standard"
     },
     {
