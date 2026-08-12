@@ -1,7 +1,161 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-12T13:43:17.564Z",
+  "updatedAt": "2026-08-12T15:12:53.303Z",
   "items": [
+    {
+      "id": "google-news-5cdaf604df44a05a",
+      "headline": "Made by Google 2026",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/made-by-google-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-0f3aae81898feb94",
+      "headline": "Google: Now you can connect even more of your favorite apps and services to Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-f7852893bc4e1b3c",
+      "headline": "Google: Sharing between Pixel devices is now just a tap away.",
+      "url": "https://blog.google/products-and-platforms/platforms/android/tap-to-share-android/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6321cd294fd97fe0",
+      "headline": "Google: 7 can’t-miss updates from our Pixel 11 launch",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-features/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-857c0fc208df3758",
+      "headline": "Google: The Pixel 11 series: Your most personal Pixel yet",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-04716bb994ac979d",
+      "headline": "Keep tabs on your valuables with Google Pixel Tag",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-tag/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-53c2596545e6e2de",
+      "headline": "Google: Pixel Watch 5: Proactive assistance and advanced health tracking on your wrist",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-5/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-5248c83ef0b7b406",
+      "headline": "Google: Here’s your first look at the newest Pixel devices.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/new-pixel-devices-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-5feb9408180c3334",
+      "headline": "Google: New accessories for Pixel 11 phones are here.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/new-pixelsnap-accessories-cases-ring-stand/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b2050b39b7acc3c9",
+      "headline": "Google: Here’s what’s new with Pixel Buds Pro 2 and Pixel Buds 2a.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-buds-mbg-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-45a31b2df946f95c",
+      "headline": "Google: Track subtle changes in your body with Health Guardian features on Pixel and Fitbit",
+      "url": "https://blog.google/products-and-platforms/products/google-health/pixel-watch-health-guardian/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-abf2ce6d0c455ed2",
+      "headline": "Google: How your Pixel Watch steps in if you stop breathing",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-breathing-emergency-detection/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6f9b67c20b2ae379",
+      "headline": "Google: How we built the new GPS on Pixel Watch 5",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-5-gps/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-5299dc412dc9ce25",
+      "headline": "Google’s most sophisticated foldable: Pixel 11 Pro Fold",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-pro-fold/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-012e30e2c241e587",
       "headline": "Google: AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
@@ -11,160 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-08-11T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-7bf5671a78577217",
-      "headline": "Stream free movies and shows on Google TV Freeplay",
-      "url": "https://blog.google/products-and-platforms/platforms/google-tv/google-freeplay-free-on-demand-tv-shows-movies/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-11T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-19face5b8e898c91",
-      "headline": "Google: More than 1 billion people are using the Gemini app every month.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-11T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6541ad92f1f4dfd4",
-      "headline": "Google Health announces a strategic partnership with Abbott, a leader in health and wellness.",
-      "url": "https://blog.google/products-and-platforms/products/google-health/abbott-google-health-partnership/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-11T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ac9e3b2d2f353f60",
-      "headline": "Expanding the Google AI Professional Certificate with vibe coding",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/vibe-coding-course/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-11T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-b424409ae804f30d",
-      "headline": "Huawei: Statement Re: HPSCI's Report",
-      "url": "https://www.huawei.com/en/news/2012/10/huawei-hpsci-statement-cyber-security",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-10T16:49:40.612Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-0786501ff5f6b332",
-      "headline": "Joint Statement by Huawei and Cisco on Settlement Agreement",
-      "url": "https://www.huawei.com/en/news/2003/10/huawei-cisco-trade-secret-statement",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-10T16:28:59.153Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-30729d13a6d8580e",
-      "headline": "Huawei: Statement Re: Motorola Solutions' Trade Secret Lawsuit",
-      "url": "https://www.huawei.com/en/news/2010/07/huawei-motorola-lemko-ip-trade-secret",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-10T16:19:52.932Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-bd6994e89942717d",
-      "headline": "Statement Re: Huawei's Lawsuit Against Motorola Solutions in the US",
-      "url": "https://www.huawei.com/en/news/2011/01/huawei-motorola-ip-trade-secret",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-10T16:11:42.381Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-d733ce6a3d44ef6d",
-      "headline": "Statement Re: the Ruling of US District Court, Northern District of Illinois, on Huawei's Case Against Motorola Solutions",
-      "url": "https://www.huawei.com/en/news/2011/02/huawei-motorola-lawsuit-ip",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-10T16:05:18.798Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b2ade2099549ff92",
-      "headline": "Have more fun at the state fair with these Google tools",
-      "url": "https://blog.google/products-and-platforms/products/gemini/state-fair-tips/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-10T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-b0a47fef7702efb9",
-      "headline": "Joint Statement by Huawei and Motorola",
-      "url": "https://www.huawei.com/en/news/2011/04/huawei-motorola-statement-trade-secret",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-10T15:59:04.911Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-66aba9aa7eb70337",
-      "headline": "Statement Re: Huawei's Lawsuit Against T-Mobile in the US",
-      "url": "https://www.huawei.com/en/news/2016/7/huawei-t-mobile-lawsuit-ip",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-10T15:27:27.030Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-1d1aa7d3f5bd2721",
-      "headline": "Huawei: Statement Re: T-Mobile's Trade Secret Allegation",
-      "url": "https://www.huawei.com/en/news/2019/1/huawei-t-mobile-trade-secret",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-10T15:14:54.530Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-f5301bd7c5583e88",
-      "headline": "Huawei: Statement Re: CNEX's Trade Secret Lawsuit",
-      "url": "https://www.huawei.com/en/news/2019/5/huawei-cnex-trade-secret",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-10T14:56:30.130Z",
       "type": "standard"
     }
   ]
