@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-12T15:12:53.303Z",
+  "updatedAt": "2026-08-12T16:08:31.330Z",
   "items": [
     {
       "id": "google-news-5cdaf604df44a05a",
@@ -157,14 +157,14 @@
       "type": "standard"
     },
     {
-      "id": "google-news-012e30e2c241e587",
-      "headline": "Google: AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "sourceId": "google-news",
+      "id": "samsung-global-newsroom-1b724c5d98d116cb",
+      "headline": "[Video] Samsung AMS Transforms Shared Classroom Displays Into Personalized Workspaces for Teachers",
+      "url": "https://news.samsung.com/global/video-samsung-ams-transforms-shared-classroom-displays-into-personalized-workspaces-for-teachers",
+      "sourceId": "samsung-global-newsroom",
       "brandIds": [
-        "google"
+        "samsung"
       ],
-      "publishedAt": "2026-08-11T17:00:00.000Z",
+      "publishedAt": "2026-08-12T11:00:00.000Z",
       "type": "standard"
     }
   ]
