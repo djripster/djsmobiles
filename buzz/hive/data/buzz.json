@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-13T11:57:34.599Z",
+  "updatedAt": "2026-08-13T13:43:44.400Z",
   "items": [
+    {
+      "id": "google-news-21c812e92ccbbe96",
+      "headline": "Google: Omni experts share what excites them most about the model.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-13T13:30:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5cdaf604df44a05a",
       "headline": "Made by Google 2026",
@@ -149,17 +160,6 @@
       "id": "google-news-5299dc412dc9ce25",
       "headline": "Google’s most sophisticated foldable: Pixel 11 Pro Fold",
       "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-pro-fold/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-02860cd00a3daba1",
-      "headline": "Google: Here are 3 ways your Pixel just got even more helpful.",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-helpful-updates-features/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
