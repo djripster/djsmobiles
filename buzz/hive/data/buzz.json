@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-13T16:09:18.194Z",
+  "updatedAt": "2026-08-13T17:10:01.322Z",
   "items": [
+    {
+      "id": "google-news-69cbe3169a5b0bf8",
+      "headline": "Google: Introducing Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-13T17:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-52c9f3f185be8e46",
       "headline": "Google: Get updates while your Pixel 11 Pro is face down with HiLight.",
@@ -33,6 +44,28 @@
         "google"
       ],
       "publishedAt": "2026-08-13T13:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-1a2509ce8665826e",
+      "headline": "Samsung TV Plus To Live-Stream KCON LA 2026 for Global K-pop Fans at Home",
+      "url": "https://news.samsung.com/global/samsung-tv-plus-to-live-stream-kcon-la-2026-for-global-k-pop-fans-at-home",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-13T11:15:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-794266cb243567fe",
+      "headline": "Samsung: [Galaxy Unpacked July 2026] One City, Three Perspectives: Capturing London With Galaxy Z Fold8 Ultra, Galaxy Z Fold8, and Galaxy Z Flip8",
+      "url": "https://news.samsung.com/global/galaxy-unpacked-july-2026-one-city-three-perspectives-capturing-london-with-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-13T08:00:00.000Z",
       "type": "standard"
     },
     {
@@ -127,39 +160,6 @@
       "id": "google-news-5feb9408180c3334",
       "headline": "Google: New accessories for Pixel 11 phones are here.",
       "url": "https://blog.google/products-and-platforms/devices/pixel/new-pixelsnap-accessories-cases-ring-stand/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b2050b39b7acc3c9",
-      "headline": "Google: Here’s what’s new with Pixel Buds Pro 2 and Pixel Buds 2a.",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-buds-mbg-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-45a31b2df946f95c",
-      "headline": "Google: Track subtle changes in your body with Health Guardian features on Pixel and Fitbit",
-      "url": "https://blog.google/products-and-platforms/products/google-health/pixel-watch-health-guardian/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-abf2ce6d0c455ed2",
-      "headline": "Google: How your Pixel Watch steps in if you stop breathing",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-breathing-emergency-detection/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
