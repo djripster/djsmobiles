@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-13T15:13:02.763Z",
+  "updatedAt": "2026-08-13T16:09:18.151Z",
   "stories": [
+    {
+      "id": "google-news-52c9f3f185be8e46",
+      "headline": "Get updates while your Pixel 11 Pro is face down with HiLight.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-pro-hilight/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "collectedAt": "2026-08-13T16:08:57.440Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ee0612eda4b2ab6b",
+      "headline": "Stay present while taking pictures with Magic Capture on Pixel 11.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-magic-capture/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "collectedAt": "2026-08-13T16:08:57.440Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-21c812e92ccbbe96",
       "headline": "Omni experts share what excites them most about the model.",
