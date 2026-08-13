@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-13T17:10:01.322Z",
+  "updatedAt": "2026-08-13T18:05:56.614Z",
   "items": [
     {
       "id": "google-news-69cbe3169a5b0bf8",
@@ -11,6 +11,17 @@
         "google"
       ],
       "publishedAt": "2026-08-13T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d00944e12348f9f2",
+      "headline": "Google: Bring your spreadsheet data to life with Sheets canvas",
+      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-13T16:45:00.000Z",
       "type": "standard"
     },
     {
@@ -149,17 +160,6 @@
       "id": "google-news-5248c83ef0b7b406",
       "headline": "Google: Here’s your first look at the newest Pixel devices.",
       "url": "https://blog.google/products-and-platforms/devices/pixel/new-pixel-devices-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5feb9408180c3334",
-      "headline": "Google: New accessories for Pixel 11 phones are here.",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/new-pixelsnap-accessories-cases-ring-stand/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
