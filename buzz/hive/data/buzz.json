@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-15T16:39:08.693Z",
+  "updatedAt": "2026-08-15T17:33:12.645Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-239614a806808d4c",
+      "headline": "From Biosignals to Health Insights: Samsung Research’s Work on Health Foundation Models",
+      "url": "https://news.samsung.com/global/from-biosignals-to-health-insights-samsung-researchs-work-on-health-foundation-models",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-14T08:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-69cbe3169a5b0bf8",
       "headline": "Google: Introducing Gemini 3.7 Flash",
