@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-15T13:42:17.589Z",
+  "updatedAt": "2026-08-15T14:36:47.304Z",
   "items": [
     {
       "id": "google-news-69cbe3169a5b0bf8",
@@ -77,94 +77,6 @@
         "samsung"
       ],
       "publishedAt": "2026-08-13T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5cdaf604df44a05a",
-      "headline": "Made by Google 2026",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/made-by-google-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-0f3aae81898feb94",
-      "headline": "Google: Now you can connect even more of your favorite apps and services to Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-f7852893bc4e1b3c",
-      "headline": "Google: Sharing between Pixel devices is now just a tap away.",
-      "url": "https://blog.google/products-and-platforms/platforms/android/tap-to-share-android/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6321cd294fd97fe0",
-      "headline": "Google: 7 can’t-miss updates from our Pixel 11 launch",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-features/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-857c0fc208df3758",
-      "headline": "Google: The Pixel 11 series: Your most personal Pixel yet",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-04716bb994ac979d",
-      "headline": "Keep tabs on your valuables with Google Pixel Tag",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-tag/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-53c2596545e6e2de",
-      "headline": "Google: Pixel Watch 5: Proactive assistance and advanced health tracking on your wrist",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-5/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5248c83ef0b7b406",
-      "headline": "Google: Here’s your first look at the newest Pixel devices.",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/new-pixel-devices-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-12T14:00:00.000Z",
       "type": "standard"
     }
   ]
