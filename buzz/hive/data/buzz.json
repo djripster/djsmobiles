@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-16T16:39:42.530Z",
+  "updatedAt": "2026-08-16T17:32:37.651Z",
   "items": [
     {
       "id": "samsung-global-newsroom-239614a806808d4c",
@@ -11,28 +11,6 @@
         "samsung"
       ],
       "publishedAt": "2026-08-14T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-69cbe3169a5b0bf8",
-      "headline": "Google: Introducing Gemini 3.7 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-13T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d00944e12348f9f2",
-      "headline": "Google: Bring your spreadsheet data to life with Sheets canvas",
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-13T16:45:00.000Z",
       "type": "standard"
     }
   ]
