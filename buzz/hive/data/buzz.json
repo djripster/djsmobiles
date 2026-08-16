@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-16T07:43:47.883Z",
+  "updatedAt": "2026-08-16T08:45:26.125Z",
   "items": [
     {
       "id": "samsung-global-newsroom-239614a806808d4c",
@@ -77,17 +77,6 @@
         "samsung"
       ],
       "publishedAt": "2026-08-13T11:15:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-794266cb243567fe",
-      "headline": "Samsung: [Galaxy Unpacked July 2026] One City, Three Perspectives: Capturing London With Galaxy Z Fold8 Ultra, Galaxy Z Fold8, and Galaxy Z Flip8",
-      "url": "https://news.samsung.com/global/galaxy-unpacked-july-2026-one-city-three-perspectives-capturing-london-with-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-13T08:00:00.000Z",
       "type": "standard"
     }
   ]
