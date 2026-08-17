@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-17T07:14:07.097Z",
+  "updatedAt": "2026-08-17T08:00:57.468Z",
   "stories": [
     {
       "id": "samsung-global-newsroom-d362ca55e5710476",
@@ -12,6 +12,18 @@
       ],
       "publishedAt": "2026-08-17T08:00:00.000Z",
       "collectedAt": "2026-08-17T03:11:06.950Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4001c007c7b53144",
+      "headline": "Get closer to the game with Gemini and Pixel",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-17T08:00:00.000Z",
+      "collectedAt": "2026-08-17T08:00:37.147Z",
       "type": "standard"
     },
     {

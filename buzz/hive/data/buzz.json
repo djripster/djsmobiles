@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-17T07:14:07.145Z",
+  "updatedAt": "2026-08-17T08:00:57.567Z",
   "items": [
     {
       "id": "samsung-global-newsroom-d362ca55e5710476",
@@ -14,14 +14,14 @@
       "type": "standard"
     },
     {
-      "id": "samsung-global-newsroom-239614a806808d4c",
-      "headline": "From Biosignals to Health Insights: Samsung Research’s Work on Health Foundation Models",
-      "url": "https://news.samsung.com/global/from-biosignals-to-health-insights-samsung-researchs-work-on-health-foundation-models",
-      "sourceId": "samsung-global-newsroom",
+      "id": "google-news-4001c007c7b53144",
+      "headline": "Google: Get closer to the game with Gemini and Pixel",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "sourceId": "google-news",
       "brandIds": [
-        "samsung"
+        "google"
       ],
-      "publishedAt": "2026-08-14T08:00:00.000Z",
+      "publishedAt": "2026-08-17T08:00:00.000Z",
       "type": "standard"
     }
   ]
