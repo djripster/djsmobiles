@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-17T01:53:27.302Z",
+  "updatedAt": "2026-08-17T03:11:07.259Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-d362ca55e5710476",
+      "headline": "Samsung Announces Partnership With Call of Duty®: Modern Warfare® 4",
+      "url": "https://news.samsung.com/global/samsung-announces-partnership-with-call-of-duty-modern-warfare-4",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-17T08:00:00.000Z",
+      "collectedAt": "2026-08-17T03:11:06.950Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-239614a806808d4c",
       "headline": "From Biosignals to Health Insights: Samsung Research’s Work on Health Foundation Models",
