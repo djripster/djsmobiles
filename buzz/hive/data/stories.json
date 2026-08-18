@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T19:38:24.649Z",
+  "updatedAt": "2026-08-18T20:38:12.804Z",
   "stories": [
     {
       "id": "google-news-1c13ad3f7b630696",
@@ -24,6 +24,18 @@
       ],
       "publishedAt": "2026-08-18T16:00:00.000Z",
       "collectedAt": "2026-08-18T18:54:10.026Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b7f6163aebb9713a",
+      "headline": "Keep your SAT prep on track with practice tests in Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-take-practice-sat/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-18T16:00:00.000Z",
+      "collectedAt": "2026-08-18T20:37:52.674Z",
       "type": "standard"
     },
     {

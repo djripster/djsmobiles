@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T19:38:24.697Z",
+  "updatedAt": "2026-08-18T20:38:12.848Z",
   "items": [
     {
       "id": "google-news-1c13ad3f7b630696",
@@ -17,6 +17,17 @@
       "id": "google-news-8d758d2d699ab03b",
       "headline": "Google: Ask a Scientist: How can researchers use AI to predict a flood?",
       "url": "https://blog.google/innovation-and-ai/technology/research/flood-prediction-ai/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-18T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b7f6163aebb9713a",
+      "headline": "Google: Keep your SAT prep on track with practice tests in Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-take-practice-sat/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
