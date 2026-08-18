@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T17:40:22.037Z",
+  "updatedAt": "2026-08-18T18:54:30.218Z",
   "items": [
+    {
+      "id": "google-news-8d758d2d699ab03b",
+      "headline": "Google: Ask a Scientist: How can researchers use AI to predict a flood?",
+      "url": "https://blog.google/innovation-and-ai/technology/research/flood-prediction-ai/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-18T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-82cb4061484abf43",
       "headline": "Google: Operation Blue Skies: Reducing aviation climate impact with AI",
