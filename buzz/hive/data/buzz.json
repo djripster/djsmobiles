@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T18:54:30.218Z",
+  "updatedAt": "2026-08-18T19:38:24.697Z",
   "items": [
+    {
+      "id": "google-news-1c13ad3f7b630696",
+      "headline": "Google: Tap into the power of Gemini in Chrome on Android.",
+      "url": "https://blog.google/products-and-platforms/products/chrome/gemini-in-chrome-android-auto-browse/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-18T19:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-8d758d2d699ab03b",
       "headline": "Google: Ask a Scientist: How can researchers use AI to predict a flood?",
