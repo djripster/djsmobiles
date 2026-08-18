@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T08:51:34.534Z",
+  "updatedAt": "2026-08-18T09:47:23.823Z",
   "stories": [
+    {
+      "id": "google-news-82cb4061484abf43",
+      "headline": "Operation Blue Skies: Reducing aviation climate impact with AI",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-skies/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-18T09:00:00.000Z",
+      "collectedAt": "2026-08-18T09:47:03.330Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-0b03a5d4c55e9b3c",
       "headline": "[Infographic] Not All Ice Is Created Equal: Discover the Difference With Samsung’s Ice-Making Technology",
