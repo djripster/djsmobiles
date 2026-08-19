@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-19T13:56:09.346Z",
+  "updatedAt": "2026-08-19T14:51:34.572Z",
   "items": [
+    {
+      "id": "google-news-de413d5b8fa123cd",
+      "headline": "What 3 creatives built with unlimited access to Google Flow",
+      "url": "https://blog.google/products/ads-commerce/the-small-brief/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-19T14:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-1c13ad3f7b630696",
       "headline": "Google: Tap into the power of Gemini in Chrome on Android.",
