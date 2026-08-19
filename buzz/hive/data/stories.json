@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T23:33:50.688Z",
+  "updatedAt": "2026-08-19T01:51:10.000Z",
   "stories": [
     {
       "id": "google-news-1c13ad3f7b630696",
@@ -12,6 +12,18 @@
       ],
       "publishedAt": "2026-08-18T19:00:00.000Z",
       "collectedAt": "2026-08-18T19:38:04.394Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-8a27388b3fc50cf6",
+      "headline": "Try 4 new interactive BTS experiences inside the Gemini app",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/four-new-interactive-bts-experiences/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-18T17:30:00.000Z",
+      "collectedAt": "2026-08-19T01:50:49.780Z",
       "type": "standard"
     },
     {
