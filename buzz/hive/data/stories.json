@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-19T16:44:45.303Z",
+  "updatedAt": "2026-08-19T17:37:54.908Z",
   "stories": [
+    {
+      "id": "google-news-a7f60de41ca8bbdb",
+      "headline": "Waymo is bringing Gemini into its custom Ojai vehicles.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-waymo/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-19T17:30:00.000Z",
+      "collectedAt": "2026-08-19T17:37:34.674Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-de413d5b8fa123cd",
       "headline": "What 3 creatives built with unlimited access to Google Flow",
