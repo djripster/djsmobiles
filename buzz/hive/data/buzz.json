@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-19T18:51:26.792Z",
+  "updatedAt": "2026-08-19T19:36:18.206Z",
   "items": [
+    {
+      "id": "google-news-abaed39cbc9c9b42",
+      "headline": "Google: 5 new ways to level up your learning with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-19T19:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-0c146b69c0dd91e6",
+      "headline": "Google: Start the semester with one year of Gemini, on us",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-19T19:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-0c8c3087b6e050b5",
+      "headline": "Google: Back to School 2026",
+      "url": "https://blog.google/products-and-platforms/products/education/back-to-school-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-19T19:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-a7f60de41ca8bbdb",
       "headline": "Google: Waymo is bringing Gemini into its custom Ojai vehicles.",
@@ -132,28 +165,6 @@
         "samsung"
       ],
       "publishedAt": "2026-08-18T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-d362ca55e5710476",
-      "headline": "Samsung Announces Partnership With Call of Duty®: Modern Warfare® 4",
-      "url": "https://news.samsung.com/global/samsung-announces-partnership-with-call-of-duty-modern-warfare-4",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-17T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-4001c007c7b53144",
-      "headline": "Google: Get closer to the game with Gemini and Pixel",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-17T08:00:00.000Z",
       "type": "standard"
     }
   ]
