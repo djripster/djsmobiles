@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-19T15:44:16.519Z",
+  "updatedAt": "2026-08-19T16:44:45.303Z",
   "stories": [
     {
       "id": "google-news-de413d5b8fa123cd",
@@ -12,6 +12,30 @@
       ],
       "publishedAt": "2026-08-19T14:00:00.000Z",
       "collectedAt": "2026-08-19T14:51:14.296Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-d7cfefc9398c4491",
+      "headline": "[Video] Samsung AI Assistant Helps Teachers Create More Engaging and Accessible Lessons",
+      "url": "https://news.samsung.com/global/video-samsung-ai-assistant-helps-teachers-create-more-engaging-and-accessible-lessons",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-19T11:00:00.000Z",
+      "collectedAt": "2026-08-19T16:44:44.508Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-1a4350f63b39c4bb",
+      "headline": "Samsung Electronics To Establish HVAC Production Line in Korea",
+      "url": "https://news.samsung.com/global/samsung-electronics-to-establish-hvac-production-line-in-korea",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-19T09:30:00.000Z",
+      "collectedAt": "2026-08-19T16:44:44.508Z",
       "type": "standard"
     },
     {
