@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-20T15:47:06.928Z",
+  "updatedAt": "2026-08-20T16:49:07.214Z",
   "stories": [
     {
       "id": "samsung-global-newsroom-6f3073f0a485a8b3",
@@ -12,6 +12,30 @@
       ],
       "publishedAt": "2026-08-20T16:00:00.000Z",
       "collectedAt": "2026-08-20T13:57:17.655Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4b674aca8e8f9ce6",
+      "headline": "Take an interactive journey through America’s national parks",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/united-parks-of-america/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-20T16:00:00.000Z",
+      "collectedAt": "2026-08-20T16:49:06.359Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-f0879fa9f8f6a75d",
+      "headline": "Personalize the content you see on Search, Discover, and News",
+      "url": "https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-20T16:00:00.000Z",
+      "collectedAt": "2026-08-20T16:49:06.360Z",
       "type": "standard"
     },
     {

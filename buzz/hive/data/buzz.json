@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-20T15:47:06.967Z",
+  "updatedAt": "2026-08-20T16:49:07.258Z",
   "items": [
     {
       "id": "samsung-global-newsroom-6f3073f0a485a8b3",
@@ -9,6 +9,28 @@
       "sourceId": "samsung-global-newsroom",
       "brandIds": [
         "samsung"
+      ],
+      "publishedAt": "2026-08-20T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4b674aca8e8f9ce6",
+      "headline": "Google: Take an interactive journey through America’s national parks",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/united-parks-of-america/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-20T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-f0879fa9f8f6a75d",
+      "headline": "Google: Personalize the content you see on Search, Discover, and News",
+      "url": "https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
       ],
       "publishedAt": "2026-08-20T16:00:00.000Z",
       "type": "standard"
@@ -143,28 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-08-18T17:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-8d758d2d699ab03b",
-      "headline": "Google: Ask a Scientist: How can researchers use AI to predict a flood?",
-      "url": "https://blog.google/innovation-and-ai/technology/research/flood-prediction-ai/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-18T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b7f6163aebb9713a",
-      "headline": "Google: Keep your SAT prep on track with practice tests in Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-take-practice-sat/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-18T16:00:00.000Z",
       "type": "standard"
     }
   ]
