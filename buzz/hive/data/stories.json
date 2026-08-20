@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-20T11:39:10.204Z",
+  "updatedAt": "2026-08-20T13:09:11.129Z",
   "stories": [
+    {
+      "id": "google-news-074ff483b4829952",
+      "headline": "Make AI Max work for your business with new testing and planning tools.",
+      "url": "https://blog.google/products/ads-commerce/ai-max-testing-planning-tools/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-20T13:00:00.000Z",
+      "collectedAt": "2026-08-20T13:08:50.808Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-abaed39cbc9c9b42",
       "headline": "5 new ways to level up your learning with Search",

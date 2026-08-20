@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-20T11:39:10.559Z",
+  "updatedAt": "2026-08-20T13:09:11.184Z",
   "items": [
+    {
+      "id": "google-news-074ff483b4829952",
+      "headline": "Google: Make AI Max work for your business with new testing and planning tools.",
+      "url": "https://blog.google/products/ads-commerce/ai-max-testing-planning-tools/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-20T13:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-abaed39cbc9c9b42",
       "headline": "Google: 5 new ways to level up your learning with Search",
@@ -149,17 +160,6 @@
       "id": "samsung-global-newsroom-8d310abc251d48b8",
       "headline": "Samsung: ‘Warranty and care’ Menu Simplifies Device Care for New Foldables",
       "url": "https://news.samsung.com/global/warranty-and-care-menu-simplifies-device-care-for-new-foldables",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-18T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-09aff24fb066f2ec",
-      "headline": "Samsung Partners With Kunsthistorisches Museum in Vienna To Bring Austrian Masterpieces to Samsung Art Store",
-      "url": "https://news.samsung.com/global/samsung-partners-with-kunsthistorisches-museum-in-vienna-to-bring-austrian-masterpieces-to-samsung-art-store",
       "sourceId": "samsung-global-newsroom",
       "brandIds": [
         "samsung"
