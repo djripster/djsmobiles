@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-20T16:49:07.258Z",
+  "updatedAt": "2026-08-20T17:43:10.262Z",
   "items": [
     {
       "id": "samsung-global-newsroom-6f3073f0a485a8b3",
@@ -33,6 +33,17 @@
         "google"
       ],
       "publishedAt": "2026-08-20T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d05a2bc7d8f3afe6",
+      "headline": "Google: Inside the Gemmaverse: Celebrating one billion Gemma downloads",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-one-billion-downloads/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-20T15:30:00.000Z",
       "type": "standard"
     },
     {
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-08-18T19:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-8a27388b3fc50cf6",
-      "headline": "Google: Try 4 new interactive BTS experiences inside the Gemini app",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/four-new-interactive-bts-experiences/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-18T17:30:00.000Z",
       "type": "standard"
     }
   ]
