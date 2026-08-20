@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-20T19:44:04.427Z",
+  "updatedAt": "2026-08-20T20:44:09.998Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-ea5618b52127fe27",
+      "headline": "Huawei Releases SingleRAN 22.1 Version, Leading Mobile AI Era",
+      "url": "https://www.huawei.com/en/news/2026/8/singleran-221-software",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-08-20T17:40:48.896Z",
+      "collectedAt": "2026-08-20T20:44:09.997Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-6f3073f0a485a8b3",
       "headline": "[Video] [Galaxy Unpacked July 2026] Samsung Health Envisions Simpler, More Connected Care With AI",

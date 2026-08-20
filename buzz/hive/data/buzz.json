@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-20T19:44:04.598Z",
+  "updatedAt": "2026-08-20T20:44:10.045Z",
   "items": [
+    {
+      "id": "huawei-newsroom-ea5618b52127fe27",
+      "headline": "Huawei Releases SingleRAN 22.1 Version, Leading Mobile AI Era",
+      "url": "https://www.huawei.com/en/news/2026/8/singleran-221-software",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-08-20T17:40:48.896Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-6f3073f0a485a8b3",
       "headline": "[Video] [Galaxy Unpacked July 2026] Samsung Health Envisions Simpler, More Connected Care With AI",
@@ -154,17 +165,6 @@
         "samsung"
       ],
       "publishedAt": "2026-08-19T09:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-1c13ad3f7b630696",
-      "headline": "Google: Tap into the power of Gemini in Chrome on Android.",
-      "url": "https://blog.google/products-and-platforms/products/chrome/gemini-in-chrome-android-auto-browse/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-18T19:00:00.000Z",
       "type": "standard"
     }
   ]
