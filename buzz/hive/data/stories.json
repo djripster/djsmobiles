@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-21T13:56:35.790Z",
+  "updatedAt": "2026-08-21T14:51:57.144Z",
   "stories": [
+    {
+      "id": "google-news-39b3e37fecf9c78d",
+      "headline": "Tap to pay with Google Pay is coming to Walmart.",
+      "url": "https://blog.google/products-and-platforms/platforms/google-pay/tap-to-pay-google-pay-walmart/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-21T14:00:00.000Z",
+      "collectedAt": "2026-08-21T14:51:36.964Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-ea5618b52127fe27",
       "headline": "Huawei Releases SingleRAN 22.1 Version, Leading Mobile AI Era",
