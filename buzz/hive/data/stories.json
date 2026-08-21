@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-21T15:46:40.917Z",
+  "updatedAt": "2026-08-21T16:49:44.222Z",
   "stories": [
+    {
+      "id": "google-news-fe45f51de9f6c36f",
+      "headline": "What does “full-stack” AI actually mean?",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-21T16:00:00.000Z",
+      "collectedAt": "2026-08-21T16:49:23.998Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-84611641f352f574",
       "headline": "Here's how to use sign-to-text translation on Pixel 11.",
