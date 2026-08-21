@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-21T21:36:39.984Z",
+  "updatedAt": "2026-08-21T22:38:45.539Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-7a1885186cfaf154",
+      "headline": "Samsung Electronics To Implement Largest-Ever Shareholder Return in 2026, Estimated at KRW 90 to 110 Trillion",
+      "url": "https://news.samsung.com/global/samsung-electronics-to-implement-largest-ever-shareholder-return-in-2026-estimated-at-krw-90-to-110-trillion",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-21T18:27:19.000Z",
+      "collectedAt": "2026-08-21T22:38:45.210Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-d30d8d6b94568cc1",
       "headline": "stc Group and Huawei Complete World's First Commercial MB² Deployment",
@@ -36,6 +48,18 @@
       ],
       "publishedAt": "2026-08-21T16:00:00.000Z",
       "collectedAt": "2026-08-21T16:49:23.998Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-3f7042a8bf3b56fb",
+      "headline": "Samsung’s Human-Centered Design Wins IDEA and Red Dot Design Award 2026",
+      "url": "https://news.samsung.com/global/samsungs-human-centered-design-wins-idea-and-red-dot-design-award-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-21T16:00:00.000Z",
+      "collectedAt": "2026-08-21T22:38:45.210Z",
       "type": "standard"
     },
     {
