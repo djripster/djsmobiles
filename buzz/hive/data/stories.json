@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-21T16:49:44.222Z",
+  "updatedAt": "2026-08-21T17:42:38.219Z",
   "stories": [
+    {
+      "id": "google-news-bb007757648f56cf",
+      "headline": "Enter Google Play’s sweepstakes to win legendary experiences and collectibles with your Play Points.",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-sweepstakes/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "collectedAt": "2026-08-21T17:42:17.996Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-fe45f51de9f6c36f",
       "headline": "What does “full-stack” AI actually mean?",

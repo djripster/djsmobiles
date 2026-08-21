@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-21T16:49:44.269Z",
+  "updatedAt": "2026-08-21T17:42:38.288Z",
   "items": [
+    {
+      "id": "google-news-bb007757648f56cf",
+      "headline": "Enter Google Play’s sweepstakes to win legendary experiences and collectibles with your Play Points.",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-sweepstakes/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-fe45f51de9f6c36f",
       "headline": "Google: What does “full-stack” AI actually mean?",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-08-19T19:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-a7f60de41ca8bbdb",
-      "headline": "Google: Waymo is bringing Gemini into its custom Ojai vehicles.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-waymo/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-19T17:30:00.000Z",
       "type": "standard"
     }
   ]
