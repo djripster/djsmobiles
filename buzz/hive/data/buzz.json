@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-21T19:35:44.828Z",
+  "updatedAt": "2026-08-21T20:38:23.210Z",
   "items": [
+    {
+      "id": "huawei-newsroom-d30d8d6b94568cc1",
+      "headline": "stc Group and Huawei Complete World's First Commercial MB² Deployment",
+      "url": "https://www.huawei.com/en/news/2026/8/microwave-magicswave-mb2-antenna",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-08-21T18:07:46.114Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-bb007757648f56cf",
       "headline": "Enter Google Play’s sweepstakes to win legendary experiences and collectibles with your Play Points.",
@@ -149,17 +160,6 @@
       "id": "google-news-0c146b69c0dd91e6",
       "headline": "Google: Start the semester with one year of Gemini, on us",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-19T19:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-0c8c3087b6e050b5",
-      "headline": "Google: Back to School 2026",
-      "url": "https://blog.google/products-and-platforms/products/education/back-to-school-2026/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
