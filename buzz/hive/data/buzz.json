@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-21T14:51:57.194Z",
+  "updatedAt": "2026-08-21T15:46:41.014Z",
   "items": [
+    {
+      "id": "google-news-84611641f352f574",
+      "headline": "Google: Here's how to use sign-to-text translation on Pixel 11.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/american-sign-language-sign-to-text-pixel-11/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-21T15:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-39b3e37fecf9c78d",
       "headline": "Tap to pay with Google Pay is coming to Walmart.",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-08-19T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-d7cfefc9398c4491",
-      "headline": "[Video] Samsung AI Assistant Helps Teachers Create More Engaging and Accessible Lessons",
-      "url": "https://news.samsung.com/global/video-samsung-ai-assistant-helps-teachers-create-more-engaging-and-accessible-lessons",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-19T11:00:00.000Z",
       "type": "standard"
     }
   ]

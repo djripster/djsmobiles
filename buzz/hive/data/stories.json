@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-21T14:51:57.144Z",
+  "updatedAt": "2026-08-21T15:46:40.917Z",
   "stories": [
+    {
+      "id": "google-news-84611641f352f574",
+      "headline": "Here's how to use sign-to-text translation on Pixel 11.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/american-sign-language-sign-to-text-pixel-11/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-21T15:00:00.000Z",
+      "collectedAt": "2026-08-21T15:46:20.715Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-39b3e37fecf9c78d",
       "headline": "Tap to pay with Google Pay is coming to Walmart.",
