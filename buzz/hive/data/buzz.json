@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T07:45:36.319Z",
+  "updatedAt": "2026-08-23T08:46:36.988Z",
   "items": [
     {
       "id": "samsung-global-newsroom-7a1885186cfaf154",
@@ -143,28 +143,6 @@
         "google"
       ],
       "publishedAt": "2026-08-20T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-a9e419a266f36c9f",
-      "headline": "Samsung: [Invitation] Galaxy Event August 2026",
-      "url": "https://news.samsung.com/global/invitation-galaxy-event-august-2026",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-20T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-0784c744d0f162a0",
-      "headline": "Samsung Introduces New Over-the-Range Microwave With DualVent Technology",
-      "url": "https://news.samsung.com/global/samsung-introduces-new-over-the-range-microwave-with-dualvent-technology",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-20T08:00:00.000Z",
       "type": "standard"
     }
   ]
