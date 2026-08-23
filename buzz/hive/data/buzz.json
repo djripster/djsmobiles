@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T15:34:42.840Z",
+  "updatedAt": "2026-08-23T16:41:14.699Z",
   "items": [
     {
       "id": "samsung-global-newsroom-7a1885186cfaf154",
@@ -88,39 +88,6 @@
         "huawei"
       ],
       "publishedAt": "2026-08-20T17:40:48.896Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-6f3073f0a485a8b3",
-      "headline": "[Video] [Galaxy Unpacked July 2026] Samsung Health Envisions Simpler, More Connected Care With AI",
-      "url": "https://news.samsung.com/global/video-galaxy-unpacked-july-2026-samsung-health-envisions-simpler-more-connected-care-with-ai",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-20T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-4b674aca8e8f9ce6",
-      "headline": "Google: Take an interactive journey through America’s national parks",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/united-parks-of-america/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-20T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-f0879fa9f8f6a75d",
-      "headline": "Google: Personalize the content you see on Search, Discover, and News",
-      "url": "https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-20T16:00:00.000Z",
       "type": "standard"
     }
   ]
