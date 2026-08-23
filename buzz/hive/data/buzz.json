@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T12:59:55.310Z",
+  "updatedAt": "2026-08-23T13:44:11.554Z",
   "items": [
     {
       "id": "samsung-global-newsroom-7a1885186cfaf154",
@@ -132,17 +132,6 @@
         "google"
       ],
       "publishedAt": "2026-08-20T15:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-074ff483b4829952",
-      "headline": "Google: Make AI Max work for your business with new testing and planning tools.",
-      "url": "https://blog.google/products/ads-commerce/ai-max-testing-planning-tools/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-20T13:00:00.000Z",
       "type": "standard"
     }
   ]
