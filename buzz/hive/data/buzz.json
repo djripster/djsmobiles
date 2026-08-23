@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T14:36:45.087Z",
+  "updatedAt": "2026-08-23T15:34:42.840Z",
   "items": [
     {
       "id": "samsung-global-newsroom-7a1885186cfaf154",
@@ -121,17 +121,6 @@
         "google"
       ],
       "publishedAt": "2026-08-20T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d05a2bc7d8f3afe6",
-      "headline": "Google: Inside the Gemmaverse: Celebrating one billion Gemma downloads",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-one-billion-downloads/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-20T15:30:00.000Z",
       "type": "standard"
     }
   ]
