@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T17:32:48.085Z",
+  "updatedAt": "2026-08-23T18:46:25.260Z",
   "items": [
     {
       "id": "samsung-global-newsroom-7a1885186cfaf154",
@@ -77,17 +77,6 @@
         "google"
       ],
       "publishedAt": "2026-08-21T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-ea5618b52127fe27",
-      "headline": "Huawei Releases SingleRAN 22.1 Version, Leading Mobile AI Era",
-      "url": "https://www.huawei.com/en/news/2026/8/singleran-221-software",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-20T17:40:48.896Z",
       "type": "standard"
     }
   ]
