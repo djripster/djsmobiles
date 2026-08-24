@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T19:42:19.229Z",
+  "updatedAt": "2026-08-24T20:46:24.390Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-b0bebd391f210153",
+      "headline": "China Unicom Beijing and Huawei Power the 2nd World Humanoid Robot Games with 5G-A GigaUplink",
+      "url": "https://www.huawei.com/en/news/2026/8/5gcapital-gigauplink-5ga",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-08-24T20:01:40.418Z",
+      "collectedAt": "2026-08-24T20:46:24.389Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-20e8a10f30d68c1e",
       "headline": "Celebrate 110 years of national parks with Maps, Search, and Gemini",
