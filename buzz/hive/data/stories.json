@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T16:53:41.378Z",
+  "updatedAt": "2026-08-24T17:44:48.220Z",
   "stories": [
     {
       "id": "google-news-20e8a10f30d68c1e",
@@ -12,6 +12,18 @@
       ],
       "publishedAt": "2026-08-24T16:00:00.000Z",
       "collectedAt": "2026-08-24T16:53:40.487Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a541634a268d0346",
+      "headline": "Celebrate 110 years of national parks with Maps, Search, and Gemini",
+      "url": "https://blog.google/products-and-platforms/products/maps/national-parks-week-google-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-24T16:00:00.000Z",
+      "collectedAt": "2026-08-24T17:44:27.316Z",
       "type": "standard"
     },
     {

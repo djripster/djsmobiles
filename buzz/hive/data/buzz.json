@@ -1,11 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T16:53:41.432Z",
+  "updatedAt": "2026-08-24T17:44:48.267Z",
   "items": [
     {
       "id": "google-news-20e8a10f30d68c1e",
       "headline": "Google: Celebrate 110 years of national parks with Maps, Search, and Gemini",
       "url": "https://blog.google/products-and-platforms/products/maps/national-parks-week-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-24T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a541634a268d0346",
+      "headline": "Google: Celebrate 110 years of national parks with Maps, Search, and Gemini",
+      "url": "https://blog.google/products-and-platforms/products/maps/national-parks-week-google-2026/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
@@ -44,17 +55,6 @@
         "huawei"
       ],
       "publishedAt": "2026-08-21T18:07:46.114Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-bb007757648f56cf",
-      "headline": "Enter Google Play’s sweepstakes to win legendary experiences and collectibles with your Play Points.",
-      "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-sweepstakes/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-21T17:00:00.000Z",
       "type": "standard"
     }
   ]
