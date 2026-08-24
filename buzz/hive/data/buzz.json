@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T13:10:59.331Z",
+  "updatedAt": "2026-08-24T14:00:32.313Z",
   "items": [
     {
       "id": "samsung-global-newsroom-c0bf92fe5d2b89ac",
@@ -77,17 +77,6 @@
         "google"
       ],
       "publishedAt": "2026-08-21T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-39b3e37fecf9c78d",
-      "headline": "Tap to pay with Google Pay is coming to Walmart.",
-      "url": "https://blog.google/products-and-platforms/platforms/google-pay/tap-to-pay-google-pay-walmart/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-21T14:00:00.000Z",
       "type": "standard"
     }
   ]
