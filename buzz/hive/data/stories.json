@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T15:53:40.675Z",
+  "updatedAt": "2026-08-24T16:53:41.378Z",
   "stories": [
+    {
+      "id": "google-news-20e8a10f30d68c1e",
+      "headline": "Celebrate 110 years of national parks with Maps, Search, and Gemini",
+      "url": "https://blog.google/products-and-platforms/products/maps/national-parks-week-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-24T16:00:00.000Z",
+      "collectedAt": "2026-08-24T16:53:40.487Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-c0bf92fe5d2b89ac",
       "headline": "Samsung Galaxy Buds4 Pro Superior Hi-Fi Sound Recognized by Audio Experts",

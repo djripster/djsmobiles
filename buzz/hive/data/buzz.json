@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T15:53:40.717Z",
+  "updatedAt": "2026-08-24T16:53:41.432Z",
   "items": [
+    {
+      "id": "google-news-20e8a10f30d68c1e",
+      "headline": "Google: Celebrate 110 years of national parks with Maps, Search, and Gemini",
+      "url": "https://blog.google/products-and-platforms/products/maps/national-parks-week-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-24T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-c0bf92fe5d2b89ac",
       "headline": "Samsung Galaxy Buds4 Pro Superior Hi-Fi Sound Recognized by Audio Experts",
@@ -44,28 +55,6 @@
         "google"
       ],
       "publishedAt": "2026-08-21T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-fe45f51de9f6c36f",
-      "headline": "Google: What does “full-stack” AI actually mean?",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-21T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-3f7042a8bf3b56fb",
-      "headline": "Samsung’s Human-Centered Design Wins IDEA and Red Dot Design Award 2026",
-      "url": "https://news.samsung.com/global/samsungs-human-centered-design-wins-idea-and-red-dot-design-award-2026",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-21T16:00:00.000Z",
       "type": "standard"
     }
   ]
