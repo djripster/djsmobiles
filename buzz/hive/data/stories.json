@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T18:57:32.757Z",
+  "updatedAt": "2026-08-24T19:42:19.229Z",
   "stories": [
     {
       "id": "google-news-20e8a10f30d68c1e",
@@ -24,6 +24,18 @@
       ],
       "publishedAt": "2026-08-24T16:00:00.000Z",
       "collectedAt": "2026-08-24T17:44:27.316Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-0ff3b4d9d82aec1b",
+      "headline": "How developers build AI for good with Gemma 4",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/winning-entries-gemma-4-good-challenge/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-24T16:00:00.000Z",
+      "collectedAt": "2026-08-24T19:41:58.540Z",
       "type": "standard"
     },
     {
