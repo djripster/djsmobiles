@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T07:18:11.885Z",
+  "updatedAt": "2026-08-24T09:02:09.988Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-c0bf92fe5d2b89ac",
+      "headline": "Samsung Galaxy Buds4 Pro Superior Hi-Fi Sound Recognized by Audio Experts",
+      "url": "https://news.samsung.com/global/samsung-galaxy-buds4-pro-superior-hi-fi-sound-recognized-by-audio-experts",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-24T07:00:00.000Z",
+      "collectedAt": "2026-08-24T09:02:09.105Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-7a1885186cfaf154",
       "headline": "Samsung Electronics To Implement Largest-Ever Shareholder Return in 2026, Estimated at KRW 90 to 110 Trillion",
