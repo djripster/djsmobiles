@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T14:57:58.396Z",
+  "updatedAt": "2026-08-24T15:53:40.717Z",
   "items": [
     {
       "id": "samsung-global-newsroom-c0bf92fe5d2b89ac",
@@ -66,17 +66,6 @@
         "samsung"
       ],
       "publishedAt": "2026-08-21T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-84611641f352f574",
-      "headline": "Google: Here's how to use sign-to-text translation on Pixel 11.",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/american-sign-language-sign-to-text-pixel-11/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-21T15:00:00.000Z",
       "type": "standard"
     }
   ]
