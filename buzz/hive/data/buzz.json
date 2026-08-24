@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T17:44:48.267Z",
+  "updatedAt": "2026-08-24T18:57:32.870Z",
   "items": [
     {
       "id": "google-news-20e8a10f30d68c1e",
@@ -33,28 +33,6 @@
         "samsung"
       ],
       "publishedAt": "2026-08-24T07:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-7a1885186cfaf154",
-      "headline": "Samsung Electronics To Implement Largest-Ever Shareholder Return in 2026, Estimated at KRW 90 to 110 Trillion",
-      "url": "https://news.samsung.com/global/samsung-electronics-to-implement-largest-ever-shareholder-return-in-2026-estimated-at-krw-90-to-110-trillion",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-21T18:27:19.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-d30d8d6b94568cc1",
-      "headline": "stc Group and Huawei Complete World's First Commercial MB² Deployment",
-      "url": "https://www.huawei.com/en/news/2026/8/microwave-magicswave-mb2-antenna",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-21T18:07:46.114Z",
       "type": "standard"
     }
   ]
