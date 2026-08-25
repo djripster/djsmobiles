@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T15:57:55.087Z",
+  "updatedAt": "2026-08-25T16:52:59.651Z",
   "stories": [
     {
       "id": "google-news-1ba284820fae0495",
@@ -12,6 +12,18 @@
       ],
       "publishedAt": "2026-08-25T16:00:00.000Z",
       "collectedAt": "2026-08-25T15:57:34.924Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-9ce79d4dded95af4",
+      "headline": "5 ways to upgrade your home decor with Google Search",
+      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-25T16:00:00.000Z",
+      "collectedAt": "2026-08-25T16:52:39.183Z",
       "type": "standard"
     },
     {
