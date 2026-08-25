@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T11:40:48.562Z",
+  "updatedAt": "2026-08-25T13:09:30.339Z",
   "items": [
+    {
+      "id": "google-news-54e712174f332108",
+      "headline": "Google: We’re partnering with the State of Delaware to provide free AI and career training.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/free-ai-training-delaware/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-25T13:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-30528de1324eb186",
       "headline": "Samsung: An Easier Way To Switch to the New Galaxy Z Fold8",
