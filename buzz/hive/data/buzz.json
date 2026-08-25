@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T15:02:17.357Z",
+  "updatedAt": "2026-08-25T15:57:55.138Z",
   "items": [
+    {
+      "id": "google-news-1ba284820fae0495",
+      "headline": "Google: Here’s how to use intelligent dictation in Gemini for macOS.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/enable-intelligent-dictation-macos/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-25T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-fbb189bbe7085bc4",
+      "headline": "Ready to play? Experience Google Play’s biggest Gamescom showcase yet.",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-gamescom-takeover-rewards/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-54e712174f332108",
       "headline": "Google: We’re partnering with the State of Delaware to provide free AI and career training.",
