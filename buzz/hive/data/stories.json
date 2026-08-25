@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T19:44:19.703Z",
+  "updatedAt": "2026-08-25T20:43:49.696Z",
   "stories": [
+    {
+      "id": "google-news-38f9048063e26f7d",
+      "headline": "You can officially buy the Pixel 11 phones and Pixel Watch 5.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/buy-pixel-11-phones-pixel-5-watch/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-25T20:00:00.000Z",
+      "collectedAt": "2026-08-25T20:43:29.401Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-f4e2ce0374e47996",
       "headline": "Huawei Recognized as a Leader in Gartner ® Magic Quadrant™ for Enterprise Storage Platforms, 2026",
