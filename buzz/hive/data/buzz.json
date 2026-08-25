@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T01:50:29.379Z",
+  "updatedAt": "2026-08-25T03:10:49.956Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-30528de1324eb186",
+      "headline": "Samsung: An Easier Way To Switch to the New Galaxy Z Fold8",
+      "url": "https://news.samsung.com/global/an-easier-way-to-switch-to-the-new-galaxy-z-fold8",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-25T08:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-b0bebd391f210153",
       "headline": "China Unicom Beijing and Huawei Power the 2nd World Humanoid Robot Games with 5G-A GigaUplink",
