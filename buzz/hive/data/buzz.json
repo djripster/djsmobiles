@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T18:55:16.782Z",
+  "updatedAt": "2026-08-25T19:44:19.844Z",
   "items": [
+    {
+      "id": "huawei-newsroom-f4e2ce0374e47996",
+      "headline": "Huawei Recognized as a Leader in Gartner ® Magic Quadrant™ for Enterprise Storage Platforms, 2026",
+      "url": "https://www.huawei.com/en/news/2026/8/gartner-data-storage",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-08-25T17:25:20.067Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-1ba284820fae0495",
       "headline": "Google: Here’s how to use intelligent dictation in Gemini for macOS.",
