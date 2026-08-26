@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T19:16:55.775Z",
+  "updatedAt": "2026-08-26T23:29:56.156Z",
   "stories": [
+    {
+      "id": "google-news-b43a1d3ce3c902dc",
+      "headline": "7 ways to kick-start back to school using Gemini in Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-workspace-back-to-school/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-26T20:30:00.000Z",
+      "collectedAt": "2026-08-26T23:29:35.361Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-584c12716aade068",
       "headline": "Turn your voice into action with new productivity features in Gemini Live",
@@ -39,6 +51,30 @@
       "type": "standard"
     },
     {
+      "id": "huawei-newsroom-f3617e26621ca1d5",
+      "headline": "Huawei and HP Inc. Sign Global Patent Cross-Licensing Agreement",
+      "url": "https://www.huawei.com/en/news/2026/8/hpi-global-patent-agreement",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-08-26T10:09:29.582Z",
+      "collectedAt": "2026-08-26T23:29:56.155Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-f4e2ce0374e47996",
+      "headline": "Huawei Recognized as a Leader in Gartner ® Magic Quadrant™ for Enterprise Storage Platforms, 2026",
+      "url": "https://www.huawei.com/en/news/2026/8/gartner-data-storage",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-08-26T09:21:04.687Z",
+      "collectedAt": "2026-08-25T19:44:19.702Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-08f95232fa3d9ce9",
       "headline": "Google at the Global Forum on Intellectual Property",
       "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/ai-intellectual-property-future-innovation/",
@@ -60,18 +96,6 @@
       ],
       "publishedAt": "2026-08-25T20:00:00.000Z",
       "collectedAt": "2026-08-25T20:43:29.401Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-f4e2ce0374e47996",
-      "headline": "Huawei Recognized as a Leader in Gartner ® Magic Quadrant™ for Enterprise Storage Platforms, 2026",
-      "url": "https://www.huawei.com/en/news/2026/8/gartner-data-storage",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-25T17:25:20.067Z",
-      "collectedAt": "2026-08-25T19:44:19.702Z",
       "type": "standard"
     },
     {
