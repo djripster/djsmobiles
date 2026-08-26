@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T03:16:30.077Z",
+  "updatedAt": "2026-08-26T04:54:10.186Z",
   "items": [
+    {
+      "id": "google-news-08f95232fa3d9ce9",
+      "headline": "Google at the Global Forum on Intellectual Property",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/ai-intellectual-property-future-innovation/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-26T04:15:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-38f9048063e26f7d",
       "headline": "Google: You can officially buy the Pixel 11 phones and Pixel Watch 5.",
