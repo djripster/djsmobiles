@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T16:34:03.689Z",
+  "updatedAt": "2026-08-26T19:16:55.775Z",
   "stories": [
+    {
+      "id": "google-news-584c12716aade068",
+      "headline": "Turn your voice into action with new productivity features in Gemini Live",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-26T17:00:00.000Z",
+      "collectedAt": "2026-08-26T19:16:35.027Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-95b7ebc1937a7b61",
+      "headline": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-26T17:00:00.000Z",
+      "collectedAt": "2026-08-26T19:16:35.027Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-7bb04b5fa0cef39d",
       "headline": "28 startups using AI to transform the energy sector",

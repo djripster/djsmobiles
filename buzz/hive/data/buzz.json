@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-26T16:34:03.737Z",
+  "updatedAt": "2026-08-26T19:16:55.823Z",
   "items": [
+    {
+      "id": "google-news-584c12716aade068",
+      "headline": "Google: Turn your voice into action with new productivity features in Gemini Live",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-26T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-95b7ebc1937a7b61",
+      "headline": "Google: Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-26T17:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-7bb04b5fa0cef39d",
       "headline": "Google: 28 startups using AI to transform the energy sector",
@@ -143,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-08-24T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-c0bf92fe5d2b89ac",
-      "headline": "Samsung Galaxy Buds4 Pro Superior Hi-Fi Sound Recognized by Audio Experts",
-      "url": "https://news.samsung.com/global/samsung-galaxy-buds4-pro-superior-hi-fi-sound-recognized-by-audio-experts",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-24T07:00:00.000Z",
       "type": "standard"
     }
   ]
