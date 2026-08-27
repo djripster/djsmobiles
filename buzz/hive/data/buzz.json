@@ -1,7 +1,95 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T09:41:07.473Z",
+  "updatedAt": "2026-08-27T20:28:19.062Z",
   "items": [
+    {
+      "id": "google-news-fbdfc2d343a8c287",
+      "headline": "Google: Expert Intelligence: a new way for you to engage with trusted content",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T19:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-13e95c70fd2ebfa9",
+      "headline": "Google: Celebrating 250 years of America, from its history to its future",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/celebrating-250-years-of-america-from-its-history-to-its-future/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a1c9c66d73112465",
+      "headline": "Google: 3 new ways to plan and book travel in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-7d8f7d49cd6deab3",
+      "headline": "Google: Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-134ef96bcea18360",
+      "headline": "Google: Partnering with Khan Academy on building AI tools for classrooms",
+      "url": "https://blog.google/products-and-platforms/products/education/khan-academy-back-to-school/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-7da178756c06c683",
+      "headline": "Google Flow brings new creative control features to enhance video editing.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/new-creative-controls-google-flow/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4b0474077ce1e6b9",
+      "headline": "Google: Reach your audience in new ways with August’s Demand Gen Drop.",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-august-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-37fd02de775b1e9c",
+      "headline": "Google: Our Fitbit Air Special Edition Pokémon Sleep is here",
+      "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-air-special-edition-pokemon-sleep/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T13:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-b43a1d3ce3c902dc",
       "headline": "Google: 7 ways to kick-start back to school using Gemini in Workspace",
@@ -77,94 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-08-26T04:15:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-38f9048063e26f7d",
-      "headline": "Google: You can officially buy the Pixel 11 phones and Pixel Watch 5.",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/buy-pixel-11-phones-pixel-5-watch/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-25T20:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-1ba284820fae0495",
-      "headline": "Google: Here’s how to use intelligent dictation in Gemini for macOS.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/enable-intelligent-dictation-macos/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-25T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-9ce79d4dded95af4",
-      "headline": "5 ways to upgrade your home decor with Google Search",
-      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-25T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-fbb189bbe7085bc4",
-      "headline": "Ready to play? Experience Google Play’s biggest Gamescom showcase yet.",
-      "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-gamescom-takeover-rewards/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-25T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-54e712174f332108",
-      "headline": "Google: We’re partnering with the State of Delaware to provide free AI and career training.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/free-ai-training-delaware/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-25T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-30528de1324eb186",
-      "headline": "Samsung: An Easier Way To Switch to the New Galaxy Z Fold8",
-      "url": "https://news.samsung.com/global/an-easier-way-to-switch-to-the-new-galaxy-z-fold8",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-08-25T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-b0bebd391f210153",
-      "headline": "China Unicom Beijing and Huawei Power the 2nd World Humanoid Robot Games with 5G-A GigaUplink",
-      "url": "https://www.huawei.com/en/news/2026/8/5gcapital-gigauplink-5ga",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-24T20:01:40.418Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-20e8a10f30d68c1e",
-      "headline": "Google: Celebrate 110 years of national parks with Maps, Search, and Gemini",
-      "url": "https://blog.google/products-and-platforms/products/maps/national-parks-week-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-24T16:00:00.000Z",
       "type": "standard"
     }
   ]

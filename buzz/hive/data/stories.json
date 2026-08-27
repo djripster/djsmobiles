@@ -1,7 +1,103 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T09:41:07.424Z",
+  "updatedAt": "2026-08-27T20:28:19.013Z",
   "stories": [
+    {
+      "id": "google-news-fbdfc2d343a8c287",
+      "headline": "Expert Intelligence: a new way for you to engage with trusted content",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T19:30:00.000Z",
+      "collectedAt": "2026-08-27T20:27:58.615Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-13e95c70fd2ebfa9",
+      "headline": "Celebrating 250 years of America, from its history to its future",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/celebrating-250-years-of-america-from-its-history-to-its-future/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T17:00:00.000Z",
+      "collectedAt": "2026-08-27T20:27:58.616Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a1c9c66d73112465",
+      "headline": "3 new ways to plan and book travel in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "collectedAt": "2026-08-27T20:27:58.616Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-7d8f7d49cd6deab3",
+      "headline": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "collectedAt": "2026-08-27T20:27:58.616Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-134ef96bcea18360",
+      "headline": "Partnering with Khan Academy on building AI tools for classrooms",
+      "url": "https://blog.google/products-and-platforms/products/education/khan-academy-back-to-school/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "collectedAt": "2026-08-27T20:27:58.616Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-7da178756c06c683",
+      "headline": "Google Flow brings new creative control features to enhance video editing.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/new-creative-controls-google-flow/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "collectedAt": "2026-08-27T20:27:58.616Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4b0474077ce1e6b9",
+      "headline": "Reach your audience in new ways with August’s Demand Gen Drop.",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-august-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "collectedAt": "2026-08-27T20:27:58.616Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-37fd02de775b1e9c",
+      "headline": "Our Fitbit Air Special Edition Pokémon Sleep is here",
+      "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-air-special-edition-pokemon-sleep/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-27T13:00:00.000Z",
+      "collectedAt": "2026-08-27T20:27:58.616Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-b43a1d3ce3c902dc",
       "headline": "7 ways to kick-start back to school using Gemini in Workspace",
