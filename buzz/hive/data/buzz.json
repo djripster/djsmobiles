@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T05:21:57.981Z",
+  "updatedAt": "2026-08-28T18:38:12.310Z",
   "items": [
+    {
+      "id": "google-news-9415753715d793c7",
+      "headline": "Google: We’re introducing flexible usage limits for Gemini Notebook.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-flexible-usage-limits/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-fbdfc2d343a8c287",
       "headline": "Google: Expert Intelligence: a new way for you to engage with trusted content",
@@ -154,17 +165,6 @@
         "huawei"
       ],
       "publishedAt": "2026-08-26T09:21:04.687Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-08f95232fa3d9ce9",
-      "headline": "Google at the Global Forum on Intellectual Property",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/ai-intellectual-property-future-innovation/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-26T04:15:00.000Z",
       "type": "standard"
     }
   ]
