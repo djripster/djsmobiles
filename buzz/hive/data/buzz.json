@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-29T18:26:18.965Z",
+  "updatedAt": "2026-08-29T21:42:40.290Z",
   "items": [
     {
       "id": "google-news-9415753715d793c7",
@@ -99,17 +99,6 @@
         "google"
       ],
       "publishedAt": "2026-08-27T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b43a1d3ce3c902dc",
-      "headline": "Google: 7 ways to kick-start back to school using Gemini in Workspace",
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-workspace-back-to-school/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-26T20:30:00.000Z",
       "type": "standard"
     }
   ]
