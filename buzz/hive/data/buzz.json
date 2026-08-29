@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-29T09:00:09.250Z",
+  "updatedAt": "2026-08-29T14:27:16.572Z",
   "items": [
     {
       "id": "google-news-9415753715d793c7",
@@ -143,28 +143,6 @@
         "google"
       ],
       "publishedAt": "2026-08-26T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-f3617e26621ca1d5",
-      "headline": "Huawei and HP Inc. Sign Global Patent Cross-Licensing Agreement",
-      "url": "https://www.huawei.com/en/news/2026/8/hpi-global-patent-agreement",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-26T10:09:29.582Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-f4e2ce0374e47996",
-      "headline": "Huawei Recognized as a Leader in Gartner ® Magic Quadrant™ for Enterprise Storage Platforms, 2026",
-      "url": "https://www.huawei.com/en/news/2026/8/gartner-data-storage",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-26T09:21:04.687Z",
       "type": "standard"
     }
   ]
