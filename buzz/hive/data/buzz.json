@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-29T14:27:16.572Z",
+  "updatedAt": "2026-08-29T18:26:18.965Z",
   "items": [
     {
       "id": "google-news-9415753715d793c7",
@@ -110,39 +110,6 @@
         "google"
       ],
       "publishedAt": "2026-08-26T20:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-584c12716aade068",
-      "headline": "Google: Turn your voice into action with new productivity features in Gemini Live",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-26T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-95b7ebc1937a7b61",
-      "headline": "Google: Intelligent transcription with Gemini 3.5 Transcribe",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-26T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-7bb04b5fa0cef39d",
-      "headline": "Google: 28 startups using AI to transform the energy sector",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/google-for-startups-accelerator-energy-ai/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-26T16:00:00.000Z",
       "type": "standard"
     }
   ]
