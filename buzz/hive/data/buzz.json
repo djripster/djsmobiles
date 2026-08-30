@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-30T17:26:34.629Z",
+  "updatedAt": "2026-08-30T21:01:39.988Z",
   "items": [
     {
       "id": "google-news-9acd1ac8887a342e",
@@ -22,17 +22,6 @@
         "google"
       ],
       "publishedAt": "2026-08-28T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-fbdfc2d343a8c287",
-      "headline": "Google: Expert Intelligence: a new way for you to engage with trusted content",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-27T19:30:00.000Z",
       "type": "standard"
     }
   ]
