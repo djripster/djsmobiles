@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-30T00:17:55.236Z",
+  "updatedAt": "2026-08-30T06:37:31.532Z",
   "items": [
+    {
+      "id": "google-news-9acd1ac8887a342e",
+      "headline": "Google: How the GNIS Lake Ontario/Lake America name change in the U.S. will appear in Maps",
+      "url": "https://blog.google/products-and-platforms/products/maps/gnis-lake-ontario-lake-america-name-change/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-29T04:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-9415753715d793c7",
       "headline": "Google: We’re introducing flexible usage limits for Gemini Notebook.",
