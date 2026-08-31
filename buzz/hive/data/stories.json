@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T20:01:05.578Z",
+  "updatedAt": "2026-08-31T23:49:23.345Z",
   "stories": [
+    {
+      "id": "google-news-5c8787f86ace68e8",
+      "headline": "Pairing Google Antigravity with Gemini 3.7 Flash solves notable multi-agent math and engineering problems.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/antigravity-teamwork-multi-agent/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-08-31T22:00:00.000Z",
+      "collectedAt": "2026-08-31T23:49:02.830Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-fb429cc3ad85fcbb",
       "headline": "Samsung Hosts #PlayGalaxy Cup World Final at Gamescom 2026",
