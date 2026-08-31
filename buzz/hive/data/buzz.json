@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T13:42:07.571Z",
+  "updatedAt": "2026-08-31T20:01:05.624Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-fb429cc3ad85fcbb",
+      "headline": "Samsung Hosts #PlayGalaxy Cup World Final at Gamescom 2026",
+      "url": "https://news.samsung.com/global/samsung-hosts-playgalaxy-cup-world-final-at-gamescom-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-31T10:02:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-9acd1ac8887a342e",
       "headline": "Google: How the GNIS Lake Ontario/Lake America name change in the U.S. will appear in Maps",
@@ -11,17 +22,6 @@
         "google"
       ],
       "publishedAt": "2026-08-29T04:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-9415753715d793c7",
-      "headline": "Google: We’re introducing flexible usage limits for Gemini Notebook.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-flexible-usage-limits/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-28T17:00:00.000Z",
       "type": "standard"
     }
   ]

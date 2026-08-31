@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T13:42:07.431Z",
+  "updatedAt": "2026-08-31T20:01:05.578Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-fb429cc3ad85fcbb",
+      "headline": "Samsung Hosts #PlayGalaxy Cup World Final at Gamescom 2026",
+      "url": "https://news.samsung.com/global/samsung-hosts-playgalaxy-cup-world-final-at-gamescom-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-31T10:02:00.000Z",
+      "collectedAt": "2026-08-31T20:01:05.294Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-9acd1ac8887a342e",
       "headline": "How the GNIS Lake Ontario/Lake America name change in the U.S. will appear in Maps",
@@ -27,6 +39,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-4cc04ded2e7d8336",
+      "headline": "Samsung Galaxy S26 FE: Delivering the Latest Flagship Experience, Focused on What Matters Most",
+      "url": "https://news.samsung.com/global/samsung-galaxy-s26-fe-delivering-the-latest-flagship-experience-focused-on-what-matters-most",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-27T21:00:00.000Z",
+      "collectedAt": "2026-08-31T20:01:05.294Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-fbdfc2d343a8c287",
       "headline": "Expert Intelligence: a new way for you to engage with trusted content",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/",
@@ -36,6 +60,18 @@
       ],
       "publishedAt": "2026-08-27T19:30:00.000Z",
       "collectedAt": "2026-08-27T20:27:58.615Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-8fd6f65124f73c85",
+      "headline": "Samsung Introduces New Odyssey Lineup for Fast-Paced Gaming at Gamescom 2026",
+      "url": "https://news.samsung.com/global/samsung-introduces-new-odyssey-lineup-for-fast-paced-gaming-at-gamescom-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-27T17:30:00.000Z",
+      "collectedAt": "2026-08-31T20:01:05.294Z",
       "type": "standard"
     },
     {
@@ -123,6 +159,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-86f7d8f61d3a10c9",
+      "headline": "[Video] No Unfolding Needed: A Day With Galaxy Z Flip8’s FlexWindow",
+      "url": "https://news.samsung.com/global/video-no-unfolding-needed-a-day-with-galaxy-z-flip8s-flexwindow",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-27T08:00:00.000Z",
+      "collectedAt": "2026-08-31T20:01:05.294Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-b43a1d3ce3c902dc",
       "headline": "7 ways to kick-start back to school using Gemini in Workspace",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-workspace-back-to-school/",
@@ -168,6 +216,18 @@
       ],
       "publishedAt": "2026-08-26T16:00:00.000Z",
       "collectedAt": "2026-08-26T16:33:43.346Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-381c5bd11ffce1ba",
+      "headline": "Samsung Showcases P9 and P7 SSDs Featuring USB4 at Gamescom 2026",
+      "url": "https://news.samsung.com/global/samsung-showcases-p9-and-p7-ssds-featuring-usb4-at-gamescom-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-26T16:00:00.000Z",
+      "collectedAt": "2026-08-31T20:01:05.294Z",
       "type": "standard"
     },
     {
@@ -264,6 +324,30 @@
       ],
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "collectedAt": "2026-08-25T13:09:09.719Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-85e8d1ecfad5c4f0",
+      "headline": "[Invitation] Design Miami Seoul 2026: Opening of Samsung’s ‘Design Is an Act of Love’ Exhibition",
+      "url": "https://news.samsung.com/global/invitation-design-miami-seoul-2026-opening-of-samsungs-design-is-an-act-of-love-exhibition",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-25T13:00:00.000Z",
+      "collectedAt": "2026-08-31T20:01:05.294Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-a1083b006f8c9be4",
+      "headline": "Samsung To Showcase Wide-Ranging Gaming Solutions With Immersive Exhibition at Gamescom 2026",
+      "url": "https://news.samsung.com/global/samsung-to-showcase-wide-ranging-gaming-solutions-with-immersive-exhibition-at-gamescom-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-25T11:00:00.000Z",
+      "collectedAt": "2026-08-31T20:01:05.294Z",
       "type": "standard"
     },
     {
