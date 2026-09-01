@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T23:49:23.524Z",
+  "updatedAt": "2026-09-01T05:02:58.473Z",
   "items": [
     {
       "id": "google-news-5c8787f86ace68e8",
@@ -22,17 +22,6 @@
         "samsung"
       ],
       "publishedAt": "2026-08-31T10:02:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-9acd1ac8887a342e",
-      "headline": "Google: How the GNIS Lake Ontario/Lake America name change in the U.S. will appear in Maps",
-      "url": "https://blog.google/products-and-platforms/products/maps/gnis-lake-ontario-lake-america-name-change/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-08-29T04:00:00.000Z",
       "type": "standard"
     }
   ]
