@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-01T18:27:30.234Z",
+  "updatedAt": "2026-09-01T21:45:00.433Z",
   "items": [
+    {
+      "id": "google-news-c97fc05837957282",
+      "headline": "Google: The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-01T20:45:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-fc559f8bec5ee569",
       "headline": "Google: September Android Drop: Remember where you put things, ease motion sickness, and more",
@@ -28,6 +39,17 @@
       "id": "google-news-7415c6bcd9dd29da",
       "headline": "Try Google Pics: Easy image creation and editing in Google Workspace",
       "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-01T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-75804842c4400858",
+      "headline": "Google: Ask a Scientist: How do researchers use AI to predict a cyclone?",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
