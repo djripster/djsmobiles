@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T09:34:54.468Z",
+  "updatedAt": "2026-09-02T14:27:01.559Z",
   "stories": [
+    {
+      "id": "google-news-60536199b24926f5",
+      "headline": "MrBeast partners with Gemini to turn impossibly big ideas into reality",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-02T13:00:00.000Z",
+      "collectedAt": "2026-09-02T14:26:41.343Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-51ee4d1d74487ea3",
+      "headline": "Our new partnership brings long-duration energy storage to West Virginia.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/west-virginia-long-duration-energy-storage/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-02T12:00:00.000Z",
+      "collectedAt": "2026-09-02T14:26:41.343Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-c97fc05837957282",
       "headline": "The latest AI news we announced in August 2026",
