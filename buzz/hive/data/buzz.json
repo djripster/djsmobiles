@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T18:39:13.719Z",
+  "updatedAt": "2026-09-02T21:47:41.976Z",
   "items": [
     {
       "id": "samsung-global-newsroom-6dbdc53ba4422535",
@@ -102,6 +102,17 @@
       "type": "standard"
     },
     {
+      "id": "huawei-newsroom-49dd0481f25328b3",
+      "headline": "Huawei Unveils Winners of the Sixth OlympusMons Awards, Honoring Efforts to Tackle Storage Technology Challenges in the AI Era",
+      "url": "https://www.huawei.com/en/news/2026/9/olympusmons-awards",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-02T11:17:56.107Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-c97fc05837957282",
       "headline": "Google: The latest AI news we announced in August 2026",
       "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-01T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-03fe5aab9114f599",
-      "headline": "Samsung Presents ‘Design Is an Act of Love’ at Design Miami Seoul 2026",
-      "url": "https://news.samsung.com/global/samsung-presents-design-is-an-act-of-love-at-design-miami-seoul-2026",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-01T10:00:00.000Z",
       "type": "standard"
     }
   ]
