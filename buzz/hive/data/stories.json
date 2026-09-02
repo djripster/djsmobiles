@@ -1,7 +1,91 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T14:27:01.559Z",
+  "updatedAt": "2026-09-02T18:39:13.670Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-6dbdc53ba4422535",
+      "headline": "[Video] [Voices of Galaxy] Meet Lefa Makgato, Championing Africa’s Next Generation of Innovators",
+      "url": "https://news.samsung.com/global/video-voices-of-galaxy-meet-lefa-makgato-championing-africas-next-generation-of-innovators",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-02T21:00:00.000Z",
+      "collectedAt": "2026-09-02T18:39:13.392Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b263b9cf94a657b2",
+      "headline": "Build a measurement stack you can rely on to steer your campaigns.",
+      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-measurement-stack/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-02T17:00:00.000Z",
+      "collectedAt": "2026-09-02T18:39:12.768Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-0805b852647b5c59",
+      "headline": "Book insights in Google Play Books is now available in more than a million ebooks and in the iOS app.",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/book-insights-ios-million-ebooks/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-02T16:00:00.000Z",
+      "collectedAt": "2026-09-02T18:39:12.768Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-0347ba7fd470f2fa",
+      "headline": "Our latest Linux Foundation Europe donation will build a more private digital world.",
+      "url": "https://blog.google/products-and-platforms/platforms/google-pay/zero-knowledge-proof-library-linux-foundation/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-02T16:00:00.000Z",
+      "collectedAt": "2026-09-02T18:39:12.769Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-5eb2aa71a90a9c91",
+      "headline": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-02T15:40:00.000Z",
+      "collectedAt": "2026-09-02T18:39:12.769Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-0c2ac9ff74bfee56",
+      "headline": "Samsung Redefines Laundry With New A-70% and 13 Kg Bespoke AI Washers at IFA 2026",
+      "url": "https://news.samsung.com/global/samsung-redefines-laundry-with-new-a-70-and-13-kg-bespoke-ai-washers-at-ifa-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-02T15:30:00.000Z",
+      "collectedAt": "2026-09-02T18:39:13.392Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-1e5b8618d900b42a",
+      "headline": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-02T15:00:00.000Z",
+      "collectedAt": "2026-09-02T18:39:12.769Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-60536199b24926f5",
       "headline": "MrBeast partners with Gemini to turn impossibly big ideas into reality",
