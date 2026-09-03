@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03T14:32:26.384Z",
+  "updatedAt": "2026-09-03T18:36:12.843Z",
   "items": [
+    {
+      "id": "google-news-a5536cd7efe5226b",
+      "headline": "Start the year AI-ready with the Google AI Educator Series",
+      "url": "https://blog.google/products-and-platforms/products/education/new-ai-educator-trainings-september-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-03T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6054f10fecad81ab",
+      "headline": "Google: Use your voice to get more done in Gmail, Docs, and Keep",
+      "url": "https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-03T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-8064cb09f5278e5b",
+      "headline": "Google: 5 amazing visuals show how the male fruit fly’s brain map is advancing neuroscience",
+      "url": "https://blog.google/innovation-and-ai/technology/research/male-fruit-fly-brain-map/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-03T15:05:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-20c169671e865975",
+      "headline": "Google: Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-03T15:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-6dbdc53ba4422535",
       "headline": "Samsung: [Video] [Voices of Galaxy] Meet Lefa Makgato, Championing Africa’s Next Generation of Innovators",
@@ -121,50 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-01T20:45:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-fc559f8bec5ee569",
-      "headline": "Google: September Android Drop: Remember where you put things, ease motion sickness, and more",
-      "url": "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-01T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5a222bc71ad39c8b",
-      "headline": "Google: Introducing agentic video understanding with Gemini",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-01T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-7415c6bcd9dd29da",
-      "headline": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-01T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-75804842c4400858",
-      "headline": "Google: Ask a Scientist: How do researchers use AI to predict a cyclone?",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-01T16:00:00.000Z",
       "type": "standard"
     }
   ]
