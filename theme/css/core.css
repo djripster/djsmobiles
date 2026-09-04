@@ -2454,3 +2454,90 @@ body.dark-mode .featured-buzz,
 .app-download--other .app-download__title {
   color: #3a4a5a;
 }
+
+/* ==========================================================
+   Ongoing Note
+   Dated field-note entry for living reviews and editorials.
+   ========================================================== */
+
+.ongoing-note {
+  position: relative;
+  margin: 28px 0;
+  padding: 20px 24px 20px 46px;
+  overflow: hidden;
+  color: #27333a;
+  background-color: #fffef8;
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 29px,
+      rgba(48, 109, 137, 0.15) 30px,
+      transparent 31px
+    );
+  border: 1px solid #e0dfcf;
+  border-radius: 5px 9px 8px 6px;
+  box-shadow: 3px 5px 0 rgba(25, 45, 50, 0.08);
+  transform: rotate(-0.15deg);
+}
+
+.ongoing-note::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 31px;
+  width: 1px;
+  background: rgba(202, 66, 66, 0.54);
+  content: "";
+}
+
+.ongoing-note-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 9px 11px;
+  margin: 0 0 12px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.ongoing-note-day {
+  padding: 5px 8px;
+  color: #fff;
+  background: #156f73;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.ongoing-note-game {
+  color: #27333a;
+  font-weight: 800;
+}
+
+.ongoing-note time {
+  color: #67756e;
+}
+
+.ongoing-note p {
+  margin: 0;
+  color: #27333a;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.home-snippet .ongoing-note {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .ongoing-note {
+    padding-left: 40px;
+  }
+
+  .ongoing-note::before {
+    left: 25px;
+  }
+}
