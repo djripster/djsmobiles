@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T14:19:37.977Z",
+  "updatedAt": "2026-09-04T18:22:01.801Z",
   "stories": [
+    {
+      "id": "google-news-d0b16425fcb6e943",
+      "headline": "Create your best tracks yet with Lyria 3.5 in Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-04T16:00:00.000Z",
+      "collectedAt": "2026-09-04T18:21:40.882Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4a8c2aa660e98629",
+      "headline": "Google Translate rolls out new upgrades for iOS and Android.",
+      "url": "https://blog.google/products-and-platforms/products/translate/google-translate-ios-android-upgrades/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-04T16:00:00.000Z",
+      "collectedAt": "2026-09-04T18:21:40.882Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-a5536cd7efe5226b",
       "headline": "Start the year AI-ready with the Google AI Educator Series",

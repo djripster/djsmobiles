@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T14:19:38.029Z",
+  "updatedAt": "2026-09-04T18:22:01.848Z",
   "items": [
+    {
+      "id": "google-news-d0b16425fcb6e943",
+      "headline": "Google: Create your best tracks yet with Lyria 3.5 in Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-04T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4a8c2aa660e98629",
+      "headline": "Google Translate rolls out new upgrades for iOS and Android.",
+      "url": "https://blog.google/products-and-platforms/products/translate/google-translate-ios-android-upgrades/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-04T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-a5536cd7efe5226b",
       "headline": "Start the year AI-ready with the Google AI Educator Series",
@@ -143,28 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-02T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-49dd0481f25328b3",
-      "headline": "Huawei Unveils Winners of the Sixth OlympusMons Awards, Honoring Efforts to Tackle Storage Technology Challenges in the AI Era",
-      "url": "https://www.huawei.com/en/news/2026/9/olympusmons-awards",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-02T11:17:56.107Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-c97fc05837957282",
-      "headline": "Google: The latest AI news we announced in August 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-01T20:45:00.000Z",
       "type": "standard"
     }
   ]
