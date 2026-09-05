@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-05T20:22:56.244Z",
+  "updatedAt": "2026-09-05T22:52:49.148Z",
   "items": [
     {
       "id": "samsung-global-newsroom-2e10ec3ca5f65e74",
@@ -110,17 +110,6 @@
         "samsung"
       ],
       "publishedAt": "2026-09-03T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-6dbdc53ba4422535",
-      "headline": "Samsung: [Video] [Voices of Galaxy] Meet Lefa Makgato, Championing Africa’s Next Generation of Innovators",
-      "url": "https://news.samsung.com/global/video-voices-of-galaxy-meet-lefa-makgato-championing-africas-next-generation-of-innovators",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-02T21:00:00.000Z",
       "type": "standard"
     }
   ]
