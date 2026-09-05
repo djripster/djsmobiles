@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-05T16:02:26.506Z",
+  "updatedAt": "2026-09-05T18:15:04.752Z",
   "items": [
     {
       "id": "samsung-global-newsroom-2e10ec3ca5f65e74",
@@ -121,17 +121,6 @@
         "samsung"
       ],
       "publishedAt": "2026-09-02T21:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b263b9cf94a657b2",
-      "headline": "Google: Build a measurement stack you can rely on to steer your campaigns.",
-      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-measurement-stack/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-02T17:00:00.000Z",
       "type": "standard"
     }
   ]
