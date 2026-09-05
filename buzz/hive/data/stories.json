@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T21:26:18.125Z",
+  "updatedAt": "2026-09-05T00:01:25.997Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-2e10ec3ca5f65e74",
+      "headline": "Samsung Wins Multiple Honors at IFA Innovation Awards 2026",
+      "url": "https://news.samsung.com/global/samsung-wins-multiple-honors-at-ifa-innovation-awards-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-04T21:30:00.000Z",
+      "collectedAt": "2026-09-05T00:01:25.042Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-d0b16425fcb6e943",
       "headline": "Create your best tracks yet with Lyria 3.5 in Gemini.",
@@ -24,6 +36,30 @@
       ],
       "publishedAt": "2026-09-04T16:00:00.000Z",
       "collectedAt": "2026-09-04T18:21:40.882Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-bace96e4a1c4e32c",
+      "headline": "Gamescom 2026: Samsung Odyssey Breaks Boundaries — Supporting Every Way You Play",
+      "url": "https://news.samsung.com/global/gamescom-2026-samsung-odyssey-breaks-boundaries-supporting-every-way-you-play",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-04T08:00:00.000Z",
+      "collectedAt": "2026-09-05T00:01:25.042Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-2379fee7ab5c640a",
+      "headline": "Meet the Generation17 Young Leaders: The Story of Soumya Dabriwal",
+      "url": "https://news.samsung.com/global/meet-the-generation17-young-leaders-the-story-of-soumya-dabriwal",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-04T08:00:00.000Z",
+      "collectedAt": "2026-09-05T00:01:25.042Z",
       "type": "standard"
     },
     {
@@ -72,6 +108,18 @@
       ],
       "publishedAt": "2026-09-03T15:00:00.000Z",
       "collectedAt": "2026-09-03T18:35:52.175Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-1154d1a54df089a7",
+      "headline": "Samsung Showcases New Washers With Flat Design at IFA 2026",
+      "url": "https://news.samsung.com/global/samsung-showcases-new-washers-with-flat-design-at-ifa-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-03T08:00:00.000Z",
+      "collectedAt": "2026-09-05T00:01:25.042Z",
       "type": "standard"
     },
     {
@@ -564,6 +612,18 @@
       ],
       "publishedAt": "2026-08-26T04:15:00.000Z",
       "collectedAt": "2026-08-26T04:53:49.898Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-c6d0818e92e9e9c2",
+      "headline": "The New Galaxy Z Series Earns Strong Early Reviews From European Consumers",
+      "url": "https://news.samsung.com/global/the-new-galaxy-z-series-earns-strong-early-reviews-from-european-consumers",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "collectedAt": "2026-09-05T00:01:25.042Z",
       "type": "standard"
     },
     {

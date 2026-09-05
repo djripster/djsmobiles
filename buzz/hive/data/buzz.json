@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T21:26:18.164Z",
+  "updatedAt": "2026-09-05T00:01:26.040Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-2e10ec3ca5f65e74",
+      "headline": "Samsung Wins Multiple Honors at IFA Innovation Awards 2026",
+      "url": "https://news.samsung.com/global/samsung-wins-multiple-honors-at-ifa-innovation-awards-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-04T21:30:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-d0b16425fcb6e943",
       "headline": "Google: Create your best tracks yet with Lyria 3.5 in Gemini.",
@@ -22,6 +33,28 @@
         "google"
       ],
       "publishedAt": "2026-09-04T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-bace96e4a1c4e32c",
+      "headline": "Gamescom 2026: Samsung Odyssey Breaks Boundaries — Supporting Every Way You Play",
+      "url": "https://news.samsung.com/global/gamescom-2026-samsung-odyssey-breaks-boundaries-supporting-every-way-you-play",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-04T08:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-2379fee7ab5c640a",
+      "headline": "Samsung: Meet the Generation17 Young Leaders: The Story of Soumya Dabriwal",
+      "url": "https://news.samsung.com/global/meet-the-generation17-young-leaders-the-story-of-soumya-dabriwal",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-04T08:00:00.000Z",
       "type": "standard"
     },
     {
@@ -66,6 +99,17 @@
         "google"
       ],
       "publishedAt": "2026-09-03T15:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-1154d1a54df089a7",
+      "headline": "Samsung Showcases New Washers With Flat Design at IFA 2026",
+      "url": "https://news.samsung.com/global/samsung-showcases-new-washers-with-flat-design-at-ifa-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-03T08:00:00.000Z",
       "type": "standard"
     },
     {
@@ -121,50 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-02T15:40:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-0c2ac9ff74bfee56",
-      "headline": "Samsung Redefines Laundry With New A-70% and 13 Kg Bespoke AI Washers at IFA 2026",
-      "url": "https://news.samsung.com/global/samsung-redefines-laundry-with-new-a-70-and-13-kg-bespoke-ai-washers-at-ifa-2026",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-02T15:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-1e5b8618d900b42a",
-      "headline": "Google: Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-02T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-60536199b24926f5",
-      "headline": "Google: MrBeast partners with Gemini to turn impossibly big ideas into reality",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-02T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-51ee4d1d74487ea3",
-      "headline": "Google: Our new partnership brings long-duration energy storage to West Virginia.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/west-virginia-long-duration-energy-storage/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-02T12:00:00.000Z",
       "type": "standard"
     }
   ]
