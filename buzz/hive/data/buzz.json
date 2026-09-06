@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-06T05:55:01.460Z",
+  "updatedAt": "2026-09-06T10:51:47.361Z",
   "items": [
     {
       "id": "samsung-global-newsroom-2e10ec3ca5f65e74",
@@ -99,17 +99,6 @@
         "google"
       ],
       "publishedAt": "2026-09-03T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-1154d1a54df089a7",
-      "headline": "Samsung Showcases New Washers With Flat Design at IFA 2026",
-      "url": "https://news.samsung.com/global/samsung-showcases-new-washers-with-flat-design-at-ifa-2026",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-03T08:00:00.000Z",
       "type": "standard"
     }
   ]
