@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-07T04:34:05.780Z",
+  "updatedAt": "2026-09-07T10:13:38.162Z",
   "stories": [
+    {
+      "id": "google-news-ba1e5d53f269b726",
+      "headline": "Our new contrail avoidance trial in Asia-Pacific",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/contrail-avoidance-ultra-long-haul-flights/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-07T08:00:00.000Z",
+      "collectedAt": "2026-09-07T10:13:17.858Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-93b63b754f268ce8",
       "headline": "Backing 16 green AI projects in Asia-Pacific",
