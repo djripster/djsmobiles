@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-07T10:13:38.210Z",
+  "updatedAt": "2026-09-07T15:51:35.530Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-3569d319514cd1e7",
+      "headline": "Samsung: Immaculate Engineering Meets Artistic Imagination: Highlights From Design Miami Seoul 2026",
+      "url": "https://news.samsung.com/global/immaculate-engineering-meets-artistic-imagination-highlights-from-design-miami-seoul-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-07T14:53:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-d0bc9c93d8e9744b",
+      "headline": "Samsung Medison Expands Women’s Health Diagnostic Portfolio With Launch of Premium Ultrasound ‘HERA Z10’",
+      "url": "https://news.samsung.com/global/samsung-medison-expands-womens-health-diagnostic-portfolio-with-launch-of-premium-ultrasound-hera-z10",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-07T09:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-ba1e5d53f269b726",
       "headline": "Google: Our new contrail avoidance trial in Asia-Pacific",
@@ -9,6 +31,17 @@
       "sourceId": "google-news",
       "brandIds": [
         "google"
+      ],
+      "publishedAt": "2026-09-07T08:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-d8d20431e09373de",
+      "headline": "Samsung Enhances Long-Term Value of Refrigerators and Laundry Appliances With AI-Focused Software Updates",
+      "url": "https://news.samsung.com/global/samsung-enhances-long-term-value-of-refrigerators-and-laundry-appliances-with-ai-focused-software-updates",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
       ],
       "publishedAt": "2026-09-07T08:00:00.000Z",
       "type": "standard"
