@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-07T19:56:00.203Z",
+  "updatedAt": "2026-09-07T22:48:29.124Z",
   "items": [
     {
       "id": "samsung-global-newsroom-3569d319514cd1e7",
@@ -55,17 +55,6 @@
         "google"
       ],
       "publishedAt": "2026-09-07T01:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-2e10ec3ca5f65e74",
-      "headline": "Samsung Wins Multiple Honors at IFA Innovation Awards 2026",
-      "url": "https://news.samsung.com/global/samsung-wins-multiple-honors-at-ifa-innovation-awards-2026",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-04T21:30:00.000Z",
       "type": "standard"
     }
   ]
