@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-08T18:37:19.955Z",
+  "updatedAt": "2026-09-08T21:49:38.295Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-cfeb416b37cbfd9f",
+      "headline": "Samsung and Mistral AI Announce Strategic Partnership for Intelligence-Driven Semiconductor Infrastructure",
+      "url": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-09T01:00:00.000Z",
+      "collectedAt": "2026-09-08T21:49:37.912Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-9cf2bf2d1bb1d0fa",
+      "headline": "From 253 Grams to 201 Grams: The Engineering Behind the World’s Lightest Fold",
+      "url": "https://news.samsung.com/global/from-253-grams-to-201-grams-the-engineering-behind-the-worlds-lightest-fold",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-09T01:00:00.000Z",
+      "collectedAt": "2026-09-08T21:49:37.913Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-fa6db35c0b9bc29c",
       "headline": "Missouri and Google partner on AI and career training",
@@ -12,6 +36,30 @@
       ],
       "publishedAt": "2026-09-08T15:05:00.000Z",
       "collectedAt": "2026-09-08T15:06:08.205Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-529511fd8ae19ed5",
+      "headline": "Samsung Electronics and ASML Expand Strategic Collaboration for Next-Generation Semiconductor Manufacturing",
+      "url": "https://news.samsung.com/global/samsung-electronics-and-asml-expand-strategic-collaboration-for-next-generation-semiconductor-manufacturing",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-08T15:03:00.000Z",
+      "collectedAt": "2026-09-08T21:49:37.913Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-a73bebceaed731b4",
+      "headline": "Huawei and the UNESCO Institute for Lifelong Learning Empowered Over 10,000 Literacy Educators Worldwide through Digital Skills Training",
+      "url": "https://www.huawei.com/en/news/2026/9/unesco-uil-digital-inclusion",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-08T15:02:59.834Z",
+      "collectedAt": "2026-09-08T21:49:38.294Z",
       "type": "standard"
     },
     {
@@ -312,6 +360,18 @@
       ],
       "publishedAt": "2026-09-02T15:00:00.000Z",
       "collectedAt": "2026-09-02T18:39:12.769Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-0b61e9e7c8184ab6",
+      "headline": "Drive with Carín León on Waze",
+      "url": "https://blog.google/waze/waze-carin-leon/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-02T14:54:00.000Z",
+      "collectedAt": "2026-09-08T21:49:37.164Z",
       "type": "standard"
     },
     {
