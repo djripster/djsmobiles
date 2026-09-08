@@ -1,7 +1,55 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-08T11:13:00.276Z",
+  "updatedAt": "2026-09-08T15:06:28.464Z",
   "stories": [
+    {
+      "id": "google-news-fa6db35c0b9bc29c",
+      "headline": "Missouri and Google partner on AI and career training",
+      "url": "https://blog.google/products-and-platforms/products/education/missouri-state-education-partnership/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-08T15:05:00.000Z",
+      "collectedAt": "2026-09-08T15:06:08.205Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-9311d1ae660af48d",
+      "headline": "We’re helping put 25 new electric semi trucks on the road in Texas.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/electric-semi-trucks-texas/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-08T15:00:00.000Z",
+      "collectedAt": "2026-09-08T15:06:08.206Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-2ce01404d80fba7f",
+      "headline": "AlphaGenome Atlas: a high-resolution map of human DNA",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-08T14:00:00.000Z",
+      "collectedAt": "2026-09-08T15:06:08.206Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-5e12b9068ccd13af",
+      "headline": "Helping small businesses win with AI",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/route-66-small-businesses/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-08T13:00:00.000Z",
+      "collectedAt": "2026-09-08T15:06:08.206Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-3569d319514cd1e7",
       "headline": "Immaculate Engineering Meets Artistic Imagination: Highlights From Design Miami Seoul 2026",
