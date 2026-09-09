@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T18:33:14.447Z",
+  "updatedAt": "2026-09-09T21:40:26.626Z",
   "items": [
+    {
+      "id": "huawei-newsroom-e8557063c82d7689",
+      "headline": "Huawei: Closing Digital Literacy Gap Could Unlock Trillions of Dollars in Global GDP Growth",
+      "url": "https://www.huawei.com/en/news/2026/9/ai-literacy",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-09T23:52:52.788Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-da64721081cae3a8",
       "headline": "Google: A new deep learning model maps global methane emissions from space.",
@@ -66,6 +77,17 @@
         "google"
       ],
       "publishedAt": "2026-09-09T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-f3617e26621ca1d5",
+      "headline": "Huawei and HP Inc. Sign Global Patent Cross-Licensing Agreement",
+      "url": "https://www.huawei.com/en/news/2026/8/hpi-global-patent-agreement",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-09T09:43:28.320Z",
       "type": "standard"
     },
     {
@@ -143,28 +165,6 @@
         "huawei"
       ],
       "publishedAt": "2026-09-08T15:02:59.834Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-9311d1ae660af48d",
-      "headline": "Google: We’re helping put 25 new electric semi trucks on the road in Texas.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/electric-semi-trucks-texas/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-08T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-2ce01404d80fba7f",
-      "headline": "Google: AlphaGenome Atlas: a high-resolution map of human DNA",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-08T14:00:00.000Z",
       "type": "standard"
     }
   ]

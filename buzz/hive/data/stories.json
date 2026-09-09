@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T18:33:14.404Z",
+  "updatedAt": "2026-09-09T21:40:26.588Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-e8557063c82d7689",
+      "headline": "Closing Digital Literacy Gap Could Unlock Trillions of Dollars in Global GDP Growth",
+      "url": "https://www.huawei.com/en/news/2026/9/ai-literacy",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-09T23:52:52.788Z",
+      "collectedAt": "2026-09-09T21:40:26.587Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-da64721081cae3a8",
       "headline": "A new deep learning model maps global methane emissions from space.",
@@ -72,6 +84,18 @@
       ],
       "publishedAt": "2026-09-09T16:00:00.000Z",
       "collectedAt": "2026-09-09T18:32:54.157Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-f3617e26621ca1d5",
+      "headline": "Huawei and HP Inc. Sign Global Patent Cross-Licensing Agreement",
+      "url": "https://www.huawei.com/en/news/2026/8/hpi-global-patent-agreement",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-09T09:43:28.320Z",
+      "collectedAt": "2026-08-26T23:29:56.155Z",
       "type": "standard"
     },
     {
@@ -840,18 +864,6 @@
       ],
       "publishedAt": "2026-08-26T16:00:00.000Z",
       "collectedAt": "2026-08-31T20:01:05.294Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-f3617e26621ca1d5",
-      "headline": "Huawei and HP Inc. Sign Global Patent Cross-Licensing Agreement",
-      "url": "https://www.huawei.com/en/news/2026/8/hpi-global-patent-agreement",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-08-26T10:09:29.582Z",
-      "collectedAt": "2026-08-26T23:29:56.155Z",
       "type": "standard"
     },
     {
