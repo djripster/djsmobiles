@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T04:38:21.979Z",
+  "updatedAt": "2026-09-09T09:40:56.846Z",
   "stories": [
+    {
+      "id": "google-news-660d0278eadc729c",
+      "headline": "Google deepens its commitment to Finland with a €13 billion investment in AI infrastructure",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-ai-commitment-to-finland/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T07:00:00.000Z",
+      "collectedAt": "2026-09-09T09:40:55.789Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ff0e50f02373f80b",
+      "headline": "Our blueprint for responsible clean energy growth in Finland",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/clean-energy-finland/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T07:00:00.000Z",
+      "collectedAt": "2026-09-09T09:40:55.789Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-cfeb416b37cbfd9f",
       "headline": "Samsung and Mistral AI Announce Strategic Partnership for Intelligence-Driven Semiconductor Infrastructure",
