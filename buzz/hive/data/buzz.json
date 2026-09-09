@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T14:33:19.059Z",
+  "updatedAt": "2026-09-09T18:33:14.447Z",
   "items": [
+    {
+      "id": "google-news-da64721081cae3a8",
+      "headline": "Google: A new deep learning model maps global methane emissions from space.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/mapping-global-methane-emissions-from-space/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T18:15:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a622f43ee197a11b",
+      "headline": "Tackle your to-do list with new features in our Google AI plans.",
+      "url": "https://blog.google/products-and-platforms/products/google-one/fall-2026-ai-plan-updates/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-73af7527f82e0ada",
+      "headline": "Google: Get ready for the game with new football features in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-c9b388b084809898",
+      "headline": "Google: 4 ways Gemini makes administrative chores quick and easy",
+      "url": "https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-82b8bf7db8ec7233",
+      "headline": "Google: Recreating a 70-year love story frame by frame",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6e36e285835b0b35",
+      "headline": "Google Accelerators have spent the last decade helping global startups succeed.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/google-accelerators-10-years/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-660d0278eadc729c",
       "headline": "Google deepens its commitment to Finland with a €13 billion investment in AI infrastructure",
@@ -99,72 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-08T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5e12b9068ccd13af",
-      "headline": "Google: Helping small businesses win with AI",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/route-66-small-businesses/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-08T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-3569d319514cd1e7",
-      "headline": "Samsung: Immaculate Engineering Meets Artistic Imagination: Highlights From Design Miami Seoul 2026",
-      "url": "https://news.samsung.com/global/immaculate-engineering-meets-artistic-imagination-highlights-from-design-miami-seoul-2026",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-07T14:53:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-d0bc9c93d8e9744b",
-      "headline": "Samsung Medison Expands Women’s Health Diagnostic Portfolio With Launch of Premium Ultrasound ‘HERA Z10’",
-      "url": "https://news.samsung.com/global/samsung-medison-expands-womens-health-diagnostic-portfolio-with-launch-of-premium-ultrasound-hera-z10",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-07T09:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ba1e5d53f269b726",
-      "headline": "Google: Our new contrail avoidance trial in Asia-Pacific",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/contrail-avoidance-ultra-long-haul-flights/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-07T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-d8d20431e09373de",
-      "headline": "Samsung Enhances Long-Term Value of Refrigerators and Laundry Appliances With AI-Focused Software Updates",
-      "url": "https://news.samsung.com/global/samsung-enhances-long-term-value-of-refrigerators-and-laundry-appliances-with-ai-focused-software-updates",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-07T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-93b63b754f268ce8",
-      "headline": "Google: Backing 16 green AI projects in Asia-Pacific",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-planet-accelerator-apac/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-07T01:00:00.000Z",
       "type": "standard"
     }
   ]

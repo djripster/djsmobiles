@@ -1,7 +1,79 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T14:33:19.023Z",
+  "updatedAt": "2026-09-09T18:33:14.404Z",
   "stories": [
+    {
+      "id": "google-news-da64721081cae3a8",
+      "headline": "A new deep learning model maps global methane emissions from space.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/mapping-global-methane-emissions-from-space/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T18:15:00.000Z",
+      "collectedAt": "2026-09-09T18:32:54.157Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a622f43ee197a11b",
+      "headline": "Tackle your to-do list with new features in our Google AI plans.",
+      "url": "https://blog.google/products-and-platforms/products/google-one/fall-2026-ai-plan-updates/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T17:00:00.000Z",
+      "collectedAt": "2026-09-09T18:32:54.157Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-73af7527f82e0ada",
+      "headline": "Get ready for the game with new football features in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "collectedAt": "2026-09-09T18:32:54.157Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-c9b388b084809898",
+      "headline": "4 ways Gemini makes administrative chores quick and easy",
+      "url": "https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "collectedAt": "2026-09-09T18:32:54.157Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-82b8bf7db8ec7233",
+      "headline": "Recreating a 70-year love story frame by frame",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "collectedAt": "2026-09-09T18:32:54.157Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6e36e285835b0b35",
+      "headline": "Google Accelerators have spent the last decade helping global startups succeed.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/google-accelerators-10-years/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "collectedAt": "2026-09-09T18:32:54.157Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-660d0278eadc729c",
       "headline": "Google deepens its commitment to Finland with a €13 billion investment in AI infrastructure",
