@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T18:24:31.755Z",
+  "updatedAt": "2026-09-10T21:36:00.440Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-378ae6e987d92222",
+      "headline": "Huawei Cloud Named a Leader in the 2026 Gartner ® Magic Quadrant ™ for Container Management",
+      "url": "https://www.huawei.com/en/news/2026/9/gartner-container-management",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-10T18:11:04.109Z",
+      "collectedAt": "2026-09-10T21:36:00.439Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-cc643436dbfcc751",
       "headline": "Dreambeans: Daily stories, brewed just for you, now available to all accounts in the U.S.",
@@ -12,6 +24,30 @@
       ],
       "publishedAt": "2026-09-10T18:00:00.000Z",
       "collectedAt": "2026-09-10T18:24:30.566Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-5d6936ca604dafd4",
+      "headline": "TAWAL And Huawei Sign Indoor Building Solutions Partnership Agreement to Jointly Expand Digital Indoor Networks for Saudi Arabia",
+      "url": "https://www.huawei.com/en/news/2026/9/lampsite-tawal-saudi",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-10T17:26:17.277Z",
+      "collectedAt": "2026-09-10T21:36:00.439Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-e8557063c82d7689",
+      "headline": "Closing Digital Literacy Gap Could Unlock Trillions of Dollars in Global GDP Growth",
+      "url": "https://www.huawei.com/en/news/2026/9/ai-literacy",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-10T16:44:27.989Z",
+      "collectedAt": "2026-09-09T21:40:26.587Z",
       "type": "standard"
     },
     {
@@ -72,18 +108,6 @@
       ],
       "publishedAt": "2026-09-10T11:00:00.000Z",
       "collectedAt": "2026-09-10T14:23:51.553Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-e8557063c82d7689",
-      "headline": "Closing Digital Literacy Gap Could Unlock Trillions of Dollars in Global GDP Growth",
-      "url": "https://www.huawei.com/en/news/2026/9/ai-literacy",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-09T23:52:52.788Z",
-      "collectedAt": "2026-09-09T21:40:26.587Z",
       "type": "standard"
     },
     {

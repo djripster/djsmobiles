@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T18:24:31.802Z",
+  "updatedAt": "2026-09-10T21:36:00.479Z",
   "items": [
+    {
+      "id": "huawei-newsroom-378ae6e987d92222",
+      "headline": "Huawei Cloud Named a Leader in the 2026 Gartner ® Magic Quadrant ™ for Container Management",
+      "url": "https://www.huawei.com/en/news/2026/9/gartner-container-management",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-10T18:11:04.109Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-cc643436dbfcc751",
       "headline": "Google: Dreambeans: Daily stories, brewed just for you, now available to all accounts in the U.S.",
@@ -11,6 +22,28 @@
         "google"
       ],
       "publishedAt": "2026-09-10T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-5d6936ca604dafd4",
+      "headline": "TAWAL And Huawei Sign Indoor Building Solutions Partnership Agreement to Jointly Expand Digital Indoor Networks for Saudi Arabia",
+      "url": "https://www.huawei.com/en/news/2026/9/lampsite-tawal-saudi",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-10T17:26:17.277Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-e8557063c82d7689",
+      "headline": "Huawei: Closing Digital Literacy Gap Could Unlock Trillions of Dollars in Global GDP Growth",
+      "url": "https://www.huawei.com/en/news/2026/9/ai-literacy",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-10T16:44:27.989Z",
       "type": "standard"
     },
     {
@@ -66,17 +99,6 @@
         "google"
       ],
       "publishedAt": "2026-09-10T11:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-e8557063c82d7689",
-      "headline": "Huawei: Closing Digital Literacy Gap Could Unlock Trillions of Dollars in Global GDP Growth",
-      "url": "https://www.huawei.com/en/news/2026/9/ai-literacy",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-09T23:52:52.788Z",
       "type": "standard"
     },
     {
@@ -143,28 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-09T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-f3617e26621ca1d5",
-      "headline": "Huawei and HP Inc. Sign Global Patent Cross-Licensing Agreement",
-      "url": "https://www.huawei.com/en/news/2026/8/hpi-global-patent-agreement",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-09T09:43:28.320Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-660d0278eadc729c",
-      "headline": "Google deepens its commitment to Finland with a €13 billion investment in AI infrastructure",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-ai-commitment-to-finland/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-09T07:00:00.000Z",
       "type": "standard"
     }
   ]
