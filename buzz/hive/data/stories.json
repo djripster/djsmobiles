@@ -1,7 +1,55 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T14:24:11.802Z",
+  "updatedAt": "2026-09-10T18:24:31.755Z",
   "stories": [
+    {
+      "id": "google-news-cc643436dbfcc751",
+      "headline": "Dreambeans: Daily stories, brewed just for you, now available to all accounts in the U.S.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/dreambeans-expansion-september-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-10T18:00:00.000Z",
+      "collectedAt": "2026-09-10T18:24:30.566Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ceadd21f5d3a2d65",
+      "headline": "3 ways to prep for your next big race with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "collectedAt": "2026-09-10T18:24:30.566Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-fcbdbdad0836d1cd",
+      "headline": "The Gemini app is now available for Windows",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "collectedAt": "2026-09-10T18:24:30.566Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-e9eab2f819816bb9",
+      "headline": "Switching password managers is easy and safe on Android",
+      "url": "https://blog.google/products-and-platforms/platforms/android/switch-password-managers/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "collectedAt": "2026-09-10T18:24:30.566Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-50f92fe38778814c",
       "headline": "Drive profitable growth with new data and measurement tools",

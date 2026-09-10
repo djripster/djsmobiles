@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T14:24:11.852Z",
+  "updatedAt": "2026-09-10T18:24:31.802Z",
   "items": [
+    {
+      "id": "google-news-cc643436dbfcc751",
+      "headline": "Google: Dreambeans: Daily stories, brewed just for you, now available to all accounts in the U.S.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/dreambeans-expansion-september-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-10T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ceadd21f5d3a2d65",
+      "headline": "Google: 3 ways to prep for your next big race with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-fcbdbdad0836d1cd",
+      "headline": "Google: The Gemini app is now available for Windows",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-e9eab2f819816bb9",
+      "headline": "Google: Switching password managers is easy and safe on Android",
+      "url": "https://blog.google/products-and-platforms/platforms/android/switch-password-managers/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-50f92fe38778814c",
       "headline": "Google: Drive profitable growth with new data and measurement tools",
@@ -121,50 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-09T07:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ff0e50f02373f80b",
-      "headline": "Google: Our blueprint for responsible clean energy growth in Finland",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/clean-energy-finland/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-09T07:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-cfeb416b37cbfd9f",
-      "headline": "Samsung and Mistral AI Announce Strategic Partnership for Intelligence-Driven Semiconductor Infrastructure",
-      "url": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-09T01:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-9cf2bf2d1bb1d0fa",
-      "headline": "Samsung: From 253 Grams to 201 Grams: The Engineering Behind the World’s Lightest Fold",
-      "url": "https://news.samsung.com/global/from-253-grams-to-201-grams-the-engineering-behind-the-worlds-lightest-fold",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-09T01:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-fa6db35c0b9bc29c",
-      "headline": "Missouri and Google partner on AI and career training",
-      "url": "https://blog.google/products-and-platforms/products/education/missouri-state-education-partnership/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-08T15:05:00.000Z",
       "type": "standard"
     }
   ]
