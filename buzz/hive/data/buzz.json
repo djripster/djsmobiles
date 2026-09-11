@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T09:37:38.713Z",
+  "updatedAt": "2026-09-11T14:23:57.352Z",
   "items": [
+    {
+      "id": "google-news-aa1d6238e82a2f87",
+      "headline": "Three Google supported projects premiere during the 83rd Venice International Film Festival.",
+      "url": "https://blog.google/innovation-and-ai/technology/xr-ar/three-google-supported-projects-premiere-during-the-83rd-venice-international-film-festival/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-11T11:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-378ae6e987d92222",
       "headline": "Huawei Cloud Named a Leader in the 2026 Gartner ® Magic Quadrant ™ for Container Management",
@@ -149,17 +160,6 @@
       "id": "google-news-82b8bf7db8ec7233",
       "headline": "Google: Recreating a 70-year love story frame by frame",
       "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-09T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6e36e285835b0b35",
-      "headline": "Google Accelerators have spent the last decade helping global startups succeed.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/google-accelerators-10-years/",
       "sourceId": "google-news",
       "brandIds": [
         "google"

@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T09:37:38.667Z",
+  "updatedAt": "2026-09-11T14:23:57.259Z",
   "stories": [
+    {
+      "id": "google-news-aa1d6238e82a2f87",
+      "headline": "Three Google supported projects premiere during the 83rd Venice International Film Festival.",
+      "url": "https://blog.google/innovation-and-ai/technology/xr-ar/three-google-supported-projects-premiere-during-the-83rd-venice-international-film-festival/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-11T11:00:00.000Z",
+      "collectedAt": "2026-09-11T14:23:36.650Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-378ae6e987d92222",
       "headline": "Huawei Cloud Named a Leader in the 2026 Gartner ® Magic Quadrant ™ for Container Management",
