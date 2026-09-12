@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-12T17:07:01.440Z",
+  "updatedAt": "2026-09-12T19:18:01.268Z",
   "items": [
     {
       "id": "google-news-aa1d6238e82a2f87",
@@ -110,17 +110,6 @@
         "google"
       ],
       "publishedAt": "2026-09-10T11:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-da64721081cae3a8",
-      "headline": "Google: A new deep learning model maps global methane emissions from space.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/mapping-global-methane-emissions-from-space/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-09T18:15:00.000Z",
       "type": "standard"
     }
   ]
