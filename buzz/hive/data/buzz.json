@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T10:13:33.812Z",
+  "updatedAt": "2026-09-13T14:23:45.939Z",
   "items": [
     {
       "id": "google-news-aa1d6238e82a2f87",
@@ -88,28 +88,6 @@
         "google"
       ],
       "publishedAt": "2026-09-10T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-50f92fe38778814c",
-      "headline": "Google: Drive profitable growth with new data and measurement tools",
-      "url": "https://blog.google/products/ads-commerce/data-strength-updates/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-10T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-058da771460461d4",
-      "headline": "Google: Exploring Creative Intelligence with London’s Southbank Centre",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/exploring-creative-intelligence-with-londons-southbank-centre/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-10T11:00:00.000Z",
       "type": "standard"
     }
   ]
