@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T18:10:17.005Z",
+  "updatedAt": "2026-09-13T20:45:48.093Z",
   "items": [
     {
       "id": "google-news-aa1d6238e82a2f87",
@@ -11,17 +11,6 @@
         "google"
       ],
       "publishedAt": "2026-09-11T11:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-378ae6e987d92222",
-      "headline": "Huawei Cloud Named a Leader in the 2026 Gartner ® Magic Quadrant ™ for Container Management",
-      "url": "https://www.huawei.com/en/news/2026/9/gartner-container-management",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-10T18:11:04.109Z",
       "type": "standard"
     }
   ]
