@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T14:23:45.939Z",
+  "updatedAt": "2026-09-13T18:10:17.005Z",
   "items": [
     {
       "id": "google-news-aa1d6238e82a2f87",
@@ -22,72 +22,6 @@
         "huawei"
       ],
       "publishedAt": "2026-09-10T18:11:04.109Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-cc643436dbfcc751",
-      "headline": "Google: Dreambeans: Daily stories, brewed just for you, now available to all accounts in the U.S.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/dreambeans-expansion-september-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-10T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-5d6936ca604dafd4",
-      "headline": "TAWAL And Huawei Sign Indoor Building Solutions Partnership Agreement to Jointly Expand Digital Indoor Networks for Saudi Arabia",
-      "url": "https://www.huawei.com/en/news/2026/9/lampsite-tawal-saudi",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-10T17:26:17.277Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-e8557063c82d7689",
-      "headline": "Huawei: Closing Digital Literacy Gap Could Unlock Trillions of Dollars in Global GDP Growth",
-      "url": "https://www.huawei.com/en/news/2026/9/ai-literacy",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-10T16:44:27.989Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ceadd21f5d3a2d65",
-      "headline": "Google: 3 ways to prep for your next big race with Search",
-      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-10T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-fcbdbdad0836d1cd",
-      "headline": "Google: The Gemini app is now available for Windows",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-10T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-e9eab2f819816bb9",
-      "headline": "Google: Switching password managers is easy and safe on Android",
-      "url": "https://blog.google/products-and-platforms/platforms/android/switch-password-managers/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-10T16:00:00.000Z",
       "type": "standard"
     }
   ]
