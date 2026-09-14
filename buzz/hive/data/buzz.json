@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T18:36:03.227Z",
+  "updatedAt": "2026-09-14T22:28:26.738Z",
   "items": [
+    {
+      "id": "google-news-6666660dfd652924",
+      "headline": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-14T19:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-ac6fab4ebd9f6bc8",
       "headline": "Google: DevFest is back",
