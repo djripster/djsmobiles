@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T12:49:28.007Z",
+  "updatedAt": "2026-09-14T18:36:03.122Z",
   "stories": [
+    {
+      "id": "google-news-ac6fab4ebd9f6bc8",
+      "headline": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-14T16:00:00.000Z",
+      "collectedAt": "2026-09-14T18:35:42.944Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-5945dbc4b87ef774",
+      "headline": "We’re exploring a potential data center in Lea County, New Mexico.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/lea-county-new-mexico/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-14T14:00:00.000Z",
+      "collectedAt": "2026-09-14T18:35:42.944Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-aa1d6238e82a2f87",
       "headline": "Three Google supported projects premiere during the 83rd Venice International Film Festival.",
