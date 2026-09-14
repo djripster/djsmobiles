@@ -1,17 +1,5 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T06:14:13.086Z",
-  "items": [
-    {
-      "id": "google-news-aa1d6238e82a2f87",
-      "headline": "Three Google supported projects premiere during the 83rd Venice International Film Festival.",
-      "url": "https://blog.google/innovation-and-ai/technology/xr-ar/three-google-supported-projects-premiere-during-the-83rd-venice-international-film-festival/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-11T11:00:00.000Z",
-      "type": "standard"
-    }
-  ]
+  "updatedAt": "2026-09-14T12:49:28.045Z",
+  "items": []
 }
