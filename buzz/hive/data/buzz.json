@@ -1,7 +1,128 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T13:30:30.187Z",
+  "updatedAt": "2026-09-15T18:09:48.421Z",
   "items": [
+    {
+      "id": "google-news-2e5a96b7be79e261",
+      "headline": "Google: September Pixel Drop: New Pixel VIP updates, Pixel Watch features, and more",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/september-2026-pixel-drop/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-9ac7b06b4a79ae03",
+      "headline": "Google: Build real-time voice applications with Gemini 3.8 Live and 3.5 Transcribe",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-850203855328faa9",
+      "headline": "Google: Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d86b4319afd9f5f2",
+      "headline": "Google: 15 organizations transforming public service with AI",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/ai-government-innovation-recipients/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T16:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-970c94673769027a",
+      "headline": "Google: AI for Societal Impact",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6fff55fdf7cb614f",
+      "headline": "Google: Building AI to accelerate science and improve lives",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-50f1fa34d3c31e12",
+      "headline": "Google: AI for everyone in every language",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-bd6b61586f08b723",
+      "headline": "Google: Ask a Scientist: How can researchers use AI to spot a wildfire?",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/wildfire-tracking-ai/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4f3754e6a54823b0",
+      "headline": "Google: We’re committing $10 million toward Nevada’s cleaner, more affordable energy future.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/nevada-clean-energy-fund/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-c4890978b23bdc61",
+      "headline": "Google: Sharpen your study routine with new Gemini Notebook tools",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-3333bd4644474e5f",
+      "headline": "Google: 4 ways to tackle household chores with Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/household-chores-tips/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-b21c5e1ffc812be8",
       "headline": "New insights from Google’s AI & Economy ATLAS",
@@ -44,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-14T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5945dbc4b87ef774",
-      "headline": "Google: We’re exploring a potential data center in Lea County, New Mexico.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/lea-county-new-mexico/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-14T14:00:00.000Z",
       "type": "standard"
     }
   ]
