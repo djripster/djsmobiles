@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T07:40:43.977Z",
+  "updatedAt": "2026-09-15T13:30:30.139Z",
   "stories": [
+    {
+      "id": "google-news-b21c5e1ffc812be8",
+      "headline": "New insights from Google’s AI & Economy ATLAS",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-15T13:00:00.000Z",
+      "collectedAt": "2026-09-15T13:30:09.413Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-aa27d65f95478f57",
       "headline": "Samsung and Verizon Complete Successful ISAC Trial Over Virtualized Network at Global Sports Event",
