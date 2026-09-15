@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T01:25:28.781Z",
+  "updatedAt": "2026-09-15T07:40:43.977Z",
   "stories": [
+    {
+      "id": "samsung-global-newsroom-aa27d65f95478f57",
+      "headline": "Samsung and Verizon Complete Successful ISAC Trial Over Virtualized Network at Global Sports Event",
+      "url": "https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-14T22:10:00.000Z",
+      "collectedAt": "2026-09-15T07:40:43.666Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-6666660dfd652924",
       "headline": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
