@@ -1,11 +1,33 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T16:50:12.886Z",
+  "updatedAt": "2026-09-16T20:05:44.048Z",
   "items": [
+    {
+      "id": "huawei-newsroom-cc7c46c65b0d0dc9",
+      "headline": "Huawei's latest report proposes 10 key directions to Intelligent World 2035",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-intelligent-world-2035",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-16T17:28:47.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-33853db7a520a7f8",
       "headline": "Google: 3 new ways we're improving Search profiles for publishers",
       "url": "https://blog.google/products-and-platforms/products/search/3-new-ways-were-improving-search-profiles-for-publishers/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-cc38b9c661bc46d4",
+      "headline": "Google: Rethink your strategy to drive sales this holiday season.",
+      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-holiday-sales-strategies/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
@@ -138,28 +160,6 @@
       "id": "google-news-50f1fa34d3c31e12",
       "headline": "Google: AI for everyone in every language",
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-bd6b61586f08b723",
-      "headline": "Google: Ask a Scientist: How can researchers use AI to spot a wildfire?",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/wildfire-tracking-ai/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-4f3754e6a54823b0",
-      "headline": "Google: We’re committing $10 million toward Nevada’s cleaner, more affordable energy future.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/nevada-clean-energy-fund/",
       "sourceId": "google-news",
       "brandIds": [
         "google"

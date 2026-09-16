@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T16:50:12.847Z",
+  "updatedAt": "2026-09-16T20:05:44.004Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-cc7c46c65b0d0dc9",
+      "headline": "Huawei's latest report proposes 10 key directions to Intelligent World 2035",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-intelligent-world-2035",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-16T17:28:47.000Z",
+      "collectedAt": "2026-09-16T20:05:44.003Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-33853db7a520a7f8",
       "headline": "3 new ways we're improving Search profiles for publishers",
@@ -12,6 +24,18 @@
       ],
       "publishedAt": "2026-09-16T16:00:00.000Z",
       "collectedAt": "2026-09-16T16:49:52.407Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-cc38b9c661bc46d4",
+      "headline": "Rethink your strategy to drive sales this holiday season.",
+      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-holiday-sales-strategies/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T16:00:00.000Z",
+      "collectedAt": "2026-09-16T20:05:23.253Z",
       "type": "standard"
     },
     {
