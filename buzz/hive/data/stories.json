@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T00:16:05.355Z",
+  "updatedAt": "2026-09-16T05:58:54.340Z",
   "stories": [
+    {
+      "id": "google-news-e7e3b473a14c1d5f",
+      "headline": "Reimagining Chicago’s Thompson Center for the next generation",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/chicago-thompson-center-designs/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T05:01:00.000Z",
+      "collectedAt": "2026-09-16T05:58:33.982Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-2e5a96b7be79e261",
       "headline": "September Pixel Drop: New Pixel VIP updates, Pixel Watch features, and more",

@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T00:16:05.405Z",
+  "updatedAt": "2026-09-16T05:58:54.383Z",
   "items": [
+    {
+      "id": "google-news-e7e3b473a14c1d5f",
+      "headline": "Google: Reimagining Chicago’s Thompson Center for the next generation",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/chicago-thompson-center-designs/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T05:01:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-2e5a96b7be79e261",
       "headline": "Google: September Pixel Drop: New Pixel VIP updates, Pixel Watch features, and more",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-14T19:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ac6fab4ebd9f6bc8",
-      "headline": "Google: DevFest is back",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-14T16:00:00.000Z",
       "type": "standard"
     }
   ]
