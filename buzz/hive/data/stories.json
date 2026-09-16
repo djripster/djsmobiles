@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T11:27:04.556Z",
+  "updatedAt": "2026-09-16T16:50:12.847Z",
   "stories": [
+    {
+      "id": "google-news-33853db7a520a7f8",
+      "headline": "3 new ways we're improving Search profiles for publishers",
+      "url": "https://blog.google/products-and-platforms/products/search/3-new-ways-were-improving-search-profiles-for-publishers/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T16:00:00.000Z",
+      "collectedAt": "2026-09-16T16:49:52.407Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-69e6db2927494ad5",
+      "headline": "5 things to know about teens' views on AI today",
+      "url": "https://blog.google/innovation-and-ai/technology/families/teens-ai-research-findings/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T15:00:00.000Z",
+      "collectedAt": "2026-09-16T16:49:52.407Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a7d939384a73b069",
+      "headline": "Boost your holiday sales with these agentic commerce updates",
+      "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T14:00:00.000Z",
+      "collectedAt": "2026-09-16T16:49:52.407Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6346209af7a90bdc",
+      "headline": "Rethink 2026",
+      "url": "https://blog.google/products/ads-commerce/rethink-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T14:00:00.000Z",
+      "collectedAt": "2026-09-16T16:49:52.407Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-df36c6a5a8471dd7",
+      "headline": "We’re catalyzing megaton-scale climate impact in Brazil",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/terradot-superpollutants-carbon-removal/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "collectedAt": "2026-09-16T16:49:52.407Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-e7e3b473a14c1d5f",
       "headline": "Reimagining Chicago’s Thompson Center for the next generation",

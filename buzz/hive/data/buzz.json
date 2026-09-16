@@ -1,7 +1,62 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T11:27:04.594Z",
+  "updatedAt": "2026-09-16T16:50:12.886Z",
   "items": [
+    {
+      "id": "google-news-33853db7a520a7f8",
+      "headline": "Google: 3 new ways we're improving Search profiles for publishers",
+      "url": "https://blog.google/products-and-platforms/products/search/3-new-ways-were-improving-search-profiles-for-publishers/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-69e6db2927494ad5",
+      "headline": "Google: 5 things to know about teens' views on AI today",
+      "url": "https://blog.google/innovation-and-ai/technology/families/teens-ai-research-findings/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T15:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a7d939384a73b069",
+      "headline": "Google: Boost your holiday sales with these agentic commerce updates",
+      "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6346209af7a90bdc",
+      "headline": "Google: Rethink 2026",
+      "url": "https://blog.google/products/ads-commerce/rethink-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-df36c6a5a8471dd7",
+      "headline": "Google: We’re catalyzing megaton-scale climate impact in Brazil",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/terradot-superpollutants-carbon-removal/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-e7e3b473a14c1d5f",
       "headline": "Google: Reimagining Chicago’s Thompson Center for the next generation",
@@ -110,61 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-15T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-c4890978b23bdc61",
-      "headline": "Google: Sharpen your study routine with new Gemini Notebook tools",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-3333bd4644474e5f",
-      "headline": "Google: 4 ways to tackle household chores with Gemini",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/household-chores-tips/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b21c5e1ffc812be8",
-      "headline": "New insights from Google’s AI & Economy ATLAS",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-aa27d65f95478f57",
-      "headline": "Samsung and Verizon Complete Successful ISAC Trial Over Virtualized Network at Global Sports Event",
-      "url": "https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-14T22:10:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6666660dfd652924",
-      "headline": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-14T19:00:00.000Z",
       "type": "standard"
     }
   ]
