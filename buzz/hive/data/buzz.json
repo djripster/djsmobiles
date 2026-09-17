@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T18:11:10.414Z",
+  "updatedAt": "2026-09-17T21:19:22.768Z",
   "items": [
+    {
+      "id": "huawei-newsroom-99764b54e173af2b",
+      "headline": "Huawei Releases AI-Oriented F5G-A Series Solutions and Global Showcase Sites to Accelerate Industrial Intelligence",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-f5ga-iftto-fiber-sensing",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-17T20:18:20.862Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-590df77dc8c3726e",
+      "headline": "Google: Making global data easier to explore",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-17T20:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-203c82526d183b0e",
+      "headline": "Huawei: Advancing the Agentic World, Building a Solid Silicon Foundation",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-wang-keynote",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-17T19:56:09.593Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-e78be4774342acdb",
+      "headline": "Google: The new CC, an AI agent built for families",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-17T18:15:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-cc2512da4ac8b197",
+      "headline": "Huawei Introduces OceanStor M900 Context Memory Storage to Accelerate AI Inference in Hyperscale Data Centers",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-context-memory-storage",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-17T17:01:02.173Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-8c4e16ffbaae9213",
+      "headline": "Huawei Pioneers a New Computing Architecture for the AI Era: Making One Million Processors Work as One Computer",
+      "url": "https://www.huawei.com/en/news/2026/9/new-computing-architecture-peerium",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-17T16:59:36.317Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-08bbceaad2f9169f",
       "headline": "Google: Drive with “Forgotten Island” on Waze.",
@@ -22,6 +88,17 @@
         "google"
       ],
       "publishedAt": "2026-09-17T07:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-1f3f1db3dc602aa1",
+      "headline": "Samsung Begins Official Rollout of One UI 9, Bringing the Latest Galaxy Experiences to More Devices",
+      "url": "https://news.samsung.com/global/samsung-begins-official-rollout-of-one-ui-9-bringing-the-latest-galaxy-experiences-to-more-devices",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-16T21:00:00.000Z",
       "type": "standard"
     },
     {
@@ -88,83 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-16T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-df36c6a5a8471dd7",
-      "headline": "Google: We’re catalyzing megaton-scale climate impact in Brazil",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/terradot-superpollutants-carbon-removal/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-e7e3b473a14c1d5f",
-      "headline": "Google: Reimagining Chicago’s Thompson Center for the next generation",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/chicago-thompson-center-designs/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-16T05:01:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-2e5a96b7be79e261",
-      "headline": "Google: September Pixel Drop: New Pixel VIP updates, Pixel Watch features, and more",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/september-2026-pixel-drop/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-9ac7b06b4a79ae03",
-      "headline": "Google: Build real-time voice applications with Gemini 3.8 Live and 3.5 Transcribe",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-850203855328faa9",
-      "headline": "Google: Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d86b4319afd9f5f2",
-      "headline": "Google: 15 organizations transforming public service with AI",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/ai-government-innovation-recipients/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T16:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-970c94673769027a",
-      "headline": "Google: AI for Societal Impact",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T16:00:00.000Z",
       "type": "standard"
     }
   ]
