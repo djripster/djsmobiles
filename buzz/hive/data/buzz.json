@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T01:22:31.359Z",
+  "updatedAt": "2026-09-17T07:36:01.619Z",
   "items": [
+    {
+      "id": "google-news-c62fadadc9d8a6cf",
+      "headline": "Google: Helping bring the world’s first large-scale, near-zero emissions steel plant online",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/google-stegra-green-steel/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-17T07:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-cc7c46c65b0d0dc9",
       "headline": "Huawei's latest report proposes 10 key directions to Intelligent World 2035",
@@ -149,17 +160,6 @@
       "id": "google-news-6fff55fdf7cb614f",
       "headline": "Google: Building AI to accelerate science and improve lives",
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-50f1fa34d3c31e12",
-      "headline": "Google: AI for everyone in every language",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
