@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T13:24:35.210Z",
+  "updatedAt": "2026-09-17T18:11:10.414Z",
   "items": [
+    {
+      "id": "google-news-08bbceaad2f9169f",
+      "headline": "Google: Drive with “Forgotten Island” on Waze.",
+      "url": "https://blog.google/waze/waze-forgotten-island/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-17T11:28:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-c62fadadc9d8a6cf",
       "headline": "Google: Helping bring the world’s first large-scale, near-zero emissions steel plant online",
@@ -149,17 +160,6 @@
       "id": "google-news-970c94673769027a",
       "headline": "Google: AI for Societal Impact",
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-15T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6fff55fdf7cb614f",
-      "headline": "Google: Building AI to accelerate science and improve lives",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
       "sourceId": "google-news",
       "brandIds": [
         "google"

@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T13:24:35.162Z",
+  "updatedAt": "2026-09-17T18:11:10.368Z",
   "stories": [
+    {
+      "id": "google-news-08bbceaad2f9169f",
+      "headline": "Drive with “Forgotten Island” on Waze.",
+      "url": "https://blog.google/waze/waze-forgotten-island/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-17T11:28:00.000Z",
+      "collectedAt": "2026-09-17T18:10:50.105Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-c62fadadc9d8a6cf",
       "headline": "Helping bring the world’s first large-scale, near-zero emissions steel plant online",
