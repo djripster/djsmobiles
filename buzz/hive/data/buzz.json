@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T14:29:06.744Z",
+  "updatedAt": "2026-09-18T18:25:26.767Z",
   "items": [
+    {
+      "id": "google-news-43dae131a478eb98",
+      "headline": "Google: Earn continuing education and college credits for AI educator training.",
+      "url": "https://blog.google/products-and-platforms/products/education/college-credit-ai-educator-series/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-18T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-d92122e53ec9d4f7",
       "headline": "New experts join Google’s AI & Economy team",
@@ -149,17 +160,6 @@
       "id": "google-news-33853db7a520a7f8",
       "headline": "Google: 3 new ways we're improving Search profiles for publishers",
       "url": "https://blog.google/products-and-platforms/products/search/3-new-ways-were-improving-search-profiles-for-publishers/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-16T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-cc38b9c661bc46d4",
-      "headline": "Google: Rethink your strategy to drive sales this holiday season.",
-      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-holiday-sales-strategies/",
       "sourceId": "google-news",
       "brandIds": [
         "google"

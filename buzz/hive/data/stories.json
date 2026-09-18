@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T14:29:06.709Z",
+  "updatedAt": "2026-09-18T18:25:26.722Z",
   "stories": [
+    {
+      "id": "google-news-43dae131a478eb98",
+      "headline": "Earn continuing education and college credits for AI educator training.",
+      "url": "https://blog.google/products-and-platforms/products/education/college-credit-ai-educator-series/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-18T16:00:00.000Z",
+      "collectedAt": "2026-09-18T18:25:25.082Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-d92122e53ec9d4f7",
       "headline": "New experts join Google’s AI & Economy team",
