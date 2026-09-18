@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T09:42:40.062Z",
+  "updatedAt": "2026-09-18T14:29:06.744Z",
   "items": [
+    {
+      "id": "google-news-d92122e53ec9d4f7",
+      "headline": "New experts join Google’s AI & Economy team",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-18T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-44ec3a3d6fdc7de7",
+      "headline": "Co-creating the future of fashion with Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-18T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-672bbab5cf75f1a1",
+      "headline": "Google: Build campaigns that drive high-converting, sales-ready leads.",
+      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-data-strength/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-99764b54e173af2b",
       "headline": "Huawei Releases AI-Oriented F5G-A Series Solutions and Global Showcase Sites to Accelerate Industrial Intelligence",
@@ -132,39 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-16T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-69e6db2927494ad5",
-      "headline": "Google: 5 things to know about teens' views on AI today",
-      "url": "https://blog.google/innovation-and-ai/technology/families/teens-ai-research-findings/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-16T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-a7d939384a73b069",
-      "headline": "Google: Boost your holiday sales with these agentic commerce updates",
-      "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-16T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6346209af7a90bdc",
-      "headline": "Google: Rethink 2026",
-      "url": "https://blog.google/products/ads-commerce/rethink-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-16T14:00:00.000Z",
       "type": "standard"
     }
   ]

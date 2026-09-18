@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T09:42:40.017Z",
+  "updatedAt": "2026-09-18T14:29:06.709Z",
   "stories": [
+    {
+      "id": "google-news-d92122e53ec9d4f7",
+      "headline": "New experts join Google’s AI & Economy team",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-18T14:00:00.000Z",
+      "collectedAt": "2026-09-18T14:28:46.313Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-44ec3a3d6fdc7de7",
+      "headline": "Co-creating the future of fashion with Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-18T13:00:00.000Z",
+      "collectedAt": "2026-09-18T14:28:46.313Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-672bbab5cf75f1a1",
+      "headline": "Build campaigns that drive high-converting, sales-ready leads.",
+      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-data-strength/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "collectedAt": "2026-09-18T14:28:46.313Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-99764b54e173af2b",
       "headline": "Huawei Releases AI-Oriented F5G-A Series Solutions and Global Showcase Sites to Accelerate Industrial Intelligence",
