@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T18:25:26.767Z",
+  "updatedAt": "2026-09-18T21:39:11.721Z",
   "items": [
+    {
+      "id": "huawei-newsroom-f7b59eee06a9b781",
+      "headline": "Huawei Hosts the Fifth Digital Economy Development Forum",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-digital-economy-forum2026",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T18:57:16.135Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-2a7feb46b41b7ada",
+      "headline": "Migu Music Partners with Huawei Software to Build Intelligent Software O&M Agents, Driving Improvements in Both Operational Efficiency and Capabilities",
+      "url": "https://www.huawei.com/en/news/2026/9/software-migu-music",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T17:49:23.865Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-a49251887da48724",
+      "headline": "Customer-Centric \"Huawei + Partners\" Collaboration System Launched to Scale AI Across Industries",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-scale-industrial-intelligence",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T16:22:02.684Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-43dae131a478eb98",
       "headline": "Google: Earn continuing education and college credits for AI educator training.",
@@ -11,6 +44,17 @@
         "google"
       ],
       "publishedAt": "2026-09-18T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-75783ecd2254a2d7",
+      "headline": "Huawei Cloud Rolls Out Enterprise AI Products Across the Board, Building an Open Agentic Cloud",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-agentic-infra-industry-ai",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T14:45:40.092Z",
       "type": "standard"
     },
     {
@@ -36,6 +80,17 @@
       "type": "standard"
     },
     {
+      "id": "huawei-newsroom-0c9b6ce5a732ed5c",
+      "headline": "Huawei Launches the World's First NPO-based SuperPoD – the Atlas 960E SuperPoD",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T12:44:02.656Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-672bbab5cf75f1a1",
       "headline": "Google: Build campaigns that drive high-converting, sales-ready leads.",
       "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-data-strength/",
@@ -44,6 +99,28 @@
         "google"
       ],
       "publishedAt": "2026-09-18T12:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-108d2f55b3056f94",
+      "headline": "Huawei Partners with the Nanfang Hospital to Launch the Nanfang Hospital Global Showcase and the HAIC Solution, Driving Healthcare AI from Single-Point Breakthroughs to Systematic Collaboration",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-intelligent-healthcare",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T11:52:05.874Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-41d8020f4e6d71e6",
+      "headline": "Huawei Unveils New UnifiedBus Computing Architecture for SuperPoDs and Clusters",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-lingqu-agent-ai",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T10:33:52.835Z",
       "type": "standard"
     },
     {
@@ -88,83 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-17T18:15:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-cc2512da4ac8b197",
-      "headline": "Huawei Introduces OceanStor M900 Context Memory Storage to Accelerate AI Inference in Hyperscale Data Centers",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-context-memory-storage",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-17T17:01:02.173Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-8c4e16ffbaae9213",
-      "headline": "Huawei Pioneers a New Computing Architecture for the AI Era: Making One Million Processors Work as One Computer",
-      "url": "https://www.huawei.com/en/news/2026/9/new-computing-architecture-peerium",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-17T16:59:36.317Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-08bbceaad2f9169f",
-      "headline": "Google: Drive with “Forgotten Island” on Waze.",
-      "url": "https://blog.google/waze/waze-forgotten-island/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-17T11:28:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-c62fadadc9d8a6cf",
-      "headline": "Google: Helping bring the world’s first large-scale, near-zero emissions steel plant online",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/google-stegra-green-steel/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-17T07:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-1f3f1db3dc602aa1",
-      "headline": "Samsung Begins Official Rollout of One UI 9, Bringing the Latest Galaxy Experiences to More Devices",
-      "url": "https://news.samsung.com/global/samsung-begins-official-rollout-of-one-ui-9-bringing-the-latest-galaxy-experiences-to-more-devices",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-16T21:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-cc7c46c65b0d0dc9",
-      "headline": "Huawei's latest report proposes 10 key directions to Intelligent World 2035",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-intelligent-world-2035",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-16T17:28:47.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-33853db7a520a7f8",
-      "headline": "Google: 3 new ways we're improving Search profiles for publishers",
-      "url": "https://blog.google/products-and-platforms/products/search/3-new-ways-were-improving-search-profiles-for-publishers/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-16T16:00:00.000Z",
       "type": "standard"
     }
   ]

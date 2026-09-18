@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T18:25:26.722Z",
+  "updatedAt": "2026-09-18T21:39:11.676Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-f7b59eee06a9b781",
+      "headline": "Huawei Hosts the Fifth Digital Economy Development Forum",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-digital-economy-forum2026",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T18:57:16.135Z",
+      "collectedAt": "2026-09-18T21:39:11.675Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-2a7feb46b41b7ada",
+      "headline": "Migu Music Partners with Huawei Software to Build Intelligent Software O&M Agents, Driving Improvements in Both Operational Efficiency and Capabilities",
+      "url": "https://www.huawei.com/en/news/2026/9/software-migu-music",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T17:49:23.865Z",
+      "collectedAt": "2026-09-18T21:39:11.675Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-a49251887da48724",
+      "headline": "Customer-Centric \"Huawei + Partners\" Collaboration System Launched to Scale AI Across Industries",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-scale-industrial-intelligence",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T16:22:02.684Z",
+      "collectedAt": "2026-09-18T21:39:11.675Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-43dae131a478eb98",
       "headline": "Earn continuing education and college credits for AI educator training.",
@@ -12,6 +48,18 @@
       ],
       "publishedAt": "2026-09-18T16:00:00.000Z",
       "collectedAt": "2026-09-18T18:25:25.082Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-75783ecd2254a2d7",
+      "headline": "Huawei Cloud Rolls Out Enterprise AI Products Across the Board, Building an Open Agentic Cloud",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-agentic-infra-industry-ai",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T14:45:40.092Z",
+      "collectedAt": "2026-09-18T21:39:11.675Z",
       "type": "standard"
     },
     {
@@ -39,6 +87,18 @@
       "type": "standard"
     },
     {
+      "id": "huawei-newsroom-0c9b6ce5a732ed5c",
+      "headline": "Huawei Launches the World's First NPO-based SuperPoD – the Atlas 960E SuperPoD",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T12:44:02.656Z",
+      "collectedAt": "2026-09-18T21:39:11.675Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-672bbab5cf75f1a1",
       "headline": "Build campaigns that drive high-converting, sales-ready leads.",
       "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-data-strength/",
@@ -48,6 +108,30 @@
       ],
       "publishedAt": "2026-09-18T12:00:00.000Z",
       "collectedAt": "2026-09-18T14:28:46.313Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-108d2f55b3056f94",
+      "headline": "Huawei Partners with the Nanfang Hospital to Launch the Nanfang Hospital Global Showcase and the HAIC Solution, Driving Healthcare AI from Single-Point Breakthroughs to Systematic Collaboration",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-intelligent-healthcare",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T11:52:05.874Z",
+      "collectedAt": "2026-09-18T21:39:11.675Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-41d8020f4e6d71e6",
+      "headline": "Huawei Unveils New UnifiedBus Computing Architecture for SuperPoDs and Clusters",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-lingqu-agent-ai",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-18T10:33:52.835Z",
+      "collectedAt": "2026-09-18T21:39:11.675Z",
       "type": "standard"
     },
     {
