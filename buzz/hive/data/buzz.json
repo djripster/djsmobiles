@@ -1,7 +1,84 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T17:59:03.351Z",
+  "updatedAt": "2026-09-19T20:36:05.845Z",
   "items": [
+    {
+      "id": "huawei-newsroom-c33ba2324eaa4799",
+      "headline": "Huawei Launches Fintelligent AI Solution to Help Global Financial Institutions Realize \"Own Your AI, Own Your Intelligence\"",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-agenticai-openjiuwen-fab2",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-19T19:08:35.862Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-f00409628de91c5e",
+      "headline": "Huawei Advances Agentic Computing on Multiple Dimensions for SuperPoDs and SuperClusters",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-agentic-thinkpro-pto-cann",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-19T18:10:09.499Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-d7d01525a95a8f8f",
+      "headline": "Huawei Unveils Five New Solutions and the Intelligent Evolution of O3 Platform Services, Enabling Industries Advancing the Agentic World",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-service-enablement",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-19T17:55:59.167Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-ac9eb0366d6ac94d",
+      "headline": "Huawei Unveils Upgraded Stellar AI Network to Power the Agentic World with Secure, Intelligent Connectivity",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-ai-infra-aiwan-campus",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-19T17:21:13.236Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-b464d3f3c3a40026",
+      "headline": "New Methods, Organizations, and Tools: Huawei Unveils New Paths for AI Adoption in Industries",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-ai-industry-adoption",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-19T15:07:06.842Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-78c34345159c2990",
+      "headline": "Huawei Launches the AI Practice LAB (AIPL) Solution, Setting a New Paradigm for \"Education + AI\" Talent Cultivation",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-global-education-summit",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-19T11:44:59.424Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-9a416a63400f7c6d",
+      "headline": "Huawei Unveils a Series of Innovative AI DC Solutions and Milestones, Shaping the Agentic World",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-ai-dc-innovation-summit",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-19T10:51:53.089Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-f7b59eee06a9b781",
       "headline": "Huawei Hosts the Fifth Digital Economy Development Forum",
@@ -88,83 +165,6 @@
         "huawei"
       ],
       "publishedAt": "2026-09-18T12:44:02.656Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-672bbab5cf75f1a1",
-      "headline": "Google: Build campaigns that drive high-converting, sales-ready leads.",
-      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-data-strength/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-108d2f55b3056f94",
-      "headline": "Huawei Partners with the Nanfang Hospital to Launch the Nanfang Hospital Global Showcase and the HAIC Solution, Driving Healthcare AI from Single-Point Breakthroughs to Systematic Collaboration",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-intelligent-healthcare",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-18T11:52:05.874Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-41d8020f4e6d71e6",
-      "headline": "Huawei Unveils New UnifiedBus Computing Architecture for SuperPoDs and Clusters",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-lingqu-agent-ai",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-18T10:33:52.835Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-99764b54e173af2b",
-      "headline": "Huawei Releases AI-Oriented F5G-A Series Solutions and Global Showcase Sites to Accelerate Industrial Intelligence",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-f5ga-iftto-fiber-sensing",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-17T20:18:20.862Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-590df77dc8c3726e",
-      "headline": "Google: Making global data easier to explore",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-17T20:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-203c82526d183b0e",
-      "headline": "Huawei: Advancing the Agentic World, Building a Solid Silicon Foundation",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-wang-keynote",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-17T19:56:09.593Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-e78be4774342acdb",
-      "headline": "Google: The new CC, an AI agent built for families",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-17T18:15:00.000Z",
       "type": "standard"
     }
   ]
