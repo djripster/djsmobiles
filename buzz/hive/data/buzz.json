@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T18:45:23.565Z",
+  "updatedAt": "2026-09-20T21:30:27.694Z",
   "items": [
+    {
+      "id": "huawei-newsroom-b464d3f3c3a40026",
+      "headline": "New Methods, Organizations, and Tools: Huawei Unveils New Paths for AI Adoption in Industries",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-ai-industry-adoption",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-20T17:33:21.110Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-c33ba2324eaa4799",
       "headline": "Huawei Launches Fintelligent AI Solution to Help Global Financial Institutions Realize \"Own Your AI, Own Your Intelligence\"",
@@ -10,7 +21,18 @@
       "brandIds": [
         "huawei"
       ],
-      "publishedAt": "2026-09-19T19:08:35.862Z",
+      "publishedAt": "2026-09-20T16:47:53.868Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-ac9eb0366d6ac94d",
+      "headline": "Huawei Unveils Upgraded Stellar AI Network to Power the Agentic World with Secure, Intelligent Connectivity",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-ai-infra-aiwan-campus",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-20T08:56:36.434Z",
       "type": "standard"
     },
     {
@@ -33,28 +55,6 @@
         "huawei"
       ],
       "publishedAt": "2026-09-19T17:55:59.167Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-ac9eb0366d6ac94d",
-      "headline": "Huawei Unveils Upgraded Stellar AI Network to Power the Agentic World with Secure, Intelligent Connectivity",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-ai-infra-aiwan-campus",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-19T17:21:13.236Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-b464d3f3c3a40026",
-      "headline": "New Methods, Organizations, and Tools: Huawei Unveils New Paths for AI Adoption in Industries",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-ai-industry-adoption",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-19T15:07:06.842Z",
       "type": "standard"
     },
     {
