@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T17:00:59.716Z",
+  "updatedAt": "2026-09-21T21:02:16.317Z",
   "stories": [
     {
       "id": "google-news-e842b9d30e0870ab",
@@ -12,6 +12,30 @@
       ],
       "publishedAt": "2026-09-21T16:00:00.000Z",
       "collectedAt": "2026-09-21T17:00:39.430Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-a48cc28b1361077d",
+      "headline": "Huawei Unveils New Unlicensed PtMP Microwave Solution RTN 5100 to Boost Backhaul Efficiency",
+      "url": "https://www.huawei.com/en/news/2026/9/microwave-unlicensed-ptmp",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-21T15:20:30.801Z",
+      "collectedAt": "2026-09-21T21:02:16.316Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-42a75397d46652eb",
+      "headline": "Uzbekistan: The 38th International Olympiad in Informatics comes to the Land of \"Algorithm\"",
+      "url": "https://www.huawei.com/en/news/2026/9/ioi-2026-uzbekistan",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-21T14:35:54.941Z",
+      "collectedAt": "2026-09-21T21:02:16.316Z",
       "type": "standard"
     },
     {
@@ -48,6 +72,18 @@
       ],
       "publishedAt": "2026-09-21T13:00:00.000Z",
       "collectedAt": "2026-09-21T17:00:39.430Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-01a891dfff8365af",
+      "headline": "Huawei Unveils Six Global Power Showcases, Unlocking a New Power System with AI-Energy Synergy",
+      "url": "https://www.huawei.com/en/news/2026/9/hc-power-six-showcase",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-21T09:13:57.705Z",
+      "collectedAt": "2026-09-21T21:02:16.316Z",
       "type": "standard"
     },
     {
