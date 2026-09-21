@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T10:39:42.372Z",
+  "updatedAt": "2026-09-21T17:00:59.766Z",
   "items": [
+    {
+      "id": "google-news-e842b9d30e0870ab",
+      "headline": "Google: Expanding free AI training for educators",
+      "url": "https://blog.google/products-and-platforms/products/education/digital-promise/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-21T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a4a1cb8e42779c00",
+      "headline": "Google: Googlebook’s built-in intelligence reinvents the way you use your laptop",
+      "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-21T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-edea6f83f0bb5512",
+      "headline": "Google: Premium materials and striking design set Googlebook apart",
+      "url": "https://blog.google/products-and-platforms/devices/googlebook/first-look-googlebook/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-21T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d8ee849e7061a0a7",
+      "headline": "Google: Googlebook: The laptop your Android phone has been waiting for",
+      "url": "https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-21T13:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-b464d3f3c3a40026",
       "headline": "New Methods, Organizations, and Tools: Huawei Unveils New Paths for AI Adoption in Industries",
@@ -99,72 +143,6 @@
         "huawei"
       ],
       "publishedAt": "2026-09-18T17:49:23.865Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-a49251887da48724",
-      "headline": "Customer-Centric \"Huawei + Partners\" Collaboration System Launched to Scale AI Across Industries",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-scale-industrial-intelligence",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-18T16:22:02.684Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-43dae131a478eb98",
-      "headline": "Google: Earn continuing education and college credits for AI educator training.",
-      "url": "https://blog.google/products-and-platforms/products/education/college-credit-ai-educator-series/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-18T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-75783ecd2254a2d7",
-      "headline": "Huawei Cloud Rolls Out Enterprise AI Products Across the Board, Building an Open Agentic Cloud",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-agentic-infra-industry-ai",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-18T14:45:40.092Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d92122e53ec9d4f7",
-      "headline": "New experts join Google’s AI & Economy team",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-18T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-44ec3a3d6fdc7de7",
-      "headline": "Co-creating the future of fashion with Google",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-18T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-0c9b6ce5a732ed5c",
-      "headline": "Huawei Launches the World's First NPO-based SuperPoD – the Atlas 960E SuperPoD",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-18T12:44:02.656Z",
       "type": "standard"
     }
   ]

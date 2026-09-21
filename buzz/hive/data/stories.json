@@ -1,7 +1,55 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T10:39:42.327Z",
+  "updatedAt": "2026-09-21T17:00:59.716Z",
   "stories": [
+    {
+      "id": "google-news-e842b9d30e0870ab",
+      "headline": "Expanding free AI training for educators",
+      "url": "https://blog.google/products-and-platforms/products/education/digital-promise/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-21T16:00:00.000Z",
+      "collectedAt": "2026-09-21T17:00:39.430Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a4a1cb8e42779c00",
+      "headline": "Googlebook’s built-in intelligence reinvents the way you use your laptop",
+      "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-21T13:00:00.000Z",
+      "collectedAt": "2026-09-21T17:00:39.430Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-edea6f83f0bb5512",
+      "headline": "Premium materials and striking design set Googlebook apart",
+      "url": "https://blog.google/products-and-platforms/devices/googlebook/first-look-googlebook/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-21T13:00:00.000Z",
+      "collectedAt": "2026-09-21T17:00:39.430Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d8ee849e7061a0a7",
+      "headline": "Googlebook: The laptop your Android phone has been waiting for",
+      "url": "https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-21T13:00:00.000Z",
+      "collectedAt": "2026-09-21T17:00:39.430Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-b464d3f3c3a40026",
       "headline": "New Methods, Organizations, and Tools: Huawei Unveils New Paths for AI Adoption in Industries",
