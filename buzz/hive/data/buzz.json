@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T14:49:47.302Z",
+  "updatedAt": "2026-09-22T18:51:31.396Z",
   "items": [
+    {
+      "id": "google-news-9af47c5f6082b36c",
+      "headline": "Google: Investing in global talent and AI literacy",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/itu-ai-skills-training/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-22T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-f744e024d7018997",
       "headline": "Google: Using AI to help local governments connect with constituents",
@@ -121,28 +132,6 @@
         "huawei"
       ],
       "publishedAt": "2026-09-20T08:56:36.434Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-f00409628de91c5e",
-      "headline": "Huawei Advances Agentic Computing on Multiple Dimensions for SuperPoDs and SuperClusters",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-agentic-thinkpro-pto-cann",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-19T18:10:09.499Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-d7d01525a95a8f8f",
-      "headline": "Huawei Unveils Five New Solutions and the Intelligent Evolution of O3 Platform Services, Enabling Industries Advancing the Agentic World",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-service-enablement",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-19T17:55:59.167Z",
       "type": "standard"
     }
   ]
