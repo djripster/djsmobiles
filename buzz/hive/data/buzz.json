@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T09:54:43.606Z",
+  "updatedAt": "2026-09-22T14:49:47.302Z",
   "items": [
+    {
+      "id": "google-news-f744e024d7018997",
+      "headline": "Google: Using AI to help local governments connect with constituents",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/sensemaking-ai/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-22T14:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-e842b9d30e0870ab",
       "headline": "Google: Expanding free AI training for educators",
@@ -132,28 +143,6 @@
         "huawei"
       ],
       "publishedAt": "2026-09-19T17:55:59.167Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-78c34345159c2990",
-      "headline": "Huawei Launches the AI Practice LAB (AIPL) Solution, Setting a New Paradigm for \"Education + AI\" Talent Cultivation",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-global-education-summit",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-19T11:44:59.424Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-9a416a63400f7c6d",
-      "headline": "Huawei Unveils a Series of Innovative AI DC Solutions and Milestones, Shaping the Agentic World",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-ai-dc-innovation-summit",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-19T10:51:53.089Z",
       "type": "standard"
     }
   ]
