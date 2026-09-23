@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T11:29:40.205Z",
+  "updatedAt": "2026-09-23T16:53:40.537Z",
   "items": [
+    {
+      "id": "google-news-bd8061157af089d6",
+      "headline": "6 new Google Flow Tools built by industry creatives",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/six-new-tools-built-by-creatives/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-bafc49bea8fbb19f",
+      "headline": "Google: A new wave of Connected Apps is rolling out to Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-286e0ad93167d242",
+      "headline": "Google: MedGemma is helping global healthcare providers deliver better care",
+      "url": "https://blog.google/innovation-and-ai/technology/health/medgemma-global-healthcare/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b1f9c7a504c77281",
+      "headline": "Google: Gemini 3.8 text-to-speech says hello",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-23T15:15:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d115383546b55a20",
+      "headline": "Google: We’re honoring Latino culture this Hispanic Heritage Month.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/hispanic-heritage-month-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-23T15:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-df81ad021711ffb3",
+      "headline": "Google: Here’s what was announced at Made On YouTube 2026.",
+      "url": "https://blog.google/products-and-platforms/products/youtube/made-on-youtube-updates-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-23T14:30:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-4a8e51112542bedc",
       "headline": "Google: We’re bringing AI Brief to more languages and adding a new AI Max reporting feature.",
@@ -99,50 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-21T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d8ee849e7061a0a7",
-      "headline": "Google: Googlebook: The laptop your Android phone has been waiting for",
-      "url": "https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-21T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-01a891dfff8365af",
-      "headline": "Huawei Unveils Six Global Power Showcases, Unlocking a New Power System with AI-Energy Synergy",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-power-six-showcase",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-21T09:13:57.705Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-b464d3f3c3a40026",
-      "headline": "New Methods, Organizations, and Tools: Huawei Unveils New Paths for AI Adoption in Industries",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-ai-industry-adoption",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-20T17:33:21.110Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-c33ba2324eaa4799",
-      "headline": "Huawei Launches Fintelligent AI Solution to Help Global Financial Institutions Realize \"Own Your AI, Own Your Intelligence\"",
-      "url": "https://www.huawei.com/en/news/2026/9/hc-agenticai-openjiuwen-fab2",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-20T16:47:53.868Z",
       "type": "standard"
     }
   ]
