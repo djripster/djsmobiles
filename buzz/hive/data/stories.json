@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T09:57:18.947Z",
+  "updatedAt": "2026-09-24T15:02:31.034Z",
   "stories": [
+    {
+      "id": "google-news-5e4e2324e77ceb85",
+      "headline": "Behind Project Suncatcher, our moonshot to put AI in space",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T13:00:00.000Z",
+      "collectedAt": "2026-09-24T15:02:10.793Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dcc7aad233eb30ec",
+      "headline": "Helping 25,000 veterans and military families build careers in skilled trades",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/veterans-skilled-trades/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "collectedAt": "2026-09-24T15:02:10.793Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-aa5f19b1f3358723",
+      "headline": "Turning cultural artifacts into interactive learning companions",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/the-talking-museum-museum-memory/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T10:00:00.000Z",
+      "collectedAt": "2026-09-24T15:02:10.794Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-c52229f1bfad317c",
       "headline": "Anyone can make stunning HD videos with Gemini Omni in Google Vids",

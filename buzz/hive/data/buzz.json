@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T09:57:19.000Z",
+  "updatedAt": "2026-09-24T15:02:31.088Z",
   "items": [
+    {
+      "id": "google-news-5e4e2324e77ceb85",
+      "headline": "Google: Behind Project Suncatcher, our moonshot to put AI in space",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dcc7aad233eb30ec",
+      "headline": "Google: Helping 25,000 veterans and military families build careers in skilled trades",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/veterans-skilled-trades/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-aa5f19b1f3358723",
+      "headline": "Google: Turning cultural artifacts into interactive learning companions",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/the-talking-museum-museum-memory/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T10:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-c52229f1bfad317c",
       "headline": "Anyone can make stunning HD videos with Gemini Omni in Google Vids",
@@ -132,39 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-22T23:50:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-9af47c5f6082b36c",
-      "headline": "Google: Investing in global talent and AI literacy",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/itu-ai-skills-training/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-22T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-f744e024d7018997",
-      "headline": "Google: Using AI to help local governments connect with constituents",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/sensemaking-ai/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-22T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-e842b9d30e0870ab",
-      "headline": "Google: Expanding free AI training for educators",
-      "url": "https://blog.google/products-and-platforms/products/education/digital-promise/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-21T16:00:00.000Z",
       "type": "standard"
     }
   ]
