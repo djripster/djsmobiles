@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T19:06:47.583Z",
+  "updatedAt": "2026-09-24T22:21:19.820Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-7504806f870a20df",
+      "headline": "Huawei Recognized as a Leader in the 2026 Gartner ® Magic Quadrant™ for Infrastructure Platform Consumption Services",
+      "url": "https://www.huawei.com/en/news/2026/9/dcs-gartner-award",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-24T21:34:13.446Z",
+      "collectedAt": "2026-09-24T22:21:19.819Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-318da1acec02e8b4",
       "headline": "5 ways to upgrade your study habits with Chrome",

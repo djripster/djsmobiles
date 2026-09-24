@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T19:06:47.634Z",
+  "updatedAt": "2026-09-24T22:21:19.864Z",
   "items": [
+    {
+      "id": "huawei-newsroom-7504806f870a20df",
+      "headline": "Huawei Recognized as a Leader in the 2026 Gartner ® Magic Quadrant™ for Infrastructure Platform Consumption Services",
+      "url": "https://www.huawei.com/en/news/2026/9/dcs-gartner-award",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-24T21:34:13.446Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-318da1acec02e8b4",
       "headline": "Google: 5 ways to upgrade your study habits with Chrome",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-23T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b1f9c7a504c77281",
-      "headline": "Google: Gemini 3.8 text-to-speech says hello",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-23T15:15:00.000Z",
       "type": "standard"
     }
   ]
