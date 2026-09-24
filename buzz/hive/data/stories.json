@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T15:02:31.034Z",
+  "updatedAt": "2026-09-24T19:06:47.583Z",
   "stories": [
+    {
+      "id": "google-news-318da1acec02e8b4",
+      "headline": "5 ways to upgrade your study habits with Chrome",
+      "url": "https://blog.google/products-and-platforms/products/chrome/tips-for-school-and-studying/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T17:00:00.000Z",
+      "collectedAt": "2026-09-24T19:06:27.446Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-bd8f9dfa50ec22b1",
+      "headline": "5 Google Photos updates to make the most of summer memories.",
+      "url": "https://blog.google/products-and-platforms/products/photos/google-photos-updates/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T17:00:00.000Z",
+      "collectedAt": "2026-09-24T19:06:27.447Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-10091e6a622a266c",
+      "headline": "Our new health and safety tools are live in the Google Health app.",
+      "url": "https://blog.google/products-and-platforms/products/google-health/health-guardian-features-live/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T17:00:00.000Z",
+      "collectedAt": "2026-09-24T19:06:27.447Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-bd67bc53dbc871b7",
+      "headline": "Turn discovery into action with September’s Demand Gen Drop.",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-september-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T16:00:00.000Z",
+      "collectedAt": "2026-09-24T19:06:27.447Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-583ce5a62ee40551",
+      "headline": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T15:30:00.000Z",
+      "collectedAt": "2026-09-24T19:06:27.447Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5e4e2324e77ceb85",
       "headline": "Behind Project Suncatcher, our moonshot to put AI in space",

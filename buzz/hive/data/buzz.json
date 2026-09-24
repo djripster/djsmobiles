@@ -1,7 +1,62 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T15:02:31.088Z",
+  "updatedAt": "2026-09-24T19:06:47.634Z",
   "items": [
+    {
+      "id": "google-news-318da1acec02e8b4",
+      "headline": "Google: 5 ways to upgrade your study habits with Chrome",
+      "url": "https://blog.google/products-and-platforms/products/chrome/tips-for-school-and-studying/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-bd8f9dfa50ec22b1",
+      "headline": "5 Google Photos updates to make the most of summer memories.",
+      "url": "https://blog.google/products-and-platforms/products/photos/google-photos-updates/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-10091e6a622a266c",
+      "headline": "Our new health and safety tools are live in the Google Health app.",
+      "url": "https://blog.google/products-and-platforms/products/google-health/health-guardian-features-live/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-bd67bc53dbc871b7",
+      "headline": "Google: Turn discovery into action with September’s Demand Gen Drop.",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-september-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-583ce5a62ee40551",
+      "headline": "Google: Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-24T15:30:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5e4e2324e77ceb85",
       "headline": "Google: Behind Project Suncatcher, our moonshot to put AI in space",
@@ -110,61 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-23T15:15:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d115383546b55a20",
-      "headline": "Google: We’re honoring Latino culture this Hispanic Heritage Month.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/hispanic-heritage-month-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-23T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-df81ad021711ffb3",
-      "headline": "Google: Here’s what was announced at Made On YouTube 2026.",
-      "url": "https://blog.google/products-and-platforms/products/youtube/made-on-youtube-updates-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-23T14:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-7a284ee5fd829c52",
-      "headline": "Huawei Named Sole Leader in GlobalData 2026 \"5G RAN: Competitive Landscape Assessment\"",
-      "url": "https://www.huawei.com/en/news/2026/9/leader-5g-ran",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-23T12:55:02.991Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-4a8e51112542bedc",
-      "headline": "Google: We’re bringing AI Brief to more languages and adding a new AI Max reporting feature.",
-      "url": "https://blog.google/products/ads-commerce/ai-max-language-reporting-features/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-23T08:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-7d7a743a99ea29b1",
-      "headline": "Google and the Gates Foundation to bring AI resources to 200 million farmers across the Global South.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/partnering-with-the-gates-foundation-to-bring-ai-resources-to-200-million-farmers-across-the-global-south/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-22T23:50:00.000Z",
       "type": "standard"
     }
   ]
