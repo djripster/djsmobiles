@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T18:33:29.031Z",
+  "updatedAt": "2026-09-25T22:16:54.831Z",
   "stories": [
     {
       "id": "huawei-newsroom-7504806f870a20df",
@@ -108,6 +108,18 @@
       ],
       "publishedAt": "2026-09-24T10:00:00.000Z",
       "collectedAt": "2026-09-24T15:02:10.794Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-461333ec2270a664",
+      "headline": "Samsung at the Forefront of Korea’s AI RAN Projects with KT and SK Telecom",
+      "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-23T22:00:00.000Z",
+      "collectedAt": "2026-09-25T22:16:54.137Z",
       "type": "standard"
     },
     {
@@ -243,6 +255,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-fa2da8c07f46b701",
+      "headline": "Bringing Fantasy Characters to Life: Samsung Spatial Signage Transforms Tokyo Game Show 2026",
+      "url": "https://news.samsung.com/global/bringing-fantasy-characters-to-life-samsung-spatial-signage-transforms-tokyo-game-show-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-23T08:00:00.000Z",
+      "collectedAt": "2026-09-25T22:16:54.137Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-7d7a743a99ea29b1",
       "headline": "Google and the Gates Foundation to bring AI resources to 200 million farmers across the Global South.",
       "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/partnering-with-the-gates-foundation-to-bring-ai-resources-to-200-million-farmers-across-the-global-south/",
@@ -276,6 +300,18 @@
       ],
       "publishedAt": "2026-09-22T14:00:00.000Z",
       "collectedAt": "2026-09-22T14:49:26.813Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-6e52c8fb3d9a32b7",
+      "headline": "Samsung Opens Built-In Appliance Showroom in Germany To Advance European Market Expansion",
+      "url": "https://news.samsung.com/global/samsung-opens-built-in-appliance-showroom-in-germany-to-advance-european-market-expansion",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-22T08:00:00.000Z",
+      "collectedAt": "2026-09-25T22:16:54.138Z",
       "type": "standard"
     },
     {

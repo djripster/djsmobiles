@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T18:33:29.079Z",
+  "updatedAt": "2026-09-25T22:16:54.875Z",
   "items": [
     {
       "id": "huawei-newsroom-7504806f870a20df",
@@ -102,6 +102,17 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-461333ec2270a664",
+      "headline": "Samsung at the Forefront of Korea’s AI RAN Projects with KT and SK Telecom",
+      "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-23T22:00:00.000Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-c52229f1bfad317c",
       "headline": "Anyone can make stunning HD videos with Gemini Omni in Google Vids",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-in-google-vids/",
@@ -149,17 +160,6 @@
       "id": "google-news-bafc49bea8fbb19f",
       "headline": "Google: A new wave of Connected Apps is rolling out to Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-23T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-286e0ad93167d242",
-      "headline": "Google: MedGemma is helping global healthcare providers deliver better care",
-      "url": "https://blog.google/innovation-and-ai/technology/health/medgemma-global-healthcare/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
