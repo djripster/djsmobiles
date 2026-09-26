@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-26T17:07:47.489Z",
+  "updatedAt": "2026-09-26T19:49:13.018Z",
   "items": [
     {
       "id": "huawei-newsroom-7504806f870a20df",
@@ -110,39 +110,6 @@
         "samsung"
       ],
       "publishedAt": "2026-09-23T22:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-c52229f1bfad317c",
-      "headline": "Anyone can make stunning HD videos with Gemini Omni in Google Vids",
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-in-google-vids/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-23T19:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-1ccf342131e2aeec",
-      "headline": "Google Beam expands with new regions, partners, and customers",
-      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-23T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-7889cc934a0a9b87",
-      "headline": "Google: 6 ways Android Enterprise is evolving for the modern workforce",
-      "url": "https://blog.google/products-and-platforms/products/android-enterprise/whats-new-android-enterprise-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-23T18:00:00.000Z",
       "type": "standard"
     }
   ]
