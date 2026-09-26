@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-26T13:02:14.598Z",
+  "updatedAt": "2026-09-26T17:07:47.489Z",
   "items": [
     {
       "id": "huawei-newsroom-7504806f870a20df",
@@ -143,28 +143,6 @@
         "google"
       ],
       "publishedAt": "2026-09-23T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-bd8061157af089d6",
-      "headline": "6 new Google Flow Tools built by industry creatives",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/six-new-tools-built-by-creatives/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-23T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-bafc49bea8fbb19f",
-      "headline": "Google: A new wave of Connected Apps is rolling out to Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-23T16:00:00.000Z",
       "type": "standard"
     }
   ]
