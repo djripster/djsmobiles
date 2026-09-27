@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T08:05:03.573Z",
+  "updatedAt": "2026-09-27T13:54:59.366Z",
   "items": [
     {
       "id": "huawei-newsroom-7504806f870a20df",
@@ -66,39 +66,6 @@
         "google"
       ],
       "publishedAt": "2026-09-24T15:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5e4e2324e77ceb85",
-      "headline": "Google: Behind Project Suncatcher, our moonshot to put AI in space",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-24T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-dcc7aad233eb30ec",
-      "headline": "Google: Helping 25,000 veterans and military families build careers in skilled trades",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/veterans-skilled-trades/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-aa5f19b1f3358723",
-      "headline": "Google: Turning cultural artifacts into interactive learning companions",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/the-talking-museum-museum-memory/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-24T10:00:00.000Z",
       "type": "standard"
     }
   ]
