@@ -1,17 +1,5 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T18:20:48.974Z",
-  "items": [
-    {
-      "id": "huawei-newsroom-7504806f870a20df",
-      "headline": "Huawei Recognized as a Leader in the 2026 Gartner ® Magic Quadrant™ for Infrastructure Platform Consumption Services",
-      "url": "https://www.huawei.com/en/news/2026/9/dcs-gartner-award",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-24T21:34:13.446Z",
-      "type": "standard"
-    }
-  ]
+  "updatedAt": "2026-09-27T22:06:50.556Z",
+  "items": []
 }
