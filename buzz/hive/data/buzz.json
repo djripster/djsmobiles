@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T15:23:30.625Z",
+  "updatedAt": "2026-09-28T21:57:26.822Z",
   "items": [
+    {
+      "id": "google-news-db713ef86bd59ea8",
+      "headline": "Google: Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-86453700a8c09130",
+      "headline": "Google Arts & Culture turns 15 — and gives its app a makeover",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/new-arts-culture-app/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-28T16:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6078dfff0e3ea1d6",
+      "headline": "Google: See what 4 builders are making with Gemini 3.8 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-28T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-125e7efcafb005bc",
       "headline": "Google: 3 ways this grocer cooks for 200 guests with Gemini",
