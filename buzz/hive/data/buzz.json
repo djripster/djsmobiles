@@ -1,5 +1,28 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T06:49:28.725Z",
-  "items": []
+  "updatedAt": "2026-09-28T15:23:30.625Z",
+  "items": [
+    {
+      "id": "google-news-125e7efcafb005bc",
+      "headline": "Google: 3 ways this grocer cooks for 200 guests with Gemini",
+      "url": "https://blog.google/products-and-platforms/products/gemini/edys-grocer-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-28T15:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b0cb14ac6f5de968",
+      "headline": "Google: Introducing Vertical Video Unification with Display & Video 360.",
+      "url": "https://blog.google/products/marketingplatform/360/vertical-video-unification/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-28T13:00:00.000Z",
+      "type": "standard"
+    }
+  ]
 }
