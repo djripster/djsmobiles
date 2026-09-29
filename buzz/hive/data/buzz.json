@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T15:46:54.965Z",
+  "updatedAt": "2026-09-29T20:44:09.929Z",
   "items": [
+    {
+      "id": "google-news-29505f09b760cfc9",
+      "headline": "Google: Game on: Henry Cavill is putting Googlebook to the test",
+      "url": "https://blog.google/products-and-platforms/devices/googlebook/henry-cavill-googlebook-video-game/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-29T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dcb956296f1e366d",
+      "headline": "Google: Experience two artists’ perspectives on philosophy, science, and AI",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/las-art-foundation-ai-residency/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-29T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-8f2bc5604cfb952c",
       "headline": "Google is a technology partner for the launch of America.gov.",
