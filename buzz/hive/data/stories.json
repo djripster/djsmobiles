@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T08:25:16.116Z",
+  "updatedAt": "2026-09-29T15:46:54.911Z",
   "stories": [
+    {
+      "id": "google-news-8f2bc5604cfb952c",
+      "headline": "Google is a technology partner for the launch of America.gov.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/america-gov-google-public-sector/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-29T14:15:00.000Z",
+      "collectedAt": "2026-09-29T15:46:34.694Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-db713ef86bd59ea8",
       "headline": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
