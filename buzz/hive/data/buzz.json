@@ -1,7 +1,106 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T13:39:07.372Z",
+  "updatedAt": "2026-09-30T19:15:36.993Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-eb39ddc0289b9b2c",
+      "headline": "Samsung Galaxy SmartTag3 Makes It Easier To Keep Track of What Matters",
+      "url": "https://news.samsung.com/global/samsung-galaxy-smarttag3-makes-it-easier-to-keep-track-of-what-matters",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-30T21:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-f6e0a3b3f52abf45",
+      "headline": "Samsung Introduces Galaxy Tab S12 Series: The Ultimate Productivity Powerhouse Built for Growth",
+      "url": "https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-09-30T21:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d0594e3e3d8b36eb",
+      "headline": "Google is supporting water resilience in Chile.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/water-resilience-chile/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-30T18:34:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-646e2d3c8e8ea514",
+      "headline": "Google: More partners are joining the Alliance for America’s Skilled Trades.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/alliance-americas-skilled-trades-expands/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-30T18:15:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-381da076c8f84d9c",
+      "headline": "Google: Supporting AI readiness in higher education",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/educause-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-30T16:43:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-68cbabc2cd02fa79",
+      "headline": "Google: Let skills in Gemini tackle your most repetitive tasks",
+      "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-30T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-7d86a3be0efc594f",
+      "headline": "Celebrating International Translation Day: Meet 3 linguistic experts behind Google Translate",
+      "url": "https://blog.google/products-and-platforms/products/translate/international-translation-day-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-30T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-3bb5d00e7f71dbaf",
+      "headline": "Google: Waze rolls out new features to support Breast Cancer Awareness Month.",
+      "url": "https://blog.google/waze/breast-cancer-awareness-month/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-30T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-91ae618daae2a7b8",
+      "headline": "Google: We’re introducing SynthID Bio, bringing our watermarking technology to synthetic biology.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-30T15:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-29505f09b760cfc9",
       "headline": "Google: Game on: Henry Cavill is putting Googlebook to the test",
@@ -36,58 +135,36 @@
       "type": "standard"
     },
     {
-      "id": "google-news-db713ef86bd59ea8",
-      "headline": "Google: Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "sourceId": "google-news",
+      "id": "samsung-global-newsroom-171333c4eead9c69",
+      "headline": "Samsung To Invest USD 1 Billion in AI Infrastructure Company Helix",
+      "url": "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+      "sourceId": "samsung-global-newsroom",
       "brandIds": [
-        "google"
+        "samsung"
       ],
-      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "publishedAt": "2026-09-29T08:00:00.000Z",
       "type": "standard"
     },
     {
-      "id": "google-news-86453700a8c09130",
-      "headline": "Google Arts & Culture turns 15 — and gives its app a makeover",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/new-arts-culture-app/",
-      "sourceId": "google-news",
+      "id": "samsung-global-newsroom-4e52063e7037c3bd",
+      "headline": "Samsung: [World Heart Day] Taking Care of Your Heart Every Day, Starting From Your Wrist",
+      "url": "https://news.samsung.com/global/world-heart-day-taking-care-of-your-heart-every-day-starting-from-your-wrist",
+      "sourceId": "samsung-global-newsroom",
       "brandIds": [
-        "google"
+        "samsung"
       ],
-      "publishedAt": "2026-09-28T16:30:00.000Z",
+      "publishedAt": "2026-09-29T08:00:00.000Z",
       "type": "standard"
     },
     {
-      "id": "google-news-6078dfff0e3ea1d6",
-      "headline": "Google: See what 4 builders are making with Gemini 3.8 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/",
-      "sourceId": "google-news",
+      "id": "samsung-global-newsroom-85238e00807f5fec",
+      "headline": "Samsung Art Store Debuts First-Ever Cinematic Collection for Samsung TVs",
+      "url": "https://news.samsung.com/global/samsung-art-store-debuts-first-ever-cinematic-collection-for-samsung-tvs",
+      "sourceId": "samsung-global-newsroom",
       "brandIds": [
-        "google"
+        "samsung"
       ],
-      "publishedAt": "2026-09-28T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-125e7efcafb005bc",
-      "headline": "Google: 3 ways this grocer cooks for 200 guests with Gemini",
-      "url": "https://blog.google/products-and-platforms/products/gemini/edys-grocer-gemini/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-28T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b0cb14ac6f5de968",
-      "headline": "Google: Introducing Vertical Video Unification with Display & Video 360.",
-      "url": "https://blog.google/products/marketingplatform/360/vertical-video-unification/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-28T13:00:00.000Z",
+      "publishedAt": "2026-09-28T22:00:00.000Z",
       "type": "standard"
     }
   ]
