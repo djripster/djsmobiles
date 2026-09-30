@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T19:15:36.993Z",
+  "updatedAt": "2026-09-30T23:46:18.190Z",
   "items": [
+    {
+      "id": "google-news-8ff13f57dac4cfa3",
+      "headline": "Google's AI ranks #1 for predicting flu hospitalizations.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-30T21:30:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-eb39ddc0289b9b2c",
       "headline": "Samsung Galaxy SmartTag3 Makes It Easier To Keep Track of What Matters",
@@ -22,6 +33,17 @@
         "samsung"
       ],
       "publishedAt": "2026-09-30T21:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6381db252deeabb6",
+      "headline": "Google: Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-09-30T20:00:00.000Z",
       "type": "standard"
     },
     {
@@ -102,6 +124,17 @@
       "type": "standard"
     },
     {
+      "id": "huawei-newsroom-5f575df67692749a",
+      "headline": "Huawei: Notice on Rotating Chairman Tenure",
+      "url": "https://www.huawei.com/en/news/2026/9/rotating-chairman",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-09-30T10:00:00.000Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-29505f09b760cfc9",
       "headline": "Google: Game on: Henry Cavill is putting Googlebook to the test",
       "url": "https://blog.google/products-and-platforms/devices/googlebook/henry-cavill-googlebook-video-game/",
@@ -132,39 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-29T14:15:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-171333c4eead9c69",
-      "headline": "Samsung To Invest USD 1 Billion in AI Infrastructure Company Helix",
-      "url": "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-29T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-4e52063e7037c3bd",
-      "headline": "Samsung: [World Heart Day] Taking Care of Your Heart Every Day, Starting From Your Wrist",
-      "url": "https://news.samsung.com/global/world-heart-day-taking-care-of-your-heart-every-day-starting-from-your-wrist",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-29T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-85238e00807f5fec",
-      "headline": "Samsung Art Store Debuts First-Ever Cinematic Collection for Samsung TVs",
-      "url": "https://news.samsung.com/global/samsung-art-store-debuts-first-ever-cinematic-collection-for-samsung-tvs",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-28T22:00:00.000Z",
       "type": "standard"
     }
   ]
