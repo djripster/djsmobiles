@@ -1,7 +1,55 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T13:06:45.026Z",
+  "updatedAt": "2026-10-01T18:51:25.567Z",
   "stories": [
+    {
+      "id": "google-news-33e9d331a372cba4",
+      "headline": "Turn your existing social assets into high-impact YouTube ads.",
+      "url": "https://blog.google/products/ads-commerce/creating-assets-youtube-ads/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-01T20:30:00.000Z",
+      "collectedAt": "2026-10-01T18:51:04.537Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-058f1d37f378336c",
+      "headline": "Guided Vision in Gemini Live: built for accessibility",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-01T16:00:00.000Z",
+      "collectedAt": "2026-10-01T18:51:04.537Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ceb3576a6bbdd8c1",
+      "headline": "1,400 educators joined our Badge-a-thon: Day of AI Learning.",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-educator-series-badge-a-thon/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-01T16:00:00.000Z",
+      "collectedAt": "2026-10-01T18:51:04.537Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ed59254a0e36ad07",
+      "headline": "5 ways Search can help you perfect your at-home coffee routine",
+      "url": "https://blog.google/products-and-platforms/products/search/coffee-tips-google-search/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-01T13:00:00.000Z",
+      "collectedAt": "2026-10-01T18:51:04.537Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-8ff13f57dac4cfa3",
       "headline": "Google's AI ranks #1 for predicting flu hospitalizations.",

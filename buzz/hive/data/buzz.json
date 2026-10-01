@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T13:06:45.081Z",
+  "updatedAt": "2026-10-01T18:51:25.605Z",
   "items": [
+    {
+      "id": "google-news-33e9d331a372cba4",
+      "headline": "Google: Turn your existing social assets into high-impact YouTube ads.",
+      "url": "https://blog.google/products/ads-commerce/creating-assets-youtube-ads/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-01T20:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-058f1d37f378336c",
+      "headline": "Google: Guided Vision in Gemini Live: built for accessibility",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-01T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ceb3576a6bbdd8c1",
+      "headline": "Google: 1,400 educators joined our Badge-a-thon: Day of AI Learning.",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-educator-series-badge-a-thon/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-01T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ed59254a0e36ad07",
+      "headline": "Google: 5 ways Search can help you perfect your at-home coffee routine",
+      "url": "https://blog.google/products-and-platforms/products/search/coffee-tips-google-search/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-01T13:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-8ff13f57dac4cfa3",
       "headline": "Google's AI ranks #1 for predicting flu hospitalizations.",
@@ -121,50 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-30T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-5f575df67692749a",
-      "headline": "Huawei: Notice on Rotating Chairman Tenure",
-      "url": "https://www.huawei.com/en/news/2026/9/rotating-chairman",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-09-30T10:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-29505f09b760cfc9",
-      "headline": "Google: Game on: Henry Cavill is putting Googlebook to the test",
-      "url": "https://blog.google/products-and-platforms/devices/googlebook/henry-cavill-googlebook-video-game/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-29T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-dcb956296f1e366d",
-      "headline": "Google: Experience two artists’ perspectives on philosophy, science, and AI",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/las-art-foundation-ai-residency/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-29T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-8f2bc5604cfb952c",
-      "headline": "Google is a technology partner for the launch of America.gov.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/america-gov-google-public-sector/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-29T14:15:00.000Z",
       "type": "standard"
     }
   ]
