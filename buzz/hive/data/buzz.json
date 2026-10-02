@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T08:30:56.615Z",
+  "updatedAt": "2026-10-02T15:45:38.672Z",
   "items": [
+    {
+      "id": "google-news-6a7bb4e3e69d69f5",
+      "headline": "Google: The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-02T15:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-8fc038c2bf575413",
       "headline": "Google: Our Project Suncatcher prototype satellite is in orbit.",
@@ -149,17 +160,6 @@
       "id": "google-news-7d86a3be0efc594f",
       "headline": "Celebrating International Translation Day: Meet 3 linguistic experts behind Google Translate",
       "url": "https://blog.google/products-and-platforms/products/translate/international-translation-day-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-30T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-3bb5d00e7f71dbaf",
-      "headline": "Google: Waze rolls out new features to support Breast Cancer Awareness Month.",
-      "url": "https://blog.google/waze/breast-cancer-awareness-month/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
