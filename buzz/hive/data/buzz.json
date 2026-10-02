@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T15:45:38.672Z",
+  "updatedAt": "2026-10-02T20:41:18.927Z",
   "items": [
     {
       "id": "google-news-6a7bb4e3e69d69f5",
@@ -66,6 +66,17 @@
         "google"
       ],
       "publishedAt": "2026-10-01T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-3f3bbd170ec1b601",
+      "headline": "Samsung: Lee Kun-Hee Collection Expands to Europe With Opening of ‘Korea’ Exhibition at the British Museum",
+      "url": "https://news.samsung.com/global/lee-kun-hee-collection-expands-to-europe-with-opening-of-korea-exhibition-at-the-british-museum",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-01T10:00:00.000Z",
       "type": "standard"
     },
     {
@@ -149,17 +160,6 @@
       "id": "google-news-68cbabc2cd02fa79",
       "headline": "Google: Let skills in Gemini tackle your most repetitive tasks",
       "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-30T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-7d86a3be0efc594f",
-      "headline": "Celebrating International Translation Day: Meet 3 linguistic experts behind Google Translate",
-      "url": "https://blog.google/products-and-platforms/products/translate/international-translation-day-2026/",
       "sourceId": "google-news",
       "brandIds": [
         "google"

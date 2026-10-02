@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T15:45:38.628Z",
+  "updatedAt": "2026-10-02T20:41:18.881Z",
   "stories": [
     {
       "id": "google-news-6a7bb4e3e69d69f5",
@@ -72,6 +72,18 @@
       ],
       "publishedAt": "2026-10-01T13:00:00.000Z",
       "collectedAt": "2026-10-01T18:51:04.537Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-3f3bbd170ec1b601",
+      "headline": "Lee Kun-Hee Collection Expands to Europe With Opening of ‘Korea’ Exhibition at the British Museum",
+      "url": "https://news.samsung.com/global/lee-kun-hee-collection-expands-to-europe-with-opening-of-korea-exhibition-at-the-british-museum",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-01T10:00:00.000Z",
+      "collectedAt": "2026-10-02T20:41:17.826Z",
       "type": "standard"
     },
     {
