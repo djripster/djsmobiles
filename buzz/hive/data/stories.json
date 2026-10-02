@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T23:10:02.869Z",
+  "updatedAt": "2026-10-02T02:12:38.493Z",
   "stories": [
+    {
+      "id": "google-news-8fc038c2bf575413",
+      "headline": "Our Project Suncatcher prototype satellite is in orbit.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-01T23:30:00.000Z",
+      "collectedAt": "2026-10-02T02:12:18.341Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-33e9d331a372cba4",
       "headline": "Turn your existing social assets into high-impact YouTube ads.",

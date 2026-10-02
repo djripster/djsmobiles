@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T23:10:02.923Z",
+  "updatedAt": "2026-10-02T02:12:38.549Z",
   "items": [
+    {
+      "id": "google-news-8fc038c2bf575413",
+      "headline": "Google: Our Project Suncatcher prototype satellite is in orbit.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-01T23:30:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-33e9d331a372cba4",
       "headline": "Google: Turn your existing social assets into high-impact YouTube ads.",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-09-30T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-91ae618daae2a7b8",
-      "headline": "Google: We’re introducing SynthID Bio, bringing our watermarking technology to synthetic biology.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-30T15:00:00.000Z",
       "type": "standard"
     }
   ]
