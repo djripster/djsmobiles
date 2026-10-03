@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T12:29:55.662Z",
+  "updatedAt": "2026-10-03T17:14:19.626Z",
   "items": [
     {
       "id": "google-news-6a7bb4e3e69d69f5",
@@ -143,28 +143,6 @@
         "google"
       ],
       "publishedAt": "2026-09-30T18:15:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-381da076c8f84d9c",
-      "headline": "Google: Supporting AI readiness in higher education",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/educause-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-30T16:43:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-68cbabc2cd02fa79",
-      "headline": "Google: Let skills in Gemini tackle your most repetitive tasks",
-      "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-30T16:00:00.000Z",
       "type": "standard"
     }
   ]
