@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T17:14:19.626Z",
+  "updatedAt": "2026-10-03T19:51:38.445Z",
   "items": [
     {
       "id": "google-news-6a7bb4e3e69d69f5",
@@ -121,28 +121,6 @@
         "google"
       ],
       "publishedAt": "2026-09-30T20:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d0594e3e3d8b36eb",
-      "headline": "Google is supporting water resilience in Chile.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/water-resilience-chile/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-30T18:34:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-646e2d3c8e8ea514",
-      "headline": "Google: More partners are joining the Alliance for America’s Skilled Trades.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/alliance-americas-skilled-trades-expands/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-30T18:15:00.000Z",
       "type": "standard"
     }
   ]
