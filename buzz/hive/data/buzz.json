@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T19:51:38.445Z",
+  "updatedAt": "2026-10-03T23:00:03.461Z",
   "items": [
     {
       "id": "google-news-6a7bb4e3e69d69f5",
@@ -77,50 +77,6 @@
         "samsung"
       ],
       "publishedAt": "2026-10-01T10:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-8ff13f57dac4cfa3",
-      "headline": "Google's AI ranks #1 for predicting flu hospitalizations.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-30T21:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-eb39ddc0289b9b2c",
-      "headline": "Samsung Galaxy SmartTag3 Makes It Easier To Keep Track of What Matters",
-      "url": "https://news.samsung.com/global/samsung-galaxy-smarttag3-makes-it-easier-to-keep-track-of-what-matters",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-30T21:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-f6e0a3b3f52abf45",
-      "headline": "Samsung Introduces Galaxy Tab S12 Series: The Ultimate Productivity Powerhouse Built for Growth",
-      "url": "https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-09-30T21:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6381db252deeabb6",
-      "headline": "Google: Gemini 4 Argon: our next era of frontier intelligence",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-09-30T20:00:00.000Z",
       "type": "standard"
     }
   ]
