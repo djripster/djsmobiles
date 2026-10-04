@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T09:42:48.187Z",
+  "updatedAt": "2026-10-04T15:20:02.064Z",
   "items": [
     {
       "id": "google-news-6a7bb4e3e69d69f5",
@@ -55,28 +55,6 @@
         "google"
       ],
       "publishedAt": "2026-10-01T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ed59254a0e36ad07",
-      "headline": "Google: 5 ways Search can help you perfect your at-home coffee routine",
-      "url": "https://blog.google/products-and-platforms/products/search/coffee-tips-google-search/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-01T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-3f3bbd170ec1b601",
-      "headline": "Samsung: Lee Kun-Hee Collection Expands to Europe With Opening of ‘Korea’ Exhibition at the British Museum",
-      "url": "https://news.samsung.com/global/lee-kun-hee-collection-expands-to-europe-with-opening-of-korea-exhibition-at-the-british-museum",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-10-01T10:00:00.000Z",
       "type": "standard"
     }
   ]
