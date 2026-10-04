@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T19:34:42.681Z",
+  "updatedAt": "2026-10-04T23:05:49.857Z",
   "items": [
     {
       "id": "google-news-6a7bb4e3e69d69f5",
@@ -22,17 +22,6 @@
         "google"
       ],
       "publishedAt": "2026-10-01T23:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-33e9d331a372cba4",
-      "headline": "Google: Turn your existing social assets into high-impact YouTube ads.",
-      "url": "https://blog.google/products/ads-commerce/creating-assets-youtube-ads/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-01T20:30:00.000Z",
       "type": "standard"
     }
   ]
