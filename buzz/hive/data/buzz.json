@@ -1,7 +1,139 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T08:57:39.480Z",
+  "updatedAt": "2026-10-05T18:23:06.177Z",
   "items": [
+    {
+      "id": "google-news-0a87ba260f515b8c",
+      "headline": "Google: I use technology to give students a voice and become critical digital citizens.",
+      "url": "https://blog.google/products-and-platforms/products/education/teacher-voices-sweden/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-02712f54e967f63b",
+      "headline": "Google: Technology helps my students balance big creative ideas with tight deadlines.",
+      "url": "https://blog.google/products-and-platforms/products/education/media-teacher-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-13fd55d558d5b52f",
+      "headline": "Google: Here’s how I use technology to bring science to life in my classroom.",
+      "url": "https://blog.google/products-and-platforms/products/education/science-teacher-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-3b44381c0318cdcc",
+      "headline": "Google: World Teachers’ Day 2026",
+      "url": "https://blog.google/products-and-platforms/products/education/world-teachers-day-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-cd0e05b27e96e3ce",
+      "headline": "Google: I teach my students that in the AI era, critical thinking comes first.",
+      "url": "https://blog.google/products-and-platforms/products/education/teacher-stories-gemini-middle-school/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-e19c9e6ee550c244",
+      "headline": "Google: My eighth-grade students built our school newscast from scratch with Gemini.",
+      "url": "https://blog.google/products-and-platforms/products/education/gemini-student-newscast/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-73af55ea587bec41",
+      "headline": "Google: My students use Gemini to brainstorm creative ideas.",
+      "url": "https://blog.google/products-and-platforms/products/education/teacher-voices-gemini-creativity/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ce114c8ceafbd376",
+      "headline": "Google: Technology is helping my fellow math teachers trade weekend prep for personalized learning.",
+      "url": "https://blog.google/products-and-platforms/products/education/education-officer-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-1fc121c6836d1abe",
+      "headline": "Google: Gemini helps me bring hands-on learning into the classroom.",
+      "url": "https://blog.google/products-and-platforms/products/education/english-teacher-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-366d9f4e5a40d026",
+      "headline": "Google: I replaced traditional coding tests with real conversations about how my students solve problems using AI.",
+      "url": "https://blog.google/products-and-platforms/products/education/gemini-google-colab/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6ac1d30f4cbf6f9f",
+      "headline": "Google: Gemini helps me give a voice to students who cannot write.",
+      "url": "https://blog.google/products-and-platforms/products/education/special-education-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-707c259045bccf33",
+      "headline": "Google: Wheels up: Trends and tips for 2026 holiday travel",
+      "url": "https://blog.google/products-and-platforms/products/search/holiday-travel-trends-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T12:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-95eb6c8a3e94753a",
       "headline": "Google: Making AI training available to UK and Ireland educators",
@@ -11,17 +143,6 @@
         "google"
       ],
       "publishedAt": "2026-10-05T07:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6a7bb4e3e69d69f5",
-      "headline": "Google: The latest AI news we announced in September 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-02T15:00:00.000Z",
       "type": "standard"
     }
   ]
