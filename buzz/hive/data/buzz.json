@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T23:05:49.857Z",
+  "updatedAt": "2026-10-05T01:57:21.035Z",
   "items": [
     {
       "id": "google-news-6a7bb4e3e69d69f5",
@@ -11,17 +11,6 @@
         "google"
       ],
       "publishedAt": "2026-10-02T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-8fc038c2bf575413",
-      "headline": "Google: Our Project Suncatcher prototype satellite is in orbit.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-01T23:30:00.000Z",
       "type": "standard"
     }
   ]
