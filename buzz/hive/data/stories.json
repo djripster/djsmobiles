@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T01:57:20.991Z",
+  "updatedAt": "2026-10-05T08:57:39.433Z",
   "stories": [
+    {
+      "id": "google-news-95eb6c8a3e94753a",
+      "headline": "Making AI training available to UK and Ireland educators",
+      "url": "https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-05T07:00:00.000Z",
+      "collectedAt": "2026-10-05T08:57:38.735Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-6a7bb4e3e69d69f5",
       "headline": "The latest AI news we announced in September 2026",
