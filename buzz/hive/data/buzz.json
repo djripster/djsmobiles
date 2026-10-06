@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T07:31:19.943Z",
+  "updatedAt": "2026-10-06T15:07:00.160Z",
   "items": [
+    {
+      "id": "google-news-64a6575063ff0fdc",
+      "headline": "Making global public health more proactive with Google Earth AI",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-06T15:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-8eaa8bd3569d7411",
+      "headline": "More than 100 startups joining our Google for Startups Gemini Startup Forum",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/gemini-startup-forum-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-06T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-317a166e36b7b086",
+      "headline": "Google: Meet the artist who built a giant spider for a virtual world",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/frieze-london-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-06T13:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-27215d831bbe09a3",
+      "headline": "Google: Why we're backing America's existing nuclear plants",
+      "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-0a87ba260f515b8c",
       "headline": "Google: I use technology to give students a voice and become critical digital citizens.",
@@ -121,39 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-10-05T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-fbf2278701ebd92c",
-      "headline": "Huawei and Qualcomm Announce Broad Patent License Agreement",
-      "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-05T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-707c259045bccf33",
-      "headline": "Google: Wheels up: Trends and tips for 2026 holiday travel",
-      "url": "https://blog.google/products-and-platforms/products/search/holiday-travel-trends-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-05T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-95eb6c8a3e94753a",
-      "headline": "Google: Making AI training available to UK and Ireland educators",
-      "url": "https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-05T07:00:00.000Z",
       "type": "standard"
     }
   ]
