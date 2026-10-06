@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T18:23:06.124Z",
+  "updatedAt": "2026-10-06T00:46:39.260Z",
   "stories": [
     {
       "id": "google-news-0a87ba260f515b8c",
@@ -132,6 +132,18 @@
       ],
       "publishedAt": "2026-10-05T16:00:00.000Z",
       "collectedAt": "2026-10-05T18:22:45.956Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-fbf2278701ebd92c",
+      "headline": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+      "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-05T14:00:00.000Z",
+      "collectedAt": "2026-10-06T00:46:39.259Z",
       "type": "standard"
     },
     {
