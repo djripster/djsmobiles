@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T15:07:00.160Z",
+  "updatedAt": "2026-10-06T20:15:15.356Z",
   "items": [
+    {
+      "id": "google-news-b28cac5d3529e5b1",
+      "headline": "Google: Ask a Scientist: How are researchers using AI to help pregnant women access ultrasounds?",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blind-sweep-ultrasounds-ai/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-06T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-186442aeaf00c1e5",
+      "headline": "Producers can now vibe code their own music production tools using Google Flow Music.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-06T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-e6e1d2a9f0a4e91a",
+      "headline": "Google: EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-06T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-64a6575063ff0fdc",
       "headline": "Making global public health more proactive with Google Earth AI",
@@ -127,39 +160,6 @@
       "id": "google-news-ce114c8ceafbd376",
       "headline": "Google: Technology is helping my fellow math teachers trade weekend prep for personalized learning.",
       "url": "https://blog.google/products-and-platforms/products/education/education-officer-gemini/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-05T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-1fc121c6836d1abe",
-      "headline": "Google: Gemini helps me bring hands-on learning into the classroom.",
-      "url": "https://blog.google/products-and-platforms/products/education/english-teacher-gemini/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-05T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-366d9f4e5a40d026",
-      "headline": "Google: I replaced traditional coding tests with real conversations about how my students solve problems using AI.",
-      "url": "https://blog.google/products-and-platforms/products/education/gemini-google-colab/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-05T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6ac1d30f4cbf6f9f",
-      "headline": "Google: Gemini helps me give a voice to students who cannot write.",
-      "url": "https://blog.google/products-and-platforms/products/education/special-education-gemini/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
