@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T05:53:15.490Z",
+  "updatedAt": "2026-10-07T13:15:26.732Z",
   "stories": [
+    {
+      "id": "google-news-b6aec8c05cfc3e2f",
+      "headline": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "collectedAt": "2026-10-07T13:15:25.763Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-b28cac5d3529e5b1",
       "headline": "Ask a Scientist: How are researchers using AI to help pregnant women access ultrasounds?",
@@ -84,6 +96,30 @@
       ],
       "publishedAt": "2026-10-06T10:00:00.000Z",
       "collectedAt": "2026-10-06T15:06:37.416Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-72d0b7d9d9db1e45",
+      "headline": "Samsung Art Store Expands Its Collection With 30 Exclusive Works From the British Museum",
+      "url": "https://news.samsung.com/global/samsung-art-store-expands-its-collection-with-30-exclusive-works-from-the-british-museum",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-06T08:00:00.000Z",
+      "collectedAt": "2026-10-07T13:15:26.452Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-ec712216b7049a49",
+      "headline": "Samsung Introduces ‘SmartThings Now’ in New Platform Update That Brings More Intuitive User Experiences",
+      "url": "https://news.samsung.com/global/samsung-introduces-smartthings-now-in-new-platform-update-that-brings-more-intuitive-user-experiences",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-06T08:00:00.000Z",
+      "collectedAt": "2026-10-07T13:15:26.452Z",
       "type": "standard"
     },
     {
