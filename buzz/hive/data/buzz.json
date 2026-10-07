@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T13:15:26.784Z",
+  "updatedAt": "2026-10-07T19:57:49.165Z",
   "items": [
+    {
+      "id": "google-news-d6233baa7d5321cb",
+      "headline": "Google: We're making it easier to identify AI-generated content globally.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-07T14:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-b6aec8c05cfc3e2f",
       "headline": "Google: Introducing Playground: Create and play custom games",
@@ -149,17 +160,6 @@
       "id": "google-news-3b44381c0318cdcc",
       "headline": "Google: World Teachers’ Day 2026",
       "url": "https://blog.google/products-and-platforms/products/education/world-teachers-day-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-05T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-cd0e05b27e96e3ce",
-      "headline": "Google: I teach my students that in the AI era, critical thinking comes first.",
-      "url": "https://blog.google/products-and-platforms/products/education/teacher-stories-gemini-middle-school/",
       "sourceId": "google-news",
       "brandIds": [
         "google"

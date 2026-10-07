@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T13:15:26.732Z",
+  "updatedAt": "2026-10-07T19:57:49.114Z",
   "stories": [
+    {
+      "id": "google-news-d6233baa7d5321cb",
+      "headline": "We're making it easier to identify AI-generated content globally.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-07T14:00:00.000Z",
+      "collectedAt": "2026-10-07T19:57:28.878Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-b6aec8c05cfc3e2f",
       "headline": "Introducing Playground: Create and play custom games",
