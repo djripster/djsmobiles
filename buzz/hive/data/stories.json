@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T05:57:14.941Z",
+  "updatedAt": "2026-10-08T13:22:24.020Z",
   "stories": [
+    {
+      "id": "google-news-5a6c4821fe4b8d3a",
+      "headline": "Google Cloud introduces the Gemini agent.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-08T12:05:00.000Z",
+      "collectedAt": "2026-10-08T13:22:03.725Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a018d30291dfb638",
+      "headline": "3 ways Google Maps can help you navigate your next culinary adventure.",
+      "url": "https://blog.google/products-and-platforms/products/maps/google-maps-restaurant-tips-tricks/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "collectedAt": "2026-10-08T13:22:03.725Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-24f2e03514de0358",
+      "headline": "Google Maps reveals the top food trends and popular restaurants across 10 cities",
+      "url": "https://blog.google/products-and-platforms/products/maps/google-maps-fan-favorite-dining-list/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "collectedAt": "2026-10-08T13:22:03.725Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-3fc6c28d446192a4",
       "headline": "This winter, use Google Maps and Waze to find the best fuel prices in the UK.",
