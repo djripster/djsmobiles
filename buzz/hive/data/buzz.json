@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T13:22:24.068Z",
+  "updatedAt": "2026-10-08T19:54:58.044Z",
   "items": [
+    {
+      "id": "google-news-d4eed22af98dccbd",
+      "headline": "Google: Win big at Play Fest: Epic prizes, gaming leagues, and daily deals start October 13",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/play-fest/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-08T15:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dec45192904d8250",
+      "headline": "Google: Sign in quickly and securely with passkeys.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/how-to-set-up-passkey/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-08T15:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5a6c4821fe4b8d3a",
       "headline": "Google Cloud introduces the Gemini agent.",
@@ -143,28 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-10-06T10:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-72d0b7d9d9db1e45",
-      "headline": "Samsung Art Store Expands Its Collection With 30 Exclusive Works From the British Museum",
-      "url": "https://news.samsung.com/global/samsung-art-store-expands-its-collection-with-30-exclusive-works-from-the-british-museum",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-10-06T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-ec712216b7049a49",
-      "headline": "Samsung Introduces ‘SmartThings Now’ in New Platform Update That Brings More Intuitive User Experiences",
-      "url": "https://news.samsung.com/global/samsung-introduces-smartthings-now-in-new-platform-update-that-brings-more-intuitive-user-experiences",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-10-06T08:00:00.000Z",
       "type": "standard"
     }
   ]

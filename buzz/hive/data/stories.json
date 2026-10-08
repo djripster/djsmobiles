@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T13:22:24.020Z",
+  "updatedAt": "2026-10-08T19:54:57.993Z",
   "stories": [
+    {
+      "id": "google-news-d4eed22af98dccbd",
+      "headline": "Win big at Play Fest: Epic prizes, gaming leagues, and daily deals start October 13",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/play-fest/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-08T15:30:00.000Z",
+      "collectedAt": "2026-10-08T19:54:37.761Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dec45192904d8250",
+      "headline": "Sign in quickly and securely with passkeys.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/how-to-set-up-passkey/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-08T15:00:00.000Z",
+      "collectedAt": "2026-10-08T19:54:37.762Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5a6c4821fe4b8d3a",
       "headline": "Google Cloud introduces the Gemini agent.",
