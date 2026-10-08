@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T19:57:49.165Z",
+  "updatedAt": "2026-10-08T00:10:17.545Z",
   "items": [
+    {
+      "id": "google-news-3fc6c28d446192a4",
+      "headline": "This winter, use Google Maps and Waze to find the best fuel prices in the UK.",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/google-maps-waze-fuel-prices-uk/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-08T00:01:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-d6233baa7d5321cb",
       "headline": "Google: We're making it easier to identify AI-generated content globally.",
@@ -149,17 +160,6 @@
       "id": "google-news-13fd55d558d5b52f",
       "headline": "Google: Here’s how I use technology to bring science to life in my classroom.",
       "url": "https://blog.google/products-and-platforms/products/education/science-teacher-gemini/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-05T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-3b44381c0318cdcc",
-      "headline": "Google: World Teachers’ Day 2026",
-      "url": "https://blog.google/products-and-platforms/products/education/world-teachers-day-2026/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
