@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T15:15:39.423Z",
+  "updatedAt": "2026-10-09T20:51:30.569Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-381ef1218aace75f",
+      "headline": "Huawei in collaboration with China Unicom and Peking University Win 2026 Leading Lights Award, Advancing 5G Free-Mobility Private Network to a New Era in Higher Education",
+      "url": "https://www.huawei.com/en/news/2026/10/security-campusnet",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-09T16:13:32.167Z",
+      "collectedAt": "2026-10-09T20:51:30.568Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-6b39e7783d03a882",
+      "headline": "Huawei Mobile Core Network Ranks No. 1 in Omdia's 2026 Core Network Vendor Assessment, Leading the Global Core Network Market",
+      "url": "https://www.huawei.com/en/news/2026/10/omdia-core-network",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-09T15:45:48.250Z",
+      "collectedAt": "2026-10-09T20:51:30.568Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-605cee19632e07cf",
       "headline": "Study in The Lancet suggests AI could improve patient-physician relationships.",
