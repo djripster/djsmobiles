@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T19:54:58.044Z",
+  "updatedAt": "2026-10-09T00:20:03.208Z",
   "items": [
+    {
+      "id": "google-news-605cee19632e07cf",
+      "headline": "Google: Study in The Lancet suggests AI could improve patient-physician relationships.",
+      "url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-08T22:30:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-d4eed22af98dccbd",
       "headline": "Google: Win big at Play Fest: Epic prizes, gaming leagues, and daily deals start October 13",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-10-06T13:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-27215d831bbe09a3",
-      "headline": "Google: Why we're backing America's existing nuclear plants",
-      "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-06T10:00:00.000Z",
       "type": "standard"
     }
   ]

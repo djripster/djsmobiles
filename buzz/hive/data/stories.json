@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T19:54:57.993Z",
+  "updatedAt": "2026-10-09T00:20:03.161Z",
   "stories": [
+    {
+      "id": "google-news-605cee19632e07cf",
+      "headline": "Study in The Lancet suggests AI could improve patient-physician relationships.",
+      "url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-08T22:30:00.000Z",
+      "collectedAt": "2026-10-09T00:19:42.439Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-d4eed22af98dccbd",
       "headline": "Win big at Play Fest: Epic prizes, gaming leagues, and daily deals start October 13",
