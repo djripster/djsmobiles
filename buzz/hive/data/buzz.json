@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T13:37:03.112Z",
+  "updatedAt": "2026-10-10T18:32:30.488Z",
   "items": [
     {
       "id": "huawei-newsroom-381ef1218aace75f",
@@ -99,17 +99,6 @@
         "google"
       ],
       "publishedAt": "2026-10-08T00:01:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d6233baa7d5321cb",
-      "headline": "Google: We're making it easier to identify AI-generated content globally.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-07T14:00:00.000Z",
       "type": "standard"
     }
   ]
