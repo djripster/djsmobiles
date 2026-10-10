@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T07:02:25.836Z",
+  "updatedAt": "2026-10-10T13:37:03.112Z",
   "items": [
     {
       "id": "huawei-newsroom-381ef1218aace75f",
@@ -110,17 +110,6 @@
         "google"
       ],
       "publishedAt": "2026-10-07T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b6aec8c05cfc3e2f",
-      "headline": "Google: Introducing Playground: Create and play custom games",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-07T12:00:00.000Z",
       "type": "standard"
     }
   ]
