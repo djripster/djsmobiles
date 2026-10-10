@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T18:32:30.443Z",
+  "updatedAt": "2026-10-10T22:28:43.969Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-bacd23db26744a08",
+      "headline": "Huawei Launches Alpha 6000 Series Antennas, Advancing Four Core All-Site-Top Capabilities",
+      "url": "https://www.huawei.com/en/news/2026/9/alpha-antenna-6000",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-10T10:22:37.361Z",
+      "collectedAt": "2026-10-10T22:28:43.967Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-381ef1218aace75f",
       "headline": "Huawei in collaboration with China Unicom and Peking University Win 2026 Leading Lights Award, Advancing 5G Free-Mobility Private Network to a New Era in Higher Education",
