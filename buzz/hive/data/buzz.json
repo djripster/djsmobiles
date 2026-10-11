@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T20:13:51.482Z",
+  "updatedAt": "2026-10-11T23:40:08.959Z",
   "items": [
     {
       "id": "huawei-newsroom-bacd23db26744a08",
@@ -33,17 +33,6 @@
         "huawei"
       ],
       "publishedAt": "2026-10-09T15:45:48.250Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-605cee19632e07cf",
-      "headline": "Google: Study in The Lancet suggests AI could improve patient-physician relationships.",
-      "url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-08T22:30:00.000Z",
       "type": "standard"
     }
   ]
