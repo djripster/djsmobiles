@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T22:28:44.014Z",
+  "updatedAt": "2026-10-11T01:50:30.180Z",
   "items": [
     {
       "id": "huawei-newsroom-bacd23db26744a08",
@@ -99,17 +99,6 @@
         "google"
       ],
       "publishedAt": "2026-10-08T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-3fc6c28d446192a4",
-      "headline": "This winter, use Google Maps and Waze to find the best fuel prices in the UK.",
-      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/google-maps-waze-fuel-prices-uk/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-08T00:01:00.000Z",
       "type": "standard"
     }
   ]
