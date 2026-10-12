@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T23:40:08.812Z",
+  "updatedAt": "2026-10-12T05:50:31.112Z",
   "stories": [
     {
       "id": "huawei-newsroom-bacd23db26744a08",
@@ -108,6 +108,18 @@
       ],
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "collectedAt": "2026-10-08T13:22:03.725Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-960a56fdcd2f19dc",
+      "headline": "Samsung Electronics Announces Earnings Guidance for Third Quarter 2026",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-08T07:49:06.000Z",
+      "collectedAt": "2026-10-12T05:50:30.975Z",
       "type": "standard"
     },
     {
