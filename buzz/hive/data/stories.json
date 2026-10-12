@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T05:50:31.112Z",
+  "updatedAt": "2026-10-12T15:15:24.866Z",
   "stories": [
+    {
+      "id": "google-news-6b2b07b69aa63512",
+      "headline": "Google Health: Evolving so you can focus on living better",
+      "url": "https://blog.google/products-and-platforms/products/google-health/google-health-updates/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-12T13:00:00.000Z",
+      "collectedAt": "2026-10-12T15:15:04.719Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-8480f2f9df3680b9",
+      "headline": "From game days to daily life: The familiar faces teaming up with Google Health",
+      "url": "https://blog.google/products-and-platforms/products/google-health/google-health-partnership-athletes-creators/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-12T13:00:00.000Z",
+      "collectedAt": "2026-10-12T15:15:04.719Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-005adc0cbed04e40",
+      "headline": "We’re partnering with Flo Health to elevate women’s health",
+      "url": "https://blog.google/products-and-platforms/products/google-health/commitment-womens-health-flo-health-partnership/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-12T13:00:00.000Z",
+      "collectedAt": "2026-10-12T15:15:04.719Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-17ae0263749e16b2",
+      "headline": "How we’re making Google Health and Fitbit Air smarter than ever",
+      "url": "https://blog.google/products-and-platforms/products/google-health/fitbit-google-health-updates/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-12T13:00:00.000Z",
+      "collectedAt": "2026-10-12T15:15:04.719Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-7137d7cc9af98a47",
+      "headline": "Google Fitbit Edge: Our all-new smartest fitness tracker ever",
+      "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-12T13:00:00.000Z",
+      "collectedAt": "2026-10-12T15:15:04.719Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-bacd23db26744a08",
       "headline": "Huawei Launches Alpha 6000 Series Antennas, Advancing Four Core All-Site-Top Capabilities",
