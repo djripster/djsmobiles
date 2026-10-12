@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T15:15:24.866Z",
+  "updatedAt": "2026-10-12T22:30:34.729Z",
   "stories": [
+    {
+      "id": "google-news-8c74b81f618ade17",
+      "headline": "Applying technology to understand and treat disease",
+      "url": "https://blog.google/innovation-and-ai/technology/health/ai-health-research/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-12T17:30:00.000Z",
+      "collectedAt": "2026-10-12T22:30:13.580Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-6b2b07b69aa63512",
       "headline": "Google Health: Evolving so you can focus on living better",
