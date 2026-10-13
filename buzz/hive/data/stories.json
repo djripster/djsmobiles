@@ -1,7 +1,103 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T11:43:27.581Z",
+  "updatedAt": "2026-10-13T19:13:48.584Z",
   "stories": [
+    {
+      "id": "google-news-624d8c9f06fd047f",
+      "headline": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-13T18:00:00.000Z",
+      "collectedAt": "2026-10-13T19:13:28.233Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-61915a37127b98c4",
+      "headline": "New on Google Play: More ways to create, discover, and play",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-13T17:00:00.000Z",
+      "collectedAt": "2026-10-13T19:13:28.233Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-1143b1c433b3a84f",
+      "headline": "A new app experience is coming to cars with Google built-in",
+      "url": "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-13T17:00:00.000Z",
+      "collectedAt": "2026-10-13T19:13:28.233Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-bc084cc78ed3792c",
+      "headline": "Gemini 4 Argon comes to the Gemini app.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "collectedAt": "2026-10-13T19:13:28.233Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-54e63c7fa18f9c6d",
+      "headline": "Gemini 4 Argon is now available for developers.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "collectedAt": "2026-10-13T19:13:28.233Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4a7c0627614787f8",
+      "headline": "Build your data strength with October’s Demand Gen drop.",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-october-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "collectedAt": "2026-10-13T19:13:28.233Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-3f244126e9d6ab87",
+      "headline": "We're helping Indiana communities save with clean energy investments.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/indiana-energy-imact-program/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "collectedAt": "2026-10-13T19:13:28.233Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-74c9e10c02543c49",
+      "headline": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "collectedAt": "2026-10-13T19:13:28.233Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-8c74b81f618ade17",
       "headline": "Applying technology to understand and treat disease",
