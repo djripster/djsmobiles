@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T19:13:48.632Z",
+  "updatedAt": "2026-10-13T23:16:45.604Z",
   "items": [
     {
       "id": "google-news-624d8c9f06fd047f",
@@ -11,6 +11,17 @@
         "google"
       ],
       "publishedAt": "2026-10-13T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-1f37f183fd617ac1",
+      "headline": "Huawei: Beyond Connectivity, AI-Centric New Generation UBB Network Brings Intelligence Everywhere",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf2026-aicentric",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-13T17:56:19.820Z",
       "type": "standard"
     },
     {
