@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T15:05:33.359Z",
+  "updatedAt": "2026-10-14T19:20:21.610Z",
   "stories": [
+    {
+      "id": "google-news-e2d194ea6676ff63",
+      "headline": "Research@ 2026: Novel capabilities and intelligence",
+      "url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-14T16:15:00.000Z",
+      "collectedAt": "2026-10-14T19:20:01.457Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-be6c37dce88bdd99",
       "headline": "Guide your campaign spending with new priority and allocation features",
