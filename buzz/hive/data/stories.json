@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T10:08:32.502Z",
+  "updatedAt": "2026-10-14T15:05:33.359Z",
   "stories": [
+    {
+      "id": "google-news-be6c37dce88bdd99",
+      "headline": "Guide your campaign spending with new priority and allocation features",
+      "url": "https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-14T15:00:00.000Z",
+      "collectedAt": "2026-10-14T15:05:12.555Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4e181c171390031b",
+      "headline": "Check out this year’s buzziest Halloween trends.",
+      "url": "https://blog.google/products-and-platforms/products/search/frightgeist-halloween-trends-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "collectedAt": "2026-10-14T15:05:12.555Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-3d4f03cc82948ccc",
+      "headline": "6 ways to trick-or-treat yourself to the ultimate Halloween with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/halloween-tips-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "collectedAt": "2026-10-14T15:05:12.555Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-f0b80431f300200a",
       "headline": "17 organizations using AI to accelerate scientific breakthroughs",
