@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T04:48:00.209Z",
+  "updatedAt": "2026-10-14T10:08:32.502Z",
   "stories": [
+    {
+      "id": "google-news-f0b80431f300200a",
+      "headline": "17 organizations using AI to accelerate scientific breakthroughs",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/impact-challenge-ai-science-recipients/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-14T09:30:00.000Z",
+      "collectedAt": "2026-10-14T10:08:11.731Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-18521ab849e45ccf",
+      "headline": "We’re powering European scientific discovery with advanced AI compute and frontier models.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-14T08:00:00.000Z",
+      "collectedAt": "2026-10-14T10:08:11.731Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-45457a9fbb94c900",
+      "headline": "Enabling an AI-first European economy",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/european-economic-impact-report/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "collectedAt": "2026-10-14T10:08:11.732Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-624d8c9f06fd047f",
       "headline": "Developing Gemini 4 Argon responsibly and safely",
