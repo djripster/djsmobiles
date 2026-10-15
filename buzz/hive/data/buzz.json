@@ -1,7 +1,84 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T13:22:49.876Z",
+  "updatedAt": "2026-10-15T18:15:13.916Z",
   "items": [
+    {
+      "id": "google-news-30b77afd86fd20a8",
+      "headline": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-1b9d80577b59a084",
+      "headline": "Google: Check if a text message is a scam using Circle to Search.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T17:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-fb9b71b9aeee8956",
+      "headline": "Google: How we're helping the world prepare for natural disasters",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/crisis-resilience-white-paper/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-c08dc5794b018e36",
+      "headline": "Google: Android earthquake alerts now available in more than 200 regions",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-earthquake-alerts-expansion-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-9c2c9f923050a840",
+      "headline": "Google: 400 publications are now partnering with us on our News AI pilot program.",
+      "url": "https://blog.google/products-and-platforms/products/news/news-ai-pilot-update-publishers/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-09cafcfe0698167f",
+      "headline": "Google: More ways to connect with the web from Search",
+      "url": "https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a4d56d187e5a9c78",
+      "headline": "Google: Making your Pixel devices last longer through design, repair, and reuse",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/international-repair-day-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T15:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-dcaabf5e08f6a894",
       "headline": "Google: An intelligent new shopping cart",
@@ -88,83 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-10-14T09:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-18521ab849e45ccf",
-      "headline": "Google: We’re powering European scientific discovery with advanced AI compute and frontier models.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-14T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-45457a9fbb94c900",
-      "headline": "Google: Enabling an AI-first European economy",
-      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/european-economic-impact-report/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-14T07:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-624d8c9f06fd047f",
-      "headline": "Google: Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-13T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-1f37f183fd617ac1",
-      "headline": "Huawei: Beyond Connectivity, AI-Centric New Generation UBB Network Brings Intelligence Everywhere",
-      "url": "https://www.huawei.com/en/news/2026/10/ubbf2026-aicentric",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-13T17:56:19.820Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-61915a37127b98c4",
-      "headline": "New on Google Play: More ways to create, discover, and play",
-      "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-13T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-1143b1c433b3a84f",
-      "headline": "A new app experience is coming to cars with Google built-in",
-      "url": "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-13T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-bc084cc78ed3792c",
-      "headline": "Google: Gemini 4 Argon comes to the Gemini app.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-13T16:00:00.000Z",
       "type": "standard"
     }
   ]
