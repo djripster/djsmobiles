@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T07:22:59.622Z",
+  "updatedAt": "2026-10-15T13:22:49.876Z",
   "items": [
+    {
+      "id": "google-news-dcaabf5e08f6a894",
+      "headline": "Google: An intelligent new shopping cart",
+      "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-7d0ed3cb5cb4581a",
+      "headline": "TIME has named Google SynthID one of the Best Inventions of 2026.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-67ffc0a982f5d23d",
+      "headline": "Google: Data-backed secrets to smarter holiday shopping",
+      "url": "https://blog.google/products-and-platforms/products/shopping/holiday-shopping-when-to-buy-guide/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-e2d194ea6676ff63",
       "headline": "Google: Research@ 2026: Novel capabilities and intelligence",
@@ -127,39 +160,6 @@
       "id": "google-news-bc084cc78ed3792c",
       "headline": "Google: Gemini 4 Argon comes to the Gemini app.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-13T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-54e63c7fa18f9c6d",
-      "headline": "Google: Gemini 4 Argon is now available for developers.",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-13T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-4a7c0627614787f8",
-      "headline": "Google: Build your data strength with October’s Demand Gen drop.",
-      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-october-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-13T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-3f244126e9d6ab87",
-      "headline": "Google: We're helping Indiana communities save with clean energy investments.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/indiana-energy-imact-program/",
       "sourceId": "google-news",
       "brandIds": [
         "google"

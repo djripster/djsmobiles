@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T07:22:59.533Z",
+  "updatedAt": "2026-10-15T13:22:49.837Z",
   "stories": [
+    {
+      "id": "google-news-dcaabf5e08f6a894",
+      "headline": "An intelligent new shopping cart",
+      "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "collectedAt": "2026-10-15T13:22:29.521Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-7d0ed3cb5cb4581a",
+      "headline": "TIME has named Google SynthID one of the Best Inventions of 2026.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "collectedAt": "2026-10-15T13:22:29.521Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-67ffc0a982f5d23d",
+      "headline": "Data-backed secrets to smarter holiday shopping",
+      "url": "https://blog.google/products-and-platforms/products/shopping/holiday-shopping-when-to-buy-guide/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "collectedAt": "2026-10-15T13:22:29.521Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-e2d194ea6676ff63",
       "headline": "Research@ 2026: Novel capabilities and intelligence",
