@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T18:15:13.859Z",
+  "updatedAt": "2026-10-15T21:25:22.366Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-1f10ac253ecdb099",
+      "headline": "Huawei Commits to Advancing an Intelligent, Green Europe with Customers and Partners",
+      "url": "https://www.huawei.com/en/news/2026/10/huaweiconnect-europe",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-15T21:58:34.800Z",
+      "collectedAt": "2026-10-15T21:25:22.364Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-30b77afd86fd20a8",
       "headline": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
@@ -15,6 +27,30 @@
       "type": "standard"
     },
     {
+      "id": "huawei-newsroom-238edcfb6b8ec616",
+      "headline": "Huawei Wins Two Network X 2026 Awards for Next Generation FTTR and Next Generation FTTO Innovations",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-networkx-fttr-ftto",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-15T17:41:20.568Z",
+      "collectedAt": "2026-10-15T21:25:22.364Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-1849bd45c4744474",
+      "headline": "Huawei AgenticCore Wins Network X Award for Accelerating Next-Gen Core Network Evolution with AI Native Innovation",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-networkx-agenticcore",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-15T17:34:54.112Z",
+      "collectedAt": "2026-10-15T21:25:22.364Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-1b9d80577b59a084",
       "headline": "Check if a text message is a scam using Circle to Search.",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams/",
@@ -24,6 +60,18 @@
       ],
       "publishedAt": "2026-10-15T17:30:00.000Z",
       "collectedAt": "2026-10-15T18:14:53.595Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-42be6e053995a295",
+      "headline": "Intelligence-Driven Security for Macao: CTM and Huawei Partner to Fortify Network Security in the AI Era",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-networkx-ctm",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-15T16:54:32.766Z",
+      "collectedAt": "2026-10-15T21:25:22.364Z",
       "type": "standard"
     },
     {
@@ -120,6 +168,30 @@
       ],
       "publishedAt": "2026-10-15T13:00:00.000Z",
       "collectedAt": "2026-10-15T13:22:29.521Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-36ab10b64a7b9a94",
+      "headline": "Net5.5G Intelligent IP Network Summit Held Successfully,Highlighting Secure, Resilient IP Networks as the Foundation for AI-Era New Growth",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ip-network-summit",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-15T10:23:23.695Z",
+      "collectedAt": "2026-10-15T21:25:22.365Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-35ee2efb31e17f65",
+      "headline": "Reshaping Network Value for New Growth in the AI Era",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf2026-networkx-bdc",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-15T09:27:27.058Z",
+      "collectedAt": "2026-10-15T21:25:22.365Z",
       "type": "standard"
     },
     {

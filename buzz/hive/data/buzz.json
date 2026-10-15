@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T18:15:13.916Z",
+  "updatedAt": "2026-10-15T21:25:22.415Z",
   "items": [
+    {
+      "id": "huawei-newsroom-1f10ac253ecdb099",
+      "headline": "Huawei Commits to Advancing an Intelligent, Green Europe with Customers and Partners",
+      "url": "https://www.huawei.com/en/news/2026/10/huaweiconnect-europe",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-15T21:58:34.800Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-30b77afd86fd20a8",
       "headline": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
@@ -14,6 +25,28 @@
       "type": "standard"
     },
     {
+      "id": "huawei-newsroom-238edcfb6b8ec616",
+      "headline": "Huawei Wins Two Network X 2026 Awards for Next Generation FTTR and Next Generation FTTO Innovations",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-networkx-fttr-ftto",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-15T17:41:20.568Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-1849bd45c4744474",
+      "headline": "Huawei AgenticCore Wins Network X Award for Accelerating Next-Gen Core Network Evolution with AI Native Innovation",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-networkx-agenticcore",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-15T17:34:54.112Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-1b9d80577b59a084",
       "headline": "Google: Check if a text message is a scam using Circle to Search.",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams/",
@@ -22,6 +55,17 @@
         "google"
       ],
       "publishedAt": "2026-10-15T17:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-42be6e053995a295",
+      "headline": "Intelligence-Driven Security for Macao: CTM and Huawei Partner to Fortify Network Security in the AI Era",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-networkx-ctm",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-15T16:54:32.766Z",
       "type": "standard"
     },
     {
@@ -113,58 +157,14 @@
       "type": "standard"
     },
     {
-      "id": "google-news-e2d194ea6676ff63",
-      "headline": "Google: Research@ 2026: Novel capabilities and intelligence",
-      "url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026/",
-      "sourceId": "google-news",
+      "id": "huawei-newsroom-36ab10b64a7b9a94",
+      "headline": "Huawei: Net5.5G Intelligent IP Network Summit Held Successfully,Highlighting Secure, Resilient IP Networks as the Foundation for AI-Era New Growth",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ip-network-summit",
+      "sourceId": "huawei-newsroom",
       "brandIds": [
-        "google"
+        "huawei"
       ],
-      "publishedAt": "2026-10-14T16:15:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-be6c37dce88bdd99",
-      "headline": "Google: Guide your campaign spending with new priority and allocation features",
-      "url": "https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-14T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-4e181c171390031b",
-      "headline": "Google: Check out this year’s buzziest Halloween trends.",
-      "url": "https://blog.google/products-and-platforms/products/search/frightgeist-halloween-trends-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-3d4f03cc82948ccc",
-      "headline": "Google: 6 ways to trick-or-treat yourself to the ultimate Halloween with Search",
-      "url": "https://blog.google/products-and-platforms/products/search/halloween-tips-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-f0b80431f300200a",
-      "headline": "Google: 17 organizations using AI to accelerate scientific breakthroughs",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/impact-challenge-ai-science-recipients/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-14T09:30:00.000Z",
+      "publishedAt": "2026-10-15T10:23:23.695Z",
       "type": "standard"
     }
   ]
