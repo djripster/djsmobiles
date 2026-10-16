@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T16:34:29.308Z",
+  "updatedAt": "2026-10-16T19:55:50.917Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-e62d83449be7dc26",
+      "headline": "Huawei Hosts 18th User Group Meeting UBB Session Alongside UBBF",
+      "url": "https://www.huawei.com/en/news/2026/10/ubb-user-group-meeting",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-16T19:11:17.134Z",
+      "collectedAt": "2026-10-16T19:55:50.915Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-b9fbebb49a086aa4",
       "headline": "We’re sharing 3 tips to study smarter with Gemini Notebook.",
@@ -12,6 +24,30 @@
       ],
       "publishedAt": "2026-10-16T16:00:00.000Z",
       "collectedAt": "2026-10-16T16:34:08.979Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-0c8254b9bb332365",
+      "headline": "Huawei's NG WAN Solution Enters Large-Scale Commercial Use to Drive Carrier Growth",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ai-wan-solution",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-16T10:31:02.482Z",
+      "collectedAt": "2026-10-16T19:55:50.915Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-fa5aebf1992887a0",
+      "headline": "Huawei's ADN Solution Tops Market Share in Overall OSS and Domain Management in Appledore Research Report",
+      "url": "https://www.huawei.com/en/news/2026/10/adn-oss-share",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-16T09:41:29.114Z",
+      "collectedAt": "2026-10-16T19:55:50.915Z",
       "type": "standard"
     },
     {

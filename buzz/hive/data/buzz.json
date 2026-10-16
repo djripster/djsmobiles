@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T16:34:29.362Z",
+  "updatedAt": "2026-10-16T19:55:50.970Z",
   "items": [
+    {
+      "id": "huawei-newsroom-e62d83449be7dc26",
+      "headline": "Huawei Hosts 18th User Group Meeting UBB Session Alongside UBBF",
+      "url": "https://www.huawei.com/en/news/2026/10/ubb-user-group-meeting",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-16T19:11:17.134Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-b9fbebb49a086aa4",
       "headline": "Google: We’re sharing 3 tips to study smarter with Gemini Notebook.",
@@ -11,6 +22,28 @@
         "google"
       ],
       "publishedAt": "2026-10-16T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-0c8254b9bb332365",
+      "headline": "Huawei's NG WAN Solution Enters Large-Scale Commercial Use to Drive Carrier Growth",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ai-wan-solution",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-16T10:31:02.482Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-fa5aebf1992887a0",
+      "headline": "Huawei's ADN Solution Tops Market Share in Overall OSS and Domain Management in Appledore Research Report",
+      "url": "https://www.huawei.com/en/news/2026/10/adn-oss-share",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-16T09:41:29.114Z",
       "type": "standard"
     },
     {
@@ -132,39 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-10-15T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-dcaabf5e08f6a894",
-      "headline": "Google: An intelligent new shopping cart",
-      "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-15T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-7d0ed3cb5cb4581a",
-      "headline": "TIME has named Google SynthID one of the Best Inventions of 2026.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-15T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-67ffc0a982f5d23d",
-      "headline": "Google: Data-backed secrets to smarter holiday shopping",
-      "url": "https://blog.google/products-and-platforms/products/shopping/holiday-shopping-when-to-buy-guide/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-15T13:00:00.000Z",
       "type": "standard"
     }
   ]
