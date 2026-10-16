@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T11:17:12.789Z",
+  "updatedAt": "2026-10-16T16:34:29.308Z",
   "stories": [
+    {
+      "id": "google-news-b9fbebb49a086aa4",
+      "headline": "We’re sharing 3 tips to study smarter with Gemini Notebook.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-16T16:00:00.000Z",
+      "collectedAt": "2026-10-16T16:34:08.979Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-1f10ac253ecdb099",
       "headline": "Huawei Commits to Advancing an Intelligent, Green Europe with Customers and Partners",

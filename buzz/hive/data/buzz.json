@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T11:17:12.843Z",
+  "updatedAt": "2026-10-16T16:34:29.362Z",
   "items": [
+    {
+      "id": "google-news-b9fbebb49a086aa4",
+      "headline": "Google: We’re sharing 3 tips to study smarter with Gemini Notebook.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-16T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-1f10ac253ecdb099",
       "headline": "Huawei Commits to Advancing an Intelligent, Green Europe with Customers and Partners",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-10-15T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-36ab10b64a7b9a94",
-      "headline": "Huawei: Net5.5G Intelligent IP Network Summit Held Successfully,Highlighting Secure, Resilient IP Networks as the Foundation for AI-Era New Growth",
-      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ip-network-summit",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-15T10:23:23.695Z",
       "type": "standard"
     }
   ]
