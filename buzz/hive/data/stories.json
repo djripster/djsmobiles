@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T06:53:27.374Z",
+  "updatedAt": "2026-10-17T11:34:20.085Z",
   "stories": [
     {
       "id": "huawei-newsroom-e62d83449be7dc26",
@@ -231,6 +231,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-69e0909dc967014b",
+      "headline": "Samsung Presents ‘Design Is an Act of Love’ at Seoul Design Week 2026",
+      "url": "https://news.samsung.com/global/samsung-presents-design-is-an-act-of-love-at-seoul-design-week-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-15T10:00:00.000Z",
+      "collectedAt": "2026-10-17T11:34:19.128Z",
+      "type": "standard"
+    },
+    {
       "id": "huawei-newsroom-35ee2efb31e17f65",
       "headline": "Reshaping Network Value for New Growth in the AI Era",
       "url": "https://www.huawei.com/en/news/2026/10/ubbf2026-networkx-bdc",
@@ -240,6 +252,42 @@
       ],
       "publishedAt": "2026-10-15T09:27:27.058Z",
       "collectedAt": "2026-10-15T21:25:22.365Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-9fd602c3917a39a6",
+      "headline": "From Smart City to Race Circuit: Samsung’s The Wall in Control Rooms",
+      "url": "https://news.samsung.com/global/from-smart-city-to-race-circuit-samsungs-the-wall-in-control-rooms",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-15T08:00:00.000Z",
+      "collectedAt": "2026-10-17T11:34:19.128Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-e77520638a904c81",
+      "headline": "Samsung Hosts Silicon Valley Future Wireless Summit 2026",
+      "url": "https://news.samsung.com/global/samsung-hosts-silicon-valley-future-wireless-summit-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-15T06:00:00.000Z",
+      "collectedAt": "2026-10-17T11:34:19.128Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-74536d5b2c41fbb0",
+      "headline": "Samsung Expands Language Support Across AI Experiences on Galaxy",
+      "url": "https://news.samsung.com/global/samsung-expands-language-support-across-ai-experiences-on-galaxy",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-14T21:00:00.000Z",
+      "collectedAt": "2026-10-17T11:34:19.128Z",
       "type": "standard"
     },
     {
@@ -312,6 +360,18 @@
       ],
       "publishedAt": "2026-10-14T08:00:00.000Z",
       "collectedAt": "2026-10-14T10:08:11.731Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-2ca96aaea15609fd",
+      "headline": "Samsung Health Makes Sleep Coaching Easier To Start and Tailors Weekly Guidance",
+      "url": "https://news.samsung.com/global/samsung-health-makes-sleep-coaching-easier-to-start-and-tailors-weekly-guidance",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-14T08:00:00.000Z",
+      "collectedAt": "2026-10-17T11:34:19.128Z",
       "type": "standard"
     },
     {
