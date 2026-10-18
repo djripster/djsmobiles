@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T17:19:32.657Z",
+  "updatedAt": "2026-10-18T20:36:51.407Z",
   "items": [
     {
       "id": "huawei-newsroom-e62d83449be7dc26",
@@ -55,50 +55,6 @@
         "huawei"
       ],
       "publishedAt": "2026-10-15T21:58:34.800Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-30b77afd86fd20a8",
-      "headline": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-15T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-238edcfb6b8ec616",
-      "headline": "Huawei Wins Two Network X 2026 Awards for Next Generation FTTR and Next Generation FTTO Innovations",
-      "url": "https://www.huawei.com/en/news/2026/10/ubbf-networkx-fttr-ftto",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-15T17:41:20.568Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-1849bd45c4744474",
-      "headline": "Huawei AgenticCore Wins Network X Award for Accelerating Next-Gen Core Network Evolution with AI Native Innovation",
-      "url": "https://www.huawei.com/en/news/2026/10/ubbf-networkx-agenticcore",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-15T17:34:54.112Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-1b9d80577b59a084",
-      "headline": "Google: Check if a text message is a scam using Circle to Search.",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-15T17:30:00.000Z",
       "type": "standard"
     }
   ]
