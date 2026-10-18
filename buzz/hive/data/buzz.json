@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T20:36:51.407Z",
+  "updatedAt": "2026-10-18T23:07:53.273Z",
   "items": [
     {
       "id": "huawei-newsroom-e62d83449be7dc26",
@@ -44,17 +44,6 @@
         "huawei"
       ],
       "publishedAt": "2026-10-16T09:41:29.114Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-1f10ac253ecdb099",
-      "headline": "Huawei Commits to Advancing an Intelligent, Green Europe with Customers and Partners",
-      "url": "https://www.huawei.com/en/news/2026/10/huaweiconnect-europe",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-15T21:58:34.800Z",
       "type": "standard"
     }
   ]
