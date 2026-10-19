@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T06:12:29.809Z",
+  "updatedAt": "2026-10-19T13:11:50.393Z",
   "stories": [
+    {
+      "id": "google-news-8a5bbea3d5273e7f",
+      "headline": "We’re supporting nature restoration through sustainable farming in Brazil.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/brazil-silvopasture/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "collectedAt": "2026-10-19T13:11:29.746Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-e62d83449be7dc26",
       "headline": "Huawei Hosts 18th User Group Meeting UBB Session Alongside UBBF",

@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T06:12:29.882Z",
+  "updatedAt": "2026-10-19T13:11:50.448Z",
   "items": [
+    {
+      "id": "google-news-8a5bbea3d5273e7f",
+      "headline": "Google: We’re supporting nature restoration through sustainable farming in Brazil.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/brazil-silvopasture/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-e62d83449be7dc26",
       "headline": "Huawei Hosts 18th User Group Meeting UBB Session Alongside UBBF",
@@ -22,28 +33,6 @@
         "google"
       ],
       "publishedAt": "2026-10-16T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-0c8254b9bb332365",
-      "headline": "Huawei's NG WAN Solution Enters Large-Scale Commercial Use to Drive Carrier Growth",
-      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ai-wan-solution",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-16T10:31:02.482Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-fa5aebf1992887a0",
-      "headline": "Huawei's ADN Solution Tops Market Share in Overall OSS and Domain Management in Appledore Research Report",
-      "url": "https://www.huawei.com/en/news/2026/10/adn-oss-share",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-16T09:41:29.114Z",
       "type": "standard"
     }
   ]
