@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T13:11:50.448Z",
+  "updatedAt": "2026-10-19T19:19:34.253Z",
   "items": [
+    {
+      "id": "google-news-52617e21810898c1",
+      "headline": "Google: How to shape your slides and videos with Gemini Notebook",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-19T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-49ec90948533c3b6",
+      "headline": "Google: 4 tips for styling outfits with Gemini",
+      "url": "https://blog.google/products-and-platforms/products/gemini/stylist-outfit-tips-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-19T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6bcd2a5d60e7816c",
+      "headline": "Google: See the top style searches from people in big fashion capitals.",
+      "url": "https://blog.google/products-and-platforms/products/search/fashion-capital-style-searches/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-19T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-8a5bbea3d5273e7f",
       "headline": "Google: We’re supporting nature restoration through sustainable farming in Brazil.",
@@ -11,28 +44,6 @@
         "google"
       ],
       "publishedAt": "2026-10-19T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-e62d83449be7dc26",
-      "headline": "Huawei Hosts 18th User Group Meeting UBB Session Alongside UBBF",
-      "url": "https://www.huawei.com/en/news/2026/10/ubb-user-group-meeting",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-16T19:11:17.134Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b9fbebb49a086aa4",
-      "headline": "Google: We’re sharing 3 tips to study smarter with Gemini Notebook.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-16T16:00:00.000Z",
       "type": "standard"
     }
   ]
