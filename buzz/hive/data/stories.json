@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T19:19:34.197Z",
+  "updatedAt": "2026-10-19T23:36:02.357Z",
   "stories": [
+    {
+      "id": "google-news-92f044b92b6a9da8",
+      "headline": "Partnering to strengthen the grid and support local communities in Arkansas",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/arkansas-partnerships/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-19T20:15:00.000Z",
+      "collectedAt": "2026-10-19T23:35:42.216Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-52617e21810898c1",
       "headline": "How to shape your slides and videos with Gemini Notebook",
