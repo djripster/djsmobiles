@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T09:59:46.835Z",
+  "updatedAt": "2026-10-20T15:01:33.478Z",
   "items": [
+    {
+      "id": "google-news-aaace91e46634af6",
+      "headline": "Google: Expanding our defenses against financial scam ads",
+      "url": "https://blog.google/products/ads-commerce/financial-services-verification-united-states-canada/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-20T15:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-92f044b92b6a9da8",
       "headline": "Google: Partnering to strengthen the grid and support local communities in Arkansas",
