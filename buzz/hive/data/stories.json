@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T19:12:15.579Z",
+  "updatedAt": "2026-10-20T22:17:18.509Z",
   "stories": [
+    {
+      "id": "google-news-7a44093bc311d4a6",
+      "headline": "Get hands-free personalized help on the road with Gemini",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-20T20:00:00.000Z",
+      "collectedAt": "2026-10-20T22:16:57.232Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-2508ace600ddfdfc",
       "headline": "Ask a Scientist: How can AI help doctors spend more time on collaborative care?",
