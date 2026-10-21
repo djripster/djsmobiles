@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T13:44:06.743Z",
+  "updatedAt": "2026-10-21T18:35:08.959Z",
   "items": [
+    {
+      "id": "google-news-bc70ac2dbf779ff8",
+      "headline": "Google: Recreating the lost studios of women sculptors with Prune Nourry",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/visionaries-petit-palais-art-basel-paris-prune-nourry/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-21T14:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-cd3cd724749fa462",
       "headline": "Google: New bidding and budgeting tools can transform your upcoming holiday ad strategy.",
@@ -11,6 +22,17 @@
         "google"
       ],
       "publishedAt": "2026-10-21T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dfb6e6be45662091",
+      "headline": "Google: Drive with “The Cat in the Hat” on Waze.",
+      "url": "https://blog.google/waze/waze-the-cat-in-the-hat/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-21T11:39:00.000Z",
       "type": "standard"
     },
     {
