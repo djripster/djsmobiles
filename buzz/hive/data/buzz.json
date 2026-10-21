@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T01:32:22.019Z",
+  "updatedAt": "2026-10-21T07:33:13.277Z",
   "items": [
+    {
+      "id": "google-news-c7c1db1d24f97b16",
+      "headline": "Google: Southeast Asia’s digital economy to hit $368 billion",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-7a44093bc311d4a6",
       "headline": "Google: Get hands-free personalized help on the road with Gemini",
