@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T07:33:13.277Z",
+  "updatedAt": "2026-10-21T13:44:06.743Z",
   "items": [
+    {
+      "id": "google-news-cd3cd724749fa462",
+      "headline": "Google: New bidding and budgeting tools can transform your upcoming holiday ad strategy.",
+      "url": "https://blog.google/products/ads-commerce/holiday-shopping-bidding-budgeting/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-21T13:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-c7c1db1d24f97b16",
       "headline": "Google: Southeast Asia’s digital economy to hit $368 billion",
