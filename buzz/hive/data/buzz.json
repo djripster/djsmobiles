@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T18:29:57.311Z",
+  "updatedAt": "2026-10-22T22:17:12.557Z",
   "items": [
     {
       "id": "google-news-23b7d3069afaccfd",
@@ -110,17 +110,6 @@
         "google"
       ],
       "publishedAt": "2026-10-20T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-92f044b92b6a9da8",
-      "headline": "Google: Partnering to strengthen the grid and support local communities in Arkansas",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/arkansas-partnerships/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-19T20:15:00.000Z",
       "type": "standard"
     }
   ]
