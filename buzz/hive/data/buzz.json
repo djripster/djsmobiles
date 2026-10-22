@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T13:44:45.239Z",
+  "updatedAt": "2026-10-22T18:29:57.311Z",
   "items": [
     {
       "id": "google-news-23b7d3069afaccfd",
@@ -121,39 +121,6 @@
         "google"
       ],
       "publishedAt": "2026-10-19T20:15:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-52617e21810898c1",
-      "headline": "Google: How to shape your slides and videos with Gemini Notebook",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-19T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-49ec90948533c3b6",
-      "headline": "Google: 4 tips for styling outfits with Gemini",
-      "url": "https://blog.google/products-and-platforms/products/gemini/stylist-outfit-tips-gemini/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-19T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6bcd2a5d60e7816c",
-      "headline": "Google: See the top style searches from people in big fashion capitals.",
-      "url": "https://blog.google/products-and-platforms/products/search/fashion-capital-style-searches/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-19T16:00:00.000Z",
       "type": "standard"
     }
   ]
