@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T07:25:57.949Z",
+  "updatedAt": "2026-10-23T13:21:27.359Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-3ef57b0556c218ed",
+      "headline": "Samsung: Inside JBL Playback Gallery: 80 Years of Sound Innovation",
+      "url": "https://news.samsung.com/global/inside-jbl-playback-gallery-80-years-of-sound-innovation",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-23T08:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-23b7d3069afaccfd",
       "headline": "Explore new ways to drive your best ROI with the first Google Marketing Platform Drop.",
@@ -55,6 +66,39 @@
         "google"
       ],
       "publishedAt": "2026-10-21T11:39:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-0639ed593f83ba13",
+      "headline": "Samsung: [Infographic] 80 Years of JBL: From Studios and Stages to Everyday Life",
+      "url": "https://news.samsung.com/global/infographic-80-years-of-jbl-from-studios-and-stages-to-everyday-life",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-21T08:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-e86499a59349197f",
+      "headline": "“Discover New Ways to Live Smarter”: Samsung Electronics Launches Samsung Week 2026 in 63 Countries",
+      "url": "https://news.samsung.com/global/discover-new-ways-to-live-smarter-samsung-electronics-launches-samsung-week-2026-in-63-countries",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-21T08:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-7253673ff9e26910",
+      "headline": "[Photo] Inside Samsung’s ‘Design Is an Act of Love’ Exhibition at Seoul Design Week 2026",
+      "url": "https://news.samsung.com/global/photo-inside-samsungs-design-is-an-act-of-love-exhibition-at-seoul-design-week-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-21T08:00:00.000Z",
       "type": "standard"
     },
     {
