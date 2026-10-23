@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T18:17:04.331Z",
+  "updatedAt": "2026-10-23T22:06:04.734Z",
   "items": [
+    {
+      "id": "google-news-fbadabad4df2c3de",
+      "headline": "Google: See what 5 builders are making with Gemini 4 Argon",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-23T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-3ef57b0556c218ed",
       "headline": "Samsung: Inside JBL Playback Gallery: 80 Years of Sound Innovation",
@@ -110,17 +121,6 @@
         "google"
       ],
       "publishedAt": "2026-10-21T04:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-7a44093bc311d4a6",
-      "headline": "Google: Get hands-free personalized help on the road with Gemini",
-      "url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-20T20:00:00.000Z",
       "type": "standard"
     }
   ]

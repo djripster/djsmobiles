@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T18:17:04.276Z",
+  "updatedAt": "2026-10-23T22:06:04.679Z",
   "stories": [
+    {
+      "id": "google-news-fbadabad4df2c3de",
+      "headline": "See what 5 builders are making with Gemini 4 Argon",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-23T16:00:00.000Z",
+      "collectedAt": "2026-10-23T22:05:44.483Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-3ef57b0556c218ed",
       "headline": "Inside JBL Playback Gallery: 80 Years of Sound Innovation",
