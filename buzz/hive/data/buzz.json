@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:21:27.359Z",
+  "updatedAt": "2026-10-23T18:17:04.331Z",
   "items": [
     {
       "id": "samsung-global-newsroom-3ef57b0556c218ed",
@@ -121,39 +121,6 @@
         "google"
       ],
       "publishedAt": "2026-10-20T20:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-2508ace600ddfdfc",
-      "headline": "Google: Ask a Scientist: How can AI help doctors spend more time on collaborative care?",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-clinical-study/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-20T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-bdc0c47bb06abc62",
-      "headline": "Google: New Gemini tools for small business owners",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-20T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-aaace91e46634af6",
-      "headline": "Google: Expanding our defenses against financial scam ads",
-      "url": "https://blog.google/products/ads-commerce/financial-services-verification-united-states-canada/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-20T15:00:00.000Z",
       "type": "standard"
     }
   ]
