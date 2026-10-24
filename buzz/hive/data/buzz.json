@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T00:37:55.716Z",
+  "updatedAt": "2026-10-24T05:47:36.968Z",
   "items": [
     {
       "id": "google-news-fbadabad4df2c3de",
@@ -110,17 +110,6 @@
         "samsung"
       ],
       "publishedAt": "2026-10-21T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-c7c1db1d24f97b16",
-      "headline": "Google: Southeast Asia’s digital economy to hit $368 billion",
-      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-21T04:00:00.000Z",
       "type": "standard"
     }
   ]
