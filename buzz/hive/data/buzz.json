@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T11:18:54.999Z",
+  "updatedAt": "2026-10-25T16:10:01.443Z",
   "items": [
     {
       "id": "google-news-fbadabad4df2c3de",
@@ -22,28 +22,6 @@
         "samsung"
       ],
       "publishedAt": "2026-10-23T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-23b7d3069afaccfd",
-      "headline": "Explore new ways to drive your best ROI with the first Google Marketing Platform Drop.",
-      "url": "https://blog.google/products/marketingplatform/360/google-marketing-platform-drop-october/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-22T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-f32712b46e4edc8d",
-      "headline": "Google: We are working with Voltus to build a 1-gigawatt virtual power plant.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virtual-power-plant-1-gigawatt/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-22T11:30:00.000Z",
       "type": "standard"
     }
   ]
