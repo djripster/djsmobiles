@@ -1,16 +1,60 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T12:53:19.010Z",
+  "updatedAt": "2026-10-26T19:14:52.883Z",
   "items": [
     {
-      "id": "google-news-fbadabad4df2c3de",
-      "headline": "Google: See what 5 builders are making with Gemini 4 Argon",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/",
+      "id": "google-news-b1d7eb2dedce5839",
+      "headline": "Google: Our newest AI Quest: Mapping the human brain",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
       ],
-      "publishedAt": "2026-10-23T16:00:00.000Z",
+      "publishedAt": "2026-10-26T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-1f93e5d0440cbc79",
+      "headline": "Google: 15 college students share their favorite Gemini features",
+      "url": "https://blog.google/products-and-platforms/products/gemini/college-student-favorite-features/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-26T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-f0acb11d7bdafd3b",
+      "headline": "Google: Powering sub-Saharan Africa beyond the grid",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/sub-saharan-africa-ignite/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-26T15:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-594be5bd31019da8",
+      "headline": "Google: We’re helping farmers around the world connect to essential services online.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/digital-public-infrastructure-farmers/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-26T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-84c8b528621607ac",
+      "headline": "How Google Beam connects military families globally",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-uso-docuseries-service-members/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-26T13:00:00.000Z",
       "type": "standard"
     }
   ]
