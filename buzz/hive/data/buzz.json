@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T07:46:07.006Z",
+  "updatedAt": "2026-10-27T14:25:07.782Z",
   "items": [
+    {
+      "id": "google-news-958f93db13edac30",
+      "headline": "Google: Fitbit Edge: Premium design for an active life",
+      "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-edge-design/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-27T13:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-80f1268cc18d15dd",
       "headline": "Samsung: [Hands-On] Comfort, Convenience, and More: A Day With Galaxy Buds On",
