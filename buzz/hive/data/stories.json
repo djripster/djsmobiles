@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T14:25:07.668Z",
+  "updatedAt": "2026-10-27T20:02:54.152Z",
   "stories": [
+    {
+      "id": "huawei-newsroom-2183533d4fb8839a",
+      "headline": "From Expertise to Intelligence: NISCO Deploys World's First Swarm-Intelligence Steel Model at Scale",
+      "url": "https://www.huawei.com/en/news/2026/10/nisco-yuanye-steelmodel",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-27T18:07:12.566Z",
+      "collectedAt": "2026-10-27T20:02:54.150Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-319d52d61ca2c83a",
+      "headline": "We’re announcing Genie 4, our new world model for real-time interactive simulation.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-27T16:00:00.000Z",
+      "collectedAt": "2026-10-27T20:02:33.413Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-cc7dc046155f648c",
+      "headline": "8 examples of Gemini 4 Argon in action",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-in-action/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-27T15:00:00.000Z",
+      "collectedAt": "2026-10-27T20:02:33.413Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-958f93db13edac30",
       "headline": "Fitbit Edge: Premium design for an active life",
