@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T18:48:59.160Z",
+  "updatedAt": "2026-10-28T23:10:49.717Z",
   "items": [
+    {
+      "id": "google-news-da27cb2db053180e",
+      "headline": "Google: Ads in AI Mode expand to new markets.",
+      "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T21:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-1b154ea43af2f865",
+      "headline": "Google: Q3 2026 earnings call: Remarks from our CEO",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T21:05:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-55691822cc670f9d",
+      "headline": "Google: Adapt your ad strategy to meet the way people search today.",
+      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-search-data/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T19:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-4bf8e91caed38e9b",
       "headline": "Google: Dive into new topics with immersive explorations in the Gemini app.",
@@ -11,6 +44,17 @@
         "google"
       ],
       "publishedAt": "2026-10-28T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-21d3976c1b682dea",
+      "headline": "Huawei Wireless Unveils Innovation Breakthroughs to Pioneer New Communications Networks",
+      "url": "https://www.huawei.com/en/news/2026/10/communications-network-wireless",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-28T17:59:31.881Z",
       "type": "standard"
     },
     {
@@ -121,50 +165,6 @@
         "samsung"
       ],
       "publishedAt": "2026-10-27T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b1d7eb2dedce5839",
-      "headline": "Google: Our newest AI Quest: Mapping the human brain",
-      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-26T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-1f93e5d0440cbc79",
-      "headline": "Google: 15 college students share their favorite Gemini features",
-      "url": "https://blog.google/products-and-platforms/products/gemini/college-student-favorite-features/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-26T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-f0acb11d7bdafd3b",
-      "headline": "Google: Powering sub-Saharan Africa beyond the grid",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/sub-saharan-africa-ignite/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-26T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-594be5bd31019da8",
-      "headline": "Google: We’re helping farmers around the world connect to essential services online.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/digital-public-infrastructure-farmers/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-26T14:00:00.000Z",
       "type": "standard"
     }
   ]

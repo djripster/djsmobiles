@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T18:48:59.115Z",
+  "updatedAt": "2026-10-28T23:10:49.672Z",
   "stories": [
+    {
+      "id": "google-news-da27cb2db053180e",
+      "headline": "Ads in AI Mode expand to new markets.",
+      "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T21:30:00.000Z",
+      "collectedAt": "2026-10-28T23:10:28.972Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-1b154ea43af2f865",
+      "headline": "Q3 2026 earnings call: Remarks from our CEO",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T21:05:00.000Z",
+      "collectedAt": "2026-10-28T23:10:28.972Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-55691822cc670f9d",
+      "headline": "Adapt your ad strategy to meet the way people search today.",
+      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-search-data/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T19:00:00.000Z",
+      "collectedAt": "2026-10-28T23:10:28.972Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-4bf8e91caed38e9b",
       "headline": "Dive into new topics with immersive explorations in the Gemini app.",
@@ -12,6 +48,18 @@
       ],
       "publishedAt": "2026-10-28T18:00:00.000Z",
       "collectedAt": "2026-10-28T18:48:38.891Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-21d3976c1b682dea",
+      "headline": "Huawei Wireless Unveils Innovation Breakthroughs to Pioneer New Communications Networks",
+      "url": "https://www.huawei.com/en/news/2026/10/communications-network-wireless",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-28T17:59:31.881Z",
+      "collectedAt": "2026-10-28T23:10:49.671Z",
       "type": "standard"
     },
     {
