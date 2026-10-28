@@ -1,7 +1,79 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T12:45:07.451Z",
+  "updatedAt": "2026-10-28T18:48:59.115Z",
   "stories": [
+    {
+      "id": "google-news-4bf8e91caed38e9b",
+      "headline": "Dive into new topics with immersive explorations in the Gemini app.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/immersive-explorations-student-hub/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T18:00:00.000Z",
+      "collectedAt": "2026-10-28T18:48:38.891Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6825ae5281ac7c3f",
+      "headline": "Gemini 4 Carbon: our next frontier model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T17:00:00.000Z",
+      "collectedAt": "2026-10-28T18:48:38.892Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-2b0f3e1d89ebc85a",
+      "headline": "XREAL AURA: Wired XR glasses to watch, work, and play",
+      "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T17:00:00.000Z",
+      "collectedAt": "2026-10-28T18:48:38.892Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-e26ac0eef4d158c0",
+      "headline": "Build and manage Connected Apps in one place",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T17:00:00.000Z",
+      "collectedAt": "2026-10-28T18:48:38.892Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ff68e260eb779e77",
+      "headline": "Chrome’s enhanced autofill helps you fill out forms with suggestions pulled from Gmail.",
+      "url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T17:00:00.000Z",
+      "collectedAt": "2026-10-28T18:48:38.892Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d8183669720c73e2",
+      "headline": "Indie Games Fund in Africa: Meet the selected studios",
+      "url": "https://blog.google/products-and-platforms/platforms/google-pay/indie-games-fund-africa-selected-studios/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-28T14:00:00.000Z",
+      "collectedAt": "2026-10-28T18:48:38.892Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-2183533d4fb8839a",
       "headline": "From Expertise to Intelligence: NISCO Deploys World's First Swarm-Intelligence Steel Model at Scale",
