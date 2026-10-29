@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T09:52:02.746Z",
+  "updatedAt": "2026-10-29T16:53:50.332Z",
   "items": [
+    {
+      "id": "google-news-d9e57218237adad6",
+      "headline": "Google: You can now generate, preview, and edit documents, PDFs, presentations, spreadsheets, and more directly in Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-29T16:15:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-60134842d45d4023",
+      "headline": "Google: Gemini Notebook makes hundreds of textbooks available to help students learn even more.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-access-textbooks/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-29T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-2f7e4426274adf45",
+      "headline": "Celebrate Halloween with these tricks in Google Photos.",
+      "url": "https://blog.google/products-and-platforms/products/photos/halloween-tricks-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-29T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-444f72b5fda1b13e",
+      "headline": "Google: Equipping healthcare professionals with practical AI skills",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-for-healthcare-professionals-certificate/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-29T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-aeb0cc6954798937",
+      "headline": "Google: How to use Gemini to update your resume",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/update-resume-with-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-29T11:33:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ee9c906b643cb29d",
+      "headline": "Google: How Gemini is helping students and teachers in the classroom",
+      "url": "https://blog.google/products-and-platforms/products/education/impact-studies-uk-italy/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-29T09:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-db1777bc52884b11",
       "headline": "Google: Partnering with Singapore to bring frontier AI to public health",
@@ -99,72 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-10-28T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ff68e260eb779e77",
-      "headline": "Google: Chrome’s enhanced autofill helps you fill out forms with suggestions pulled from Gmail.",
-      "url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-28T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d8183669720c73e2",
-      "headline": "Google: Indie Games Fund in Africa: Meet the selected studios",
-      "url": "https://blog.google/products-and-platforms/platforms/google-pay/indie-games-fund-africa-selected-studios/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-28T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-2183533d4fb8839a",
-      "headline": "Huawei: From Expertise to Intelligence: NISCO Deploys World's First Swarm-Intelligence Steel Model at Scale",
-      "url": "https://www.huawei.com/en/news/2026/10/nisco-yuanye-steelmodel",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-27T18:07:12.566Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-319d52d61ca2c83a",
-      "headline": "Google: We’re announcing Genie 4, our new world model for real-time interactive simulation.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-27T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-cc7dc046155f648c",
-      "headline": "Google: 8 examples of Gemini 4 Argon in action",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-in-action/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-27T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-958f93db13edac30",
-      "headline": "Google: Fitbit Edge: Premium design for an active life",
-      "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-edge-design/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-27T13:00:00.000Z",
       "type": "standard"
     }
   ]
