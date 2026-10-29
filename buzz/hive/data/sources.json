@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-24T00:00:00Z",
+  "updatedAt": "2026-07-28T00:00:00Z",
   "sources": [
     {
       "id": "google-news",
@@ -14,6 +14,20 @@
           "url": "https://blog.google/rss/"
         }
       }
+    },
+    {
+      "id": "x-company-blog",
+      "name": "X Company Blog",
+      "brandId": "x",
+      "websiteUrl": "https://blog.x.com/",
+      "enabled": false,
+      "collection": {
+        "preferred": "webpage",
+        "webpage": {
+          "url": "https://blog.x.com/"
+        }
+      },
+      "notes": "Official X company-news destination reserved. X does not publish a native RSS/Atom release feed; keep disabled until Hive supports a reliable first-party structured collection method."
     },
     {
       "id": "samsung-global-newsroom",
