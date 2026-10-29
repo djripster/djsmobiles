@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T02:24:26.575Z",
+  "updatedAt": "2026-10-29T09:52:02.699Z",
   "stories": [
+    {
+      "id": "google-news-db1777bc52884b11",
+      "headline": "Partnering with Singapore to bring frontier AI to public health",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-for-health-summit-singapore/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-29T03:30:00.000Z",
+      "collectedAt": "2026-10-29T09:51:42.456Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-da27cb2db053180e",
       "headline": "Ads in AI Mode expand to new markets.",

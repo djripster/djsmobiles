@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T02:24:26.615Z",
+  "updatedAt": "2026-10-29T09:52:02.746Z",
   "items": [
+    {
+      "id": "google-news-db1777bc52884b11",
+      "headline": "Google: Partnering with Singapore to bring frontier AI to public health",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-for-health-summit-singapore/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-29T03:30:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-da27cb2db053180e",
       "headline": "Google: Ads in AI Mode expand to new markets.",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-10-27T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-80f1268cc18d15dd",
-      "headline": "Samsung: [Hands-On] Comfort, Convenience, and More: A Day With Galaxy Buds On",
-      "url": "https://news.samsung.com/global/hands-on-comfort-convenience-and-more-a-day-with-galaxy-buds-on",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-10-27T08:00:00.000Z",
       "type": "standard"
     }
   ]
