@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T15:53:00.700Z",
+  "updatedAt": "2026-10-30T20:43:59.511Z",
   "stories": [
+    {
+      "id": "google-news-278bd7295c7f4105",
+      "headline": "Google Fitbit Edge: On shelves now",
+      "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge-on-shelves-now/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-30T20:15:00.000Z",
+      "collectedAt": "2026-10-30T20:43:58.135Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ed7605e93ca5a959",
+      "headline": "We’ve received our first response from the Project Suncatcher prototype satellite.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "collectedAt": "2026-10-30T20:43:58.136Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ec71bd9a606c7034",
+      "headline": "See who has access to your Gmail inbox in 2 minutes.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/google-security-checkup/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-30T16:00:00.000Z",
+      "collectedAt": "2026-10-30T20:43:58.136Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-d9e57218237adad6",
       "headline": "You can now generate, preview, and edit documents, PDFs, presentations, spreadsheets, and more directly in Gemini.",
@@ -72,6 +108,18 @@
       ],
       "publishedAt": "2026-10-29T11:33:00.000Z",
       "collectedAt": "2026-10-29T16:53:29.941Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-ded49fc539329ab9",
+      "headline": "Samsung Electronics Announces Third Quarter 2026 Results",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-29T10:10:00.000Z",
+      "collectedAt": "2026-10-30T20:43:58.743Z",
       "type": "standard"
     },
     {
@@ -216,6 +264,18 @@
       ],
       "publishedAt": "2026-10-28T14:00:00.000Z",
       "collectedAt": "2026-10-28T18:48:38.892Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-66478dce034e7bc6",
+      "headline": "Samsung Ranks No. 5 in Interbrand’s ‘Best Global Brands 2026’ for Seventh Consecutive Year",
+      "url": "https://news.samsung.com/global/samsung-ranks-no-5-in-interbrands-best-global-brands-2026-for-seventh-consecutive-year",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-28T13:39:00.000Z",
+      "collectedAt": "2026-10-30T20:43:58.743Z",
       "type": "standard"
     },
     {

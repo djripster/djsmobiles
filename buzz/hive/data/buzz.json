@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T15:53:00.747Z",
+  "updatedAt": "2026-10-30T20:43:59.566Z",
   "items": [
+    {
+      "id": "google-news-278bd7295c7f4105",
+      "headline": "Google Fitbit Edge: On shelves now",
+      "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge-on-shelves-now/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-30T20:15:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ed7605e93ca5a959",
+      "headline": "Google: We’ve received our first response from the Project Suncatcher prototype satellite.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ec71bd9a606c7034",
+      "headline": "Google: See who has access to your Gmail inbox in 2 minutes.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/google-security-checkup/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-30T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-d9e57218237adad6",
       "headline": "Google: You can now generate, preview, and edit documents, PDFs, presentations, spreadsheets, and more directly in Gemini.",
@@ -69,6 +102,17 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-ded49fc539329ab9",
+      "headline": "Samsung Electronics Announces Third Quarter 2026 Results",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-10-29T10:10:00.000Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-ee9c906b643cb29d",
       "headline": "Google: How Gemini is helping students and teachers in the classroom",
       "url": "https://blog.google/products-and-platforms/products/education/impact-studies-uk-italy/",
@@ -121,50 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-10-28T19:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-4bf8e91caed38e9b",
-      "headline": "Google: Dive into new topics with immersive explorations in the Gemini app.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/immersive-explorations-student-hub/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-28T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-21d3976c1b682dea",
-      "headline": "Huawei Wireless Unveils Innovation Breakthroughs to Pioneer New Communications Networks",
-      "url": "https://www.huawei.com/en/news/2026/10/communications-network-wireless",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-28T17:59:31.881Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6825ae5281ac7c3f",
-      "headline": "Google: Gemini 4 Carbon: our next frontier model",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-28T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-2b0f3e1d89ebc85a",
-      "headline": "Google: XREAL AURA: Wired XR glasses to watch, work, and play",
-      "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-28T17:00:00.000Z",
       "type": "standard"
     }
   ]
