@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T21:46:12.117Z",
+  "updatedAt": "2026-10-30T01:55:51.463Z",
   "items": [
     {
       "id": "google-news-d9e57218237adad6",
@@ -28,6 +28,17 @@
       "id": "google-news-2f7e4426274adf45",
       "headline": "Celebrate Halloween with these tricks in Google Photos.",
       "url": "https://blog.google/products-and-platforms/products/photos/halloween-tricks-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-10-29T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ff479ec2b2cda02d",
+      "headline": "Colorado students joined a Google hackathon to tackle energy grid challenges.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/colorado-impact-hackathon/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
@@ -149,17 +160,6 @@
       "id": "google-news-2b0f3e1d89ebc85a",
       "headline": "Google: XREAL AURA: Wired XR glasses to watch, work, and play",
       "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-28T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-e26ac0eef4d158c0",
-      "headline": "Google: Build and manage Connected Apps in one place",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
