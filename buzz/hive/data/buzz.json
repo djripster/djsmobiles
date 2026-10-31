@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T18:30:18.071Z",
+  "updatedAt": "2026-10-31T22:26:26.576Z",
   "items": [
     {
       "id": "google-news-278bd7295c7f4105",
@@ -132,39 +132,6 @@
         "google"
       ],
       "publishedAt": "2026-10-29T03:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-da27cb2db053180e",
-      "headline": "Google: Ads in AI Mode expand to new markets.",
-      "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-28T21:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-1b154ea43af2f865",
-      "headline": "Google: Q3 2026 earnings call: Remarks from our CEO",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-28T21:05:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-55691822cc670f9d",
-      "headline": "Google: Adapt your ad strategy to meet the way people search today.",
-      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-search-data/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-28T19:00:00.000Z",
       "type": "standard"
     }
   ]
