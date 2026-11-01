@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T09:10:13.959Z",
+  "updatedAt": "2026-11-01T15:58:46.580Z",
   "items": [
     {
       "id": "google-news-278bd7295c7f4105",
@@ -77,39 +77,6 @@
         "google"
       ],
       "publishedAt": "2026-10-29T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-444f72b5fda1b13e",
-      "headline": "Google: Equipping healthcare professionals with practical AI skills",
-      "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-for-healthcare-professionals-certificate/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-29T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-aeb0cc6954798937",
-      "headline": "Google: How to use Gemini to update your resume",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/update-resume-with-gemini/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-29T11:33:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-ded49fc539329ab9",
-      "headline": "Samsung Electronics Announces Third Quarter 2026 Results",
-      "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-10-29T10:10:00.000Z",
       "type": "standard"
     }
   ]
