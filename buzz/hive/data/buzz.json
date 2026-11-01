@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T15:58:46.580Z",
+  "updatedAt": "2026-11-01T20:28:18.862Z",
   "items": [
     {
       "id": "google-news-278bd7295c7f4105",
@@ -33,50 +33,6 @@
         "google"
       ],
       "publishedAt": "2026-10-30T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d9e57218237adad6",
-      "headline": "Google: You can now generate, preview, and edit documents, PDFs, presentations, spreadsheets, and more directly in Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-29T16:15:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-60134842d45d4023",
-      "headline": "Google: Gemini Notebook makes hundreds of textbooks available to help students learn even more.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-access-textbooks/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-29T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-2f7e4426274adf45",
-      "headline": "Celebrate Halloween with these tricks in Google Photos.",
-      "url": "https://blog.google/products-and-platforms/products/photos/halloween-tricks-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-29T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ff479ec2b2cda02d",
-      "headline": "Colorado students joined a Google hackathon to tackle energy grid challenges.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/colorado-impact-hackathon/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-29T16:00:00.000Z",
       "type": "standard"
     }
   ]
