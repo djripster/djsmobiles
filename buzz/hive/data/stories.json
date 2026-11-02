@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T07:38:26.658Z",
+  "updatedAt": "2026-11-02T18:16:20.397Z",
   "stories": [
+    {
+      "id": "google-news-c45a0b6d7de18ac5",
+      "headline": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-02T17:45:00.000Z",
+      "collectedAt": "2026-11-02T18:16:00.075Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ea6b0eff7b6240a8",
+      "headline": "Google Messages, Phone by Google, and Google Contacts get new, updated icons.",
+      "url": "https://blog.google/products-and-platforms/products/messages/updated-icons-messages-phone-contacts/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-02T17:00:00.000Z",
+      "collectedAt": "2026-11-02T18:16:00.075Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-278bd7295c7f4105",
       "headline": "Google Fitbit Edge: On shelves now",

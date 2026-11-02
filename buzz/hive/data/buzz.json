@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T07:38:26.707Z",
+  "updatedAt": "2026-11-02T18:16:20.439Z",
   "items": [
+    {
+      "id": "google-news-c45a0b6d7de18ac5",
+      "headline": "Google: The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-02T17:45:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ea6b0eff7b6240a8",
+      "headline": "Google Messages, Phone by Google, and Google Contacts get new, updated icons.",
+      "url": "https://blog.google/products-and-platforms/products/messages/updated-icons-messages-phone-contacts/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-02T17:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-278bd7295c7f4105",
       "headline": "Google Fitbit Edge: On shelves now",
@@ -11,28 +33,6 @@
         "google"
       ],
       "publishedAt": "2026-10-30T20:15:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ed7605e93ca5a959",
-      "headline": "Google: We’ve received our first response from the Project Suncatcher prototype satellite.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-30T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ec71bd9a606c7034",
-      "headline": "Google: See who has access to your Gmail inbox in 2 minutes.",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/google-security-checkup/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-30T16:00:00.000Z",
       "type": "standard"
     }
   ]
