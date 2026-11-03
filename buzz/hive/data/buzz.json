@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T18:16:20.439Z",
+  "updatedAt": "2026-11-03T01:32:11.076Z",
   "items": [
     {
       "id": "google-news-c45a0b6d7de18ac5",
@@ -22,17 +22,6 @@
         "google"
       ],
       "publishedAt": "2026-11-02T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-278bd7295c7f4105",
-      "headline": "Google Fitbit Edge: On shelves now",
-      "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge-on-shelves-now/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-10-30T20:15:00.000Z",
       "type": "standard"
     }
   ]
