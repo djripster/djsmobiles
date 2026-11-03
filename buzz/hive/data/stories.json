@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T01:32:11.027Z",
+  "updatedAt": "2026-11-03T09:28:27.301Z",
   "stories": [
+    {
+      "id": "google-news-5d1fb9768da7b3a4",
+      "headline": "Working collaboratively to fight scams in Asia Pacific",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/fight-against-apac-scams/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-03T14:00:00.000Z",
+      "collectedAt": "2026-11-03T09:28:07.019Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b4a0323c61736ced",
+      "headline": "Advancing research and partnering with universities in Singapore",
+      "url": "https://blog.google/innovation-and-ai/technology/research/partnering-singapore-advance-scientific-discovery/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-03T04:30:00.000Z",
+      "collectedAt": "2026-11-03T09:28:07.019Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-c45a0b6d7de18ac5",
       "headline": "The latest AI news we announced in October 2026",
