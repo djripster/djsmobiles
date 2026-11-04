@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T06:09:10.301Z",
+  "updatedAt": "2026-11-04T14:25:38.898Z",
   "items": [
+    {
+      "id": "google-news-c7602fd30663d21b",
+      "headline": "Google: We're sharing our framework for building safer and more helpful AI for health.",
+      "url": "https://blog.google/innovation-and-ai/technology/health/evaluating-health-ai-at-scale/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-04T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dee77e2a8f1482c4",
+      "headline": "Google: Take a closer look at art with the Courtauld",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/the-art-of-looking/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-04T10:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5d1fb9768da7b3a4",
       "headline": "Google: Working collaboratively to fight scams in Asia Pacific",
