@@ -1,7 +1,62 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T10:46:27.538Z",
+  "updatedAt": "2026-11-05T18:41:47.349Z",
   "items": [
+    {
+      "id": "google-news-27b87d65d3f99406",
+      "headline": "Google: Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4180f416c105d02a",
+      "headline": "Google: Investing in Wyoming’s infrastructure, energy and workforce",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6d3308b82137f8a0",
+      "headline": "Google: Transform a quick drawing into a live app with Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-50b61ef26666b0b1",
+      "headline": "Google: Check out our free livestream during National Veterans Small Business Week.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/national-veterans-small-business-week-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-05T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-80a2723d090cf292",
+      "headline": "Beyond the Medal: Samsung Helps Young Athletes Explore What Comes Next at Dakar 2026",
+      "url": "https://news.samsung.com/global/beyond-the-medal-samsung-helps-young-athletes-explore-what-comes-next-at-dakar-2026",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-05T08:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-640ef482dab7f909",
       "headline": "Google: Watch Henry Cavill build a video game on his Googlebook",
@@ -33,6 +88,17 @@
         "google"
       ],
       "publishedAt": "2026-11-04T10:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-8aed23f142aaf93c",
+      "headline": "Samsung: Upgraded Sleep Apnea Feature Now Available on Galaxy Ring Following Regulatory Approvals From US FDA and Korea MFDS",
+      "url": "https://news.samsung.com/global/upgraded-sleep-apnea-feature-now-available-on-galaxy-ring-following-regulatory-approvals-from-us-fda-and-korea-mfds",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-03T21:00:00.000Z",
       "type": "standard"
     },
     {
@@ -99,39 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-11-03T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b4a0323c61736ced",
-      "headline": "Google: Advancing research and partnering with universities in Singapore",
-      "url": "https://blog.google/innovation-and-ai/technology/research/partnering-singapore-advance-scientific-discovery/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-03T04:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-c45a0b6d7de18ac5",
-      "headline": "Google: The latest AI news we announced in October 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-02T17:45:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ea6b0eff7b6240a8",
-      "headline": "Google Messages, Phone by Google, and Google Contacts get new, updated icons.",
-      "url": "https://blog.google/products-and-platforms/products/messages/updated-icons-messages-phone-contacts/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-02T17:00:00.000Z",
       "type": "standard"
     }
   ]
