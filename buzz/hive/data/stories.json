@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T18:41:47.310Z",
+  "updatedAt": "2026-11-06T00:11:06.104Z",
   "stories": [
+    {
+      "id": "google-news-c5395290644325a7",
+      "headline": "Generate longer AI videos with Omni 1.2 Flash in Google Vids at no cost.",
+      "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "collectedAt": "2026-11-06T00:10:45.743Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-27b87d65d3f99406",
       "headline": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",

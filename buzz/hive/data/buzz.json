@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T18:41:47.349Z",
+  "updatedAt": "2026-11-06T00:11:06.152Z",
   "items": [
+    {
+      "id": "google-news-c5395290644325a7",
+      "headline": "Generate longer AI videos with Omni 1.2 Flash in Google Vids at no cost.",
+      "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-27b87d65d3f99406",
       "headline": "Google: Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
@@ -149,17 +160,6 @@
       "id": "google-news-8bc47e2b314460fe",
       "headline": "Google: Designing responsible AI for learning",
       "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-03T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6b8f491b68466440",
-      "headline": "Google: Expanding AI educator training to new countries",
-      "url": "https://blog.google/products-and-platforms/products/education/google-ai-educator-series-global-expansion-november-2026/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
