@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T20:51:11.570Z",
+  "updatedAt": "2026-11-07T00:53:29.702Z",
   "items": [
     {
       "id": "huawei-newsroom-e77e8179f9452f1d",
@@ -110,17 +110,6 @@
         "google"
       ],
       "publishedAt": "2026-11-04T10:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-8aed23f142aaf93c",
-      "headline": "Samsung: Upgraded Sleep Apnea Feature Now Available on Galaxy Ring Following Regulatory Approvals From US FDA and Korea MFDS",
-      "url": "https://news.samsung.com/global/upgraded-sleep-apnea-feature-now-available-on-galaxy-ring-following-regulatory-approvals-from-us-fda-and-korea-mfds",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-11-03T21:00:00.000Z",
       "type": "standard"
     }
   ]
