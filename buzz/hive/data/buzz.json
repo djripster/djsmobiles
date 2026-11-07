@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T13:57:36.663Z",
+  "updatedAt": "2026-11-07T18:44:14.273Z",
   "items": [
     {
       "id": "huawei-newsroom-e77e8179f9452f1d",
@@ -77,28 +77,6 @@
         "samsung"
       ],
       "publishedAt": "2026-11-05T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-640ef482dab7f909",
-      "headline": "Google: Watch Henry Cavill build a video game on his Googlebook",
-      "url": "https://blog.google/products-and-platforms/devices/googlebook/henry-cavill-mustache-protocol-video-game/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-04T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-c7602fd30663d21b",
-      "headline": "Google: We're sharing our framework for building safer and more helpful AI for health.",
-      "url": "https://blog.google/innovation-and-ai/technology/health/evaluating-health-ai-at-scale/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-04T14:00:00.000Z",
       "type": "standard"
     }
   ]
