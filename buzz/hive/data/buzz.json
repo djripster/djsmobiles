@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T07:04:03.535Z",
+  "updatedAt": "2026-11-07T13:57:36.663Z",
   "items": [
     {
       "id": "huawei-newsroom-e77e8179f9452f1d",
@@ -99,17 +99,6 @@
         "google"
       ],
       "publishedAt": "2026-11-04T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-dee77e2a8f1482c4",
-      "headline": "Google: Take a closer look at art with the Courtauld",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/the-art-of-looking/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-04T10:00:00.000Z",
       "type": "standard"
     }
   ]
