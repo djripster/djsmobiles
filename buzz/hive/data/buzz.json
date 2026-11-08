@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T16:40:05.596Z",
+  "updatedAt": "2026-11-08T21:06:59.084Z",
   "items": [
     {
       "id": "huawei-newsroom-e77e8179f9452f1d",
@@ -11,50 +11,6 @@
         "huawei"
       ],
       "publishedAt": "2026-11-06T23:17:24.370Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-c5395290644325a7",
-      "headline": "Generate longer AI videos with Omni 1.2 Flash in Google Vids at no cost.",
-      "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-05T20:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-27b87d65d3f99406",
-      "headline": "Google: Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-05T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-4180f416c105d02a",
-      "headline": "Google: Investing in Wyoming’s infrastructure, energy and workforce",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-05T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-6d3308b82137f8a0",
-      "headline": "Google: Transform a quick drawing into a live app with Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-05T17:00:00.000Z",
       "type": "standard"
     }
   ]
