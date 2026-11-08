@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T10:13:12.570Z",
+  "updatedAt": "2026-11-08T16:40:05.596Z",
   "items": [
     {
       "id": "huawei-newsroom-e77e8179f9452f1d",
@@ -55,17 +55,6 @@
         "google"
       ],
       "publishedAt": "2026-11-05T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-50b61ef26666b0b1",
-      "headline": "Google: Check out our free livestream during National Veterans Small Business Week.",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/national-veterans-small-business-week-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-05T14:00:00.000Z",
       "type": "standard"
     }
   ]
