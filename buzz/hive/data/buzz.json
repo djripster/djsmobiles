@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T02:24:35.841Z",
+  "updatedAt": "2026-11-08T10:13:12.570Z",
   "items": [
     {
       "id": "huawei-newsroom-e77e8179f9452f1d",
@@ -66,17 +66,6 @@
         "google"
       ],
       "publishedAt": "2026-11-05T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-80a2723d090cf292",
-      "headline": "Beyond the Medal: Samsung Helps Young Athletes Explore What Comes Next at Dakar 2026",
-      "url": "https://news.samsung.com/global/beyond-the-medal-samsung-helps-young-athletes-explore-what-comes-next-at-dakar-2026",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-11-05T08:00:00.000Z",
       "type": "standard"
     }
   ]
