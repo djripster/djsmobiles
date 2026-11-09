@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:54:43.389Z",
+  "updatedAt": "2026-11-09T18:43:19.675Z",
   "items": [
+    {
+      "id": "google-news-fc2fe6c60421902d",
+      "headline": "Developers can now build with Google Maps Platform in AI Studio.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-09T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-e9950a58c8925934",
+      "headline": "Google: Our newest TPUs: 8tx and 8i Max, built for the agentic era",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-09T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-8c61bcf695b625dd",
+      "headline": "Google: Holiday 100: Your guide to this year’s top trending gifts",
+      "url": "https://blog.google/products-and-platforms/products/shopping/holiday-100-gift-guide-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-e77e8179f9452f1d",
       "headline": "Huawei Chronicles 30 Years of Wireless Innovation in a Documentary for the First Time",
