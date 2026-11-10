@@ -1,7 +1,106 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:43:21.290Z",
+  "updatedAt": "2026-11-10T17:46:03.206Z",
   "items": [
+    {
+      "id": "google-news-a048f57672acc8d3",
+      "headline": "Introducing Google Fi’s new super network",
+      "url": "https://blog.google/products-and-platforms/products/google-fi-wireless/super-network/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T17:20:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a2840211d2512175",
+      "headline": "Google: Gemini 4 Carbon is now available for developers.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-172ae3f5f4b569c4",
+      "headline": "Google: Introducing the Multimodal Knowledge Agent benchmark",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-5d3f1a46c035f064",
+      "headline": "Google: Gemini 4 Carbon is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-875de747c34621d4",
+      "headline": "Google: Introducing 3 new domains: .eat, .fly, and .here",
+      "url": "https://blog.google/products-and-platforms/products/registry/new-google-domains-eat-fly-here/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-59a8a5dd3afc5312",
+      "headline": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ea9fcf04ae27df22",
+      "headline": "Google: 40 years of American culinary history with the James Beard Foundation",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/james-beard-foundation/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ef83b8dc18b1604d",
+      "headline": "Google Cloud launches Gemini for healthcare.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-3259a4129a1b4d33",
+      "headline": "Google: Waze and Garmin team up to boost driver awareness of cyclists.",
+      "url": "https://blog.google/waze/garmin-safety-cyclists/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-fc2fe6c60421902d",
       "headline": "Developers can now build with Google Maps Platform in AI Studio.",
