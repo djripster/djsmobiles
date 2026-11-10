@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T17:46:03.206Z",
+  "updatedAt": "2026-11-10T23:15:07.000Z",
   "items": [
+    {
+      "id": "google-news-c0101f36ad82bf91",
+      "headline": "Google: Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T19:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d2cb458382e2b591",
+      "headline": "Google: Pixel 10 with Gemini Intelligence, custom widgets, and more in our November Pixel Drop",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T19:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-514112b3503896d0",
+      "headline": "Google: Get step-by-step workout guidance on your Pixel Watch.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/step-by-step-workouts-watch/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-10T19:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-a048f57672acc8d3",
       "headline": "Introducing Google Fi’s new super network",
