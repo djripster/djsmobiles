@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T18:43:19.675Z",
+  "updatedAt": "2026-11-10T02:01:53.031Z",
   "items": [
     {
       "id": "google-news-fc2fe6c60421902d",
@@ -33,17 +33,6 @@
         "google"
       ],
       "publishedAt": "2026-11-09T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-e77e8179f9452f1d",
-      "headline": "Huawei Chronicles 30 Years of Wireless Innovation in a Documentary for the First Time",
-      "url": "https://www.huawei.com/en/news/2026/11/wireless-documentary",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-06T23:17:24.370Z",
       "type": "standard"
     }
   ]
