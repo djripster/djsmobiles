@@ -1,7 +1,84 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T10:48:48.614Z",
+  "updatedAt": "2026-11-11T18:41:28.896Z",
   "items": [
+    {
+      "id": "google-news-c06fca3b9549fb95",
+      "headline": "Google: Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a251867faf0e96de",
+      "headline": "Google: Built on Googlebook: Play Henry Cavill’s video game to support Movember",
+      "url": "https://blog.google/products-and-platforms/devices/googlebook/henry-cavill-googlebook-mustache-protocol/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ab896b3f94b1c56b",
+      "headline": "Google: Talk it through with Gemini, now on Apple CarPlay",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6bff68700e54fc50",
+      "headline": "Google’s ongoing commitment to the veteran community",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/veterans-day-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-bd91a5e650d44fc8",
+      "headline": "Google Cloud leaders share what to expect in cybersecurity for 2027.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cybersecurity-2027/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-bf467d9aa9cc13b1",
+      "headline": "Get certified as a Google Cloud Professional Agentic Architect.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/professional-agentic-architect/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-eac4d84ef949975e",
+      "headline": "Google: Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T16:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-8e8e851f9ac38a19",
       "headline": "Google: Experience the art and legacy of Dr. Esther Mahlangu",
@@ -88,83 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-11-10T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5d3f1a46c035f064",
-      "headline": "Google: Gemini 4 Carbon is now available",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-875de747c34621d4",
-      "headline": "Google: Introducing 3 new domains: .eat, .fly, and .here",
-      "url": "https://blog.google/products-and-platforms/products/registry/new-google-domains-eat-fly-here/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-59a8a5dd3afc5312",
-      "headline": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ea9fcf04ae27df22",
-      "headline": "Google: 40 years of American culinary history with the James Beard Foundation",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/james-beard-foundation/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ef83b8dc18b1604d",
-      "headline": "Google Cloud launches Gemini for healthcare.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-3259a4129a1b4d33",
-      "headline": "Google: Waze and Garmin team up to boost driver awareness of cyclists.",
-      "url": "https://blog.google/waze/garmin-safety-cyclists/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T12:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-fc2fe6c60421902d",
-      "headline": "Developers can now build with Google Maps Platform in AI Studio.",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-09T17:00:00.000Z",
       "type": "standard"
     }
   ]

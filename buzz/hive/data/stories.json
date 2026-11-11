@@ -1,7 +1,91 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T10:48:48.560Z",
+  "updatedAt": "2026-11-11T18:41:28.851Z",
   "stories": [
+    {
+      "id": "google-news-c06fca3b9549fb95",
+      "headline": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T18:00:00.000Z",
+      "collectedAt": "2026-11-11T18:41:08.618Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a251867faf0e96de",
+      "headline": "Built on Googlebook: Play Henry Cavill’s video game to support Movember",
+      "url": "https://blog.google/products-and-platforms/devices/googlebook/henry-cavill-googlebook-mustache-protocol/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T18:00:00.000Z",
+      "collectedAt": "2026-11-11T18:41:08.618Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ab896b3f94b1c56b",
+      "headline": "Talk it through with Gemini, now on Apple CarPlay",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "collectedAt": "2026-11-11T18:41:08.618Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6bff68700e54fc50",
+      "headline": "Google’s ongoing commitment to the veteran community",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/veterans-day-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "collectedAt": "2026-11-11T18:41:08.618Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-bd91a5e650d44fc8",
+      "headline": "Google Cloud leaders share what to expect in cybersecurity for 2027.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cybersecurity-2027/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "collectedAt": "2026-11-11T18:41:08.618Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-bf467d9aa9cc13b1",
+      "headline": "Get certified as a Google Cloud Professional Agentic Architect.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/professional-agentic-architect/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "collectedAt": "2026-11-11T18:41:08.618Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-eac4d84ef949975e",
+      "headline": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T16:00:00.000Z",
+      "collectedAt": "2026-11-11T18:41:08.618Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-8e8e851f9ac38a19",
       "headline": "Experience the art and legacy of Dr. Esther Mahlangu",
