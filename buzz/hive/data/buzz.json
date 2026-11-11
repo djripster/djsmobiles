@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T02:48:26.464Z",
+  "updatedAt": "2026-11-11T10:48:48.614Z",
   "items": [
+    {
+      "id": "google-news-8e8e851f9ac38a19",
+      "headline": "Google: Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T09:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-f557e3da2da78317",
       "headline": "Samsung Gallery Makes It Easier To Access Photos and Videos Across Galaxy Devices",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-11-09T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-e9950a58c8925934",
-      "headline": "Google: Our newest TPUs: 8tx and 8i Max, built for the agentic era",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-09T13:00:00.000Z",
       "type": "standard"
     }
   ]

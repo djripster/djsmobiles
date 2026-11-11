@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T02:48:26.423Z",
+  "updatedAt": "2026-11-11T10:48:48.560Z",
   "stories": [
+    {
+      "id": "google-news-8e8e851f9ac38a19",
+      "headline": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-11T09:00:00.000Z",
+      "collectedAt": "2026-11-11T10:48:28.343Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-f557e3da2da78317",
       "headline": "Samsung Gallery Makes It Easier To Access Photos and Videos Across Galaxy Devices",
