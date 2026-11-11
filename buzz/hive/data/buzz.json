@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T23:15:07.000Z",
+  "updatedAt": "2026-11-11T02:48:26.464Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-f557e3da2da78317",
+      "headline": "Samsung Gallery Makes It Easier To Access Photos and Videos Across Galaxy Devices",
+      "url": "https://news.samsung.com/global/samsung-gallery-makes-it-easier-to-access-photos-and-videos-across-galaxy-devices",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-10T21:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-c0101f36ad82bf91",
       "headline": "Google: Gemini Intelligence: New features, on more devices",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-11-09T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-8c61bcf695b625dd",
-      "headline": "Google: Holiday 100: Your guide to this year’s top trending gifts",
-      "url": "https://blog.google/products-and-platforms/products/shopping/holiday-100-gift-guide-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-09T12:00:00.000Z",
       "type": "standard"
     }
   ]
