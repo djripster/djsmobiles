@@ -1,7 +1,117 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T09:44:51.022Z",
+  "updatedAt": "2026-11-12T18:14:17.582Z",
   "items": [
+    {
+      "id": "google-news-f19cddd04797ae7d",
+      "headline": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b4df4a94fa379054",
+      "headline": "Google: Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-80edea19d5fdcf28",
+      "headline": "Google: Introducing Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-1c0ba4a23c7739f7",
+      "headline": "Scientists are using Google AI to help restore giant kelp forests.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/saving-giant-kelp-australia/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dd9d2f50d8fb7559",
+      "headline": "Meet the 2026 Google PhD Fellows",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/phd-fellows-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-fa93928aa123f6bc",
+      "headline": "Google: We're launching a $10 million Energy Impact Program in West Virginia.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/energy-impact-program-west-virginia/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dc9088dd5da06760",
+      "headline": "Google: Get quick answers from Gemini on any website.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-be046b96466f08a2",
+      "headline": "Google: Designing for privacy on intelligent eyewear",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/intelligent-eyewear-privacy-protections/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-feb34ac37e8e9bbc",
+      "headline": "Google: See our intelligent eyewear lineup and pre-order your pair",
+      "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d62c3821f231d8f2",
+      "headline": "We’re introducing a new transparency tool for invalid traffic in Google Ads.",
+      "url": "https://blog.google/products/ads-commerce/invalid-traffic-overview-google-ads/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T13:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-c06fca3b9549fb95",
       "headline": "Google: Gemini Decisions API: Fast, calibrated multimodal decisions",
@@ -55,116 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-11-11T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-bf467d9aa9cc13b1",
-      "headline": "Get certified as a Google Cloud Professional Agentic Architect.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/professional-agentic-architect/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-11T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-eac4d84ef949975e",
-      "headline": "Google: Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-11T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-8e8e851f9ac38a19",
-      "headline": "Google: Experience the art and legacy of Dr. Esther Mahlangu",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-f557e3da2da78317",
-      "headline": "Samsung Gallery Makes It Easier To Access Photos and Videos Across Galaxy Devices",
-      "url": "https://news.samsung.com/global/samsung-gallery-makes-it-easier-to-access-photos-and-videos-across-galaxy-devices",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-11-10T21:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-c0101f36ad82bf91",
-      "headline": "Google: Gemini Intelligence: New features, on more devices",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T19:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d2cb458382e2b591",
-      "headline": "Google: Pixel 10 with Gemini Intelligence, custom widgets, and more in our November Pixel Drop",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T19:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-514112b3503896d0",
-      "headline": "Google: Get step-by-step workout guidance on your Pixel Watch.",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/step-by-step-workouts-watch/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T19:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-a048f57672acc8d3",
-      "headline": "Introducing Google Fi’s new super network",
-      "url": "https://blog.google/products-and-platforms/products/google-fi-wireless/super-network/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T17:20:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-a2840211d2512175",
-      "headline": "Google: Gemini 4 Carbon is now available for developers.",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-172ae3f5f4b569c4",
-      "headline": "Google: Introducing the Multimodal Knowledge Agent benchmark",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-10T16:00:00.000Z",
       "type": "standard"
     }
   ]

@@ -1,7 +1,127 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T09:44:50.970Z",
+  "updatedAt": "2026-11-12T18:14:17.531Z",
   "stories": [
+    {
+      "id": "google-news-f19cddd04797ae7d",
+      "headline": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "collectedAt": "2026-11-12T18:13:57.202Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b4df4a94fa379054",
+      "headline": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "collectedAt": "2026-11-12T18:13:57.203Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-80edea19d5fdcf28",
+      "headline": "Introducing Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "collectedAt": "2026-11-12T18:13:57.203Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-1c0ba4a23c7739f7",
+      "headline": "Scientists are using Google AI to help restore giant kelp forests.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/saving-giant-kelp-australia/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "collectedAt": "2026-11-12T18:13:57.203Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dd9d2f50d8fb7559",
+      "headline": "Meet the 2026 Google PhD Fellows",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/phd-fellows-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "collectedAt": "2026-11-12T18:13:57.203Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-fa93928aa123f6bc",
+      "headline": "We're launching a $10 million Energy Impact Program in West Virginia.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/energy-impact-program-west-virginia/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "collectedAt": "2026-11-12T18:13:57.203Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dc9088dd5da06760",
+      "headline": "Get quick answers from Gemini on any website.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "collectedAt": "2026-11-12T18:13:57.203Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-be046b96466f08a2",
+      "headline": "Designing for privacy on intelligent eyewear",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/intelligent-eyewear-privacy-protections/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T14:00:00.000Z",
+      "collectedAt": "2026-11-12T18:13:57.203Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-feb34ac37e8e9bbc",
+      "headline": "See our intelligent eyewear lineup and pre-order your pair",
+      "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T14:00:00.000Z",
+      "collectedAt": "2026-11-12T18:13:57.203Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d62c3821f231d8f2",
+      "headline": "We’re introducing a new transparency tool for invalid traffic in Google Ads.",
+      "url": "https://blog.google/products/ads-commerce/invalid-traffic-overview-google-ads/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T13:00:00.000Z",
+      "collectedAt": "2026-11-12T18:13:57.204Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-c06fca3b9549fb95",
       "headline": "Gemini Decisions API: Fast, calibrated multimodal decisions",
