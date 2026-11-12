@@ -1,7 +1,259 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T18:14:17.531Z",
+  "updatedAt": "2026-11-12T23:39:42.857Z",
   "stories": [
+    {
+      "id": "google-news-77ce22269d7fa4ed",
+      "headline": "5 new Google Flow Tools designed by visual artists",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/new-google-flow-tools/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-12T20:30:00.000Z",
+      "collectedAt": "2026-11-12T23:39:21.925Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-7ca0b1bacd7aaa85",
+      "headline": "Huawei Hosted Green & Resilience Elite Club: Accelerating Green & Resilient Networks to Enable CHB Collaborative Development",
+      "url": "https://www.huawei.com/en/news/2026/3/mwc-green-resilience",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.562Z",
+      "collectedAt": "2026-11-12T23:39:42.855Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-e919924828561f04",
+      "headline": "Huawei Launches Spark Ignite 2022 for Thai Start-ups",
+      "url": "https://www.huawei.com/en/news/2022/7/spark-thailand-startup-competition",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.558Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-1f4f86727a91dc13",
+      "headline": "Huawei Releases “Design Guide for Campus Wi-Fi Networks in the Wi-Fi 6 Era v1.0” White Paper",
+      "url": "https://www.huawei.com/en/news/2019/4/huawei-design-guide-campus-wi-fi-networks",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.469Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-f41f80b068d6026a",
+      "headline": "T-Mobile Signs a 5-year Strategic Cooperation Agreement with Huawei to Develop Wireless HBB Services",
+      "url": "https://www.huawei.com/en/news/2017/2/t-mobile-5year-strategic-agreement",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.438Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-d3cfe0f6e6406142",
+      "headline": "Huawei Showcasing InnovativeSolutions Under the Theme of \"Leading New ICT, Building a Better Connected Railway\" at Asia Pacific Rail 2016",
+      "url": "https://www.huawei.com/en/news/2016/3/huawei-showcasing-innovative-solutions",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.429Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-262b0c0b0cee78c5",
+      "headline": "Huawei Successfully Deploys Agile Stadium Solution in Russia’s Spartak Stadium",
+      "url": "https://www.huawei.com/en/news/2015/01/hw_411127",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.367Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-6ec59ee2ae1c5c45",
+      "headline": "Huawei’s Open Cloud Forum Accelerates Network All Cloud Transformation",
+      "url": "https://www.huawei.com/en/news/2016/10/open-cloud-forum2016",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.261Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-36ab10b64a7b9a94",
+      "headline": "Net5.5G Intelligent IP Network Summit Held Successfully,Highlighting Secure, Resilient IP Networks as the Foundation for AI-Era New Growth",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ip-network-summit",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.238Z",
+      "collectedAt": "2026-10-15T21:25:22.365Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-b84f6fd1c43fc1b5",
+      "headline": "IMD, St. Gallen Symposium Call for Dialogue to Increase Digital Trust",
+      "url": "https://www.huawei.com/en/news/2021/6/digital-trust-governance-regulation-standards",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.153Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-cb10a1977ccd1d4a",
+      "headline": "88 Prize Winners Selected from the 2018 Huawei Developer Challenge",
+      "url": "https://www.huawei.com/en/news/2018/10/huawei-2018-developers-competition-88-awards",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.074Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-6d04464a311efcf3",
+      "headline": "First woman to head UNESCO urges tech companies to do more for women in tech",
+      "url": "https://www.huawei.com/en/news/2023/3/women-tech-transform",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.042Z",
+      "collectedAt": "2026-07-28T20:33:38.756Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-305bcb87338f6355",
+      "headline": "Team Namibia Wins Huawei's Tech4Good Global Competition 2023",
+      "url": "https://www.huawei.com/en/news/2024/1/seedsforthefuture-tech4good",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:05.934Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-2c482a43dcf5f720",
+      "headline": "China Mobile Joins Hands with Huawei to Introduce Innovative Solutions at MWC 2016",
+      "url": "https://www.huawei.com/en/news/2016/2/china-mobile-joins-hands-with-huawei",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:05.873Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-8ec58496188c2474",
+      "headline": "Huawei Encourages Female Participation in STEM with Support for EGOI",
+      "url": "https://www.huawei.com/en/news/2024/8/egoi-coding",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:05.780Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-d4cb41f2af586035",
+      "headline": "Huawei C-V2X E2E Solution Awarded the Best Mobile Technology for Automobile by GSMA",
+      "url": "https://www.huawei.com/en/news/2019/2/huawei-cellular-v2x-awarded",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:05.738Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-5f35513546cb0550",
+      "headline": "China Mobile Yunnan and Huawei Jointly Build \"1-3-9\" All-Optical Smart Cities to Safeguard Harmony Between Asian Elephants and Humans",
+      "url": "https://www.huawei.com/en/news/2021/10/1-3-9-all-optical-smart-cities-safeguard-harmony",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:05.728Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-4b75ad6da9c5c7ff",
+      "headline": "Huawei and PLA Vietnam Successfully Deploy LampSite Sharing Multi-operator Solution for Indoor Coverage",
+      "url": "https://www.huawei.com/en/news/2018/5/pla-lampsite-sharing-multi-operator-solution",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:05.632Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-f10c80b6c63ffd6c",
+      "headline": "First African Carrier Cloud Transformation Summit held in Marrakech to discuss how the Cloud will transform industries",
+      "url": "https://www.huawei.com/en/news/2023/6/africa-carrier-cloud-transformation",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:05.629Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-3a882c00cb569e51",
+      "headline": "Huawei Launches AgenticCore Solution: Building an Agent Network with Terminal-Network-Business Synergy",
+      "url": "https://www.huawei.com/en/news/2026/3/mwc-agenticcore-synergy-agent",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:05.629Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-26733e89e83cf0fc",
+      "headline": "Huawei win the Smart Cities Award at Asia Communication Awards 2018",
+      "url": "https://www.huawei.com/en/news/2018/6/huawei-smart-cities-award",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:05.628Z",
+      "collectedAt": "2026-11-12T23:39:42.856Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-f19cddd04797ae7d",
       "headline": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
@@ -1572,18 +1824,6 @@
       ],
       "publishedAt": "2026-10-15T13:00:00.000Z",
       "collectedAt": "2026-10-15T13:22:29.521Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-36ab10b64a7b9a94",
-      "headline": "Net5.5G Intelligent IP Network Summit Held Successfully,Highlighting Secure, Resilient IP Networks as the Foundation for AI-Era New Growth",
-      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ip-network-summit",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-10-15T10:23:23.695Z",
-      "collectedAt": "2026-10-15T21:25:22.365Z",
       "type": "standard"
     },
     {
@@ -6396,18 +6636,6 @@
       ],
       "publishedAt": "2026-07-28T13:00:00.000Z",
       "collectedAt": "2026-07-28T14:34:16.053Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-6d04464a311efcf3",
-      "headline": "First woman to head UNESCO urges tech companies to do more for women in tech",
-      "url": "https://www.huawei.com/en/news/2023/3/women-tech-transform",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-07-28T11:34:33.451Z",
-      "collectedAt": "2026-07-28T20:33:38.756Z",
       "type": "standard"
     },
     {
