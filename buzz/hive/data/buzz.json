@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T15:20:04.445Z",
+  "updatedAt": "2026-11-13T21:57:06.831Z",
   "items": [
+    {
+      "id": "google-news-176a9ceb17b44efc",
+      "headline": "Claim your Google Cloud Credits in Google AI Studio",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-13T20:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-7deafdaefb224d33",
+      "headline": "Connect Google Wallet to Gemini for personal finance insights",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-13T17:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-77ce22269d7fa4ed",
       "headline": "5 new Google Flow Tools designed by visual artists",
@@ -143,28 +165,6 @@
         "huawei"
       ],
       "publishedAt": "2026-11-12T20:22:05.934Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-2c482a43dcf5f720",
-      "headline": "China Mobile Joins Hands with Huawei to Introduce Innovative Solutions at MWC 2016",
-      "url": "https://www.huawei.com/en/news/2016/2/china-mobile-joins-hands-with-huawei",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-12T20:22:05.873Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-8ec58496188c2474",
-      "headline": "Huawei Encourages Female Participation in STEM with Support for EGOI",
-      "url": "https://www.huawei.com/en/news/2024/8/egoi-coding",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-12T20:22:05.780Z",
       "type": "standard"
     }
   ]
