@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T21:26:14.121Z",
+  "updatedAt": "2026-11-15T01:51:15.309Z",
   "stories": [
     {
       "id": "google-news-176a9ceb17b44efc",
@@ -120,18 +120,6 @@
       ],
       "publishedAt": "2026-11-12T20:22:06.261Z",
       "collectedAt": "2026-11-12T23:39:42.856Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-36ab10b64a7b9a94",
-      "headline": "Net5.5G Intelligent IP Network Summit Held Successfully,Highlighting Secure, Resilient IP Networks as the Foundation for AI-Era New Growth",
-      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ip-network-summit",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-12T20:22:06.238Z",
-      "collectedAt": "2026-10-15T21:25:22.365Z",
       "type": "standard"
     },
     {
@@ -1848,6 +1836,18 @@
       ],
       "publishedAt": "2026-10-15T13:00:00.000Z",
       "collectedAt": "2026-10-15T13:22:29.521Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-36ab10b64a7b9a94",
+      "headline": "Net5.5G Intelligent IP Network Summit Held Successfully,Highlighting Secure, Resilient IP Networks as the Foundation for AI-Era New Growth",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ip-network-summit",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-10-15T10:23:23.695Z",
+      "collectedAt": "2026-10-15T21:25:22.365Z",
       "type": "standard"
     },
     {
