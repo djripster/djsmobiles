@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T01:51:15.346Z",
+  "updatedAt": "2026-11-15T09:16:35.174Z",
   "items": [
     {
       "id": "google-news-176a9ceb17b44efc",
@@ -113,6 +113,17 @@
       "type": "standard"
     },
     {
+      "id": "huawei-newsroom-36ab10b64a7b9a94",
+      "headline": "Huawei: Net5.5G Intelligent IP Network Summit Held Successfully,Highlighting Secure, Resilient IP Networks as the Foundation for AI-Era New Growth",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ip-network-summit",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-12T20:22:06.238Z",
+      "type": "standard"
+    },
+    {
       "id": "huawei-newsroom-b84f6fd1c43fc1b5",
       "headline": "Huawei: IMD, St. Gallen Symposium Call for Dialogue to Increase Digital Trust",
       "url": "https://www.huawei.com/en/news/2021/6/digital-trust-governance-regulation-standards",
@@ -154,17 +165,6 @@
         "huawei"
       ],
       "publishedAt": "2026-11-12T20:22:05.934Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-2c482a43dcf5f720",
-      "headline": "China Mobile Joins Hands with Huawei to Introduce Innovative Solutions at MWC 2016",
-      "url": "https://www.huawei.com/en/news/2016/2/china-mobile-joins-hands-with-huawei",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-12T20:22:05.873Z",
       "type": "standard"
     }
   ]
