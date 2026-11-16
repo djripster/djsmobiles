@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T01:59:15.203Z",
+  "updatedAt": "2026-11-16T09:33:40.925Z",
   "items": [
+    {
+      "id": "google-news-0ede3a276ab0763f",
+      "headline": "Google: What teenagers really think about online safety and AI",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/what-teenagers-really-think-about-online-safety-and-ai/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-c47f47b287d1511a",
+      "headline": "Google: Helping teens navigate online news and information",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/helping-teens-navigate-online-news-and-information/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-1f23847ee94ced5c",
+      "headline": "Google: Listening to teens on online safety",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/listening-to-teens-on-online-safety/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-176a9ceb17b44efc",
       "headline": "Claim your Google Cloud Credits in Google AI Studio",
