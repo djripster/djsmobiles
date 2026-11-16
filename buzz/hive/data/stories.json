@@ -1,7 +1,127 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T09:33:40.746Z",
+  "updatedAt": "2026-11-16T20:23:46.453Z",
   "stories": [
+    {
+      "id": "google-news-5cdbb0432c2d7f9c",
+      "headline": "Regional voices are rolling out in the Gemini app.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T18:45:00.000Z",
+      "collectedAt": "2026-11-16T20:23:26.008Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4fe7a1d3cccec0b0",
+      "headline": "The era of autonomous attacks has arrived.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T18:30:00.000Z",
+      "collectedAt": "2026-11-16T20:23:26.008Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-c36f7f8681e6b131",
+      "headline": "New Google AdMob AI tools help app creators build, fix, and grow faster",
+      "url": "https://blog.google/products/publisher-connections/new-google-admob-tools/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "collectedAt": "2026-11-16T20:23:26.009Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-6c84a24e87d5256d",
+      "headline": "New AI training performance benchmarks for Google TPUs",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/training-performance-benchmarks-tpus/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T16:00:00.000Z",
+      "collectedAt": "2026-11-16T20:23:26.009Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-05fe485b609dbaed",
+      "headline": "Transform notes, research, and sources into interactive sites with Gemini Notebook.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T16:00:00.000Z",
+      "collectedAt": "2026-11-16T20:23:26.009Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-f7dbf1f3ab9e55e4",
+      "headline": "How to find the best Black Friday deals and shop smarter",
+      "url": "https://blog.google/products-and-platforms/products/shopping/black-friday-cyber-monday-shopping-tips-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T14:00:00.000Z",
+      "collectedAt": "2026-11-16T20:23:26.009Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-dfc32ad6652396f0",
+      "headline": "New Ask Maps features to help with holiday travel and prep",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T14:00:00.000Z",
+      "collectedAt": "2026-11-16T20:23:26.009Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-83b8e4ac14a30e6c",
+      "headline": "Navigate holiday traffic and crowds with Google Maps trends",
+      "url": "https://blog.google/products-and-platforms/products/maps/holiday-thanksgiving-travel-trends-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T14:00:00.000Z",
+      "collectedAt": "2026-11-16T20:23:26.009Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b3643525470dc0d8",
+      "headline": "4 ways Search can help with your holiday plans",
+      "url": "https://blog.google/products-and-platforms/products/search/holiday-prep-search-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T14:00:00.000Z",
+      "collectedAt": "2026-11-16T20:23:26.010Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d50f3589ad0577a4",
+      "headline": "Ask Maps is coming to Europe.",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-is-coming-to-europe/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-16T14:00:00.000Z",
+      "collectedAt": "2026-11-16T20:23:26.010Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-0ede3a276ab0763f",
       "headline": "What teenagers really think about online safety and AI",
