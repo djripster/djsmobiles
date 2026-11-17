@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T20:23:46.453Z",
+  "updatedAt": "2026-11-17T03:47:10.975Z",
   "stories": [
     {
       "id": "google-news-5cdbb0432c2d7f9c",
@@ -123,6 +123,18 @@
       "type": "standard"
     },
     {
+      "id": "huawei-newsroom-f2396027564aa8ec",
+      "headline": "Huawei Retains Top Spot as Sole Leader in GlobalData's 2026 Small Cells Competitiveness Landscape Assessment",
+      "url": "https://www.huawei.com/en/news/2026/11/globaldata-small-cell-soleleader",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-16T09:39:39.055Z",
+      "collectedAt": "2026-11-17T03:47:10.974Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-0ede3a276ab0763f",
       "headline": "What teenagers really think about online safety and AI",
       "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/what-teenagers-really-think-about-online-safety-and-ai/",
@@ -180,6 +192,18 @@
       ],
       "publishedAt": "2026-11-13T17:00:00.000Z",
       "collectedAt": "2026-11-13T21:56:46.388Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-88322e5970ea46ae",
+      "headline": "China Unicom and Huawei Build the Industry's First Dual Ten-Gigabit Smart Thermal Power Private Network",
+      "url": "https://www.huawei.com/en/news/2026/11/5ga-10gigabit-thermal",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-13T16:46:21.015Z",
+      "collectedAt": "2026-11-17T03:47:10.974Z",
       "type": "standard"
     },
     {
