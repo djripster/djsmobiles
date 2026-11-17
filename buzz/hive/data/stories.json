@@ -1,7 +1,163 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T13:15:55.566Z",
+  "updatedAt": "2026-11-17T22:16:55.821Z",
   "stories": [
+    {
+      "id": "google-news-b56239a4da2ec66c",
+      "headline": "See what 5 builders are making with Gemini 4 Carbon",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T21:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:54.881Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-e4eccaab9127c3d1",
+      "headline": "AIS and Huawei Jointly Launch the First AN Innovation Center Outside China, Opening a New Chapter in L4 Commercial Deployment",
+      "url": "https://www.huawei.com/en/news/2026/11/adn-ais-innovation-center",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-17T18:37:15.037Z",
+      "collectedAt": "2026-11-17T22:16:55.820Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b451aff394adbb42",
+      "headline": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:54.881Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-f71df4eeea2a175c",
+      "headline": "Read the EmbeddingGemma 2 technical report.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2-technical-report/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:54.881Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-29339b7285f39e60",
+      "headline": "10 states team up with Google on free AI training",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/ai-training-state-partnerships/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:54.881Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-e4dfcc8c4cc7d973",
+      "headline": "Temporary threads are now available in AI Mode in Search.",
+      "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:54.881Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-9fe1e561258d91c8",
+      "headline": "From easier entry to smarter savings, here’s what’s new in Google Home.",
+      "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-updates-november-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:54.881Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-8a4e13d86b040a38",
+      "headline": "Anyone can create a personal avatar of themselves in Google Vids, at no cost.",
+      "url": "https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:54.881Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-aa57d2318fbd9f8e",
+      "headline": "Google Wallet is now available on iOS in the U.S.",
+      "url": "https://blog.google/products-and-platforms/platforms/google-pay/wallet-available-ios-united-states/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:54.881Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-f2e7b028a6ca7225",
+      "headline": "China Unicom and Huawei Build a \"5G-AxAI\" Smart Wind Farm Cluster Benchmark for Inner Mongolia Energy Group",
+      "url": "https://www.huawei.com/en/news/2026/11/5ga-wind-farm",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-17T15:26:27.807Z",
+      "collectedAt": "2026-11-17T22:16:55.820Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-e4972e0860d96b6c",
+      "headline": "Google Play unveils the best apps, games, and books of 2026",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/best-of-play-awards-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T15:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:54.881Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-309df84199e9e12d",
+      "headline": "The best of Google Play in Asia Pacific",
+      "url": "https://blog.google/topics/google-asia/google-play-best-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T15:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:54.881Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-81c76f0ec1332720",
+      "headline": "Celebrate 100 years of Colonial Williamsburg online",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/colonial-williamsburg-centennial/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T14:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:54.881Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5cdbb0432c2d7f9c",
       "headline": "Regional voices are rolling out in the Gemini app.",
@@ -16,7 +172,7 @@
     },
     {
       "id": "google-news-4fe7a1d3cccec0b0",
-      "headline": "The era of autonomous attacks has arrived.",
+      "headline": "Outpace automated cyber threats with security built for nonstop defense.",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026/",
       "sourceId": "google-news",
       "brandIds": [
@@ -171,6 +327,30 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-0a2f98afe8542b2f",
+      "headline": "Inside Dakar 2026: How Galaxy Innovation Shaped the Athlete Experience",
+      "url": "https://news.samsung.com/global/inside-dakar-2026-how-galaxy-innovation-shaped-the-athlete-experience",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:55.355Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-39fdbe734090c62a",
+      "headline": "Samsung’s Latest Products Recognized by Consumer Technology Association Ahead of CES 2027",
+      "url": "https://news.samsung.com/global/samsungs-latest-products-recognized-by-consumer-technology-association-ahead-of-ces-2027",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-15T08:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:55.355Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-176a9ceb17b44efc",
       "headline": "Claim your Google Cloud Credits in Google AI Studio",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/",
@@ -204,6 +384,18 @@
       ],
       "publishedAt": "2026-11-13T16:46:21.015Z",
       "collectedAt": "2026-11-17T03:47:10.974Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-3f8e5d7449817e2a",
+      "headline": "Samsung Announces December Release for Intelligent Eyewear, Bringing a Smarter Way To See the World",
+      "url": "https://news.samsung.com/global/samsung-announces-december-release-for-intelligent-eyewear-bringing-a-smarter-way-to-see-the-world",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-12T23:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:55.355Z",
       "type": "standard"
     },
     {
@@ -579,6 +771,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-480450c61a30f0f1",
+      "headline": "Finding the Perfect TV: A Guide to Samsung TVs",
+      "url": "https://news.samsung.com/global/finding-the-perfect-tv-a-guide-to-samsung-tvs",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-12T08:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:55.355Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-c06fca3b9549fb95",
       "headline": "Gemini Decisions API: Fast, calibrated multimodal decisions",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
@@ -660,6 +864,18 @@
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
       "collectedAt": "2026-11-11T18:41:08.618Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-47ad6f9a6cbbd0d6",
+      "headline": "Samsung and IOC Back Young Innovators at Africa’s First Olympic Games",
+      "url": "https://news.samsung.com/global/samsung-and-ioc-back-young-innovators-at-africas-first-olympic-games",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-11T14:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:55.355Z",
       "type": "standard"
     },
     {
@@ -867,6 +1083,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-a45ccc305d6f181e",
+      "headline": "Samsung Celebrates 100,000 Smart Signage Flip Displays Sold in Germany",
+      "url": "https://news.samsung.com/global/samsung-celebrates-100000-smart-signage-flip-displays-sold-in-germany",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:55.355Z",
+      "type": "standard"
+    },
+    {
       "id": "huawei-newsroom-e77e8179f9452f1d",
       "headline": "Huawei Chronicles 30 Years of Wireless Innovation in a Documentary for the First Time",
       "url": "https://www.huawei.com/en/news/2026/11/wireless-documentary",
@@ -876,6 +1104,18 @@
       ],
       "publishedAt": "2026-11-06T23:17:24.370Z",
       "collectedAt": "2026-11-06T20:51:11.530Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-af90c3228af26d25",
+      "headline": "Samsung Employees Celebrate Diwali With Lights, Color, and Togetherness",
+      "url": "https://news.samsung.com/global/samsung-employees-celebrate-diwali-with-lights-color-and-togetherness",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:55.355Z",
       "type": "standard"
     },
     {
@@ -987,6 +1227,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-8b2fb5a543a20266",
+      "headline": "Samsung Launches SmartPlan in Singapore With Flexible Payments and Extended Product Care",
+      "url": "https://news.samsung.com/global/samsung-launches-smartplan-in-singapore-with-flexible-payments-and-extended-product-care",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-04T08:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:55.355Z",
+      "type": "standard"
+    },
+    {
       "id": "samsung-global-newsroom-8aed23f142aaf93c",
       "headline": "Upgraded Sleep Apnea Feature Now Available on Galaxy Ring Following Regulatory Approvals From US FDA and Korea MFDS",
       "url": "https://news.samsung.com/global/upgraded-sleep-apnea-feature-now-available-on-galaxy-ring-following-regulatory-approvals-from-us-fda-and-korea-mfds",
@@ -1080,6 +1332,18 @@
       ],
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "collectedAt": "2026-11-05T18:41:46.422Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-10a22fb492eb31aa",
+      "headline": "Samsung Partners With Englesson To Integrate TV Technology Into Swedish Furniture Design",
+      "url": "https://news.samsung.com/global/samsung-partners-with-englesson-to-integrate-tv-technology-into-swedish-furniture-design",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "collectedAt": "2026-11-17T22:16:55.355Z",
       "type": "standard"
     },
     {
