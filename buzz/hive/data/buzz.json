@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T22:16:55.866Z",
+  "updatedAt": "2026-11-18T04:13:56.214Z",
   "items": [
+    {
+      "id": "google-news-b6a48baf5af3ea03",
+      "headline": "Google: How genome mapping can help researchers better understand disease",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T22:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-b56239a4da2ec66c",
       "headline": "Google: See what 5 builders are making with Gemini 4 Carbon",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-11-16T18:45:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-4fe7a1d3cccec0b0",
-      "headline": "Google: Outpace automated cyber threats with security built for nonstop defense.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-16T18:30:00.000Z",
       "type": "standard"
     }
   ]

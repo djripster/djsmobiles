@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T22:16:55.821Z",
+  "updatedAt": "2026-11-18T04:13:56.168Z",
   "stories": [
+    {
+      "id": "google-news-b6a48baf5af3ea03",
+      "headline": "How genome mapping can help researchers better understand disease",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-17T22:00:00.000Z",
+      "collectedAt": "2026-11-18T04:13:35.908Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-b56239a4da2ec66c",
       "headline": "See what 5 builders are making with Gemini 4 Carbon",
