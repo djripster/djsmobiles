@@ -1,7 +1,95 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T13:03:27.609Z",
+  "updatedAt": "2026-11-18T21:23:15.816Z",
   "items": [
+    {
+      "id": "google-news-63f8f522e5630737",
+      "headline": "Google for Mexico: Technology impact that goes beyond business",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-latin-america/google-for-mexico-2026-november/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-18T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d792e66a415df382",
+      "headline": "Las Vegas race week brings big rewards to Google Play",
+      "url": "https://blog.google/products-and-platforms/platforms/google-play/auction-google-play-las-vegas/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-18T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-52f6bc9a43b3606d",
+      "headline": "Google: Genie 4 is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-18T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-361479cc0a0b93ad",
+      "headline": "Google: Introducing Stitch Loop: A new way to build and evolve products",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-18T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-00a064e6720eae62",
+      "headline": "Google: The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-18T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-ec4e8ad03939fb3f",
+      "headline": "Google: Win the holiday shopping season with November’s Demand Gen Drop.",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-november-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-18T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4d5ea68368124bc3",
+      "headline": "Google: Cybersecurity tips and tools to keep you safe online",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/cybersecurity-tips/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-18T14:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-93762b1fdcd40305",
+      "headline": "Drive your best ROI reaching new holiday shoppers with November’s Google Marketing Platform Drop.",
+      "url": "https://blog.google/products/marketingplatform/360/google-marketing-platform-drop-november/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-18T14:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-b6a48baf5af3ea03",
       "headline": "Google: How genome mapping can help researchers better understand disease",
@@ -77,94 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-11-17T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-9fe1e561258d91c8",
-      "headline": "From easier entry to smarter savings, here’s what’s new in Google Home.",
-      "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-updates-november-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-17T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-8a4e13d86b040a38",
-      "headline": "Anyone can create a personal avatar of themselves in Google Vids, at no cost.",
-      "url": "https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-17T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-aa57d2318fbd9f8e",
-      "headline": "Google Wallet is now available on iOS in the U.S.",
-      "url": "https://blog.google/products-and-platforms/platforms/google-pay/wallet-available-ios-united-states/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-17T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-f2e7b028a6ca7225",
-      "headline": "China Unicom and Huawei Build a \"5G-AxAI\" Smart Wind Farm Cluster Benchmark for Inner Mongolia Energy Group",
-      "url": "https://www.huawei.com/en/news/2026/11/5ga-wind-farm",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-17T15:26:27.807Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-e4972e0860d96b6c",
-      "headline": "Google Play unveils the best apps, games, and books of 2026",
-      "url": "https://blog.google/products-and-platforms/platforms/google-play/best-of-play-awards-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-17T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-309df84199e9e12d",
-      "headline": "The best of Google Play in Asia Pacific",
-      "url": "https://blog.google/topics/google-asia/google-play-best-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-17T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-81c76f0ec1332720",
-      "headline": "Google: Celebrate 100 years of Colonial Williamsburg online",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/colonial-williamsburg-centennial/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-17T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5cdbb0432c2d7f9c",
-      "headline": "Google: Regional voices are rolling out in the Gemini app.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-16T18:45:00.000Z",
       "type": "standard"
     }
   ]
