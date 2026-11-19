@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T21:23:15.769Z",
+  "updatedAt": "2026-11-19T03:20:29.284Z",
   "stories": [
+    {
+      "id": "google-news-f539fcdaf975fdb9",
+      "headline": "Introducing Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-18T21:00:00.000Z",
+      "collectedAt": "2026-11-19T03:20:08.987Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-63f8f522e5630737",
       "headline": "Google for Mexico: Technology impact that goes beyond business",

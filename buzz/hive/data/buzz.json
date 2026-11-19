@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T21:23:15.816Z",
+  "updatedAt": "2026-11-19T03:20:29.435Z",
   "items": [
+    {
+      "id": "google-news-f539fcdaf975fdb9",
+      "headline": "Google: Introducing Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-18T21:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-63f8f522e5630737",
       "headline": "Google for Mexico: Technology impact that goes beyond business",
@@ -149,17 +160,6 @@
       "id": "google-news-29339b7285f39e60",
       "headline": "10 states team up with Google on free AI training",
       "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/ai-training-state-partnerships/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-17T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-e4dfcc8c4cc7d973",
-      "headline": "Google: Temporary threads are now available in AI Mode in Search.",
-      "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
