@@ -1,170 +1,170 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T12:57:18.499Z",
+  "updatedAt": "2026-11-19T21:27:58.242Z",
   "items": [
     {
-      "id": "google-news-71f945fa86943868",
-      "headline": "Google’s water stewardship commitments for local communities",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/new-water-stewardship-commitments/",
+      "id": "google-news-5b6ab73ed264a342",
+      "headline": "Google: ICYMI: Transfer your history from other AI apps into Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
       ],
-      "publishedAt": "2026-11-19T10:00:00.000Z",
+      "publishedAt": "2026-11-19T20:30:00.000Z",
       "type": "standard"
     },
     {
-      "id": "google-news-f539fcdaf975fdb9",
-      "headline": "Google: Introducing Gemini 4 Neon",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "id": "google-news-979f97d8e071f917",
+      "headline": "Google: How we’re putting one of quantum mechanics’ deepest features to the test at scale.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/putting-one-of-quantum-mechanics-deepest-features-to-test-at-scale/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
       ],
-      "publishedAt": "2026-11-18T21:00:00.000Z",
+      "publishedAt": "2026-11-19T19:00:00.000Z",
       "type": "standard"
     },
     {
-      "id": "google-news-63f8f522e5630737",
-      "headline": "Google for Mexico: Technology impact that goes beyond business",
-      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-latin-america/google-for-mexico-2026-november/",
+      "id": "google-news-1b3aafed7dd5d45c",
+      "headline": "Google: Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
       ],
-      "publishedAt": "2026-11-18T18:00:00.000Z",
+      "publishedAt": "2026-11-19T18:00:00.000Z",
       "type": "standard"
     },
     {
-      "id": "google-news-d792e66a415df382",
-      "headline": "Las Vegas race week brings big rewards to Google Play",
-      "url": "https://blog.google/products-and-platforms/platforms/google-play/auction-google-play-las-vegas/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-18T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-52f6bc9a43b3606d",
-      "headline": "Google: Genie 4 is now available",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-18T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-361479cc0a0b93ad",
-      "headline": "Google: Introducing Stitch Loop: A new way to build and evolve products",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-18T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-00a064e6720eae62",
-      "headline": "Google: The Gemini app is now available on lower-memory Android devices.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-18T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-ec4e8ad03939fb3f",
-      "headline": "Google: Win the holiday shopping season with November’s Demand Gen Drop.",
-      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-november-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-18T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-4d5ea68368124bc3",
-      "headline": "Google: Cybersecurity tips and tools to keep you safe online",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/cybersecurity-tips/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-18T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-93762b1fdcd40305",
-      "headline": "Drive your best ROI reaching new holiday shoppers with November’s Google Marketing Platform Drop.",
-      "url": "https://blog.google/products/marketingplatform/360/google-marketing-platform-drop-november/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-18T14:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b6a48baf5af3ea03",
-      "headline": "Google: How genome mapping can help researchers better understand disease",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-17T22:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b56239a4da2ec66c",
-      "headline": "Google: See what 5 builders are making with Gemini 4 Carbon",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-17T21:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-e4eccaab9127c3d1",
-      "headline": "AIS and Huawei Jointly Launch the First AN Innovation Center Outside China, Opening a New Chapter in L4 Commercial Deployment",
-      "url": "https://www.huawei.com/en/news/2026/11/adn-ais-innovation-center",
+      "id": "huawei-newsroom-f4f361354b033dda",
+      "headline": "Huawei Launches Next-Gen Core Evolution White Paper and AgenticCore Solution",
+      "url": "https://www.huawei.com/en/news/2026/11/agenticcore-whitepaper",
       "sourceId": "huawei-newsroom",
       "brandIds": [
         "huawei"
       ],
-      "publishedAt": "2026-11-17T18:37:15.037Z",
+      "publishedAt": "2026-11-19T17:17:44.207Z",
       "type": "standard"
     },
     {
-      "id": "google-news-b451aff394adbb42",
-      "headline": "Google: Put Gemini to work for you",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "id": "google-news-d47c74f9a7ce43a8",
+      "headline": "Google: Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
       ],
-      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
       "type": "standard"
     },
     {
-      "id": "google-news-f71df4eeea2a175c",
-      "headline": "Google: Read the EmbeddingGemma 2 technical report.",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2-technical-report/",
+      "id": "google-news-af15f829710088b8",
+      "headline": "Google: A smarter way to track and buy clean energy",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/granular-certificates-clean-energy-2026/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
       ],
-      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-b9abb712c8e01cd8",
+      "headline": "Google: Small businesses, big results: How teams scale with AI",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-workspace-gemini-small-business-stories/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-2ab70deec7ba0baa",
+      "headline": "Google: Build strategic A/B tests to grow your ad performance.",
+      "url": "https://blog.google/products/ads-commerce/ads-decoded-ab-testing/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-402324a836379957",
+      "headline": "Google: Genie 4 is now available on the Gemini API.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-69d162e3003a2077",
+      "headline": "Google: Let Gemini tackle repetitive chores on your Mac",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-334444f4e5ca121f",
+      "headline": "See some of the work from Google Flow and Flow Music Sessions artists",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-and-flow-music-session-artists/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-19T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-44aacee85dd7a47d",
+      "headline": "Google: Building the right way: Lessons from 20 years in The Dalles",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/the-dalles-data-center-20-years/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-19T15:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-63cd7e2a93238e40",
+      "headline": "Vodacom and Huawei Unveil U6GHz Innovations, Building a Solid Wireless Connectivity Foundation for Africa's Digital Economy",
+      "url": "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-19T14:40:58.820Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-1d3b0e4eaaa80095",
+      "headline": "Google: We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-19T13:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-bd9691035dd75ee3",
+      "headline": "Huawei: Real 5G Cross-Gen Experience Lights Up Africa's Digital Economy",
+      "url": "https://www.huawei.com/en/news/2026/11/real5g-elaa-easyseries",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-19T11:55:04.845Z",
       "type": "standard"
     }
   ]
