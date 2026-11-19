@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T03:20:29.435Z",
+  "updatedAt": "2026-11-19T12:57:18.499Z",
   "items": [
+    {
+      "id": "google-news-71f945fa86943868",
+      "headline": "Google’s water stewardship commitments for local communities",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/new-water-stewardship-commitments/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-19T10:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-f539fcdaf975fdb9",
       "headline": "Google: Introducing Gemini 4 Neon",
@@ -149,17 +160,6 @@
       "id": "google-news-f71df4eeea2a175c",
       "headline": "Google: Read the EmbeddingGemma 2 technical report.",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2-technical-report/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-17T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-29339b7285f39e60",
-      "headline": "10 states team up with Google on free AI training",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/ai-training-state-partnerships/",
       "sourceId": "google-news",
       "brandIds": [
         "google"

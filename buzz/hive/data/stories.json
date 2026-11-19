@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T03:20:29.284Z",
+  "updatedAt": "2026-11-19T12:57:18.367Z",
   "stories": [
+    {
+      "id": "google-news-71f945fa86943868",
+      "headline": "Google’s water stewardship commitments for local communities",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/new-water-stewardship-commitments/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-19T10:00:00.000Z",
+      "collectedAt": "2026-11-19T12:56:58.135Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-f539fcdaf975fdb9",
       "headline": "Introducing Gemini 4 Neon",
