@@ -1,7 +1,62 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T11:27:57.388Z",
+  "updatedAt": "2026-11-20T20:06:06.824Z",
   "items": [
+    {
+      "id": "google-news-8561578013c234ec",
+      "headline": "Google: Get your year-end tasks done with new Connected Apps.",
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-20T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-c3e6a3cdd2194421",
+      "headline": "Google: How Watch Duty is using Gemini to get wildfire alerts out faster",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-20T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-e4eccaab9127c3d1",
+      "headline": "AIS and Huawei Jointly Launch the First AN Innovation Center Outside China, Opening a New Chapter in L4 Commercial Deployment",
+      "url": "https://www.huawei.com/en/news/2026/11/adn-ais-innovation-center",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-20T14:35:07.956Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-c2bd200e76cbe63a",
+      "headline": "Huawei: Establishing Telecom-Grade Secure and Reliable Network Operations in AI Era to Steadily Advance Agentic Operations",
+      "url": "https://www.huawei.com/en/news/2026/11/otf-agentic-operations",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-20T14:33:00.014Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-c60289c9a21e1a4e",
+      "headline": "Samsung Electronics Announces New Leadership",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-new-leadership-5",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-20T09:01:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5b6ab73ed264a342",
       "headline": "Google: ICYMI: Transfer your history from other AI apps into Gemini.",
@@ -110,61 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-11-19T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-334444f4e5ca121f",
-      "headline": "See some of the work from Google Flow and Flow Music Sessions artists",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-and-flow-music-session-artists/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T16:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-44aacee85dd7a47d",
-      "headline": "Google: Building the right way: Lessons from 20 years in The Dalles",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/the-dalles-data-center-20-years/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T15:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-63cd7e2a93238e40",
-      "headline": "Vodacom and Huawei Unveil U6GHz Innovations, Building a Solid Wireless Connectivity Foundation for Africa's Digital Economy",
-      "url": "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-19T14:40:58.820Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-1d3b0e4eaaa80095",
-      "headline": "Google: We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T13:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-bd9691035dd75ee3",
-      "headline": "Huawei: Real 5G Cross-Gen Experience Lights Up Africa's Digital Economy",
-      "url": "https://www.huawei.com/en/news/2026/11/real5g-elaa-easyseries",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-19T11:55:04.845Z",
       "type": "standard"
     }
   ]

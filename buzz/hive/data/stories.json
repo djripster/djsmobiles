@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T11:27:57.312Z",
+  "updatedAt": "2026-11-20T20:06:06.764Z",
   "stories": [
+    {
+      "id": "google-news-8561578013c234ec",
+      "headline": "Get your year-end tasks done with new Connected Apps.",
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-20T18:00:00.000Z",
+      "collectedAt": "2026-11-20T20:06:05.873Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-c3e6a3cdd2194421",
+      "headline": "How Watch Duty is using Gemini to get wildfire alerts out faster",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-20T17:00:00.000Z",
+      "collectedAt": "2026-11-20T20:06:05.873Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-e4eccaab9127c3d1",
+      "headline": "AIS and Huawei Jointly Launch the First AN Innovation Center Outside China, Opening a New Chapter in L4 Commercial Deployment",
+      "url": "https://www.huawei.com/en/news/2026/11/adn-ais-innovation-center",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-20T14:35:07.956Z",
+      "collectedAt": "2026-11-17T22:16:55.820Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-c2bd200e76cbe63a",
+      "headline": "Establishing Telecom-Grade Secure and Reliable Network Operations in AI Era to Steadily Advance Agentic Operations",
+      "url": "https://www.huawei.com/en/news/2026/11/otf-agentic-operations",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-20T14:33:00.014Z",
+      "collectedAt": "2026-11-20T20:06:06.762Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-c60289c9a21e1a4e",
+      "headline": "Samsung Electronics Announces New Leadership",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-new-leadership-5",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-20T09:01:00.000Z",
+      "collectedAt": "2026-11-20T20:06:06.400Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-5b6ab73ed264a342",
       "headline": "ICYMI: Transfer your history from other AI apps into Gemini.",
@@ -195,6 +255,18 @@
       "type": "standard"
     },
     {
+      "id": "samsung-global-newsroom-7120e2fc239f8397",
+      "headline": "Samsung TV Plus Brings 2026 MAMA AWARDS to K-pop Fans Around the World",
+      "url": "https://news.samsung.com/global/samsung-tv-plus-brings-2026-mama-awards-to-k-pop-fans-around-the-world",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "collectedAt": "2026-11-20T20:06:06.400Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-f539fcdaf975fdb9",
       "headline": "Introducing Gemini 4 Neon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
@@ -240,6 +312,18 @@
       ],
       "publishedAt": "2026-11-18T18:00:00.000Z",
       "collectedAt": "2026-11-18T21:22:55.441Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-f67b5a44dc20fa3c",
+      "headline": "Samsung Begins One UI 9.5 Beta Program",
+      "url": "https://news.samsung.com/global/samsung-begins-one-ui-9-5-beta-program",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-18T18:00:00.000Z",
+      "collectedAt": "2026-11-20T20:06:06.400Z",
       "type": "standard"
     },
     {
@@ -324,18 +408,6 @@
       ],
       "publishedAt": "2026-11-17T21:00:00.000Z",
       "collectedAt": "2026-11-17T22:16:54.881Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-e4eccaab9127c3d1",
-      "headline": "AIS and Huawei Jointly Launch the First AN Innovation Center Outside China, Opening a New Chapter in L4 Commercial Deployment",
-      "url": "https://www.huawei.com/en/news/2026/11/adn-ais-innovation-center",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-17T18:37:15.037Z",
-      "collectedAt": "2026-11-17T22:16:55.820Z",
       "type": "standard"
     },
     {
