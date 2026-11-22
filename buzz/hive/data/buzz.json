@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T11:13:08.689Z",
+  "updatedAt": "2026-11-22T18:30:39.402Z",
   "items": [
     {
       "id": "google-news-8561578013c234ec",
@@ -77,94 +77,6 @@
         "google"
       ],
       "publishedAt": "2026-11-19T19:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-1b3aafed7dd5d45c",
-      "headline": "Google: Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-f4f361354b033dda",
-      "headline": "Huawei Launches Next-Gen Core Evolution White Paper and AgenticCore Solution",
-      "url": "https://www.huawei.com/en/news/2026/11/agenticcore-whitepaper",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-19T17:17:44.207Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d47c74f9a7ce43a8",
-      "headline": "Google: Walter Isaacson on curiosity and creativity in the AI age.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-af15f829710088b8",
-      "headline": "Google: A smarter way to track and buy clean energy",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/granular-certificates-clean-energy-2026/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-b9abb712c8e01cd8",
-      "headline": "Google: Small businesses, big results: How teams scale with AI",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-workspace-gemini-small-business-stories/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-2ab70deec7ba0baa",
-      "headline": "Google: Build strategic A/B tests to grow your ad performance.",
-      "url": "https://blog.google/products/ads-commerce/ads-decoded-ab-testing/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-402324a836379957",
-      "headline": "Google: Genie 4 is now available on the Gemini API.",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-69d162e3003a2077",
-      "headline": "Google: Let Gemini tackle repetitive chores on your Mac",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T17:00:00.000Z",
       "type": "standard"
     }
   ]
