@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T18:30:39.402Z",
+  "updatedAt": "2026-11-23T00:14:57.604Z",
   "items": [
     {
       "id": "google-news-8561578013c234ec",
@@ -55,28 +55,6 @@
         "samsung"
       ],
       "publishedAt": "2026-11-20T09:01:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-5b6ab73ed264a342",
-      "headline": "Google: ICYMI: Transfer your history from other AI apps into Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T20:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-979f97d8e071f917",
-      "headline": "Google: How we’re putting one of quantum mechanics’ deepest features to the test at scale.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/putting-one-of-quantum-mechanics-deepest-features-to-test-at-scale/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-19T19:00:00.000Z",
       "type": "standard"
     }
   ]
