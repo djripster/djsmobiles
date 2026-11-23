@@ -1,60 +1,115 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T07:42:30.626Z",
+  "updatedAt": "2026-11-23T20:07:29.101Z",
   "items": [
     {
-      "id": "google-news-8561578013c234ec",
-      "headline": "Google: Get your year-end tasks done with new Connected Apps.",
-      "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-20T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-c3e6a3cdd2194421",
-      "headline": "Google: How Watch Duty is using Gemini to get wildfire alerts out faster",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-20T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-e4eccaab9127c3d1",
-      "headline": "AIS and Huawei Jointly Launch the First AN Innovation Center Outside China, Opening a New Chapter in L4 Commercial Deployment",
-      "url": "https://www.huawei.com/en/news/2026/11/adn-ais-innovation-center",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-20T14:35:07.956Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-c2bd200e76cbe63a",
-      "headline": "Huawei: Establishing Telecom-Grade Secure and Reliable Network Operations in AI Era to Steadily Advance Agentic Operations",
-      "url": "https://www.huawei.com/en/news/2026/11/otf-agentic-operations",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-20T14:33:00.014Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-c60289c9a21e1a4e",
-      "headline": "Samsung Electronics Announces New Leadership",
-      "url": "https://news.samsung.com/global/samsung-electronics-announces-new-leadership-5",
+      "id": "samsung-global-newsroom-bd9d8af7d484025c",
+      "headline": "Samsung Launches Odyssey G6: The World’s First 1,100Hz Gaming Monitor",
+      "url": "https://news.samsung.com/global/samsung-launches-odyssey-g6-the-worlds-first-1100hz-gaming-monitor",
       "sourceId": "samsung-global-newsroom",
       "brandIds": [
         "samsung"
       ],
-      "publishedAt": "2026-11-20T09:01:00.000Z",
+      "publishedAt": "2026-11-23T22:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-3d242fedd073945d",
+      "headline": "Turkcell and Huawei Deploy World First 5G-A Low-Altitude Commercial Network for Skyline Tourism in Cappadocia",
+      "url": "https://www.huawei.com/en/news/2026/11/5ga-skyline-tourism",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-23T18:37:10.001Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-848257d8d5b2a85d",
+      "headline": "Google: Here are 4 things you didn’t know you could do with Gemini Canvas.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-23T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-b4cb6bb438727107",
+      "headline": "Huawei Recognized as a Market Shaper in the November 2026 Gartner® Emerging Market Quadrant TM for AI Data Storage — Established Vendors",
+      "url": "https://www.huawei.com/en/news/2026/11/datastorage-gartner",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-23T17:51:47.127Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-d6fdac3c20f42b84",
+      "headline": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-23T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-41decc9558d17eab",
+      "headline": "Organize and share your holiday memories with these five updates in Google Photos.",
+      "url": "https://blog.google/products-and-platforms/products/photos/google-photo-tools-holiday-season-2026/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-23T17:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-33079c28b3e18d3a",
+      "headline": "Google: Introducing file slicing controls in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-23T16:12:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-9538633216091173",
+      "headline": "Huawei Explores AI and Data Protection Challenges and Responses with Data Regulators",
+      "url": "https://www.huawei.com/en/news/2019/10/huawei-ai-data-protection-challenges-responses-data-regulators",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-23T14:27:26.263Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-d732f3c05a6f5336",
+      "headline": "Huawei: London and Bristol crowned UK’s leading smart cities",
+      "url": "https://www.huawei.com/en/news/2016/5/uks-leading-smart-cities",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-23T14:09:15.799Z",
+      "type": "standard"
+    },
+    {
+      "id": "samsung-global-newsroom-076b2b2203a2b764",
+      "headline": "Samsung: The Technology Behind More Precise Finding With Galaxy SmartTag3 and SmartThings",
+      "url": "https://news.samsung.com/global/the-technology-behind-more-precise-finding-with-galaxy-smarttag3-and-smartthings",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-23T08:00:00.000Z",
       "type": "standard"
     }
   ]
