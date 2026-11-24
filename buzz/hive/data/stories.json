@@ -1,7 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T04:44:11.230Z",
+  "updatedAt": "2026-11-24T15:48:25.913Z",
   "stories": [
+    {
+      "id": "google-news-796415acf1526e46",
+      "headline": "Independent filmmakers in India bring big-screen stories to life with Google Flow.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/women-in-film-india-google-flow/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-24T14:00:00.000Z",
+      "collectedAt": "2026-11-24T15:48:05.009Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-a8f4e5ff36641a78",
+      "headline": "We’re expanding our London home in King's Cross.",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/expanding-london-home-kings-cross/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-24T08:00:00.000Z",
+      "collectedAt": "2026-11-24T15:48:05.009Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-bd9d8af7d484025c",
       "headline": "Samsung Launches Odyssey G6: The World’s First 1,100Hz Gaming Monitor",
