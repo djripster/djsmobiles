@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T20:07:29.065Z",
+  "updatedAt": "2026-11-24T04:44:11.230Z",
   "stories": [
     {
       "id": "samsung-global-newsroom-bd9d8af7d484025c",
@@ -36,6 +36,18 @@
       ],
       "publishedAt": "2026-11-23T18:00:00.000Z",
       "collectedAt": "2026-11-23T20:07:28.145Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-28cc1ec33c3bad07",
+      "headline": "See what 6 builders are making with Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-23T18:00:00.000Z",
+      "collectedAt": "2026-11-24T04:43:50.964Z",
       "type": "standard"
     },
     {

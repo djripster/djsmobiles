@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T20:07:29.101Z",
+  "updatedAt": "2026-11-24T04:44:11.266Z",
   "items": [
     {
       "id": "samsung-global-newsroom-bd9d8af7d484025c",
@@ -28,6 +28,17 @@
       "id": "google-news-848257d8d5b2a85d",
       "headline": "Google: Here are 4 things you didn’t know you could do with Gemini Canvas.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-23T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-28cc1ec33c3bad07",
+      "headline": "Google: See what 6 builders are making with Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
