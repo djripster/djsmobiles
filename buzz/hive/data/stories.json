@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T15:48:25.913Z",
+  "updatedAt": "2026-11-25T00:38:34.027Z",
   "stories": [
+    {
+      "id": "google-news-e7f7857605a40d83",
+      "headline": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-24T19:30:00.000Z",
+      "collectedAt": "2026-11-25T00:38:13.660Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-11cfb4c3935c5895",
+      "headline": "Invent to Excel, Open to Empower",
+      "url": "https://www.huawei.com/en/news/2026/11/innovation-ip-forum",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-24T16:24:50.811Z",
+      "collectedAt": "2026-11-25T00:38:34.026Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-0d108e7b71c40649",
+      "headline": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-24T16:00:00.000Z",
+      "collectedAt": "2026-11-25T00:38:13.660Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4aad2bdf1fe7ed5f",
+      "headline": "See what 5 builders are making with Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-24T16:00:00.000Z",
+      "collectedAt": "2026-11-25T00:38:13.660Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-bf5da6e4e66b1c4d",
+      "headline": "Strengthening Africa's Network Security and Resilience Foundation for Digital Growth in the AI Era",
+      "url": "https://www.huawei.com/en/news/2026/11/ipnetwork-africa-forum",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-24T14:16:30.660Z",
+      "collectedAt": "2026-11-25T00:38:34.026Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-796415acf1526e46",
       "headline": "Independent filmmakers in India bring big-screen stories to life with Google Flow.",

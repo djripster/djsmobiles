@@ -1,7 +1,62 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T15:48:25.955Z",
+  "updatedAt": "2026-11-25T00:38:34.060Z",
   "items": [
+    {
+      "id": "google-news-e7f7857605a40d83",
+      "headline": "Google: We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-24T19:30:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-11cfb4c3935c5895",
+      "headline": "Huawei: Invent to Excel, Open to Empower",
+      "url": "https://www.huawei.com/en/news/2026/11/innovation-ip-forum",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-24T16:24:50.811Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-0d108e7b71c40649",
+      "headline": "Google: How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-24T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "google-news-4aad2bdf1fe7ed5f",
+      "headline": "Google: See what 5 builders are making with Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-24T16:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-bf5da6e4e66b1c4d",
+      "headline": "Huawei: Strengthening Africa's Network Security and Resilience Foundation for Digital Growth in the AI Era",
+      "url": "https://www.huawei.com/en/news/2026/11/ipnetwork-africa-forum",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-24T14:16:30.660Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-796415acf1526e46",
       "headline": "Independent filmmakers in India bring big-screen stories to life with Google Flow.",
@@ -110,39 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-11-23T16:12:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-9538633216091173",
-      "headline": "Huawei Explores AI and Data Protection Challenges and Responses with Data Regulators",
-      "url": "https://www.huawei.com/en/news/2019/10/huawei-ai-data-protection-challenges-responses-data-regulators",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-23T14:27:26.263Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-d732f3c05a6f5336",
-      "headline": "Huawei: London and Bristol crowned UK’s leading smart cities",
-      "url": "https://www.huawei.com/en/news/2016/5/uks-leading-smart-cities",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-23T14:09:15.799Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-076b2b2203a2b764",
-      "headline": "Samsung: The Technology Behind More Precise Finding With Galaxy SmartTag3 and SmartThings",
-      "url": "https://news.samsung.com/global/the-technology-behind-more-precise-finding-with-galaxy-smarttag3-and-smartthings",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-11-23T08:00:00.000Z",
       "type": "standard"
     }
   ]
