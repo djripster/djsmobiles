@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T00:38:34.060Z",
+  "updatedAt": "2026-11-25T09:47:37.949Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-e5eb0f03ea49f38f",
+      "headline": "Samsung: A Day in the Life of a Dog With Galaxy SmartTag3 and SmartThings",
+      "url": "https://news.samsung.com/global/a-day-in-the-life-of-a-dog-with-galaxy-smarttag3-and-smartthings",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-25T08:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-e7f7857605a40d83",
       "headline": "Google: We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
@@ -154,17 +165,6 @@
         "google"
       ],
       "publishedAt": "2026-11-23T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-33079c28b3e18d3a",
-      "headline": "Google: Introducing file slicing controls in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-23T16:12:00.000Z",
       "type": "standard"
     }
   ]
