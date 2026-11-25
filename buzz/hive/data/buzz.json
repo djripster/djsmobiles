@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T09:47:37.949Z",
+  "updatedAt": "2026-11-25T19:54:06.654Z",
   "items": [
+    {
+      "id": "huawei-newsroom-3d242fedd073945d",
+      "headline": "Turkcell and Huawei Deploy World First 5G-A Low-Altitude Commercial Network for Skyline Tourism in Cappadocia",
+      "url": "https://www.huawei.com/en/news/2026/11/5ga-skyline-tourism",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-25T15:04:25.520Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-b4cb6bb438727107",
+      "headline": "Huawei Recognized as a Market Shaper in the November 2026 Gartner® Emerging Market Quadrant TM for AI Data Storage — Established Vendors",
+      "url": "https://www.huawei.com/en/news/2026/11/datastorage-gartner",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-25T15:03:04.504Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-11cfb4c3935c5895",
+      "headline": "Huawei: Invent to Excel, Open to Empower",
+      "url": "https://www.huawei.com/en/news/2026/11/innovation-ip-forum",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-25T09:55:57.359Z",
+      "type": "standard"
+    },
     {
       "id": "samsung-global-newsroom-e5eb0f03ea49f38f",
       "headline": "Samsung: A Day in the Life of a Dog With Galaxy SmartTag3 and SmartThings",
@@ -14,6 +47,17 @@
       "type": "standard"
     },
     {
+      "id": "huawei-newsroom-7eb185e326ba4134",
+      "headline": "Huawei: Statement on the Jury Verdict in the U.S. District Court for the Eastern District of New York",
+      "url": "https://www.huawei.com/en/news/2026/11/statement-on-jury-verdict",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-25T05:42:47.754Z",
+      "type": "standard"
+    },
+    {
       "id": "google-news-e7f7857605a40d83",
       "headline": "Google: We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
@@ -22,17 +66,6 @@
         "google"
       ],
       "publishedAt": "2026-11-24T19:30:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-11cfb4c3935c5895",
-      "headline": "Huawei: Invent to Excel, Open to Empower",
-      "url": "https://www.huawei.com/en/news/2026/11/innovation-ip-forum",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-24T16:24:50.811Z",
       "type": "standard"
     },
     {
@@ -102,17 +135,6 @@
       "type": "standard"
     },
     {
-      "id": "huawei-newsroom-3d242fedd073945d",
-      "headline": "Turkcell and Huawei Deploy World First 5G-A Low-Altitude Commercial Network for Skyline Tourism in Cappadocia",
-      "url": "https://www.huawei.com/en/news/2026/11/5ga-skyline-tourism",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-23T18:37:10.001Z",
-      "type": "standard"
-    },
-    {
       "id": "google-news-848257d8d5b2a85d",
       "headline": "Google: Here are 4 things you didn’t know you could do with Gemini Canvas.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/",
@@ -135,31 +157,9 @@
       "type": "standard"
     },
     {
-      "id": "huawei-newsroom-b4cb6bb438727107",
-      "headline": "Huawei Recognized as a Market Shaper in the November 2026 Gartner® Emerging Market Quadrant TM for AI Data Storage — Established Vendors",
-      "url": "https://www.huawei.com/en/news/2026/11/datastorage-gartner",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-23T17:51:47.127Z",
-      "type": "standard"
-    },
-    {
       "id": "google-news-d6fdac3c20f42b84",
       "headline": "A more tailored Google Search that’s uniquely yours",
       "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-23T17:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-41decc9558d17eab",
-      "headline": "Organize and share your holiday memories with these five updates in Google Photos.",
-      "url": "https://blog.google/products-and-platforms/products/photos/google-photo-tools-holiday-season-2026/",
       "sourceId": "google-news",
       "brandIds": [
         "google"
