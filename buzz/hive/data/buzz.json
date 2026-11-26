@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T12:20:03.669Z",
+  "updatedAt": "2026-11-26T22:17:20.688Z",
   "items": [
+    {
+      "id": "google-news-282e77a7141f222e",
+      "headline": "Google: 15 years of investing in Colombia’s talent and future",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/15-years-investing-colombia-talent-future/",
+      "sourceId": "google-news",
+      "brandIds": [
+        "google"
+      ],
+      "publishedAt": "2026-11-26T18:00:00.000Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-e77e8179f9452f1d",
+      "headline": "Huawei Chronicles 30 Years of Wireless Innovation in a Documentary for the First Time",
+      "url": "https://www.huawei.com/en/news/2026/11/wireless-documentary",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-26T11:29:52.008Z",
+      "type": "standard"
+    },
+    {
+      "id": "huawei-newsroom-b4cb6bb438727107",
+      "headline": "Huawei Recognized as a Market Shaper in the November 2026 Gartner® Emerging Market Quadrant™ for AI Data Storage — Established Vendors",
+      "url": "https://www.huawei.com/en/news/2026/11/datastorage-gartner",
+      "sourceId": "huawei-newsroom",
+      "brandIds": [
+        "huawei"
+      ],
+      "publishedAt": "2026-11-26T09:46:06.240Z",
+      "type": "standard"
+    },
     {
       "id": "huawei-newsroom-3d242fedd073945d",
       "headline": "Turkcell and Huawei Deploy World First 5G-A Low-Altitude Commercial Network for Skyline Tourism in Cappadocia",
@@ -11,17 +44,6 @@
         "huawei"
       ],
       "publishedAt": "2026-11-25T15:04:25.520Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-b4cb6bb438727107",
-      "headline": "Huawei Recognized as a Market Shaper in the November 2026 Gartner® Emerging Market Quadrant TM for AI Data Storage — Established Vendors",
-      "url": "https://www.huawei.com/en/news/2026/11/datastorage-gartner",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-25T15:03:04.504Z",
       "type": "standard"
     },
     {
@@ -121,50 +143,6 @@
         "google"
       ],
       "publishedAt": "2026-11-24T08:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-bd9d8af7d484025c",
-      "headline": "Samsung Launches Odyssey G6: The World’s First 1,100Hz Gaming Monitor",
-      "url": "https://news.samsung.com/global/samsung-launches-odyssey-g6-the-worlds-first-1100hz-gaming-monitor",
-      "sourceId": "samsung-global-newsroom",
-      "brandIds": [
-        "samsung"
-      ],
-      "publishedAt": "2026-11-23T22:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-848257d8d5b2a85d",
-      "headline": "Google: Here are 4 things you didn’t know you could do with Gemini Canvas.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-23T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-28cc1ec33c3bad07",
-      "headline": "Google: See what 6 builders are making with Gemini 4 Hydrogen",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-23T18:00:00.000Z",
-      "type": "standard"
-    },
-    {
-      "id": "google-news-d6fdac3c20f42b84",
-      "headline": "A more tailored Google Search that’s uniquely yours",
-      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-      "sourceId": "google-news",
-      "brandIds": [
-        "google"
-      ],
-      "publishedAt": "2026-11-23T17:00:00.000Z",
       "type": "standard"
     }
   ]
