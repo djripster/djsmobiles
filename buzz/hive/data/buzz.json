@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T07:40:01.186Z",
+  "updatedAt": "2026-11-28T16:49:21.408Z",
   "items": [
+    {
+      "id": "samsung-global-newsroom-f50756d0e1d9a0aa",
+      "headline": "Small Actions, Big Impact: Give Back This Holiday Season With the Samsung Global Goals App",
+      "url": "https://news.samsung.com/global/small-actions-big-impact-give-back-this-holiday-season-with-the-samsung-global-goals-app",
+      "sourceId": "samsung-global-newsroom",
+      "brandIds": [
+        "samsung"
+      ],
+      "publishedAt": "2026-11-26T21:00:00.000Z",
+      "type": "standard"
+    },
     {
       "id": "google-news-282e77a7141f222e",
       "headline": "Google: 15 years of investing in Colombia’s talent and future",
@@ -36,36 +47,14 @@
       "type": "standard"
     },
     {
-      "id": "huawei-newsroom-3d242fedd073945d",
-      "headline": "Turkcell and Huawei Deploy World First 5G-A Low-Altitude Commercial Network for Skyline Tourism in Cappadocia",
-      "url": "https://www.huawei.com/en/news/2026/11/5ga-skyline-tourism",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-25T15:04:25.520Z",
-      "type": "standard"
-    },
-    {
-      "id": "huawei-newsroom-11cfb4c3935c5895",
-      "headline": "Huawei: Invent to Excel, Open to Empower",
-      "url": "https://www.huawei.com/en/news/2026/11/innovation-ip-forum",
-      "sourceId": "huawei-newsroom",
-      "brandIds": [
-        "huawei"
-      ],
-      "publishedAt": "2026-11-25T09:55:57.359Z",
-      "type": "standard"
-    },
-    {
-      "id": "samsung-global-newsroom-e5eb0f03ea49f38f",
-      "headline": "Samsung: A Day in the Life of a Dog With Galaxy SmartTag3 and SmartThings",
-      "url": "https://news.samsung.com/global/a-day-in-the-life-of-a-dog-with-galaxy-smarttag3-and-smartthings",
+      "id": "samsung-global-newsroom-d303f77ae3b51814",
+      "headline": "Samsung: [Video] [Voices of Galaxy] Meet the Physician From Mexico Whose Galaxy Watch Helped Him Care for His Mother — and Himself",
+      "url": "https://news.samsung.com/global/video-voices-of-galaxy-meet-the-physician-from-mexico-whose-galaxy-watch-helped-him-care-for-his-mother-and-himself",
       "sourceId": "samsung-global-newsroom",
       "brandIds": [
         "samsung"
       ],
-      "publishedAt": "2026-11-25T08:00:00.000Z",
+      "publishedAt": "2026-11-25T19:00:00.000Z",
       "type": "standard"
     }
   ]
